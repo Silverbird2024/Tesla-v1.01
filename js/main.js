@@ -337,6 +337,12 @@ neoGSheetsLoadCell($App.googleSheet,"Oneoff01","a",1,null);
 neoGSheetsLoadCell($App.googleSheet,"Oneoff02","a",2,null);
 
 $App.Oneoff01 = "prayer"+$App.Prayer1main;};
+$scope.PushButton455_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
+neoGSheetsLoadCell($App.googleSheet,"Oneoff01","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff02","a",2,null);
+
+$App.Oneoff01 = "prayer"+$App.Prayer1main;};
 });
 NeoApp.controller("MainBoard_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
