@@ -341,6 +341,7 @@ neoGSheetsLoadCell($App.googleSheet,"Oneoff01","a",1,null);
 neoGSheetsLoadCell($App.googleSheet,"Oneoff02","a",2,null);
 
 $App.Oneoff01 = "prayer"+$App.Prayer1main;};
+$scope.PushButton457_click = function() {window.open("https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0#gid=0", "_blank");};
 });
 NeoApp.controller("MainBoard_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
