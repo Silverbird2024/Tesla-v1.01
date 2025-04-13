@@ -244,12 +244,7 @@ $App.Title22d = localStorage.getItem("Title22d");
 $App.Title23d = localStorage.getItem("Title23d");
 $App.Title24d = localStorage.getItem("Title24d");
 $App.Title25d = localStorage.getItem("Title25d");
-$App.Title26d = localStorage.getItem("Title26d");
-$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
-neoGSheetsLoadCell($App.googleSheet,"Prayer1main","a",1,null);
-
-neoGSheetsLoadCell($App.googleSheet,"Oneoff02","a",2,null);
-};
+$App.Title26d = localStorage.getItem("Title26d");};
 $scope.MainBoard_pageenter = function() {$scope.ObjectToFront("Card01");};
 $App.NAB.Almanac_hidden=true;
 $App.NAB.Directory_hidden=true;
@@ -335,13 +330,13 @@ $App.Chapter17 = localStorage.getItem("Chapter17");
 $App.Chapter18 = localStorage.getItem("Chapter18");
 $App.Chapter19 = localStorage.getItem("Chapter19");
 $App.Chapter20 = localStorage.getItem("Chapter20");};
-$scope.PushButton455_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
+$scope.PushButton457_click = function() {window.open("https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0#gid=0", "_blank");};
+$scope.Image78_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
 neoGSheetsLoadCell($App.googleSheet,"Oneoff01","a",1,null);
 
 neoGSheetsLoadCell($App.googleSheet,"Oneoff02","a",2,null);
 
 $App.Oneoff01 = "prayer"+$App.Prayer1main;};
-$scope.PushButton457_click = function() {window.open("https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0#gid=0", "_blank");};
 });
 NeoApp.controller("MainBoard_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
