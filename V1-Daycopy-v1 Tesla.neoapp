@@ -15,6 +15,7 @@
 	<ResponsiveSize>False</ResponsiveSize>
 	<PublishPlatform>WebApp</PublishPlatform>
 	<EmptyBuildFolder>False</EmptyBuildFolder>
+	<WebBuildTarget>C:\Users\User\Desktop\Catalogue\ADHDGame\Tesla25</WebBuildTarget>
 	<AppIcon>C:\Users\User\Documents\VisualNeoWeb\Libraries\img\default-icon.png</AppIcon>
 	<LanguageCode>en</LanguageCode>
 	<DisplayMode>standalone</DisplayMode>
