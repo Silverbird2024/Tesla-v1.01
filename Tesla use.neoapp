@@ -486,12 +486,12 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0&amp;range=A1&quot;</click>
 						</PushButton>
 						<Headline id="Headline57">
-							<left>106px</left>
+							<left>97px</left>
 							<top>372px</top>
-							<width>48px</width>
+							<width>62px</width>
 							<height>20px</height>
-							<style>color:red;font-size:9pt</style>
-							<text>Tv1.03</text>
+							<style>color:red;font-size:9pt;text-align:center</style>
+							<text>Tv1.04</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -5083,7 +5083,7 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 							<top>65px</top>
 							<width>387px</width>
 							<height>635px</height>
-							<style>color:#00008B;font-size:25pt;font-weight:800;text-align:left</style>
+							<style>color:#00008B</style>
 							<hover>color:blue;font-size:11pt;font-weight:600;text-align:left</hover>
 							<prop_name>dailyfont1</prop_name>
 							<variable>a1</variable>
