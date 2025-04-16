@@ -16,7 +16,7 @@
 	<PublishPlatform>WebApp</PublishPlatform>
 	<EmptyBuildFolder>False</EmptyBuildFolder>
 	<WebBuildTarget>C:\Users\User\Desktop\Catalogue\ADHDGame\Tesla25</WebBuildTarget>
-	<AppIcon>C:\Users\User\Documents\VisualNeoWeb\Libraries\img\default-icon.png</AppIcon>
+	<AppIcon>default-icon.png</AppIcon>
 	<LanguageCode>en</LanguageCode>
 	<DisplayMode>standalone</DisplayMode>
 	<ServiceWorker>Offline page</ServiceWorker>
@@ -336,7 +336,7 @@ GetItem &quot;Title26d&quot; [Title26d]</pageenter>
 							<width>292px</width>
 							<height>96px</height>
 							<style>color:#A8A8A8;font-size:17pt;font-weight:600;line-height:110%;text-align:center</style>
-							<text>V1:&amp;nbsp;38&lt;sup&gt;&lt;sub&gt;&amp;nbsp;13 April 25&lt;/sub&gt;&lt;/sup&gt;&lt;br&gt;&lt;br&gt;&lt;em&gt;Days and Counting: [diff]&lt;/em&gt;&lt;br&gt;&lt;br&gt;</text>
+							<text>Based on V1:&amp;nbsp;38&lt;sup&gt;&lt;sub&gt;&amp;nbsp;13 April 25&lt;/sub&gt;&lt;/sup&gt;&lt;br&gt;&lt;br&gt;&lt;em&gt;Days and Counting: [diff]&lt;/em&gt;&lt;br&gt;&lt;br&gt;</text>
 						</Headline>
 						<Headline id="Headline386">
 							<left>11px</left>
@@ -596,6 +596,14 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<caption>Edit</caption>
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0#gid=0&quot;</click>
 						</PushButton>
+						<Headline id="Headline57">
+							<left>112px</left>
+							<top>399px</top>
+							<width>48px</width>
+							<height>20px</height>
+							<style>color:red;font-size:9pt</style>
+							<text>Tv1.02</text>
+						</Headline>
 					</Components>
 				</Page>
 				<Page id="MainBoard">
@@ -10987,7 +10995,7 @@ SetItem &quot;Concept10&quot; [Concept10]</change>
 							<top>0px</top>
 							<width>417px</width>
 							<height>737px</height>
-							<source>C:\Users\User\Desktop\Catalogue\Features small.jpg</source>
+							<source>Features small.jpg</source>
 						</Image>
 						<PushButton id="PushButton63">
 							<left>346px</left>
@@ -11036,7 +11044,7 @@ SetItem &quot;Concept10&quot; [Concept10]</change>
 							<width>417px</width>
 							<height>737px</height>
 							<style>opacity:0.23</style>
-							<source>C:\Users\User\Desktop\Catalogue\Features small.jpg</source>
+							<source>Features small.jpg</source>
 						</Image>
 						<Image id="Image47">
 							<left>-2px</left>
@@ -11044,7 +11052,7 @@ SetItem &quot;Concept10&quot; [Concept10]</change>
 							<width>417px</width>
 							<height>737px</height>
 							<style>opacity:0.11</style>
-							<source>C:\Users\User\Desktop\Catalogue\Features small.jpg</source>
+							<source>Features small.jpg</source>
 						</Image>
 						<Headline id="Headline261">
 							<left>479px</left>
@@ -12320,14 +12328,14 @@ SetItem &quot;Concept10&quot; [Concept10]</change>
 							<top>77px</top>
 							<width>381px</width>
 							<height>647px</height>
-							<source>C:\Users\User\Desktop\Catalogue\ADHDGame\BoardGameV1-Daycopy-v1_Test\dream.jpg</source>
+							<source>dream.jpg</source>
 						</Image>
 						<Image id="Image53">
 							<left>274px</left>
 							<top>626px</top>
 							<width>105px</width>
 							<height>63px</height>
-							<source>C:\Users\User\Desktop\Catalogue\ADHDGame\BoardGameV1-Daycopy-v1_Test\1977-ford-thunderbird.jpg</source>
+							<source>1977-ford-thunderbird.jpg</source>
 						</Image>
 						<TextInput id="TextInput19">
 							<left>43px</left>
