@@ -16,7 +16,8 @@
 	<PublishPlatform>WebApp</PublishPlatform>
 	<EmptyBuildFolder>False</EmptyBuildFolder>
 	<WebBuildTarget>C:\Users\User\Desktop\Catalogue\ADHDGame\Tesla25</WebBuildTarget>
-	<AppIcon>default-icon.png</AppIcon>
+	<ArchiveTarget>C:\Users\User\Desktop\Tesla25</ArchiveTarget>
+	<AppIcon>C:\Users\User\Documents\VisualNeoWeb\Libraries\img\default-icon.png</AppIcon>
 	<LanguageCode>en</LanguageCode>
 	<DisplayMode>standalone</DisplayMode>
 	<ServiceWorker>Offline page</ServiceWorker>
@@ -46,6 +47,9 @@
 GetItem &quot;Dreamin&quot; [Dreamin]
 GetItem &quot;donotpress&quot; &quot;[donotpress]&quot;
 SetObjectStyle &quot;Ellipse1&quot; &quot;fill&quot; &quot;[donotpress]&quot;
+
+GetItem &quot;Permanence2&quot; [Permanence2]
+GetItem &quot;Permanence3&quot; [Permanence3]
 
 GetItem &quot;entropy&quot; [entropy]
 GetItem &quot;tesla&quot; [tesla]
@@ -334,17 +338,9 @@ GetItem &quot;Title26d&quot; [Title26d]</pageenter>
 							<left>5px</left>
 							<top>118px</top>
 							<width>292px</width>
-							<height>96px</height>
-							<style>color:#A8A8A8;font-size:17pt;font-weight:600;line-height:110%;text-align:center</style>
-							<text>Based on V1:&amp;nbsp;38&lt;sup&gt;&lt;sub&gt;&amp;nbsp;13 April 25&lt;/sub&gt;&lt;/sup&gt;&lt;br&gt;&lt;br&gt;&lt;em&gt;Days and Counting: [diff]&lt;/em&gt;&lt;br&gt;&lt;br&gt;</text>
-						</Headline>
-						<Headline id="Headline386">
-							<left>11px</left>
-							<top>54px</top>
-							<width>262px</width>
-							<height>22px</height>
-							<style>color:yellow;font-size:12pt;font-style:italic;font-weight:800;text-align:center</style>
-							<text>&lt;strong&gt;&lt;em&gt;This is Real:&amp;nbsp;[start]&lt;/em&gt;&lt;/strong&gt;- [NAB.DateShort]</text>
+							<height>117px</height>
+							<style>color:#A8A8A8;font-size:22pt;font-weight:600;line-height:110%;text-align:center</style>
+							<text>Based on V1:&amp;nbsp;38&lt;sup&gt;&lt;sub&gt;&amp;nbsp;13 April 25&lt;/sub&gt;&lt;/sup&gt;&lt;br&gt;&lt;em&gt;Days and Counting: [diff]&lt;/em&gt;&lt;br&gt;&lt;br&gt;</text>
 						</Headline>
 						<PushButton id="PushButton456">
 							<left>279px</left>
@@ -371,11 +367,173 @@ SetItem &quot;Reloaded&quot; [Reloaded]
 GetItem &quot;Reloaded&quot; [Reloaded]</click>
 						</PushButton>
 						<PushButton id="PushButton459">
-							<left>62px</left>
-							<top>468px</top>
-							<width>137px</width>
-							<height>37px</height>
-							<style>box-shadow:3px 3px 3px red</style>
+							<left>23px</left>
+							<top>444px</top>
+							<width>165px</width>
+							<height>105px</height>
+							<style>font-size:16pt;box-shadow:3px 3px 3px red</style>
+							<hover>box-shadow:3px 3px 3px lime</hover>
+							<caption>Daily Sheet</caption>
+							<click>SetVar [googleSheet0] &quot;https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?usp=sharingadd #gid=X&quot;
+
+
+
+neoGSheetsLoadCell &quot;[googleSheet0]&quot; [a1] &quot;a&quot; 1 &quot;&quot;
+
+GotoPage &quot;Dailysheet&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton460">
+							<left>5px</left>
+							<top>34px</top>
+							<width>54px</width>
+							<height>21px</height>
+							<style>opacity:0.15</style>
+							<hover>opacity:0.6</hover>
+							<caption>Save</caption>
+							<click>GotoPage &quot;Save&quot;</click>
+						</PushButton>
+						<Headline id="Headline388">
+							<left>15px</left>
+							<top>24px</top>
+							<width>83px</width>
+							<height>30px</height>
+							<style>color:#3D01A4;font-size:12pt;font-weight:600;letter-spacing:14px;text-align:center;text-shadow:0px 0px 5px black;vertical-align:middle;opacity:0.6</style>
+							<hover>color:#4DD3FF;font-size:12pt;font-weight:800;letter-spacing:14px;text-align:center;text-shadow:2px 2px 5px white</hover>
+							<text>D</text>
+							<click>GotoPage &quot;Dreamboard&quot;</click>
+						</Headline>
+						<Headline id="Headline389">
+							<left>93px</left>
+							<top>578px</top>
+							<width>200px</width>
+							<height>38px</height>
+							<style>color:silver;font-size:17pt;font-weight:800;text-align:center</style>
+							<text>[NAB.DateShort]</text>
+						</Headline>
+						<PushButton id="PushButton461">
+							<left>197px</left>
+							<top>444px</top>
+							<width>186px</width>
+							<height>106px</height>
+							<style>font-size:16pt;box-shadow:3px 3px 3px red</style>
+							<hover>box-shadow:3px 3px 3px lime;opacity:0.45</hover>
+							<caption>Daily Prayer</caption>
+							<click>SetVar [googleSheet] &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X&quot;
+
+
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [Prayer1main] &quot;a&quot; 1 &quot;&quot;
+
+GotoPage &quot;Page02&quot;</click>
+						</PushButton>
+						<NumericInput id="NumericInput2">
+							<left>6px</left>
+							<top>10px</top>
+							<width>52px</width>
+							<height>21px</height>
+							<style>opacity:0.18</style>
+							<variable>pass</variable>
+						</NumericInput>
+						<Container id="Container30">
+							<left>98px</left>
+							<top>694px</top>
+							<width>47px</width>
+							<height>36px</height>
+							<style>opacity:0.18</style>
+							<click>If [pass] == &quot;63&quot;
+GotoPage &quot;NeedsAttention&quot;
+Else
+
+EndIf</click>
+						</Container>
+						<PushButton id="PushButton466">
+							<left>294px</left>
+							<top>117px</top>
+							<width>85px</width>
+							<height>34px</height>
+							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
+							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
+							<caption>Load Tesla</caption>
+							<click>SetVar [googleSheet2] &quot;https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?usp=sharingadd #gid=X&quot;
+
+
+
+
+
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [Prayer1main] &quot;a&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1a] &quot;a&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1aa] &quot;a&quot; 3 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1aa] &quot;a&quot; 4 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [ledgend] &quot;a&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1b] &quot;a&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1acp] &quot;a&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1acph] &quot;a&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&quot;
+
+.comment #gid=X add at end</click>
+						</PushButton>
+						<Image id="Image78">
+							<left>46px</left>
+							<top>245px</top>
+							<width>168px</width>
+							<height>181px</height>
+							<source>Tesla-Logo.png</source>
+						</Image>
+						<PushButton id="PushButton1">
+							<left>294px</left>
+							<top>159px</top>
+							<width>85px</width>
+							<height>34px</height>
+							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
+							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
+							<caption>Edita1</caption>
+							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0&amp;range=A1&quot;</click>
+						</PushButton>
+						<Headline id="Headline57">
+							<left>110px</left>
+							<top>377px</top>
+							<width>48px</width>
+							<height>20px</height>
+							<style>color:red;font-size:9pt</style>
+							<text>Tv1.05</text>
+						</Headline>
+						<Headline id="Headline254">
+							<left>23px</left>
+							<top>624px</top>
+							<width>362px</width>
+							<height>56px</height>
+							<style>color:red;font-size:30pt;font-weight:800;text-align:center;text-shadow:1px 1px 1px lime;opacity:1</style>
+							<text>[NAB.Time]</text>
+						</Headline>
+						<PushButton id="PushButton58">
+							<left>294px</left>
+							<top>201px</top>
+							<width>85px</width>
+							<height>34px</height>
+							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
+							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
+							<caption>Edita2</caption>
+							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton462">
+							<left>16px</left>
+							<top>702px</top>
+							<width>23px</width>
+							<height>22px</height>
+							<style>opacity:0.25</style>
+							<click>GotoPage &quot;Permanace&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="GOOGLE-A1">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton173">
+							<left>23px</left>
+							<top>444px</top>
+							<width>165px</width>
+							<height>105px</height>
+							<style>font-size:16pt;box-shadow:3px 3px 3px red</style>
 							<hover>box-shadow:3px 3px 3px lime</hover>
 							<caption>Daily Sheet</caption>
 							<click>SetItem &quot;feb25week1a&quot; [feb25week1a]
@@ -405,50 +563,22 @@ GetItem &quot;feb25week1acph&quot; [feb25week1acph]
 
 GotoPage &quot;Dailysheet&quot;</click>
 						</PushButton>
-						<PushButton id="PushButton460">
-							<left>316px</left>
-							<top>679px</top>
-							<width>54px</width>
-							<height>37px</height>
-							<style>opacity:0.15</style>
-							<hover>opacity:0.6</hover>
-							<caption>Save</caption>
-							<click>GotoPage &quot;Save&quot;</click>
-						</PushButton>
-						<Headline id="Headline388">
-							<left>15px</left>
-							<top>24px</top>
-							<width>83px</width>
-							<height>30px</height>
-							<style>color:#3D01A4;font-size:12pt;font-weight:600;letter-spacing:14px;text-align:center;text-shadow:0px 0px 5px black;vertical-align:middle;opacity:0.6</style>
-							<hover>color:#4DD3FF;font-size:12pt;font-weight:800;letter-spacing:14px;text-align:center;text-shadow:2px 2px 5px white</hover>
-							<text>D</text>
-							<click>GotoPage &quot;Dreamboard&quot;</click>
-						</Headline>
-						<Headline id="Headline389">
-							<left>43px</left>
-							<top>35px</top>
-							<width>200px</width>
-							<height>19px</height>
-							<style>color:silver;font-size:10pt;font-weight:800;text-align:center</style>
-							<text>[NAB.DateShort]</text>
-						</Headline>
-						<PushButton id="PushButton461">
-							<left>230px</left>
-							<top>468px</top>
-							<width>137px</width>
-							<height>37px</height>
-							<style>box-shadow:3px 3px 3px red;opacity:0.91</style>
+						<PushButton id="PushButton219">
+							<left>197px</left>
+							<top>444px</top>
+							<width>186px</width>
+							<height>106px</height>
+							<style>font-size:16pt;box-shadow:3px 3px 3px red</style>
 							<hover>box-shadow:3px 3px 3px lime;opacity:0.45</hover>
 							<caption>Daily Prayer</caption>
 							<click>GotoPage &quot;Page02&quot;</click>
 						</PushButton>
-						<PushButton id="PushButton462">
-							<left>60px</left>
-							<top>536px</top>
-							<width>137px</width>
-							<height>37px</height>
-							<style>box-shadow:3px 3px 3px red;opacity:0.91</style>
+						<PushButton id="PushButton229">
+							<left>23px</left>
+							<top>560px</top>
+							<width>163px</width>
+							<height>95px</height>
+							<style>font-size:16pt;box-shadow:3px 3px 3px red</style>
 							<hover>box-shadow:3px 3px 3px lime;opacity:0.45</hover>
 							<caption>Daily Reps</caption>
 							<click>GotoPage &quot;Page12&quot;
@@ -457,25 +587,17 @@ GotoPage &quot;Dailysheet&quot;</click>
 SetItem &quot;thoughts&quot; [thoughts]
 GetItem &quot;thoughts&quot; [thoughts]</click>
 						</PushButton>
-						<PushButton id="PushButton463">
-							<left>231px</left>
-							<top>536px</top>
-							<width>137px</width>
-							<height>37px</height>
-							<style>box-shadow:3px 3px 3px red;opacity:0.91</style>
+						<PushButton id="PushButton274">
+							<left>196px</left>
+							<top>559px</top>
+							<width>188px</width>
+							<height>95px</height>
+							<style>font-size:16pt;box-shadow:3px 3px 3px red</style>
 							<hover>box-shadow:3px 3px 3px lime;opacity:0.45</hover>
-							<caption>Daily Thoughts</caption>
+							<caption>Daily &lt;br&gt;Thoughts</caption>
 							<click>GotoPage &quot;Thoughts&quot;</click>
 						</PushButton>
-						<NumericInput id="NumericInput2">
-							<left>42px</left>
-							<top>677px</top>
-							<width>72px</width>
-							<height>37px</height>
-							<style>opacity:0.18</style>
-							<variable>pass</variable>
-						</NumericInput>
-						<Container id="Container30">
+						<Container id="Container28">
 							<left>98px</left>
 							<top>694px</top>
 							<width>47px</width>
@@ -487,123 +609,130 @@ Else
 
 EndIf</click>
 						</Container>
-						<PushButton id="PushButton464">
-							<left>144px</left>
-							<top>592px</top>
-							<width>137px</width>
-							<height>37px</height>
-							<style>box-shadow:3px 3px 3px red</style>
-							<hover>box-shadow:3px 3px 3px lime;opacity:0.45</hover>
-							<caption>Book Main</caption>
-							<click>GotoPage &quot;BookMain&quot;
-
-GetItem &quot;bookindex&quot; [bookindex]
-GetItem &quot;bookindexa&quot; [bookindexa]
-GetItem &quot;bookindexb&quot; [bookindexb]
-
-GetItem &quot;bookc01&quot; [bookc01]
-
-GetItem &quot;bookc01a&quot; [bookc01a]
-GetItem &quot;bookc01b&quot; [bookc01b]
-
-GetItem &quot;Onetit&quot; [Onetit]
-GetItem &quot;Twotit&quot; [Twotit]
-GetItem &quot;One&quot; [One]
-GetItem &quot;Two&quot; [Two]
-
-GetItem &quot;c01&quot; [c01]
-GetItem &quot;c02&quot; [c02]
-GetItem &quot;c03&quot; [c03]
-GetItem &quot;c04&quot; [c04]
-GetItem &quot;c05&quot; [c05]
-GetItem &quot;c06&quot; [c06]
-GetItem &quot;c07&quot; [c07]
-GetItem &quot;c08&quot; [c08]
-GetItem &quot;c09&quot; [c09]
-GetItem &quot;c10&quot; [c10]
-GetItem &quot;c11&quot; [c11]
-GetItem &quot;c12&quot; [c12]
-GetItem &quot;c13&quot; [c13]
-GetItem &quot;c14&quot; [c14]
-GetItem &quot;c15&quot; [c15]
-GetItem &quot;c16&quot; [c16]
-GetItem &quot;c17&quot; [c17]
-GetItem &quot;c18&quot; [c18]
-GetItem &quot;c19&quot; [c19]
-GetItem &quot;c20&quot; [c20]
-
-
-
-
-GetItem &quot;Chapter01&quot; [Chapter01]
-GetItem &quot;Chapter02&quot; [Chapter02]
-GetItem &quot;Chapter03&quot; [Chapter03]
-GetItem &quot;Chapter03n&quot; [Chapter03n]
-
-GetItem &quot;Chapter04&quot; [Chapter04]
-GetItem &quot;Chapter05&quot; [Chapter05]
-GetItem &quot;Chapter06&quot; [Chapter06]
-GetItem &quot;Chapter07&quot; [Chapter07]
-GetItem &quot;Chapter08&quot; [Chapter08]
-GetItem &quot;Chapter09&quot; [Chapter09]
-GetItem &quot;Chapter10&quot; [Chapter10]
-GetItem &quot;Chapter11&quot; [Chapter11]
-GetItem &quot;Chapter12&quot; [Chapter12]
-GetItem &quot;Chapter13&quot; [Chapter13]
-GetItem &quot;Chapter14&quot; [Chapter14]
-GetItem &quot;Chapter15&quot; [Chapter15]
-GetItem &quot;Chapter16&quot; [Chapter16]
-GetItem &quot;Chapter17&quot; [Chapter17]
-GetItem &quot;Chapter18&quot; [Chapter18]
-GetItem &quot;Chapter19&quot; [Chapter19]
-GetItem &quot;Chapter20&quot; [Chapter20]</click>
-						</PushButton>
-						<PushButton id="PushButton466">
-							<left>295px</left>
-							<top>137px</top>
-							<width>85px</width>
-							<height>34px</height>
-							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
-							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
-							<caption>Load Tesla</caption>
-							<click>SetVar [googleSheet] &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X&quot;
-neoGSheetsLoadCell &quot;[googleSheet]&quot; [Prayer1main] &quot;a&quot; 1 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1a] &quot;a&quot; 2 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1aa] &quot;a&quot; 3 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1aa] &quot;a&quot; 4 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet]&quot; [ledgend] &quot;a&quot; 5 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1b] &quot;a&quot; 6 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1acp] &quot;a&quot; 7 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet]&quot; [feb25week1acph] &quot;a&quot; 8 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&quot;
-
-.comment #gid=X add at end</click>
-						</PushButton>
-						<Image id="Image78">
+						<Image id="Image50">
 							<left>46px</left>
 							<top>245px</top>
 							<width>168px</width>
-							<height>196px</height>
+							<height>181px</height>
 							<source>Tesla-Logo.png</source>
 						</Image>
-						<PushButton id="PushButton1">
-							<left>295px</left>
-							<top>179px</top>
-							<width>85px</width>
-							<height>34px</height>
-							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
+						<PushButton id="PushButton457">
+							<left>215px</left>
+							<top>249px</top>
+							<width>165px</width>
+							<height>166px</height>
+							<style>color:red;font-size:25pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
 							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
 							<caption>Edit</caption>
-							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0#gid=0&quot;</click>
+							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0&amp;range=A1&quot;</click>
 						</PushButton>
-						<Headline id="Headline57">
-							<left>112px</left>
-							<top>399px</top>
+						<Headline id="Headline326">
+							<left>106px</left>
+							<top>372px</top>
 							<width>48px</width>
 							<height>20px</height>
 							<style>color:red;font-size:9pt</style>
 							<text>Tv1.02</text>
 						</Headline>
+						<Headline id="Headline386">
+							<left>22px</left>
+							<top>667px</top>
+							<width>362px</width>
+							<height>56px</height>
+							<style>color:red;font-size:30pt;font-weight:800;text-align:center;text-shadow:1px 1px 1px lime;opacity:1</style>
+							<text>[NAB.Time]</text>
+						</Headline>
+						<Container id="Container31">
+							<left>22px</left>
+							<top>11px</top>
+							<width>362px</width>
+							<height>223px</height>
+							<style>border-width:1px;border-style:solid;background-color:#fff;</style>
+							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0&amp;range=A1&quot;</click>
+						</Container>
+					</Components>
+				</Page>
+				<Page id="Permanace">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline255">
+							<left>19px</left>
+							<top>48px</top>
+							<width>373px</width>
+							<height>453px</height>
+							<style>color:white;font-size:11pt</style>
+							<text>Permanence.&lt;br&gt;Unlike virtually everything in my life I have trusted to bridge the me of now, to the me of tomorrow, this App has worked.&lt;br&gt;&lt;br&gt;More-over any good that has come from my life has its roots in a few decisions that I made anong the path and stood by them until they could stand up for themselfs. Oddly and paradoxically I know this not to be entirley true. I have also been lucky. This however is not as contradictable as it seems. &lt;br&gt;&lt;br&gt;My Decisions influenced that luck, standing by those descisions nutured it more.&lt;br&gt;&lt;br&gt;We are little more than a few decisions that we stand by. &lt;br&gt;&lt;br&gt;It is important here I remember a , charactoristic once accepted is a decision. I value once examined and retained or not is a decision, a left or right turn is a choice, but to do it again is a decision and if you stand and defend that decision it changes you and your path in ways that choices ralely do.</text>
+						</Headline>
+						<Headline id="Headline257">
+							<left>17px</left>
+							<top>21px</top>
+							<width>263px</width>
+							<height>32px</height>
+							<style>color:white;font-size:17pt</style>
+							<text>Permanence</text>
+						</Headline>
+						<TextArea id="TextArea90">
+							<left>23px</left>
+							<top>399px</top>
+							<width>169px</width>
+							<height>281px</height>
+							<variable>Permanence2</variable>
+							<change>SetItem &quot;Permanence2&quot; [Permanence2]</change>
+						</TextArea>
+						<TextArea id="TextArea103">
+							<left>209px</left>
+							<top>398px</top>
+							<width>175px</width>
+							<height>282px</height>
+							<variable>Permanence3</variable>
+							<change>SetItem &quot;Permanence3&quot; [Permanence3]</change>
+						</TextArea>
+						<PushButton id="PushButton172">
+							<left>243px</left>
+							<top>697px</top>
+							<width>138px</width>
+							<height>33px</height>
+							<style>color:green;font-weight:800</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[Permanence3]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<PushButton id="PushButton174">
+							<left>200px</left>
+							<top>697px</top>
+							<width>39px</width>
+							<height>33px</height>
+							<style>color:red;font-size:12pt;font-weight:800</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<PushButton id="PushButton273">
+							<left>55px</left>
+							<top>697px</top>
+							<width>138px</width>
+							<height>33px</height>
+							<style>color:green;font-weight:800</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[Permanence2]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<PushButton id="PushButton455">
+							<left>12px</left>
+							<top>697px</top>
+							<width>39px</width>
+							<height>33px</height>
+							<style>color:red;font-size:12pt;font-weight:800</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<PushButton id="PushButton463">
+							<left>285px</left>
+							<top>15px</top>
+							<width>104px</width>
+							<height>34px</height>
+							<style>opacity:0.42</style>
+							<caption>Home</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="MainBoard">
@@ -4365,15 +4494,6 @@ GotoPage &quot;Page26&quot;</click>
 							<height>77px</height>
 							<source>TitBlue.jpg</source>
 						</Image>
-						<Headline id="Headline326">
-							<left>22px</left>
-							<top>36px</top>
-							<width>237px</width>
-							<height>39px</height>
-							<style>color:#FFFF00;font-size:24pt;font-style:italic;font-weight:600;text-align:center;text-shadow:2px 2px 5px blue</style>
-							<hover>color:#7CFC00</hover>
-							<text>[Title02]</text>
-						</Headline>
 						<PushButton id="PushButton6">
 							<left>265px</left>
 							<top>7px</top>
@@ -4398,18 +4518,10 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<top>147px</top>
 							<width>385px</width>
 							<height>547px</height>
-							<style>color:#383838;font-size:11pt;font-weight:600;opacity:0.5</style>
+							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
 							<variable>Prayer1main</variable>
 							<change>SetItem &quot;Prayer1main&quot; [Prayer1main]</change>
 						</TextArea>
-						<Headline id="Headline325">
-							<left>0px</left>
-							<top>5px</top>
-							<width>124px</width>
-							<height>27px</height>
-							<style>color:red;font-size:12pt;font-weight:600</style>
-							<text>[NAB.PageID]</text>
-						</Headline>
 						<PushButton id="PushButton80">
 							<left>264px</left>
 							<top>41px</top>
@@ -4451,7 +4563,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<top>96px</top>
 							<width>385px</width>
 							<height>49px</height>
-							<style>color:#383838;font-size:10pt;font-weight:600;opacity:0.41</style>
+							<style>color:red;font-size:28pt;font-weight:600;opacity:1</style>
 							<variable>Title02d</variable>
 							<change>SetItem &quot;Title02d&quot; [Title02d]</change>
 						</TextArea>
@@ -4487,6 +4599,13 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 							<style>color:red;font-size:12pt;font-weight:600</style>
 							<text>Thoughts for next time</text>
 						</Headline>
+						<Image id="Image43">
+							<left>109px</left>
+							<top>22px</top>
+							<width>82px</width>
+							<height>59px</height>
+							<source>C:\Users\User\Desktop\Tesla25\Tesla-Logo.png</source>
+						</Image>
 					</Components>
 				</Page>
 				<Page id="BookMain">
@@ -5014,20 +5133,11 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 						<Headline id="Headline240">
 							<left>69px</left>
 							<top>26px</top>
-							<width>314px</width>
+							<width>185px</width>
 							<height>20px</height>
 							<style>color:white;font-size:11pt;font-weight:11;text-align:right</style>
 							<text>2025:[NAB.DateFull]</text>
 						</Headline>
-						<PushButton id="PushButton273">
-							<left>277px</left>
-							<top>65px</top>
-							<width>104px</width>
-							<height>67px</height>
-							<style>opacity:0.42</style>
-							<caption>Main &lt;br&gt;</caption>
-							<click>GotoPage &quot;Home&quot;</click>
-						</PushButton>
 						<Headline id="Headline241">
 							<left>63px</left>
 							<top>2px</top>
@@ -5044,18 +5154,9 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 							<style>color:Silver;font-size:16pt;text-align:center</style>
 							<text>P1</text>
 						</Headline>
-						<TextArea id="TextArea90">
-							<left>275px</left>
-							<top>161px</top>
-							<width>109px</width>
-							<height>355px</height>
-							<style>color:red;font-size:8pt;text-align:left</style>
-							<variable>[feb25week1aa]</variable>
-							<change>SetItem &quot;feb25week1aa&quot; [feb25week1aa]</change>
-						</TextArea>
 						<PushButton id="PushButton277">
-							<left>26px</left>
-							<top>674px</top>
+							<left>8px</left>
+							<top>706px</top>
 							<width>39px</width>
 							<height>27px</height>
 							<style>font-size:9pt</style>
@@ -5063,8 +5164,8 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 							<click>neoTalkCancel</click>
 						</PushButton>
 						<PushButton id="PushButton278">
-							<left>67px</left>
-							<top>674px</top>
+							<left>190px</left>
+							<top>705px</top>
 							<width>201px</width>
 							<height>28px</height>
 							<style>font-size:9pt</style>
@@ -5073,14 +5174,14 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 						</PushButton>
 						<TextArea id="TextArea89">
 							<left>7px</left>
-							<top>134px</top>
-							<width>264px</width>
-							<height>537px</height>
-							<style>color:#00008B;font-size:11pt;font-weight:800;text-align:left</style>
+							<top>65px</top>
+							<width>387px</width>
+							<height>635px</height>
+							<style>color:#00008B;font-size:25pt;font-weight:800;text-align:left</style>
 							<hover>color:blue;font-size:11pt;font-weight:600;text-align:left</hover>
 							<prop_name>dailyfont1</prop_name>
-							<variable>[feb25week1a]</variable>
-							<change>SetItem &quot;feb25week1a&quot; [feb25week1a]</change>
+							<variable>a1</variable>
+							<change>SetItem &quot;a2&quot; [a2]</change>
 						</TextArea>
 						<TextArea id="TextArea85">
 							<left>15px</left>
@@ -5107,39 +5208,14 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 							<style>color:red;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
 							<text>Daily Sheet Home&lt;br&gt;Cut n Paste HOT</text>
 						</Headline>
-						<TextArea id="TextArea103">
-							<left>274px</left>
-							<top>550px</top>
-							<width>110px</width>
-							<height>174px</height>
-							<style>color:#556B2F;font-size:8pt</style>
-							<variable>[feb25week1b]</variable>
-							<change>SetItem &quot;feb25week1b&quot; [feb25week1b]</change>
-						</TextArea>
 						<Headline id="Headline256">
-							<left>10px</left>
+							<left>13px</left>
 							<top>43px</top>
-							<width>371px</width>
+							<width>295px</width>
 							<height>17px</height>
 							<style>color:Silver;font-size:11pt;font-weight:600;text-align:center</style>
 							<hover>color:red</hover>
 							<text>[Thisweek]</text>
-						</Headline>
-						<Headline id="Headline257">
-							<left>282px</left>
-							<top>134px</top>
-							<width>89px</width>
-							<height>24px</height>
-							<style>color:RED;font-size:16pt;text-align:center</style>
-							<text>To Do</text>
-						</Headline>
-						<Headline id="Headline258">
-							<left>283px</left>
-							<top>519px</top>
-							<width>99px</width>
-							<height>24px</height>
-							<style>color:Red;font-size:16pt;font-weight:600;text-align:center</style>
-							<text>To Do</text>
 						</Headline>
 						<TextArea id="TextArea18">
 							<left>19px</left>
@@ -5158,25 +5234,14 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 							<style>color:#A8A8A8;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
 							<text>This week header</text>
 						</Headline>
-						<TextArea id="TextArea131">
-							<left>7px</left>
-							<top>65px</top>
-							<width>264px</width>
-							<height>67px</height>
-							<style>color:white;font-size:10pt;text-align:left;background-color:#002F3E</style>
-							<variable>ledgend</variable>
-							<change>SetItem &quot;ledgend&quot; [ledgend]</change>
-						</TextArea>
-						<Pager id="Pager8">
-							<left>74px</left>
-							<top>704px</top>
-							<width>153px</width>
-							<height>24px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
+						<Image id="Image79">
+							<left>319px</left>
+							<top>8px</top>
+							<width>86px</width>
+							<height>53px</height>
+							<source>C:\Users\User\Desktop\Tesla25\Tesla-Logo.png</source>
+							<click>GotoPage &quot;Home&quot;</click>
+						</Image>
 					</Components>
 				</Page>
 				<Page id="BookIndex">
@@ -9062,7 +9127,7 @@ VarToLocalFile [Title12b] &quot; Repetitions.text&quot;</click>
 							<top>93px</top>
 							<width>358px</width>
 							<height>1750px</height>
-							<style>color:#000080;font-size:12pt;font-weight:800;padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:10px;opacity:0.41</style>
+							<style>color:#000080;font-size:28pt;font-weight:800;padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:10px;opacity:0.41</style>
 							<variable>[thoughts]</variable>
 							<place_holder>Write some text...</place_holder>
 							<change>SetItem &quot;thoughts&quot; &quot;[thoughts]&quot;</change>
@@ -10995,7 +11060,7 @@ SetItem &quot;Concept10&quot; [Concept10]</change>
 							<top>0px</top>
 							<width>417px</width>
 							<height>737px</height>
-							<source>Features small.jpg</source>
+							<source>C:\Users\User\Desktop\Catalogue\Features small.jpg</source>
 						</Image>
 						<PushButton id="PushButton63">
 							<left>346px</left>
@@ -11044,7 +11109,7 @@ SetItem &quot;Concept10&quot; [Concept10]</change>
 							<width>417px</width>
 							<height>737px</height>
 							<style>opacity:0.23</style>
-							<source>Features small.jpg</source>
+							<source>C:\Users\User\Desktop\Catalogue\Features small.jpg</source>
 						</Image>
 						<Image id="Image47">
 							<left>-2px</left>
@@ -11052,7 +11117,7 @@ SetItem &quot;Concept10&quot; [Concept10]</change>
 							<width>417px</width>
 							<height>737px</height>
 							<style>opacity:0.11</style>
-							<source>Features small.jpg</source>
+							<source>C:\Users\User\Desktop\Catalogue\Features small.jpg</source>
 						</Image>
 						<Headline id="Headline261">
 							<left>479px</left>
@@ -12328,14 +12393,14 @@ SetItem &quot;Concept10&quot; [Concept10]</change>
 							<top>77px</top>
 							<width>381px</width>
 							<height>647px</height>
-							<source>dream.jpg</source>
+							<source>C:\Users\User\Desktop\Catalogue\ADHDGame\BoardGameV1-Daycopy-v1_Test\dream.jpg</source>
 						</Image>
 						<Image id="Image53">
 							<left>274px</left>
 							<top>626px</top>
 							<width>105px</width>
 							<height>63px</height>
-							<source>1977-ford-thunderbird.jpg</source>
+							<source>C:\Users\User\Desktop\Catalogue\ADHDGame\BoardGameV1-Daycopy-v1_Test\1977-ford-thunderbird.jpg</source>
 						</Image>
 						<TextInput id="TextInput19">
 							<left>43px</left>
