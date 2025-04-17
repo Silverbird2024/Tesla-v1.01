@@ -340,7 +340,7 @@ GetItem &quot;Title26d&quot; [Title26d]</pageenter>
 							<width>292px</width>
 							<height>117px</height>
 							<style>color:#A8A8A8;font-size:22pt;font-weight:600;line-height:110%;text-align:center</style>
-							<text>Based on V1:&amp;nbsp;38&lt;sup&gt;&lt;sub&gt;&amp;nbsp;13 April 25&lt;/sub&gt;&lt;/sup&gt;&lt;br&gt;&lt;em&gt;Days and Counting: [diff]&lt;/em&gt;&lt;br&gt;&lt;br&gt;</text>
+							<text>&lt;em&gt;Days and Counting: [diff]&lt;/em&gt;&lt;br&gt;&lt;br&gt;</text>
 						</Headline>
 						<PushButton id="PushButton456">
 							<left>279px</left>
@@ -489,12 +489,12 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0&amp;range=A1&quot;</click>
 						</PushButton>
 						<Headline id="Headline57">
-							<left>110px</left>
-							<top>377px</top>
-							<width>48px</width>
+							<left>94px</left>
+							<top>378px</top>
+							<width>78px</width>
 							<height>20px</height>
-							<style>color:red;font-size:9pt</style>
-							<text>Tv1.05</text>
+							<style>color:red;font-size:14pt;text-align:center</style>
+							<text>Tv1.06</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
