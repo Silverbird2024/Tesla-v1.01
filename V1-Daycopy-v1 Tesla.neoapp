@@ -494,7 +494,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<width>78px</width>
 							<height>20px</height>
 							<style>color:red;font-size:14pt;text-align:center</style>
-							<text>Tv1.06</text>
+							<text>Tv1.07</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -529,8 +529,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<height>38px</height>
 							<style>opacity:0.25</style>
 							<caption>Random</caption>
-							<click>
-SetVar [googleSheet4] &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X&quot;
+							<click>SetVar [googleSheet4] &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X&quot;
 
 
 
@@ -4814,7 +4813,7 @@ GotoPage &quot;Random01&quot;</click>
 							<width>348px</width>
 							<height>206px</height>
 							<style>color:yellow;font-size:11pt;font-weight:600</style>
-							<text>[Random01]&lt;br&gt;[Random02] &lt;br&gt;[Random03] &lt;br&gt;[Random04] &lt;br&gt;[Random05] &lt;br&gt;[Random06] &lt;br&gt;[Random07] &lt;br&gt;[Random08] &lt;br&gt;[Random09] &lt;br&gt;[Random10] &lt;br&gt;[Random11] &lt;br&gt;[Random12] </text>
+							<text>[Random01]&lt;br&gt;[Random02] &lt;br&gt;[Random03] &lt;br&gt;[Random04] &lt;br&gt;[Random05] &lt;br&gt;[Random06] &lt;br&gt;[Random07] &lt;br&gt;[Random08] &lt;br&gt;[Random09] &lt;br&gt;[Random10] &lt;br&gt;[Random11] &lt;br&gt;[Random12]</text>
 						</Headline>
 					</Components>
 				</Page>
