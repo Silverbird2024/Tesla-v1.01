@@ -51,6 +51,53 @@ SetObjectStyle &quot;Ellipse1&quot; &quot;fill&quot; &quot;[donotpress]&quot;
 GetItem &quot;Permanence2&quot; [Permanence2]
 GetItem &quot;Permanence3&quot; [Permanence3]
 
+GetItem &quot;Rannotes01&quot; [Rannotes01]
+GetItem &quot;Random01b&quot; [Random01b]
+GetItem &quot;Random02b&quot; [Random02b]
+GetItem &quot;Random03b&quot; [Random03b]
+GetItem &quot;Random04b&quot; [Random04b]
+GetItem &quot;Random05b&quot; [Random05b]
+GetItem &quot;Random06b&quot; [Random06b]
+GetItem &quot;Random07b&quot; [Random07b]
+GetItem &quot;Random08b&quot; [Random08b]
+GetItem &quot;Random09b&quot; [Random09b]
+GetItem &quot;Random10b&quot; [Random10b]
+GetItem &quot;Random11b&quot; [Random11b]
+GetItem &quot;Random12b&quot; [Random12b]
+GetItem &quot;Random13b&quot; [Random13b]
+GetItem &quot;Random14b&quot; [Random14b]
+GetItem &quot;Random15b&quot; [Random15b]
+GetItem &quot;Random16b&quot; [Random16b]
+GetItem &quot;Random17b&quot; [Random17b]
+GetItem &quot;Random18b&quot; [Random18b]
+GetItem &quot;Random19b&quot; [Random19b]
+GetItem &quot;Random20b&quot; [Random20b]
+GetItem &quot;Random21b&quot; [Random21b]
+GetItem &quot;Random22b&quot; [Random22b]
+GetItem &quot;Random23b&quot; [Random32b]
+GetItem &quot;Random24b&quot; [Random24b]
+GetItem &quot;Random25b&quot; [Random25b]
+GetItem &quot;Random26b&quot; [Random26b]
+GetItem &quot;Random27b&quot; [Random27b]
+GetItem &quot;Random28b&quot; [Random28b]
+GetItem &quot;Random29b&quot; [Random29b]
+GetItem &quot;Random30b&quot; [Random30b]
+GetItem &quot;Random31b&quot; [Random31b]
+GetItem &quot;Random32b&quot; [Random32b]
+GetItem &quot;Random33b&quot; [Random33b]
+GetItem &quot;Random34b&quot; [Random34b]
+GetItem &quot;Random35b&quot; [Random35b]
+GetItem &quot;Random36b&quot; [Random36b]
+GetItem &quot;Random37b&quot; [Random37b]
+GetItem &quot;Random38b&quot; [Random38b]
+GetItem &quot;Random39b&quot; [Random39b]
+GetItem &quot;Random40b&quot; [Random40b]
+GetItem &quot;Random41b&quot; [Random41b]
+GetItem &quot;Random42b&quot; [Random42b]
+
+
+
+
 GetItem &quot;entropy&quot; [entropy]
 GetItem &quot;tesla&quot; [tesla]
 GetItem &quot;brick&quot; [brick]
@@ -489,12 +536,12 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0&amp;range=A1&quot;</click>
 						</PushButton>
 						<Headline id="Headline57">
-							<left>94px</left>
-							<top>378px</top>
-							<width>78px</width>
+							<left>64px</left>
+							<top>379px</top>
+							<width>133px</width>
 							<height>20px</height>
 							<style>color:red;font-size:14pt;text-align:center</style>
-							<text>Tv1.08</text>
+							<text>Tv1.09 &lt;em&gt;&lt;sup&gt;21 April 25&lt;/sup&gt;&lt;/em&gt;</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -544,50 +591,52 @@ SetVar [r10t] 15
 SetVar [r11t] 15
 SetVar [r12t] 15
 
-GetItem &quot;Random01b&quot; [Random01b]
-GetItem &quot;Random02b&quot; [Random02b]
-GetItem &quot;Random03b&quot; [Random03b]
-GetItem &quot;Random04b&quot; [Random04b]
-GetItem &quot;Random05b&quot; [Random05b]
-GetItem &quot;Random06b&quot; [Random06b]
-GetItem &quot;Random07b&quot; [Random07b]
-GetItem &quot;Random08b&quot; [Random08b]
-GetItem &quot;Random09b&quot; [Random09b]
-GetItem &quot;Random10b&quot; [Random10b]
-GetItem &quot;Random11b&quot; [Random11b]
-GetItem &quot;Random12b&quot; [Random12b]
 
 
-
-
-
-
-
-
-
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02] &quot;a&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03] &quot;a&quot; 3 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04] &quot;a&quot; 4 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05] &quot;a&quot; 5 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;&quot;
-
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06] &quot;a&quot; 6 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;&quot;
-
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07] &quot;a&quot; 7 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07b] &quot;b&quot; 7 &quot;&quot;
-
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08] &quot;a&quot; 8 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08b] &quot;b&quot; 8 &quot;&quot;
-
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09] &quot;a&quot; 9 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09b] &quot;b&quot; 9 &quot;&quot;
-
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10] &quot;a&quot; 10 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10b] &quot;b&quot; 10 &quot;&quot;
-
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11] &quot;a&quot; 11 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11b] &quot;b&quot; 11 &quot;&quot;
-
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12] &quot;a&quot; 12 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random13] &quot;a&quot; 13 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random14] &quot;a&quot; 14 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random15] &quot;a&quot; 15 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random16] &quot;a&quot; 16 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random17] &quot;a&quot; 17 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random18] &quot;a&quot; 18 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random19] &quot;a&quot; 19 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random20] &quot;a&quot; 20 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random21] &quot;a&quot; 21 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random20] &quot;a&quot; 20 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random21] &quot;a&quot; 21 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random22] &quot;a&quot; 22 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random23] &quot;a&quot; 23 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random24] &quot;a&quot; 24 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random25] &quot;a&quot; 25 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random26] &quot;a&quot; 26 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random27] &quot;a&quot; 27 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random28] &quot;a&quot; 28 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random29] &quot;a&quot; 29 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random30] &quot;a&quot; 30 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random31] &quot;a&quot; 31 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random32] &quot;a&quot; 32 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random33] &quot;a&quot; 33 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random34] &quot;a&quot; 34 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random35] &quot;a&quot; 35 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random36] &quot;a&quot; 36 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random37] &quot;a&quot; 37 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random38] &quot;a&quot; 38 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random39] &quot;a&quot; 39 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random40] &quot;a&quot; 40 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random41] &quot;a&quot; 41 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random41] &quot;a&quot; 42 &quot;&quot;
 
 
 
@@ -597,7 +646,8 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot
 
 
 
-GotoPage &quot;Random01&quot;</click>
+
+GotoPage &quot;Random&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton464">
 							<left>294px</left>
@@ -4695,9 +4745,105 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 						</Image>
 					</Components>
 				</Page>
+				<Page id="Random">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Image id="Image92">
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
+							<source>TitBlue.jpg</source>
+						</Image>
+						<PushButton id="PushButton539">
+							<left>306px</left>
+							<top>13px</top>
+							<width>100px</width>
+							<height>41px</height>
+							<style>opacity:0.42</style>
+							<caption>Main Board</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton540">
+							<left>10px</left>
+							<top>697px</top>
+							<width>71px</width>
+							<height>33px</height>
+							<caption>Pause</caption>
+							<click>neoTalkPause
+
+ObjectToBack &quot;PushButton208&quot;</click>
+						</PushButton>
+						<TextArea id="TextArea131">
+							<left>9px</left>
+							<top>534px</top>
+							<width>385px</width>
+							<height>157px</height>
+							<style>color:#383838;font-size:10pt;font-weight:600;opacity:1</style>
+							<prop_name>rannotes01</prop_name>
+							<variable>rannotes01</variable>
+							<change>SetItem &quot;Rannotes01&quot; [Rannotes01]</change>
+						</TextArea>
+						<PushButton id="PushButton541">
+							<left>252px</left>
+							<top>698px</top>
+							<width>138px</width>
+							<height>33px</height>
+							<style>color:green;font-weight:800</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[rannotes01]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<PushButton id="PushButton542">
+							<left>91px</left>
+							<top>698px</top>
+							<width>39px</width>
+							<height>33px</height>
+							<style>color:red;font-size:12pt;font-weight:800</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<Pager id="Pager20">
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
+						<Headline id="Headline403">
+							<left>8px</left>
+							<top>60px</top>
+							<width>183px</width>
+							<height>477px</height>
+							<style>color:red;font-size:15pt;font-weight:600</style>
+							<text>1- [Random01]&lt;br&gt;2- [Random02] &lt;br&gt;3- [Random03] &lt;br&gt;4- [Random04] &lt;br&gt;5- [Random05] &lt;br&gt;6- [Random06] &lt;br&gt;7- [Random07] &lt;br&gt;8- [Random08] &lt;br&gt;9- [Random09] &lt;br&gt;10- [Random10] &lt;br&gt;11- [Random11] &lt;br&gt;12- [Random12] &lt;br&gt;13- [Random13] &lt;br&gt;14- [Random14] &lt;br&gt;15- [Random15] &lt;br&gt;16- [Random16] &lt;br&gt;17- [Random17] &lt;br&gt;18- [Random18] &lt;br&gt;19- [Random19] &lt;br&gt;20- [Random20] &lt;br&gt;21- [Random21]</text>
+						</Headline>
+						<PushButton id="PushButton546">
+							<left>-133px</left>
+							<top>9px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;</click>
+						</PushButton>
+						<Headline id="Headline404">
+							<left>209px</left>
+							<top>62px</top>
+							<width>183px</width>
+							<height>477px</height>
+							<style>color:red;font-size:15pt;font-weight:600</style>
+							<text>22- [Random22]&lt;br&gt;23- [Random23] &lt;br&gt;24- [Random24] &lt;br&gt;25- [Random25] &lt;br&gt;26- [Random26] &lt;br&gt;27- [Random27] &lt;br&gt;28- [Random28] &lt;br&gt;29- [Random29] &lt;br&gt;30- [Random30] &lt;br&gt;31- [Random31] &lt;br&gt;32- [Random32] &lt;br&gt;33- [Random33] &lt;br&gt;34- [Random34] &lt;br&gt;35- [Random35] &lt;br&gt;36- [Random36] &lt;br&gt;37- [Random37] &lt;br&gt;38- [Random38] &lt;br&gt;39- [Random39] &lt;br&gt;40- [Random40] &lt;br&gt;41- [Random41] &lt;br&gt;42- [Random42]</text>
+						</Headline>
+					</Components>
+				</Page>
 				<Page id="Random01">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random01b&quot; [Random01b]</pageexit>
 					<Components>
 						<Image id="Image81">
 							<left>130px</left>
@@ -4874,6 +5020,7 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;
 				<Page id="Random02">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random02b&quot; [Random02b]</pageexit>
 					<Components>
 						<Image id="Image80">
 							<left>130px</left>
@@ -5050,6 +5197,7 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02b] &quot;b&quot; 2 &quot;
 				<Page id="Random03">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random03b&quot; [Random03b]</pageexit>
 					<Components>
 						<Image id="Image82">
 							<left>130px</left>
@@ -5226,6 +5374,7 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03b] &quot;b&quot; 3 &quot;
 				<Page id="Random04">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random04b&quot; [Random04b]</pageexit>
 					<Components>
 						<Image id="Image83">
 							<left>130px</left>
@@ -5297,7 +5446,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<width>274px</width>
 							<height>31px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
-							<text>4- [Random03]</text>
+							<text>4- [Random04]</text>
 						</Headline>
 						<PushButton id="PushButton519">
 							<left>375px</left>
@@ -5402,17 +5551,18 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;
 				<Page id="Random05">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random05b&quot; [Random05b]</pageexit>
 					<Components>
 						<Image id="Image84">
-							<left>16px</left>
-							<top>17px</top>
-							<width>228px</width>
-							<height>51px</height>
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
 							<source>TitBlue.jpg</source>
 						</Image>
 						<PushButton id="PushButton483">
-							<left>293px</left>
-							<top>19px</top>
+							<left>306px</left>
+							<top>13px</top>
 							<width>100px</width>
 							<height>41px</height>
 							<style>opacity:0.42</style>
@@ -5420,8 +5570,8 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;
 							<click>GotoPage &quot;Home&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton484">
-							<left>10px</left>
-							<top>696px</top>
+							<left>8px</left>
+							<top>655px</top>
 							<width>71px</width>
 							<height>33px</height>
 							<caption>Pause</caption>
@@ -5429,26 +5579,28 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;
 
 ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
-						<TextArea id="TextArea188">
-							<left>9px</left>
-							<top>77px</top>
+						<TextArea id="ranbox05">
+							<left>10px</left>
+							<top>90px</top>
 							<width>385px</width>
-							<height>610px</height>
-							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
+							<height>555px</height>
+							<style>color:#383838;opacity:1</style>
+							<prop_name>ranbox05</prop_name>
 							<variable>Random05b</variable>
+							<change>SetItem &quot;Random05b&quot; [Random05b]</change>
 						</TextArea>
 						<PushButton id="PushButton485">
-							<left>256px</left>
-							<top>696px</top>
+							<left>254px</left>
+							<top>655px</top>
 							<width>138px</width>
 							<height>33px</height>
 							<style>color:green;font-weight:800</style>
 							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
+							<click>neoTalkSpeak &quot;[Random05b]&quot; &quot;uk&quot; 1 .9</click>
 						</PushButton>
 						<PushButton id="PushButton486">
-							<left>213px</left>
-							<top>696px</top>
+							<left>211px</left>
+							<top>655px</top>
 							<width>39px</width>
 							<height>33px</height>
 							<style>color:red;font-size:12pt;font-weight:800</style>
@@ -5456,9 +5608,9 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<click>neoTalkCancel</click>
 						</PushButton>
 						<Pager id="Pager12">
-							<left>87px</left>
-							<top>697px</top>
-							<width>124px</width>
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
 							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
@@ -5466,16 +5618,16 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
 						<Headline id="Headline392">
-							<left>14px</left>
-							<top>23px</top>
+							<left>8px</left>
+							<top>60px</top>
 							<width>274px</width>
-							<height>42px</height>
+							<height>31px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
-							<text>[Random05]</text>
+							<text>5- [Random05]</text>
 						</Headline>
-						<PushButton id="PushButton520">
-							<left>263px</left>
-							<top>52px</top>
+						<PushButton id="PushButton487">
+							<left>375px</left>
+							<top>80px</top>
 							<width>23px</width>
 							<height>22px</height>
 							<style>opacity:0.25</style>
@@ -5529,156 +5681,65 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot
 
 
 GotoPage &quot;Random01&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton488">
+							<left>83px</left>
+							<top>655px</top>
+							<width>57px</width>
+							<height>33px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r5t]-1&quot; -1 [r5t]
+
+
+SetObjectStyle &quot;ranbox05&quot; &quot;font-size&quot; &quot;[r5t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton489">
+							<left>143px</left>
+							<top>655px</top>
+							<width>65px</width>
+							<height>33px</height>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[r5t]+1&quot; -1 [r5t]
+
+
+SetObjectStyle &quot;ranbox05&quot; &quot;font-size&quot; &quot;[r5t]pt&quot;</click>
+						</PushButton>
+						<Headline id="Headline393">
+							<left>282px</left>
+							<top>66px</top>
+							<width>108px</width>
+							<height>19px</height>
+							<style>color:red;font-size:11pt;font-weight:600;text-align:right</style>
+							<text>Text-[r5t]-pt</text>
+						</Headline>
+						<PushButton id="PushButton490">
+							<left>10px</left>
+							<top>14px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05] &quot;a&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;&quot;</click>
 						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random06">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random06b&quot; [Random06b]</pageexit>
 					<Components>
 						<Image id="Image85">
-							<left>16px</left>
-							<top>17px</top>
-							<width>228px</width>
-							<height>51px</height>
-							<source>TitBlue.jpg</source>
-						</Image>
-						<PushButton id="PushButton487">
-							<left>293px</left>
-							<top>19px</top>
-							<width>100px</width>
-							<height>41px</height>
-							<style>opacity:0.42</style>
-							<caption>Main Board</caption>
-							<click>GotoPage &quot;Home&quot;</click>
-						</PushButton>
-						<PushButton id="PushButton488">
-							<left>10px</left>
-							<top>696px</top>
-							<width>71px</width>
-							<height>33px</height>
-							<caption>Pause</caption>
-							<click>neoTalkPause
-
-ObjectToBack &quot;PushButton208&quot;</click>
-						</PushButton>
-						<TextArea id="TextArea189">
-							<left>9px</left>
-							<top>77px</top>
-							<width>385px</width>
-							<height>610px</height>
-							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
-							<variable>Random06b</variable>
-						</TextArea>
-						<PushButton id="PushButton489">
-							<left>256px</left>
-							<top>696px</top>
-							<width>138px</width>
-							<height>33px</height>
-							<style>color:green;font-weight:800</style>
-							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
-						</PushButton>
-						<PushButton id="PushButton490">
-							<left>213px</left>
-							<top>696px</top>
-							<width>39px</width>
-							<height>33px</height>
-							<style>color:red;font-size:12pt;font-weight:800</style>
-							<caption>X</caption>
-							<click>neoTalkCancel</click>
-						</PushButton>
-						<Pager id="Pager13">
-							<left>87px</left>
-							<top>697px</top>
-							<width>124px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
-						<Headline id="Headline393">
-							<left>14px</left>
-							<top>23px</top>
-							<width>274px</width>
-							<height>42px</height>
-							<style>color:red;font-size:15pt;font-weight:600</style>
-							<text>[Random06]</text>
-						</Headline>
-						<PushButton id="PushButton521">
-							<left>263px</left>
-							<top>52px</top>
-							<width>23px</width>
-							<height>22px</height>
-							<style>opacity:0.25</style>
-							<click>SetVar [googleSheet4] &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X&quot;
-
-
-
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02] &quot;a&quot; 2 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02b] &quot;b&quot; 2 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03] &quot;a&quot; 3 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03b] &quot;b&quot; 3 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04] &quot;a&quot; 4 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05] &quot;a&quot; 5 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06] &quot;a&quot; 6 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07] &quot;a&quot; 7 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07b] &quot;b&quot; 7 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08] &quot;a&quot; 8 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08b] &quot;b&quot; 8 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09] &quot;a&quot; 9 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09b] &quot;b&quot; 9 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10] &quot;a&quot; 10 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10b] &quot;b&quot; 10 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Randomm11] &quot;a&quot; 11 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11b] &quot;b&quot; 11 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random012] &quot;a&quot; 12 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot;&quot;
-
-
-
-
-
-
-
-
-
-GotoPage &quot;Random01&quot;</click>
-						</PushButton>
-					</Components>
-				</Page>
-				<Page id="Random07">
-					<style>background-color:#002F3E</style>
-					<enter_effect>fadeIn</enter_effect>
-					<Components>
-						<Image id="Image86">
-							<left>16px</left>
-							<top>17px</top>
-							<width>228px</width>
-							<height>51px</height>
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
 							<source>TitBlue.jpg</source>
 						</Image>
 						<PushButton id="PushButton491">
-							<left>293px</left>
-							<top>19px</top>
+							<left>306px</left>
+							<top>13px</top>
 							<width>100px</width>
 							<height>41px</height>
 							<style>opacity:0.42</style>
@@ -5686,8 +5747,8 @@ GotoPage &quot;Random01&quot;</click>
 							<click>GotoPage &quot;Home&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton492">
-							<left>10px</left>
-							<top>696px</top>
+							<left>8px</left>
+							<top>655px</top>
 							<width>71px</width>
 							<height>33px</height>
 							<caption>Pause</caption>
@@ -5695,36 +5756,38 @@ GotoPage &quot;Random01&quot;</click>
 
 ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
-						<TextArea id="TextArea190">
-							<left>9px</left>
-							<top>77px</top>
+						<TextArea id="ranbox06">
+							<left>10px</left>
+							<top>90px</top>
 							<width>385px</width>
-							<height>610px</height>
-							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
-							<variable>Random07b</variable>
+							<height>555px</height>
+							<style>color:#383838;opacity:1</style>
+							<prop_name>ranbox06</prop_name>
+							<variable>Random06b</variable>
+							<change>SetItem &quot;Random06b&quot; [Random06b]</change>
 						</TextArea>
 						<PushButton id="PushButton493">
-							<left>256px</left>
-							<top>696px</top>
+							<left>254px</left>
+							<top>655px</top>
 							<width>138px</width>
 							<height>33px</height>
 							<style>color:green;font-weight:800</style>
 							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
+							<click>neoTalkSpeak &quot;[Random06b]&quot; &quot;uk&quot; 1 .9</click>
 						</PushButton>
 						<PushButton id="PushButton494">
-							<left>213px</left>
-							<top>696px</top>
+							<left>211px</left>
+							<top>655px</top>
 							<width>39px</width>
 							<height>33px</height>
 							<style>color:red;font-size:12pt;font-weight:800</style>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager14">
-							<left>87px</left>
-							<top>697px</top>
-							<width>124px</width>
+						<Pager id="Pager13">
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
 							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
@@ -5732,16 +5795,16 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
 						<Headline id="Headline394">
-							<left>14px</left>
-							<top>23px</top>
+							<left>8px</left>
+							<top>60px</top>
 							<width>274px</width>
-							<height>42px</height>
+							<height>31px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
-							<text>[Random07]</text>
+							<text>6- [Random06]</text>
 						</Headline>
-						<PushButton id="PushButton515">
-							<left>263px</left>
-							<top>52px</top>
+						<PushButton id="PushButton495">
+							<left>375px</left>
+							<top>80px</top>
 							<width>23px</width>
 							<height>22px</height>
 							<style>opacity:0.25</style>
@@ -5795,156 +5858,65 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot
 
 
 GotoPage &quot;Random01&quot;</click>
-						</PushButton>
-					</Components>
-				</Page>
-				<Page id="Random08">
-					<style>background-color:#002F3E</style>
-					<enter_effect>fadeIn</enter_effect>
-					<Components>
-						<Image id="Image87">
-							<left>16px</left>
-							<top>17px</top>
-							<width>228px</width>
-							<height>51px</height>
-							<source>TitBlue.jpg</source>
-						</Image>
-						<PushButton id="PushButton495">
-							<left>293px</left>
-							<top>19px</top>
-							<width>100px</width>
-							<height>41px</height>
-							<style>opacity:0.42</style>
-							<caption>Main Board</caption>
-							<click>GotoPage &quot;Home&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton496">
-							<left>10px</left>
-							<top>696px</top>
-							<width>71px</width>
+							<left>83px</left>
+							<top>655px</top>
+							<width>57px</width>
 							<height>33px</height>
-							<caption>Pause</caption>
-							<click>neoTalkPause
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r6t]-1&quot; -1 [r6t]
 
-ObjectToBack &quot;PushButton208&quot;</click>
+
+SetObjectStyle &quot;ranbox05&quot; &quot;font-size&quot; &quot;[r6t]pt&quot;</click>
 						</PushButton>
-						<TextArea id="TextArea191">
-							<left>9px</left>
-							<top>77px</top>
-							<width>385px</width>
-							<height>610px</height>
-							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
-							<variable>Random08b</variable>
-						</TextArea>
 						<PushButton id="PushButton497">
-							<left>256px</left>
-							<top>696px</top>
-							<width>138px</width>
+							<left>143px</left>
+							<top>655px</top>
+							<width>65px</width>
 							<height>33px</height>
-							<style>color:green;font-weight:800</style>
-							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[r6t]+1&quot; -1 [r6t]
+
+
+SetObjectStyle &quot;ranbox06&quot; &quot;font-size&quot; &quot;[r6t]pt&quot;</click>
 						</PushButton>
-						<PushButton id="PushButton498">
-							<left>213px</left>
-							<top>696px</top>
-							<width>39px</width>
-							<height>33px</height>
-							<style>color:red;font-size:12pt;font-weight:800</style>
-							<caption>X</caption>
-							<click>neoTalkCancel</click>
-						</PushButton>
-						<Pager id="Pager15">
-							<left>87px</left>
-							<top>697px</top>
-							<width>124px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
 						<Headline id="Headline395">
-							<left>14px</left>
-							<top>23px</top>
-							<width>274px</width>
-							<height>42px</height>
-							<style>color:red;font-size:15pt;font-weight:600</style>
-							<text>[Random08]</text>
+							<left>282px</left>
+							<top>66px</top>
+							<width>108px</width>
+							<height>19px</height>
+							<style>color:red;font-size:11pt;font-weight:600;text-align:right</style>
+							<text>Text-[r6t]-pt</text>
 						</Headline>
-						<PushButton id="PushButton522">
-							<left>263px</left>
-							<top>52px</top>
-							<width>23px</width>
-							<height>22px</height>
-							<style>opacity:0.25</style>
-							<click>SetVar [googleSheet4] &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X&quot;
-
-
-
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02] &quot;a&quot; 2 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02b] &quot;b&quot; 2 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03] &quot;a&quot; 3 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03b] &quot;b&quot; 3 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04] &quot;a&quot; 4 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05] &quot;a&quot; 5 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06] &quot;a&quot; 6 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07] &quot;a&quot; 7 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07b] &quot;b&quot; 7 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08] &quot;a&quot; 8 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08b] &quot;b&quot; 8 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09] &quot;a&quot; 9 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09b] &quot;b&quot; 9 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10] &quot;a&quot; 10 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10b] &quot;b&quot; 10 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Randomm11] &quot;a&quot; 11 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11b] &quot;b&quot; 11 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random012] &quot;a&quot; 12 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot;&quot;
-
-
-
-
-
-
-
-
-
-GotoPage &quot;Random01&quot;</click>
+						<PushButton id="PushButton498">
+							<left>10px</left>
+							<top>14px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06] &quot;a&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;&quot;</click>
 						</PushButton>
 					</Components>
 				</Page>
-				<Page id="Random09">
+				<Page id="Random07">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random07b&quot; [Random07b]</pageexit>
 					<Components>
-						<Image id="Image88">
-							<left>16px</left>
-							<top>17px</top>
-							<width>228px</width>
-							<height>51px</height>
+						<Image id="Image86">
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
 							<source>TitBlue.jpg</source>
 						</Image>
 						<PushButton id="PushButton499">
-							<left>293px</left>
-							<top>19px</top>
+							<left>306px</left>
+							<top>13px</top>
 							<width>100px</width>
 							<height>41px</height>
 							<style>opacity:0.42</style>
@@ -5952,8 +5924,8 @@ GotoPage &quot;Random01&quot;</click>
 							<click>GotoPage &quot;Home&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton500">
-							<left>10px</left>
-							<top>696px</top>
+							<left>8px</left>
+							<top>655px</top>
 							<width>71px</width>
 							<height>33px</height>
 							<caption>Pause</caption>
@@ -5961,36 +5933,38 @@ GotoPage &quot;Random01&quot;</click>
 
 ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
-						<TextArea id="TextArea192">
-							<left>9px</left>
-							<top>77px</top>
+						<TextArea id="ranbox07">
+							<left>10px</left>
+							<top>90px</top>
 							<width>385px</width>
-							<height>610px</height>
-							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
-							<variable>Random09b</variable>
+							<height>555px</height>
+							<style>color:#383838;opacity:1</style>
+							<prop_name>ranbox07</prop_name>
+							<variable>Random07b</variable>
+							<change>SetItem &quot;Random07b&quot; [Random07b]</change>
 						</TextArea>
 						<PushButton id="PushButton501">
-							<left>256px</left>
-							<top>696px</top>
+							<left>254px</left>
+							<top>655px</top>
 							<width>138px</width>
 							<height>33px</height>
 							<style>color:green;font-weight:800</style>
 							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
+							<click>neoTalkSpeak &quot;[Random07b]&quot; &quot;uk&quot; 1 .9</click>
 						</PushButton>
 						<PushButton id="PushButton502">
-							<left>213px</left>
-							<top>696px</top>
+							<left>211px</left>
+							<top>655px</top>
 							<width>39px</width>
 							<height>33px</height>
 							<style>color:red;font-size:12pt;font-weight:800</style>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager16">
-							<left>87px</left>
-							<top>697px</top>
-							<width>124px</width>
+						<Pager id="Pager14">
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
 							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
@@ -5998,16 +5972,16 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
 						<Headline id="Headline396">
-							<left>14px</left>
-							<top>23px</top>
+							<left>8px</left>
+							<top>60px</top>
 							<width>274px</width>
-							<height>42px</height>
+							<height>31px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
-							<text>[Random09]</text>
+							<text>7- [Random07]</text>
 						</Headline>
-						<PushButton id="PushButton523">
-							<left>263px</left>
-							<top>52px</top>
+						<PushButton id="PushButton503">
+							<left>375px</left>
+							<top>80px</top>
 							<width>23px</width>
 							<height>22px</height>
 							<style>opacity:0.25</style>
@@ -6061,156 +6035,65 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot
 
 
 GotoPage &quot;Random01&quot;</click>
-						</PushButton>
-					</Components>
-				</Page>
-				<Page id="Random10">
-					<style>background-color:#002F3E</style>
-					<enter_effect>fadeIn</enter_effect>
-					<Components>
-						<Image id="Image89">
-							<left>16px</left>
-							<top>17px</top>
-							<width>228px</width>
-							<height>51px</height>
-							<source>TitBlue.jpg</source>
-						</Image>
-						<PushButton id="PushButton503">
-							<left>293px</left>
-							<top>19px</top>
-							<width>100px</width>
-							<height>41px</height>
-							<style>opacity:0.42</style>
-							<caption>Main Board</caption>
-							<click>GotoPage &quot;Home&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton504">
-							<left>10px</left>
-							<top>696px</top>
-							<width>71px</width>
+							<left>83px</left>
+							<top>655px</top>
+							<width>57px</width>
 							<height>33px</height>
-							<caption>Pause</caption>
-							<click>neoTalkPause
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r7t]-1&quot; -1 [r7t]
 
-ObjectToBack &quot;PushButton208&quot;</click>
+
+SetObjectStyle &quot;ranbox07&quot; &quot;font-size&quot; &quot;[r7t]pt&quot;</click>
 						</PushButton>
-						<TextArea id="TextArea193">
-							<left>9px</left>
-							<top>77px</top>
-							<width>385px</width>
-							<height>610px</height>
-							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
-							<variable>Random10b</variable>
-						</TextArea>
 						<PushButton id="PushButton505">
-							<left>256px</left>
-							<top>696px</top>
-							<width>138px</width>
+							<left>143px</left>
+							<top>655px</top>
+							<width>65px</width>
 							<height>33px</height>
-							<style>color:green;font-weight:800</style>
-							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[r4t]+1&quot; -1 [r4t]
+
+
+SetObjectStyle &quot;ranbox04&quot; &quot;font-size&quot; &quot;[r4t]pt&quot;</click>
 						</PushButton>
-						<PushButton id="PushButton506">
-							<left>213px</left>
-							<top>696px</top>
-							<width>39px</width>
-							<height>33px</height>
-							<style>color:red;font-size:12pt;font-weight:800</style>
-							<caption>X</caption>
-							<click>neoTalkCancel</click>
-						</PushButton>
-						<Pager id="Pager17">
-							<left>87px</left>
-							<top>697px</top>
-							<width>124px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
 						<Headline id="Headline397">
-							<left>14px</left>
-							<top>23px</top>
-							<width>274px</width>
-							<height>42px</height>
-							<style>color:red;font-size:15pt;font-weight:600</style>
-							<text>[Random10]</text>
+							<left>282px</left>
+							<top>66px</top>
+							<width>108px</width>
+							<height>19px</height>
+							<style>color:red;font-size:11pt;font-weight:600;text-align:right</style>
+							<text>Text-[r7t]-pt</text>
 						</Headline>
-						<PushButton id="PushButton524">
-							<left>263px</left>
-							<top>52px</top>
-							<width>23px</width>
-							<height>22px</height>
-							<style>opacity:0.25</style>
-							<click>SetVar [googleSheet4] &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X&quot;
-
-
-
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02] &quot;a&quot; 2 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02b] &quot;b&quot; 2 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03] &quot;a&quot; 3 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03b] &quot;b&quot; 3 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04] &quot;a&quot; 4 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05] &quot;a&quot; 5 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06] &quot;a&quot; 6 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07] &quot;a&quot; 7 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07b] &quot;b&quot; 7 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08] &quot;a&quot; 8 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08b] &quot;b&quot; 8 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09] &quot;a&quot; 9 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09b] &quot;b&quot; 9 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10] &quot;a&quot; 10 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10b] &quot;b&quot; 10 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Randomm11] &quot;a&quot; 11 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11b] &quot;b&quot; 11 &quot;&quot;
-
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random012] &quot;a&quot; 12 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot;&quot;
-
-
-
-
-
-
-
-
-
-GotoPage &quot;Random01&quot;</click>
+						<PushButton id="PushButton506">
+							<left>10px</left>
+							<top>14px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07] &quot;a&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07b] &quot;b&quot; 7 &quot;&quot;</click>
 						</PushButton>
 					</Components>
 				</Page>
-				<Page id="Random11">
+				<Page id="Random08">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random08b&quot; [Random08b]</pageexit>
 					<Components>
-						<Image id="Image90">
-							<left>16px</left>
-							<top>17px</top>
-							<width>228px</width>
-							<height>51px</height>
+						<Image id="Image87">
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
 							<source>TitBlue.jpg</source>
 						</Image>
 						<PushButton id="PushButton507">
-							<left>293px</left>
-							<top>19px</top>
+							<left>306px</left>
+							<top>13px</top>
 							<width>100px</width>
 							<height>41px</height>
 							<style>opacity:0.42</style>
@@ -6218,8 +6101,8 @@ GotoPage &quot;Random01&quot;</click>
 							<click>GotoPage &quot;Home&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton508">
-							<left>10px</left>
-							<top>696px</top>
+							<left>8px</left>
+							<top>655px</top>
 							<width>71px</width>
 							<height>33px</height>
 							<caption>Pause</caption>
@@ -6227,36 +6110,38 @@ GotoPage &quot;Random01&quot;</click>
 
 ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
-						<TextArea id="TextArea194">
-							<left>9px</left>
-							<top>77px</top>
+						<TextArea id="ranbox08">
+							<left>10px</left>
+							<top>90px</top>
 							<width>385px</width>
-							<height>610px</height>
-							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
-							<variable>Random11b</variable>
+							<height>555px</height>
+							<style>color:#383838;opacity:1</style>
+							<prop_name>ranbox08</prop_name>
+							<variable>Random08b</variable>
+							<change>SetItem &quot;Random08b&quot; [Random08b]</change>
 						</TextArea>
 						<PushButton id="PushButton509">
-							<left>256px</left>
-							<top>696px</top>
+							<left>254px</left>
+							<top>655px</top>
 							<width>138px</width>
 							<height>33px</height>
 							<style>color:green;font-weight:800</style>
 							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
+							<click>neoTalkSpeak &quot;[Random08b]&quot; &quot;uk&quot; 1 .9</click>
 						</PushButton>
 						<PushButton id="PushButton510">
-							<left>213px</left>
-							<top>696px</top>
+							<left>211px</left>
+							<top>655px</top>
 							<width>39px</width>
 							<height>33px</height>
 							<style>color:red;font-size:12pt;font-weight:800</style>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager18">
-							<left>87px</left>
-							<top>697px</top>
-							<width>124px</width>
+						<Pager id="Pager15">
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
 							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
@@ -6264,16 +6149,16 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
 						<Headline id="Headline398">
-							<left>14px</left>
-							<top>23px</top>
+							<left>8px</left>
+							<top>60px</top>
 							<width>274px</width>
-							<height>42px</height>
+							<height>31px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
-							<text>[Random11]</text>
+							<text>8- [Random08]</text>
 						</Headline>
-						<PushButton id="PushButton525">
-							<left>263px</left>
-							<top>52px</top>
+						<PushButton id="PushButton511">
+							<left>375px</left>
+							<top>80px</top>
 							<width>23px</width>
 							<height>22px</height>
 							<style>opacity:0.25</style>
@@ -6328,31 +6213,73 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot
 
 GotoPage &quot;Random01&quot;</click>
 						</PushButton>
+						<PushButton id="PushButton512">
+							<left>83px</left>
+							<top>655px</top>
+							<width>57px</width>
+							<height>33px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r8t]-1&quot; -1 [r8t]
+
+
+SetObjectStyle &quot;ranbox08&quot; &quot;font-size&quot; &quot;[r8t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton513">
+							<left>143px</left>
+							<top>655px</top>
+							<width>65px</width>
+							<height>33px</height>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[r8t]+1&quot; -1 [r8t]
+
+
+SetObjectStyle &quot;ranbox08&quot; &quot;font-size&quot; &quot;[r8t]pt&quot;</click>
+						</PushButton>
+						<Headline id="Headline399">
+							<left>282px</left>
+							<top>66px</top>
+							<width>108px</width>
+							<height>19px</height>
+							<style>color:red;font-size:11pt;font-weight:600;text-align:right</style>
+							<text>Text-[r4t]-pt</text>
+						</Headline>
+						<PushButton id="PushButton514">
+							<left>10px</left>
+							<top>14px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08] &quot;a&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08b] &quot;b&quot; 8 &quot;&quot;</click>
+						</PushButton>
 					</Components>
 				</Page>
-				<Page id="Random12">
+				<Page id="Random09">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random09b&quot; [Random09b]</pageexit>
 					<Components>
-						<Image id="Image91">
-							<left>16px</left>
-							<top>17px</top>
-							<width>228px</width>
-							<height>51px</height>
+						<Image id="Image88">
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
 							<source>TitBlue.jpg</source>
 						</Image>
-						<PushButton id="PushButton511">
-							<left>293px</left>
-							<top>19px</top>
+						<PushButton id="PushButton515">
+							<left>306px</left>
+							<top>13px</top>
 							<width>100px</width>
 							<height>41px</height>
 							<style>opacity:0.42</style>
 							<caption>Main Board</caption>
 							<click>GotoPage &quot;Home&quot;</click>
 						</PushButton>
-						<PushButton id="PushButton512">
-							<left>10px</left>
-							<top>696px</top>
+						<PushButton id="PushButton520">
+							<left>8px</left>
+							<top>655px</top>
 							<width>71px</width>
 							<height>33px</height>
 							<caption>Pause</caption>
@@ -6360,53 +6287,55 @@ GotoPage &quot;Random01&quot;</click>
 
 ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
-						<TextArea id="TextArea195">
-							<left>9px</left>
-							<top>77px</top>
+						<TextArea id="ranbox09">
+							<left>10px</left>
+							<top>90px</top>
 							<width>385px</width>
-							<height>610px</height>
-							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
-							<variable>Random12b</variable>
+							<height>555px</height>
+							<style>color:#383838;opacity:1</style>
+							<prop_name>ranbox09</prop_name>
+							<variable>Random09b</variable>
+							<change>SetItem &quot;Random09b&quot; [Random09b]</change>
 						</TextArea>
-						<PushButton id="PushButton513">
-							<left>256px</left>
-							<top>696px</top>
+						<PushButton id="PushButton521">
+							<left>254px</left>
+							<top>655px</top>
 							<width>138px</width>
 							<height>33px</height>
 							<style>color:green;font-weight:800</style>
 							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
+							<click>neoTalkSpeak &quot;[Random04b]&quot; &quot;uk&quot; 1 .9</click>
 						</PushButton>
-						<PushButton id="PushButton514">
-							<left>213px</left>
-							<top>696px</top>
+						<PushButton id="PushButton522">
+							<left>211px</left>
+							<top>655px</top>
 							<width>39px</width>
 							<height>33px</height>
 							<style>color:red;font-size:12pt;font-weight:800</style>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager19">
-							<left>87px</left>
-							<top>697px</top>
-							<width>124px</width>
+						<Pager id="Pager16">
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
 							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
 							<prevclick>GotoPrevPage</prevclick>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
-						<Headline id="Headline399">
-							<left>14px</left>
-							<top>23px</top>
+						<Headline id="Headline405">
+							<left>8px</left>
+							<top>60px</top>
 							<width>274px</width>
-							<height>42px</height>
+							<height>31px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
-							<text>[Random12]</text>
+							<text>9- [Random09]</text>
 						</Headline>
-						<PushButton id="PushButton526">
-							<left>263px</left>
-							<top>52px</top>
+						<PushButton id="PushButton523">
+							<left>375px</left>
+							<top>80px</top>
 							<width>23px</width>
 							<height>22px</height>
 							<style>opacity:0.25</style>
@@ -6461,6 +6390,586 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot
 
 GotoPage &quot;Random01&quot;</click>
 						</PushButton>
+						<PushButton id="PushButton524">
+							<left>83px</left>
+							<top>655px</top>
+							<width>57px</width>
+							<height>33px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r4t]-1&quot; -1 [r4t]
+
+
+SetObjectStyle &quot;ranbox04&quot; &quot;font-size&quot; &quot;[r4t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton525">
+							<left>143px</left>
+							<top>655px</top>
+							<width>65px</width>
+							<height>33px</height>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[r4t]+1&quot; -1 [r4t]
+
+
+SetObjectStyle &quot;ranbox04&quot; &quot;font-size&quot; &quot;[r4t]pt&quot;</click>
+						</PushButton>
+						<Headline id="Headline406">
+							<left>282px</left>
+							<top>66px</top>
+							<width>108px</width>
+							<height>19px</height>
+							<style>color:red;font-size:11pt;font-weight:600;text-align:right</style>
+							<text>Text-[r9t]-pt</text>
+						</Headline>
+						<PushButton id="PushButton526">
+							<left>10px</left>
+							<top>14px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09] &quot;a&quot; 9 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09b] &quot;b&quot; 9 &quot;&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Random10">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random10b&quot; [Random10b]</pageexit>
+					<Components>
+						<Image id="Image89">
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
+							<source>TitBlue.jpg</source>
+						</Image>
+						<PushButton id="PushButton543">
+							<left>306px</left>
+							<top>13px</top>
+							<width>100px</width>
+							<height>41px</height>
+							<style>opacity:0.42</style>
+							<caption>Main Board</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton547">
+							<left>8px</left>
+							<top>655px</top>
+							<width>71px</width>
+							<height>33px</height>
+							<caption>Pause</caption>
+							<click>neoTalkPause
+
+ObjectToBack &quot;PushButton208&quot;</click>
+						</PushButton>
+						<TextArea id="ranbox10">
+							<left>10px</left>
+							<top>90px</top>
+							<width>385px</width>
+							<height>555px</height>
+							<style>color:#383838;opacity:1</style>
+							<prop_name>ranbox10</prop_name>
+							<variable>Random10b</variable>
+							<change>SetItem &quot;Random10b&quot; [Random10b]</change>
+						</TextArea>
+						<PushButton id="PushButton548">
+							<left>254px</left>
+							<top>655px</top>
+							<width>138px</width>
+							<height>33px</height>
+							<style>color:green;font-weight:800</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[Random10b]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<PushButton id="PushButton549">
+							<left>211px</left>
+							<top>655px</top>
+							<width>39px</width>
+							<height>33px</height>
+							<style>color:red;font-size:12pt;font-weight:800</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<Pager id="Pager17">
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
+						<Headline id="Headline407">
+							<left>8px</left>
+							<top>60px</top>
+							<width>274px</width>
+							<height>31px</height>
+							<style>color:red;font-size:15pt;font-weight:600</style>
+							<text>10- [Random10]</text>
+						</Headline>
+						<PushButton id="PushButton550">
+							<left>375px</left>
+							<top>80px</top>
+							<width>23px</width>
+							<height>22px</height>
+							<style>opacity:0.25</style>
+							<click>SetVar [googleSheet4] &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X&quot;
+
+
+
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02] &quot;a&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02b] &quot;b&quot; 2 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03] &quot;a&quot; 3 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03b] &quot;b&quot; 3 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04] &quot;a&quot; 4 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05] &quot;a&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06] &quot;a&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07] &quot;a&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07b] &quot;b&quot; 7 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08] &quot;a&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08b] &quot;b&quot; 8 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09] &quot;a&quot; 9 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09b] &quot;b&quot; 9 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10] &quot;a&quot; 10 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10b] &quot;b&quot; 10 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Randomm11] &quot;a&quot; 11 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11b] &quot;b&quot; 11 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random012] &quot;a&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot;&quot;
+
+
+
+
+
+
+
+
+
+GotoPage &quot;Random01&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton551">
+							<left>83px</left>
+							<top>655px</top>
+							<width>57px</width>
+							<height>33px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r10t]-1&quot; -1 [r10t]
+
+
+SetObjectStyle &quot;ranbox10&quot; &quot;font-size&quot; &quot;[r10t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton552">
+							<left>143px</left>
+							<top>655px</top>
+							<width>65px</width>
+							<height>33px</height>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[r10t]+1&quot; -1 [r10t]
+
+
+SetObjectStyle &quot;ranbox10&quot; &quot;font-size&quot; &quot;[r10t]pt&quot;</click>
+						</PushButton>
+						<Headline id="Headline408">
+							<left>282px</left>
+							<top>66px</top>
+							<width>108px</width>
+							<height>19px</height>
+							<style>color:red;font-size:11pt;font-weight:600;text-align:right</style>
+							<text>Text-[r10t]-pt</text>
+						</Headline>
+						<PushButton id="PushButton553">
+							<left>10px</left>
+							<top>14px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10] &quot;a&quot; 10 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10b] &quot;b&quot; 10 &quot;&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Random11">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random11b&quot; [Random11b]</pageexit>
+					<Components>
+						<Image id="Image90">
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
+							<source>TitBlue.jpg</source>
+						</Image>
+						<PushButton id="PushButton554">
+							<left>306px</left>
+							<top>13px</top>
+							<width>100px</width>
+							<height>41px</height>
+							<style>opacity:0.42</style>
+							<caption>Main Board</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton555">
+							<left>8px</left>
+							<top>655px</top>
+							<width>71px</width>
+							<height>33px</height>
+							<caption>Pause</caption>
+							<click>neoTalkPause
+
+ObjectToBack &quot;PushButton208&quot;</click>
+						</PushButton>
+						<TextArea id="ranbox11">
+							<left>10px</left>
+							<top>90px</top>
+							<width>385px</width>
+							<height>555px</height>
+							<style>color:#383838;opacity:1</style>
+							<prop_name>ranbox11</prop_name>
+							<variable>Random11b</variable>
+							<change>SetItem &quot;Random11b&quot; [Random11b]</change>
+						</TextArea>
+						<PushButton id="PushButton556">
+							<left>254px</left>
+							<top>655px</top>
+							<width>138px</width>
+							<height>33px</height>
+							<style>color:green;font-weight:800</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[Random11b]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<PushButton id="PushButton557">
+							<left>211px</left>
+							<top>655px</top>
+							<width>39px</width>
+							<height>33px</height>
+							<style>color:red;font-size:12pt;font-weight:800</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<Pager id="Pager18">
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
+						<Headline id="Headline409">
+							<left>8px</left>
+							<top>60px</top>
+							<width>274px</width>
+							<height>31px</height>
+							<style>color:red;font-size:15pt;font-weight:600</style>
+							<text>11- [Random11]</text>
+						</Headline>
+						<PushButton id="PushButton558">
+							<left>375px</left>
+							<top>80px</top>
+							<width>23px</width>
+							<height>22px</height>
+							<style>opacity:0.25</style>
+							<click>SetVar [googleSheet4] &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X&quot;
+
+
+
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02] &quot;a&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02b] &quot;b&quot; 2 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03] &quot;a&quot; 3 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03b] &quot;b&quot; 3 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04] &quot;a&quot; 4 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05] &quot;a&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06] &quot;a&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07] &quot;a&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07b] &quot;b&quot; 7 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08] &quot;a&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08b] &quot;b&quot; 8 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09] &quot;a&quot; 9 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09b] &quot;b&quot; 9 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10] &quot;a&quot; 10 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10b] &quot;b&quot; 10 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Randomm11] &quot;a&quot; 11 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11b] &quot;b&quot; 11 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random012] &quot;a&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot;&quot;
+
+
+
+
+
+
+
+
+
+GotoPage &quot;Random01&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton559">
+							<left>83px</left>
+							<top>655px</top>
+							<width>57px</width>
+							<height>33px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r11t]-1&quot; -1 [r11t]
+
+
+SetObjectStyle &quot;ranbox11&quot; &quot;font-size&quot; &quot;[r11t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton560">
+							<left>143px</left>
+							<top>655px</top>
+							<width>65px</width>
+							<height>33px</height>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[r11t]+1&quot; -1 [r11t]
+
+
+SetObjectStyle &quot;ranbox11&quot; &quot;font-size&quot; &quot;[r11t]pt&quot;</click>
+						</PushButton>
+						<Headline id="Headline410">
+							<left>282px</left>
+							<top>66px</top>
+							<width>108px</width>
+							<height>19px</height>
+							<style>color:red;font-size:11pt;font-weight:600;text-align:right</style>
+							<text>Text-[r11t]-pt</text>
+						</Headline>
+						<PushButton id="PushButton561">
+							<left>10px</left>
+							<top>14px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11] &quot;a&quot; 11 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11b] &quot;b&quot; 11 &quot;&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Random12">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random12b&quot; [Random12b]</pageexit>
+					<Components>
+						<Image id="Image91">
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
+							<source>TitBlue.jpg</source>
+						</Image>
+						<PushButton id="PushButton562">
+							<left>306px</left>
+							<top>13px</top>
+							<width>100px</width>
+							<height>41px</height>
+							<style>opacity:0.42</style>
+							<caption>Main Board</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton563">
+							<left>8px</left>
+							<top>655px</top>
+							<width>71px</width>
+							<height>33px</height>
+							<caption>Pause</caption>
+							<click>neoTalkPause
+
+ObjectToBack &quot;PushButton208&quot;</click>
+						</PushButton>
+						<TextArea id="ranbox12">
+							<left>10px</left>
+							<top>90px</top>
+							<width>385px</width>
+							<height>555px</height>
+							<style>color:#383838;opacity:1</style>
+							<prop_name>ranbox12</prop_name>
+							<variable>Random12b</variable>
+							<change>SetItem &quot;Random12b&quot; [Random12b]</change>
+						</TextArea>
+						<PushButton id="PushButton564">
+							<left>254px</left>
+							<top>655px</top>
+							<width>138px</width>
+							<height>33px</height>
+							<style>color:green;font-weight:800</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[Random12b]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<PushButton id="PushButton565">
+							<left>211px</left>
+							<top>655px</top>
+							<width>39px</width>
+							<height>33px</height>
+							<style>color:red;font-size:12pt;font-weight:800</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<Pager id="Pager19">
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoPrevPage</nextclick>
+						</Pager>
+						<Headline id="Headline411">
+							<left>8px</left>
+							<top>60px</top>
+							<width>274px</width>
+							<height>31px</height>
+							<style>color:red;font-size:15pt;font-weight:600</style>
+							<text>12- [Random12]</text>
+						</Headline>
+						<PushButton id="PushButton566">
+							<left>375px</left>
+							<top>80px</top>
+							<width>23px</width>
+							<height>22px</height>
+							<style>opacity:0.25</style>
+							<click>SetVar [googleSheet4] &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X&quot;
+
+
+
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02] &quot;a&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02b] &quot;b&quot; 2 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03] &quot;a&quot; 3 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03b] &quot;b&quot; 3 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04] &quot;a&quot; 4 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05] &quot;a&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06] &quot;a&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07] &quot;a&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07b] &quot;b&quot; 7 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08] &quot;a&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08b] &quot;b&quot; 8 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09] &quot;a&quot; 9 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09b] &quot;b&quot; 9 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10] &quot;a&quot; 10 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10b] &quot;b&quot; 10 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Randomm11] &quot;a&quot; 11 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11b] &quot;b&quot; 11 &quot;&quot;
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random012] &quot;a&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot;&quot;
+
+
+
+
+
+
+
+
+
+GotoPage &quot;Random01&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton567">
+							<left>83px</left>
+							<top>655px</top>
+							<width>57px</width>
+							<height>33px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r12t]-1&quot; -1 [r12t]
+
+
+SetObjectStyle &quot;ranbox12&quot; &quot;font-size&quot; &quot;[r12t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton568">
+							<left>143px</left>
+							<top>655px</top>
+							<width>65px</width>
+							<height>33px</height>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[r12t]+1&quot; -1 [r12t]
+
+
+SetObjectStyle &quot;ranbox12&quot; &quot;font-size&quot; &quot;[r12t]pt&quot;</click>
+						</PushButton>
+						<Headline id="Headline412">
+							<left>282px</left>
+							<top>66px</top>
+							<width>108px</width>
+							<height>19px</height>
+							<style>color:red;font-size:11pt;font-weight:600;text-align:right</style>
+							<text>Text-[r12t]-pt</text>
+						</Headline>
+						<PushButton id="PushButton569">
+							<left>10px</left>
+							<top>14px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12] &quot;a&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot;&quot;</click>
+						</PushButton>
+						<Headline id="Headline413">
+							<left>265px</left>
+							<top>700px</top>
+							<width>113px</width>
+							<height>31px</height>
+							<style>color:red;font-size:15pt;font-weight:600</style>
+							<text>End for now</text>
+						</Headline>
 					</Components>
 				</Page>
 				<Page id="BookMain">
