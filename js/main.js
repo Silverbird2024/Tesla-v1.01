@@ -323,6 +323,7 @@ $scope.PushButton459_click = function() {$App.ds01 = localStorage.getItem("DS01"
 $App.ds02 = localStorage.getItem("DS02");
 $App.ds03 = localStorage.getItem("DS03");
 $App.r11ts = 15;
+$App.r41ts = 10;
 $scope.GotoPage( "Dailysheet" );};
 $scope.PushButton460_click = function() {$scope.GotoPage( "Save" );};
 $scope.Headline388_click = function() {$scope.GotoPage( "Dreamboard" );};
@@ -356,7 +357,6 @@ neoGSheetsLoadCell($App.googleSheet,"thoughts","a",9,null);
 };
 $scope.PushButton1_click = function() {window.open("https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0&range=A1", "_blank");};
 $scope.PushButton58_click = function() {window.open("https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?", "_blank");};
-$scope.PushButton462_click = function() {$scope.GotoPage( "Permanace" );};
 $scope.PushButton468_click = function() {$App.googleSheet4 = "https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X";
 $App.r1t = 15;
 $App.r2t = 15;
@@ -2023,6 +2023,11 @@ $scope.SetObjectStyle("DS1S","font-size",$App.r11ts+"pt");};
 $scope.PushButton570_click = function() {$App.r11ts = $scope.Calculate($App.r11ts+"+1",-1);
 $scope.SetObjectStyle("DS1S","font-size",$App.r11ts+"pt");};
 $scope.Image79_click = function() {$scope.GotoPage( "Home" );};
+$scope.DS4S_change = function() {localStorage.setItem("DS04",$App.ds04);};
+$scope.PushButton579_click = function() {$App.r41ts = $scope.Calculate($App.r41ts+"-1",-1);
+$scope.SetObjectStyle("DS4S","font-size",$App.r41ts+"pt");};
+$scope.PushButton462_click = function() {$App.r41ts = $scope.Calculate($App.r41ts+"+1",-1);
+$scope.SetObjectStyle("DS4S","font-size",$App.r41ts+"pt");};
 });
 NeoApp.controller("Page02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 6;

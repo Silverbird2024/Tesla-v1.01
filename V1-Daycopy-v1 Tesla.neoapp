@@ -390,20 +390,20 @@ GetItem &quot;Title26d&quot; [Title26d]</pageenter>
 							<text>&lt;em&gt;Days and Counting: [diff]&lt;/em&gt;&lt;br&gt;&lt;br&gt;</text>
 						</Headline>
 						<PushButton id="PushButton456">
-							<left>279px</left>
-							<top>19px</top>
+							<left>62px</left>
+							<top>9px</top>
 							<width>105px</width>
-							<height>37px</height>
+							<height>43px</height>
 							<style>opacity:0.14</style>
 							<hover>opacity:0.6</hover>
 							<caption>Main Board</caption>
 							<click>GotoPage &quot;MainBoard&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton458">
-							<left>280px</left>
-							<top>62px</top>
+							<left>173px</left>
+							<top>9px</top>
 							<width>102px</width>
-							<height>45px</height>
+							<height>43px</height>
 							<style>opacity:0.17</style>
 							<hover>color:white;text-shadow:2px 2px 5px white;opacity:0.9</hover>
 							<caption>Update now&lt;br&gt;</caption>
@@ -426,14 +426,14 @@ GetItem &quot;DS02&quot; [DS02]
 GetItem &quot;DS03&quot; [DS03]
 
 SetVar [r11ts] 15
-
+SetVar [r41ts] 10
 GotoPage &quot;Dailysheet&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton460">
-							<left>5px</left>
-							<top>34px</top>
-							<width>54px</width>
-							<height>21px</height>
+							<left>9px</left>
+							<top>10px</top>
+							<width>49px</width>
+							<height>42px</height>
 							<style>opacity:0.15</style>
 							<hover>opacity:0.6</hover>
 							<caption>Save</caption>
@@ -441,7 +441,7 @@ GotoPage &quot;Dailysheet&quot;</click>
 						</PushButton>
 						<Headline id="Headline388">
 							<left>15px</left>
-							<top>24px</top>
+							<top>56px</top>
 							<width>83px</width>
 							<height>30px</height>
 							<style>color:#3D01A4;font-size:12pt;font-weight:600;letter-spacing:14px;text-align:center;text-shadow:0px 0px 5px black;vertical-align:middle;opacity:0.6</style>
@@ -472,14 +472,6 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [Prayer1main] &quot;a&quot; 1 &quot
 
 GotoPage &quot;Page02&quot;</click>
 						</PushButton>
-						<NumericInput id="NumericInput2">
-							<left>6px</left>
-							<top>10px</top>
-							<width>52px</width>
-							<height>21px</height>
-							<style>opacity:0.18</style>
-							<variable>pass</variable>
-						</NumericInput>
 						<Container id="Container30">
 							<left>98px</left>
 							<top>694px</top>
@@ -497,7 +489,7 @@ EndIf</click>
 							<top>117px</top>
 							<width>85px</width>
 							<height>34px</height>
-							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
+							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
 							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
 							<caption>Load Tesla</caption>
 							<click>SetVar [googleSheet2] &quot;https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?usp=sharingadd #gid=X&quot;
@@ -519,10 +511,10 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 .comment #gid=X add at end</click>
 						</PushButton>
 						<Image id="Image78">
-							<left>46px</left>
-							<top>245px</top>
-							<width>168px</width>
-							<height>181px</height>
+							<left>25px</left>
+							<top>210px</top>
+							<width>216px</width>
+							<height>216px</height>
 							<source>Tesla-Logo.png</source>
 						</Image>
 						<PushButton id="PushButton1">
@@ -530,7 +522,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<top>159px</top>
 							<width>85px</width>
 							<height>34px</height>
-							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
+							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
 							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
 							<caption>Edita1</caption>
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0&amp;range=A1&quot;</click>
@@ -541,11 +533,11 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<width>133px</width>
 							<height>20px</height>
 							<style>color:red;font-size:14pt;text-align:center</style>
-							<text>Tv1.14 &lt;em&gt;&lt;sup&gt;24 April 25&lt;/sup&gt;&lt;/em&gt;</text>
+							<text>Tv1.16 &lt;em&gt;&lt;sup&gt;25 April 25&lt;/sup&gt;&lt;/em&gt;</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
-							<top>624px</top>
+							<top>612px</top>
 							<width>362px</width>
 							<height>56px</height>
 							<style>color:red;font-size:30pt;font-weight:800;text-align:center;text-shadow:1px 1px 1px lime;opacity:1</style>
@@ -556,18 +548,10 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<top>201px</top>
 							<width>85px</width>
 							<height>34px</height>
-							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
+							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
 							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
 							<caption>Edita2</caption>
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?&quot;</click>
-						</PushButton>
-						<PushButton id="PushButton462">
-							<left>16px</left>
-							<top>702px</top>
-							<width>23px</width>
-							<height>22px</height>
-							<style>opacity:0.25</style>
-							<click>GotoPage &quot;Permanace&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton468">
 							<left>315px</left>
@@ -657,7 +641,7 @@ GotoPage &quot;Random&quot;</click>
 							<top>243px</top>
 							<width>85px</width>
 							<height>34px</height>
-							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
+							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
 							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
 							<caption>Edita3</caption>
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharing&quot;</click>
@@ -667,7 +651,7 @@ GotoPage &quot;Random&quot;</click>
 							<top>285px</top>
 							<width>85px</width>
 							<height>34px</height>
-							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.66</style>
+							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
 							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
 							<caption>Miles</caption>
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1yQixLKy9LaRJnrrYnUyBbO8sUEhYKiy48MERr7E4yXI/edit?usp=sharing&quot;</click>
@@ -4680,7 +4664,7 @@ GotoPage &quot;Page26&quot;</click>
 						<PushButton id="PushButton278">
 							<left>190px</left>
 							<top>705px</top>
-							<width>201px</width>
+							<width>111px</width>
 							<height>28px</height>
 							<style>font-size:9pt</style>
 							<caption>Read:</caption>
@@ -4689,7 +4673,7 @@ GotoPage &quot;Page26&quot;</click>
 						<TextArea id="DS1S">
 							<left>7px</left>
 							<top>69px</top>
-							<width>387px</width>
+							<width>296px</width>
 							<height>631px</height>
 							<style>color:#00008B;font-size:25pt;font-weight:800;text-align:left</style>
 							<hover>color:blue;font-size:11pt;font-weight:600;text-align:left</hover>
@@ -4780,6 +4764,41 @@ SetObjectStyle &quot;DS1S&quot; &quot;font-size&quot; &quot;[r11ts]pt&quot;</cli
 							<source>Tesla-Logo.png</source>
 							<click>GotoPage &quot;Home&quot;</click>
 						</Image>
+						<TextArea id="DS4S">
+							<left>306px</left>
+							<top>68px</top>
+							<width>81px</width>
+							<height>631px</height>
+							<style>color:#00008B;font-size:25pt;font-weight:800;text-align:left</style>
+							<hover>color:blue;font-size:11pt;font-weight:600;text-align:left</hover>
+							<prop_name>DS4S</prop_name>
+							<variable>DS01</variable>
+							<change>SetItem &quot;DS04&quot; [DS04]</change>
+						</TextArea>
+						<PushButton id="PushButton579">
+							<left>312px</left>
+							<top>707px</top>
+							<width>29px</width>
+							<height>22px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>-</caption>
+							<click>Math &quot;[r41tS]-1&quot; -1 [r41ts]
+
+
+SetObjectStyle &quot;DS4S&quot; &quot;font-size&quot; &quot;[r41ts]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton462">
+							<left>348px</left>
+							<top>707px</top>
+							<width>29px</width>
+							<height>22px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>+</caption>
+							<click>Math &quot;[r41tS]+1&quot; -1 [r41ts]
+
+
+SetObjectStyle &quot;DS4S&quot; &quot;font-size&quot; &quot;[r41ts]pt&quot;</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Page02">
@@ -4972,8 +4991,8 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<change>SetItem &quot;Rannotes01&quot; [Rannotes01]</change>
 						</TextArea>
 						<PushButton id="PushButton541">
-							<left>252px</left>
-							<top>698px</top>
+							<left>257px</left>
+							<top>699px</top>
 							<width>138px</width>
 							<height>33px</height>
 							<style>color:green;font-weight:800</style>
@@ -4990,10 +5009,10 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<click>neoTalkCancel</click>
 						</PushButton>
 						<Pager id="Pager20">
-							<left>98px</left>
-							<top>698px</top>
-							<width>210px</width>
-							<height>33px</height>
+							<left>148px</left>
+							<top>696px</top>
+							<width>92px</width>
+							<height>32px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
 							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
 							<prevclick>GotoPrevPage</prevclick>
