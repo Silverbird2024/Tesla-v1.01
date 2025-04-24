@@ -541,7 +541,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<width>133px</width>
 							<height>20px</height>
 							<style>color:red;font-size:14pt;text-align:center</style>
-							<text>Tv1.11 &lt;em&gt;&lt;sup&gt;24 April 25&lt;/sup&gt;&lt;/em&gt;</text>
+							<text>Tv1.12 &lt;em&gt;&lt;sup&gt;24 April 25&lt;/sup&gt;&lt;/em&gt;</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -4762,6 +4762,14 @@ SetObjectStyle &quot;DS1S&quot; &quot;font-size&quot; &quot;[r11ts]pt&quot;</cli
 
 SetObjectStyle &quot;DS1S&quot; &quot;font-size&quot; &quot;[r11ts]pt&quot;</click>
 						</PushButton>
+						<Image id="Image79">
+							<left>320px</left>
+							<top>6px</top>
+							<width>73px</width>
+							<height>58px</height>
+							<source>Tesla-Logo.png</source>
+							<click>GotoPage &quot;Home&quot;</click>
+						</Image>
 					</Components>
 				</Page>
 				<Page id="Page02">

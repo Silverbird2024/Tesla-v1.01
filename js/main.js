@@ -2020,6 +2020,7 @@ $scope.DS1Strew_click = function() {$App.r11ts = $scope.Calculate($App.r11ts+"-1
 $scope.SetObjectStyle("DS1S","font-size",$App.r11ts+"pt");};
 $scope.PushButton570_click = function() {$App.r11ts = $scope.Calculate($App.r11ts+"+1",-1);
 $scope.SetObjectStyle("DS1S","font-size",$App.r11ts+"pt");};
+$scope.Image79_click = function() {$scope.GotoPage( "Home" );};
 });
 NeoApp.controller("Page02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 6;
