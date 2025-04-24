@@ -421,11 +421,11 @@ GetItem &quot;Reloaded&quot; [Reloaded]</click>
 							<style>font-size:16pt;box-shadow:3px 3px 3px red</style>
 							<hover>box-shadow:3px 3px 3px lime</hover>
 							<caption>Daily Sheet</caption>
-							<click>SetVar [googleSheet0] &quot;https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?usp=sharingadd #gid=X&quot;
+							<click>GetItem &quot;DS01&quot; [DS01]
+GetItem &quot;DS02&quot; [DS02]
+GetItem &quot;DS03&quot; [DS03]
 
-
-
-neoGSheetsLoadCell &quot;[googleSheet0]&quot; [a1] &quot;a&quot; 1 &quot;&quot;
+SetVar [r11ts] 15
 
 GotoPage &quot;Dailysheet&quot;</click>
 						</PushButton>
@@ -466,7 +466,7 @@ GotoPage &quot;Dailysheet&quot;</click>
 							<hover>box-shadow:3px 3px 3px lime;opacity:0.45</hover>
 							<caption>Daily Prayer</caption>
 							<click>SetVar [googleSheet] &quot;https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X&quot;
-
+SetVar [p1t] 15
 
 neoGSheetsLoadCell &quot;[googleSheet]&quot; [Prayer1main] &quot;a&quot; 1 &quot;&quot;
 
@@ -541,7 +541,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<width>133px</width>
 							<height>20px</height>
 							<style>color:red;font-size:14pt;text-align:center</style>
-							<text>Tv1.09 &lt;em&gt;&lt;sup&gt;21 April 25&lt;/sup&gt;&lt;/em&gt;</text>
+							<text>Tv1.11 &lt;em&gt;&lt;sup&gt;24 April 25&lt;/sup&gt;&lt;/em&gt;</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -590,6 +590,9 @@ SetVar [r9t] 15
 SetVar [r10t] 15
 SetVar [r11t] 15
 SetVar [r12t] 15
+
+
+
 
 
 
@@ -4620,6 +4623,147 @@ GotoPage &quot;Page26&quot;</click>
 						</Container>
 					</Components>
 				</Page>
+				<Page id="Dailysheet">
+					<style>background-color:#002F3E</style>
+					<Components>
+						<Headline id="Headline243">
+							<left>70px</left>
+							<top>740px</top>
+							<width>279px</width>
+							<height>51px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
+							<text>Daily Sheet Home&lt;br&gt;Cut n Paste</text>
+						</Headline>
+						<Headline id="Headline240">
+							<left>69px</left>
+							<top>26px</top>
+							<width>185px</width>
+							<height>20px</height>
+							<style>color:white;font-size:11pt;font-weight:11;text-align:right</style>
+							<text>2025:[NAB.DateFull]</text>
+						</Headline>
+						<Headline id="Headline241">
+							<left>63px</left>
+							<top>2px</top>
+							<width>279px</width>
+							<height>27px</height>
+							<style>color:yellow;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
+							<text>Daily Sheet Home</text>
+						</Headline>
+						<Headline id="Headline242">
+							<left>15px</left>
+							<top>5px</top>
+							<width>30px</width>
+							<height>27px</height>
+							<style>color:Silver;font-size:16pt;text-align:center</style>
+							<text>P1</text>
+						</Headline>
+						<PushButton id="PushButton277">
+							<left>8px</left>
+							<top>706px</top>
+							<width>39px</width>
+							<height>27px</height>
+							<style>font-size:9pt</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<PushButton id="PushButton278">
+							<left>190px</left>
+							<top>705px</top>
+							<width>201px</width>
+							<height>28px</height>
+							<style>font-size:9pt</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[feb25week1a]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<TextArea id="DS1S">
+							<left>7px</left>
+							<top>69px</top>
+							<width>387px</width>
+							<height>631px</height>
+							<style>color:#00008B;font-size:25pt;font-weight:800;text-align:left</style>
+							<hover>color:blue;font-size:11pt;font-weight:600;text-align:left</hover>
+							<prop_name>DS1S</prop_name>
+							<variable>DS01</variable>
+							<change>SetItem &quot;DS01&quot; [DS01]</change>
+						</TextArea>
+						<TextArea id="TextArea85">
+							<left>15px</left>
+							<top>790px</top>
+							<width>374px</width>
+							<height>643px</height>
+							<variable>DS02</variable>
+							<change>SetItem &quot;DS02&quot; &quot;DS02&quot;</change>
+						</TextArea>
+						<TextArea id="TextArea86">
+							<left>20px</left>
+							<top>1501px</top>
+							<width>362px</width>
+							<height>252px</height>
+							<style>color:red;font-size:14pt;font-weight:600</style>
+							<variable>DS03</variable>
+							<change>SetItem &quot;DS03&quot; &quot;DS03&quot;</change>
+						</TextArea>
+						<Headline id="Headline244">
+							<left>61px</left>
+							<top>1444px</top>
+							<width>279px</width>
+							<height>51px</height>
+							<style>color:red;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
+							<text>Daily Sheet Home&lt;br&gt;Cut n Paste HOT</text>
+						</Headline>
+						<Headline id="Headline256">
+							<left>13px</left>
+							<top>43px</top>
+							<width>381px</width>
+							<height>22px</height>
+							<style>color:Silver;font-size:13pt;font-weight:600;text-align:center</style>
+							<hover>color:red</hover>
+							<text>[Thisweek]</text>
+						</Headline>
+						<TextArea id="TextArea18">
+							<left>19px</left>
+							<top>1775px</top>
+							<width>361px</width>
+							<height>62px</height>
+							<style>color:#A8A8A8;font-size:11pt;font-weight:600;text-align:center</style>
+							<variable>[Thisweek]</variable>
+							<change>SetItem &quot;Thisweek&quot; [Thisweek]</change>
+						</TextArea>
+						<Headline id="Headline164">
+							<left>61px</left>
+							<top>1751px</top>
+							<width>279px</width>
+							<height>24px</height>
+							<style>color:#A8A8A8;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
+							<text>This week header</text>
+						</Headline>
+						<PushButton id="DS1Strew">
+							<left>55px</left>
+							<top>704px</top>
+							<width>57px</width>
+							<height>29px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r11tS]-1&quot; -1 [r11ts]
+
+
+SetObjectStyle &quot;DS1S&quot; &quot;font-size&quot; &quot;[r11ts]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton570">
+							<left>114px</left>
+							<top>704px</top>
+							<width>57px</width>
+							<height>29px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r11tS]+1&quot; -1 [r11ts]
+
+
+SetObjectStyle &quot;DS1S&quot; &quot;font-size&quot; &quot;[r11ts]pt&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
 				<Page id="Page02">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
@@ -4743,6 +4887,30 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 							<height>59px</height>
 							<source>C:\Users\User\Desktop\Tesla25\Tesla-Logo.png</source>
 						</Image>
+						<PushButton id="PushButton544">
+							<left>83px</left>
+							<top>696px</top>
+							<width>57px</width>
+							<height>33px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[p1t]-1&quot; -1 [p1t]
+
+
+SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton545">
+							<left>143px</left>
+							<top>696px</top>
+							<width>65px</width>
+							<height>33px</height>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[p1t]+1&quot; -1 [p1t]
+
+
+SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random">
@@ -4817,8 +4985,8 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>183px</width>
-							<height>477px</height>
-							<style>color:red;font-size:15pt;font-weight:600</style>
+							<height>459px</height>
+							<style>color:red;font-size:13pt;font-weight:600</style>
 							<text>1- [Random01]&lt;br&gt;2- [Random02] &lt;br&gt;3- [Random03] &lt;br&gt;4- [Random04] &lt;br&gt;5- [Random05] &lt;br&gt;6- [Random06] &lt;br&gt;7- [Random07] &lt;br&gt;8- [Random08] &lt;br&gt;9- [Random09] &lt;br&gt;10- [Random10] &lt;br&gt;11- [Random11] &lt;br&gt;12- [Random12] &lt;br&gt;13- [Random13] &lt;br&gt;14- [Random14] &lt;br&gt;15- [Random15] &lt;br&gt;16- [Random16] &lt;br&gt;17- [Random17] &lt;br&gt;18- [Random18] &lt;br&gt;19- [Random19] &lt;br&gt;20- [Random20] &lt;br&gt;21- [Random21]</text>
 						</Headline>
 						<PushButton id="PushButton546">
@@ -4834,8 +5002,8 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;
 							<left>209px</left>
 							<top>62px</top>
 							<width>183px</width>
-							<height>477px</height>
-							<style>color:red;font-size:15pt;font-weight:600</style>
+							<height>459px</height>
+							<style>color:red;font-size:13pt;font-weight:600</style>
 							<text>22- [Random22]&lt;br&gt;23- [Random23] &lt;br&gt;24- [Random24] &lt;br&gt;25- [Random25] &lt;br&gt;26- [Random26] &lt;br&gt;27- [Random27] &lt;br&gt;28- [Random28] &lt;br&gt;29- [Random29] &lt;br&gt;30- [Random30] &lt;br&gt;31- [Random31] &lt;br&gt;32- [Random32] &lt;br&gt;33- [Random33] &lt;br&gt;34- [Random34] &lt;br&gt;35- [Random35] &lt;br&gt;36- [Random36] &lt;br&gt;37- [Random37] &lt;br&gt;38- [Random38] &lt;br&gt;39- [Random39] &lt;br&gt;40- [Random40] &lt;br&gt;41- [Random41] &lt;br&gt;42- [Random42]</text>
 						</Headline>
 					</Components>
@@ -4912,7 +5080,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 						<Headline id="Headline258">
 							<left>8px</left>
 							<top>60px</top>
-							<width>274px</width>
+							<width>305px</width>
 							<height>31px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>1- [Random01]</text>
@@ -4999,9 +5167,9 @@ SetObjectStyle &quot;ranbox01&quot; &quot;font-size&quot; &quot;[r1t]pt&quot;</c
 SetObjectStyle &quot;ranbox01&quot; &quot;font-size&quot; &quot;[r1t]pt&quot;</click>
 						</PushButton>
 						<Headline id="Headline325">
-							<left>282px</left>
+							<left>313px</left>
 							<top>66px</top>
-							<width>108px</width>
+							<width>90px</width>
 							<height>19px</height>
 							<style>color:red;font-size:11pt;font-weight:600;text-align:right</style>
 							<text>Text-[r1t]-pt</text>
@@ -7481,131 +7649,6 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot
 							<style>color:white</style>
 							<text>&lt;strong&gt;[c13]&lt;br&gt;&lt;/strong&gt;[Chapter13] &lt;br&gt;&lt;br&gt;&lt;strong&gt;[c14]&lt;br&gt;&lt;/strong&gt;[Chapter14] &lt;br&gt;&lt;br&gt;&lt;strong&gt;[c15]&lt;br&gt;&lt;/strong&gt;[Chapter15] &lt;br&gt;&lt;br&gt;&lt;strong&gt;[c16]&lt;br&gt;&lt;/strong&gt;[Chapter16] &lt;br&gt;&lt;br&gt;&lt;strong&gt;[c17]&lt;br&gt;&lt;/strong&gt;[Chapter17] &lt;br&gt;&lt;br&gt;&lt;strong&gt;[c18]&lt;br&gt;&lt;/strong&gt;[Chapter18] &lt;br&gt;&lt;br&gt;&lt;strong&gt;[c19]&lt;br&gt;&lt;/strong&gt;[Chapter19] &lt;br&gt;&lt;br&gt;&lt;strong&gt;[c20]&lt;br&gt;&lt;/strong&gt;[Chapter20] &lt;br&gt;&lt;br&gt;</text>
 						</Paragraph>
-					</Components>
-				</Page>
-				<Page id="Dailysheet">
-					<style>background-color:#002F3E</style>
-					<Components>
-						<Headline id="Headline243">
-							<left>70px</left>
-							<top>740px</top>
-							<width>279px</width>
-							<height>51px</height>
-							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
-							<text>Daily Sheet Home&lt;br&gt;Cut n Paste</text>
-						</Headline>
-						<Headline id="Headline240">
-							<left>69px</left>
-							<top>26px</top>
-							<width>185px</width>
-							<height>20px</height>
-							<style>color:white;font-size:11pt;font-weight:11;text-align:right</style>
-							<text>2025:[NAB.DateFull]</text>
-						</Headline>
-						<Headline id="Headline241">
-							<left>63px</left>
-							<top>2px</top>
-							<width>279px</width>
-							<height>27px</height>
-							<style>color:yellow;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
-							<text>Daily Sheet Home</text>
-						</Headline>
-						<Headline id="Headline242">
-							<left>15px</left>
-							<top>5px</top>
-							<width>30px</width>
-							<height>27px</height>
-							<style>color:Silver;font-size:16pt;text-align:center</style>
-							<text>P1</text>
-						</Headline>
-						<PushButton id="PushButton277">
-							<left>8px</left>
-							<top>706px</top>
-							<width>39px</width>
-							<height>27px</height>
-							<style>font-size:9pt</style>
-							<caption>X</caption>
-							<click>neoTalkCancel</click>
-						</PushButton>
-						<PushButton id="PushButton278">
-							<left>190px</left>
-							<top>705px</top>
-							<width>201px</width>
-							<height>28px</height>
-							<style>font-size:9pt</style>
-							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[feb25week1a]&quot; &quot;uk&quot; 1 .9</click>
-						</PushButton>
-						<TextArea id="TextArea89">
-							<left>7px</left>
-							<top>65px</top>
-							<width>387px</width>
-							<height>635px</height>
-							<style>color:#00008B;font-size:25pt;font-weight:800;text-align:left</style>
-							<hover>color:blue;font-size:11pt;font-weight:600;text-align:left</hover>
-							<prop_name>dailyfont1</prop_name>
-							<variable>a1</variable>
-							<change>SetItem &quot;a2&quot; [a2]</change>
-						</TextArea>
-						<TextArea id="TextArea85">
-							<left>15px</left>
-							<top>790px</top>
-							<width>374px</width>
-							<height>643px</height>
-							<variable>[feb25week1acp]</variable>
-							<change>SetItem &quot;feb25week1acp&quot; [feb25week1acp]</change>
-						</TextArea>
-						<TextArea id="TextArea86">
-							<left>20px</left>
-							<top>1501px</top>
-							<width>362px</width>
-							<height>252px</height>
-							<style>color:red;font-size:14pt;font-weight:600</style>
-							<variable>[feb25week1acph]</variable>
-							<change>SetItem &quot;feb25week1acph&quot; [feb25week1acph]</change>
-						</TextArea>
-						<Headline id="Headline244">
-							<left>61px</left>
-							<top>1444px</top>
-							<width>279px</width>
-							<height>51px</height>
-							<style>color:red;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
-							<text>Daily Sheet Home&lt;br&gt;Cut n Paste HOT</text>
-						</Headline>
-						<Headline id="Headline256">
-							<left>13px</left>
-							<top>43px</top>
-							<width>295px</width>
-							<height>17px</height>
-							<style>color:Silver;font-size:11pt;font-weight:600;text-align:center</style>
-							<hover>color:red</hover>
-							<text>[Thisweek]</text>
-						</Headline>
-						<TextArea id="TextArea18">
-							<left>19px</left>
-							<top>1775px</top>
-							<width>361px</width>
-							<height>62px</height>
-							<style>color:#A8A8A8;font-size:11pt;font-weight:600;text-align:center</style>
-							<variable>[Thisweek]</variable>
-							<change>SetItem &quot;Thisweek&quot; [Thisweek]</change>
-						</TextArea>
-						<Headline id="Headline164">
-							<left>61px</left>
-							<top>1751px</top>
-							<width>279px</width>
-							<height>24px</height>
-							<style>color:#A8A8A8;font-family:Arial,Helvetica,sans-serif;font-size:16pt;font-weight:800;text-align:center</style>
-							<text>This week header</text>
-						</Headline>
-						<Image id="Image79">
-							<left>319px</left>
-							<top>8px</top>
-							<width>86px</width>
-							<height>53px</height>
-							<source>C:\Users\User\Desktop\Tesla25\Tesla-Logo.png</source>
-							<click>GotoPage &quot;Home&quot;</click>
-						</Image>
 					</Components>
 				</Page>
 				<Page id="BookIndex">
