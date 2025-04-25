@@ -424,6 +424,7 @@ GetItem &quot;Reloaded&quot; [Reloaded]</click>
 							<click>GetItem &quot;DS01&quot; [DS01]
 GetItem &quot;DS02&quot; [DS02]
 GetItem &quot;DS03&quot; [DS03]
+GetItem &quot;DS04&quot; [DS04]
 
 SetVar [r11ts] 15
 SetVar [r41ts] 10
@@ -450,8 +451,8 @@ GotoPage &quot;Dailysheet&quot;</click>
 							<click>GotoPage &quot;Dreamboard&quot;</click>
 						</Headline>
 						<Headline id="Headline389">
-							<left>93px</left>
-							<top>578px</top>
+							<left>105px</left>
+							<top>577px</top>
 							<width>200px</width>
 							<height>38px</height>
 							<style>color:silver;font-size:17pt;font-weight:800;text-align:center</style>
@@ -532,8 +533,9 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<top>379px</top>
 							<width>133px</width>
 							<height>20px</height>
-							<style>color:red;font-size:14pt;text-align:center</style>
-							<text>Tv1.16 &lt;em&gt;&lt;sup&gt;25 April 25&lt;/sup&gt;&lt;/em&gt;</text>
+							<style>color:red;font-size:14pt;font-weight:600;text-align:center</style>
+							<hover>color:YELLOW</hover>
+							<text>Tv1.17 &lt;em&gt;&lt;sup&gt;25 April 25&lt;/sup&gt;&lt;/em&gt;</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -559,6 +561,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<width>83px</width>
 							<height>38px</height>
 							<style>opacity:0.25</style>
+							<hover>color:red;opacity:0.47</hover>
 							<caption>Random</caption>
 							<click>SetVar [googleSheet4] &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharingadd #gid=X&quot;
 
@@ -574,6 +577,7 @@ SetVar [r9t] 15
 SetVar [r10t] 15
 SetVar [r11t] 15
 SetVar [r12t] 15
+SetVar [ta131] 9
 
 
 
@@ -790,6 +794,13 @@ EndIf</click>
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
 					<Components>
+						<Image id="Image43">
+							<left>14px</left>
+							<top>7px</top>
+							<width>380px</width>
+							<height>727px</height>
+							<source>TitBlue.jpg</source>
+						</Image>
 						<Headline id="Headline255">
 							<left>19px</left>
 							<top>48px</top>
@@ -4772,7 +4783,7 @@ SetObjectStyle &quot;DS1S&quot; &quot;font-size&quot; &quot;[r11ts]pt&quot;</cli
 							<style>color:#00008B;font-size:25pt;font-weight:800;text-align:left</style>
 							<hover>color:blue;font-size:11pt;font-weight:600;text-align:left</hover>
 							<prop_name>DS4S</prop_name>
-							<variable>DS01</variable>
+							<variable>DS04</variable>
 							<change>SetItem &quot;DS04&quot; [DS04]</change>
 						</TextArea>
 						<PushButton id="PushButton579">
@@ -4812,15 +4823,6 @@ SetObjectStyle &quot;DS4S&quot; &quot;font-size&quot; &quot;[r41ts]pt&quot;</cli
 							<height>77px</height>
 							<source>TitBlue.jpg</source>
 						</Image>
-						<PushButton id="PushButton6">
-							<left>265px</left>
-							<top>7px</top>
-							<width>100px</width>
-							<height>31px</height>
-							<style>opacity:0.42</style>
-							<caption>Main Board</caption>
-							<click>GotoPage &quot;Home&quot;</click>
-						</PushButton>
 						<PushButton id="PushButton208">
 							<left>10px</left>
 							<top>696px</top>
@@ -4832,31 +4834,22 @@ SetObjectStyle &quot;DS4S&quot; &quot;font-size&quot; &quot;[r41ts]pt&quot;</cli
 ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
 						<TextArea id="TextArea94">
-							<left>9px</left>
-							<top>147px</top>
-							<width>385px</width>
-							<height>547px</height>
+							<left>8px</left>
+							<top>124px</top>
+							<width>386px</width>
+							<height>567px</height>
 							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
 							<variable>Prayer1main</variable>
 							<change>SetItem &quot;Prayer1main&quot; [Prayer1main]</change>
 						</TextArea>
-						<PushButton id="PushButton80">
-							<left>264px</left>
-							<top>41px</top>
-							<width>100px</width>
-							<height>29px</height>
-							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:8pt</style>
-							<hover>color:red</hover>
-							<caption>restore last</caption>
-							<click>GetItem &quot;Prayer1mainR&quot; [Prayer1main]</click>
-						</PushButton>
 						<Headline id="Headline544">
-							<left>269px</left>
-							<top>71px</top>
+							<left>1px</left>
+							<top>4px</top>
 							<width>100px</width>
-							<height>36px</height>
+							<height>28px</height>
 							<style>color:white;font-size:7pt;font-style:italic;text-align:center</style>
 							<text>Restore up to last&lt;br&gt;page close.</text>
+							<click>GetItem &quot;Prayer1mainR&quot; [Prayer1main]</click>
 						</Headline>
 						<PushButton id="PushButton207">
 							<left>256px</left>
@@ -4876,20 +4869,11 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<TextArea id="TextArea4">
-							<left>10px</left>
-							<top>96px</top>
-							<width>385px</width>
-							<height>49px</height>
-							<style>color:red;font-size:28pt;font-weight:600;opacity:1</style>
-							<variable>Title02d</variable>
-							<change>SetItem &quot;Title02d&quot; [Title02d]</change>
-						</TextArea>
 						<PushButton id="PushButton284">
-							<left>368px</left>
+							<left>362px</left>
 							<top>6px</top>
-							<width>26px</width>
-							<height>89px</height>
+							<width>32px</width>
+							<height>77px</height>
 							<style>color:Green;font-size:8pt;font-weight:600;text-align:left</style>
 							<caption>E&lt;br&gt;d&lt;br&gt;i&lt;br&gt;t</caption>
 							<click>GotoPage &quot;Page2a&quot;
@@ -4917,13 +4901,6 @@ GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 							<style>color:red;font-size:12pt;font-weight:600</style>
 							<text>Thoughts for next time</text>
 						</Headline>
-						<Image id="Image43">
-							<left>109px</left>
-							<top>22px</top>
-							<width>82px</width>
-							<height>59px</height>
-							<source>C:\Users\User\Desktop\Tesla25\Tesla-Logo.png</source>
-						</Image>
 						<PushButton id="PushButton544">
 							<left>83px</left>
 							<top>696px</top>
@@ -4948,6 +4925,22 @@ SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;<
 
 SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;</click>
 						</PushButton>
+						<PushButton id="PushButton6">
+							<left>272px</left>
+							<top>7px</top>
+							<width>86px</width>
+							<height>75px</height>
+							<style>font-size:8pt;opacity:0.42</style>
+							<caption>Main Board</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<TextInput id="TextInput112">
+							<left>8px</left>
+							<top>84px</top>
+							<width>387px</width>
+							<height>37px</height>
+							<change>SetItem &quot;Title02d&quot; [Title02d]</change>
+						</TextInput>
 					</Components>
 				</Page>
 				<Page id="Random">
@@ -4955,25 +4948,16 @@ SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;<
 					<enter_effect>fadeIn</enter_effect>
 					<Components>
 						<Image id="Image92">
-							<left>130px</left>
-							<top>13px</top>
+							<left>62px</left>
+							<top>7px</top>
 							<width>175px</width>
-							<height>40px</height>
+							<height>402px</height>
 							<source>TitBlue.jpg</source>
 						</Image>
-						<PushButton id="PushButton539">
-							<left>306px</left>
-							<top>13px</top>
-							<width>100px</width>
-							<height>41px</height>
-							<style>opacity:0.42</style>
-							<caption>Main Board</caption>
-							<click>GotoPage &quot;Home&quot;</click>
-						</PushButton>
 						<PushButton id="PushButton540">
 							<left>10px</left>
 							<top>697px</top>
-							<width>71px</width>
+							<width>57px</width>
 							<height>33px</height>
 							<caption>Pause</caption>
 							<click>neoTalkPause
@@ -4982,35 +4966,35 @@ ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
 						<TextArea id="TextArea131">
 							<left>9px</left>
-							<top>534px</top>
+							<top>410px</top>
 							<width>385px</width>
-							<height>157px</height>
+							<height>281px</height>
 							<style>color:#383838;font-size:10pt;font-weight:600;opacity:1</style>
 							<prop_name>rannotes01</prop_name>
 							<variable>rannotes01</variable>
 							<change>SetItem &quot;Rannotes01&quot; [Rannotes01]</change>
 						</TextArea>
 						<PushButton id="PushButton541">
-							<left>257px</left>
-							<top>699px</top>
-							<width>138px</width>
+							<left>309px</left>
+							<top>697px</top>
+							<width>85px</width>
 							<height>33px</height>
 							<style>color:green;font-weight:800</style>
 							<caption>Read:</caption>
 							<click>neoTalkSpeak &quot;[rannotes01]&quot; &quot;uk&quot; 1 .9</click>
 						</PushButton>
 						<PushButton id="PushButton542">
-							<left>91px</left>
+							<left>69px</left>
 							<top>698px</top>
 							<width>39px</width>
 							<height>33px</height>
-							<style>color:red;font-size:12pt;font-weight:800</style>
+							<style>color:red;font-size:10pt;font-weight:800</style>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
 						<Pager id="Pager20">
-							<left>148px</left>
-							<top>696px</top>
+							<left>216px</left>
+							<top>697px</top>
 							<width>92px</width>
 							<height>32px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
@@ -5019,11 +5003,11 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
 						<Headline id="Headline403">
-							<left>8px</left>
-							<top>60px</top>
+							<left>10px</left>
+							<top>14px</top>
 							<width>183px</width>
-							<height>459px</height>
-							<style>color:red;font-size:13pt;font-weight:600</style>
+							<height>368px</height>
+							<style>color:red;font-size:11pt;font-weight:600</style>
 							<text>1- [Random01]&lt;br&gt;2- [Random02] &lt;br&gt;3- [Random03] &lt;br&gt;4- [Random04] &lt;br&gt;5- [Random05] &lt;br&gt;6- [Random06] &lt;br&gt;7- [Random07] &lt;br&gt;8- [Random08] &lt;br&gt;9- [Random09] &lt;br&gt;10- [Random10] &lt;br&gt;11- [Random11] &lt;br&gt;12- [Random12] &lt;br&gt;13- [Random13] &lt;br&gt;14- [Random14] &lt;br&gt;15- [Random15] &lt;br&gt;16- [Random16] &lt;br&gt;17- [Random17] &lt;br&gt;18- [Random18] &lt;br&gt;19- [Random19] &lt;br&gt;20- [Random20] &lt;br&gt;21- [Random21]</text>
 						</Headline>
 						<PushButton id="PushButton546">
@@ -5036,13 +5020,46 @@ ObjectToBack &quot;PushButton208&quot;</click>
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;</click>
 						</PushButton>
 						<Headline id="Headline404">
-							<left>209px</left>
-							<top>62px</top>
+							<left>180px</left>
+							<top>14px</top>
 							<width>183px</width>
-							<height>459px</height>
-							<style>color:red;font-size:13pt;font-weight:600</style>
+							<height>361px</height>
+							<style>color:red;font-size:11pt;font-weight:600</style>
 							<text>22- [Random22]&lt;br&gt;23- [Random23] &lt;br&gt;24- [Random24] &lt;br&gt;25- [Random25] &lt;br&gt;26- [Random26] &lt;br&gt;27- [Random27] &lt;br&gt;28- [Random28] &lt;br&gt;29- [Random29] &lt;br&gt;30- [Random30] &lt;br&gt;31- [Random31] &lt;br&gt;32- [Random32] &lt;br&gt;33- [Random33] &lt;br&gt;34- [Random34] &lt;br&gt;35- [Random35] &lt;br&gt;36- [Random36] &lt;br&gt;37- [Random37] &lt;br&gt;38- [Random38] &lt;br&gt;39- [Random39] &lt;br&gt;40- [Random40] &lt;br&gt;41- [Random41] &lt;br&gt;42- [Random42]</text>
 						</Headline>
+						<PushButton id="PushButton80">
+							<left>110px</left>
+							<top>698px</top>
+							<width>50px</width>
+							<height>33px</height>
+							<style>color:blue;font-size:7pt;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[ta131]-1&quot; -1 [ta131]
+
+
+SetObjectStyle &quot;TextArea131&quot; &quot;font-size&quot; &quot;[ta131]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton580">
+							<left>162px</left>
+							<top>698px</top>
+							<width>50px</width>
+							<height>33px</height>
+							<style>color:blue;font-size:7pt;font-weight:600</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[ta131]+1&quot; -1 [ta131]
+
+
+SetObjectStyle &quot;TextArea131&quot; &quot;font-size&quot; &quot;[ta131]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton539">
+							<left>332px</left>
+							<top>16px</top>
+							<width>56px</width>
+							<height>123px</height>
+							<style>opacity:0.42</style>
+							<caption>Main &lt;br&gt;Board</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random01">
