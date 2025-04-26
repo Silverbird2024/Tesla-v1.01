@@ -5,7 +5,7 @@
 	<Author>Author name</Author>
 	<Version>1.0</Version>
 	<DesignDeviceName>Apple iPhone 6 Plus</DesignDeviceName>
-	<Variables>[a1],[a1d1],[a2],[a2d1],[a3d1],[a4d1],[a5d1],[address],[backup1],[backup2],[backup3],[bookindex],[brick],[brickpc],[brickrep],[c01],[c02],[c03],[c04],[c05],[c06],[c07],[c08],[c09],[c10],[c11],[c12],[c13],[c14],[c15],[c16],[c17],[c18],[c19],[c20],[Cards],[Chapter01],[Chapter02],[Chapter03],[Chapter03n],[Chapter04],[Chapter05],[Chapter06],[Chapter07],[Chapter08],[Chapter09],[Chapter10],[Chapter11],[Chapter12],[Chapter13],[Chapter14],[Chapter15],[Chapter16],[Chapter17],[Chapter18],[Chapter19],[Chapter20],[Concept],[Concept01],[Concept02],[Concept03],[Concept04],[Concept05],[Concept06],[Concept07],[Concept08],[Concept09],[Concept10],[Concept11],[Concept12],[Concept13],[Concept14],[Concept15],[Concept16],[Concept17],[Concept18],[Concept19],[Concept20],[Concept21],[Concept22],[Concept23],[Concept24],[Concept25],[Contact1stName],[ContacttNameSurname],[diary1],[diff],[Directory],[donotpress],[Dream],[Dreamin],[Dreamout],[ds01],[ds01a],[ds02],[ds02a],[ds03],[ds03a],[ds04],[ds04a],[ds05],[ds05a],[ds06],[ds06a],[ds07],[ds07a],[ds08],[ds08a],[ds09],[ds09a],[ds10],[ds10a],[ds11],[ds11a],[ds12],[ds12a],[ds13],[ds13a],[ds14],[ds14a],[ds15],[ds15a],[ds16],[ds16a],[ds17],[ds17a],[ds18],[ds18a],[ds19],[ds19a],[e],[email],[end],[end80],[entropy],[entropypc],[entropyrep],[feb25week1],[feb25week1a],[feb25week1aa],[feb25week1acp],[feb25week1acph],[feb25week1b],[feb25week1c],[feb25week1d],[fish],[fishpc],[fishrep],[flash12],[googleSheet],[googleSheet0],[googleSheet2],[googleSheet4],[health],[healthpc],[healthrep],[item26a],[item26b],[item26c],[item26d],[item26e],[item26f],[item26g],[item26h],[item26i],[ledgend],[md1],[mobile],[mv1a],[mv1aa],[mv1aaa],[mv1b],[mv1bb],[mv1bbb],[mv1c],[mv1cc],[mv1ccc],[mv1d],[mv1dd],[mv1ddd],[mv1e],[mv1ee],[mv1eee],[na1],[na2],[na3],[na4],[notes],[One],[Onetit],[pass],[Permanence2],[Permanence3],[phone],[postcode],[Prayer1main],[Prayer1main1],[Prayer1main2],[Prayer1main3],[Prayer1main4],[Prayer1main5],[Prayer1main6],[Prayer1main7],[Prayer1mainb],[printer],[printerpc],[printerrep],[r1t],[Random01],[Random012],[Random01b],[Random02],[Random02b],[Random03],[Random03b],[Random04],[Random04b],[Random05],[Random05b],[Random06],[Random06b],[Random07],[Random07b],[Random08],[Random08b],[Random09],[Random09b],[Random10],[Random10b],[Random11],[Random11b],[Random12],[Random12b],[Randomm11],[Reloaded],[reset00],[reset01],[reset02],[reset03],[reseto3],[s],[start],[start80],[tesla],[teslapc],[teslarep],[text],[Thisweek],[thoughts],[thunder],[thunderpc],[thunderrep],[Title],[Title00],[Title01],[Title01a],[Title01b],[Title01c],[Title01d],[Title01e],[Title02],[Title02a],[Title02b],[Title02c],[Title02d],[Title02e],[Title03],[Title03a],[Title03b],[Title03c],[Title03d],[Title03e],[Title04],[Title04a],[Title04b],[Title04c],[Title04d],[Title04e],[Title05],[Title05a],[Title05b],[Title05c],[Title05d],[Title05e],[Title06],[Title06a],[Title06b],[Title06c],[Title06d],[Title07],[Title07a],[Title07b],[Title07c],[Title07d],[Title08],[Title08a],[Title08b],[Title08c],[Title08d],[Title09],[Title09a],[Title09b],[Title09c],[Title09d],[Title10],[Title10a],[Title10b],[Title10c],[Title10d],[Title11],[Title11a],[Title11b],[Title11c],[Title11d],[Title12],[Title12a],[Title12b],[Title12c],[Title12d],[Title12e],[Title12f],[Title12g],[Title12h],[Title13],[Title13d],[Title14],[Title14d],[Title15],[Title15d],[Title16],[Title16d],[Title17],[Title17d],[Title18],[Title18d],[Title19],[Title19d],[Title20],[Title20d],[Title21],[Title21d],[Title22],[Title22d],[Title23],[Title23d],[Title24],[Title24d],[Title25],[Title25d],[Title26],[Title26d],[Title26e],[Two],[twotit],[version],[work],[workpc],[workrep]</Variables>
+	<Variables>[a1],[a1d1],[a2d1],[a3d1],[a4d1],[a5d1],[address],[backup1],[backup2],[backup3],[bookindex],[brick],[brickpc],[brickrep],[c01],[c02],[c03],[c04],[c05],[c06],[c07],[c08],[c09],[c10],[c11],[c12],[c13],[c14],[c15],[c16],[c17],[c18],[c19],[c20],[Cards],[Chapter01],[Chapter02],[Chapter03],[Chapter03n],[Chapter04],[Chapter05],[Chapter06],[Chapter07],[Chapter08],[Chapter09],[Chapter10],[Chapter11],[Chapter12],[Chapter13],[Chapter14],[Chapter15],[Chapter16],[Chapter17],[Chapter18],[Chapter19],[Chapter20],[Concept],[Concept01],[Concept02],[Concept03],[Concept04],[Concept05],[Concept06],[Concept07],[Concept08],[Concept09],[Concept10],[Concept11],[Concept12],[Concept13],[Concept14],[Concept15],[Concept16],[Concept17],[Concept18],[Concept19],[Concept20],[Concept21],[Concept22],[Concept23],[Concept24],[Concept25],[Contact1stName],[ContacttNameSurname],[diary1],[diff],[Directory],[donotpress],[Dream],[Dreamin],[Dreamout],[ds01],[ds01a],[ds02],[ds02a],[ds03],[ds03a],[ds04],[ds04a],[ds05],[ds05a],[ds06],[ds06a],[ds07],[ds07a],[ds08],[ds08a],[ds09],[ds09a],[ds10],[ds10a],[ds11],[ds11a],[ds12],[ds12a],[ds13],[ds13a],[ds14],[ds14a],[ds15],[ds15a],[ds16],[ds16a],[ds17],[ds17a],[ds18],[ds18a],[ds19],[ds19a],[e],[email],[end],[end80],[entropy],[entropypc],[entropyrep],[feb25week1],[feb25week1a],[feb25week1aa],[feb25week1acp],[feb25week1acph],[feb25week1b],[feb25week1c],[feb25week1d],[fish],[fishpc],[fishrep],[flash12],[googleSheet],[googleSheet2],[googleSheet4],[health],[healthpc],[healthrep],[item26a],[item26b],[item26c],[item26d],[item26e],[item26f],[item26g],[item26h],[item26i],[ledgend],[md1],[mobile],[mv1a],[mv1aa],[mv1aaa],[mv1b],[mv1bb],[mv1bbb],[mv1c],[mv1cc],[mv1ccc],[mv1d],[mv1dd],[mv1ddd],[mv1e],[mv1ee],[mv1eee],[na1],[na2],[na3],[na4],[notes],[One],[Onetit],[p1t],[pass],[Permanence2],[Permanence3],[phone],[postcode],[Prayer1main],[Prayer1main1],[Prayer1main2],[Prayer1main3],[Prayer1main4],[Prayer1main5],[Prayer1main6],[Prayer1main7],[Prayer1mainb],[printer],[printerpc],[printerrep],[r10t],[r11t],[r11ts],[r12t],[r1t],[r2t],[r3t],[r41ts],[r4t],[r5t],[r6t],[r7t],[r8t],[r9t],[Random01],[Random012],[Random01b],[Random02],[Random02b],[Random03],[Random03b],[Random04],[Random04b],[Random05],[Random05b],[Random06],[Random06b],[Random07],[Random07b],[Random08],[Random08b],[Random09],[Random09b],[Random10],[Random10b],[Random11],[Random11b],[Random12],[Random12b],[Random13],[Random13b],[Random14],[Random14b],[Random15],[Random15b],[Random16],[Random16b],[Random17],[Random17b],[Random18],[Random18b],[Random19],[Random19b],[Random20],[Random20b],[Random21],[Random21b],[Random22],[Random22b],[Random23],[Random24],[Random24b],[Random25],[Random25b],[Random26],[Random26b],[Random27],[Random27b],[Random28],[Random28b],[Random29],[Random29b],[Random30],[Random30b],[Random31],[Random31b],[Random32],[Random32b],[Random33],[Random33b],[Random34],[Random34b],[Random35],[Random35b],[Random36],[Random36b],[Random37],[Random37b],[Random38],[Random38b],[Random39],[Random39b],[Random40],[Random40b],[Random41],[Random41b],[Random42],[Random42b],[Randomm11],[Rannotes01],[Reloaded],[reset00],[reset01],[reset02],[reset03],[reseto3],[s],[start],[start80],[ta131],[tesla],[teslapc],[teslarep],[text],[Thisweek],[thoughts],[thunder],[thunderpc],[thunderrep],[Title],[Title00],[Title01],[Title01a],[Title01b],[Title01c],[Title01d],[Title01e],[Title02],[Title02a],[Title02b],[Title02c],[Title02d],[Title02e],[Title03],[Title03a],[Title03b],[Title03c],[Title03d],[Title03e],[Title04],[Title04a],[Title04b],[Title04c],[Title04d],[Title04e],[Title05],[Title05a],[Title05b],[Title05c],[Title05d],[Title05e],[Title06],[Title06a],[Title06b],[Title06c],[Title06d],[Title07],[Title07a],[Title07b],[Title07c],[Title07d],[Title08],[Title08a],[Title08b],[Title08c],[Title08d],[Title09],[Title09a],[Title09b],[Title09c],[Title09d],[Title10],[Title10a],[Title10b],[Title10c],[Title10d],[Title11],[Title11a],[Title11b],[Title11c],[Title11d],[Title12],[Title12a],[Title12b],[Title12c],[Title12d],[Title12e],[Title12f],[Title12g],[Title12h],[Title13],[Title13d],[Title14],[Title14d],[Title15],[Title15d],[Title16],[Title16d],[Title17],[Title17d],[Title18],[Title18d],[Title19],[Title19d],[Title20],[Title20d],[Title21],[Title21d],[Title22],[Title22d],[Title23],[Title23d],[Title24],[Title24d],[Title25],[Title25d],[Title26],[Title26d],[Title26e],[Two],[twotit],[version],[wain01],[wamn01a],[work],[workpc],[workrep]</Variables>
 	<VariablesScanned>True</VariablesScanned>
 	<PageWidth>414</PageWidth>
 	<PageHeight>736</PageHeight>
@@ -535,7 +535,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<height>20px</height>
 							<style>color:red;font-size:14pt;font-weight:600;text-align:center</style>
 							<hover>color:YELLOW</hover>
-							<text>Tv1.17 &lt;em&gt;&lt;sup&gt;25 April 25&lt;/sup&gt;&lt;/em&gt;</text>
+							<text>Tv1.18 &lt;em&gt;&lt;sup&gt;26 April 25&lt;/sup&gt;&lt;/em&gt;</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -659,6 +659,53 @@ GotoPage &quot;Random&quot;</click>
 							<hover>font-size:10pt;box-shadow:3px 3px 3px lime</hover>
 							<caption>Miles</caption>
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1yQixLKy9LaRJnrrYnUyBbO8sUEhYKiy48MERr7E4yXI/edit?usp=sharing&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton584">
+							<left>13px</left>
+							<top>61px</top>
+							<width>105px</width>
+							<height>43px</height>
+							<style>opacity:0.14</style>
+							<hover>opacity:0.6</hover>
+							<caption>Map</caption>
+							<click>GetItem &quot;wain01&quot; [wain01]
+GetItem &quot;wain01a&quot; [wain01a]
+
+GetItem &quot;wain02&quot; [wain02]
+GetItem &quot;wain02a&quot; [wain02a]
+
+GetItem &quot;wain03&quot; [wain03]
+GetItem &quot;wain03a&quot; [wain03a]
+
+GetItem &quot;wain04&quot; [wain04]
+GetItem &quot;wain04a&quot; [wain04a]
+
+GetItem &quot;wain05&quot; [wain05]
+GetItem &quot;wain05a&quot; [wain05a]
+
+GetItem &quot;wain06&quot; [wain06]
+GetItem &quot;wain06a&quot; [wain06a]
+
+GetItem &quot;wain07&quot; [wain07]
+GetItem &quot;wain07a&quot; [wain07a]
+
+GetItem &quot;wain08&quot; [wain08]
+GetItem &quot;wain08a&quot; [wain08a]
+
+HideObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock07&quot; &quot;none&quot; 0
+HideObject &quot;clock08&quot; &quot;none&quot; 0
+
+SetVar [select] &quot;select&quot;
+SetVar [wain] [select]
+
+
+GotoPage &quot;map&quot;</click>
 						</PushButton>
 					</Components>
 				</Page>
@@ -4941,6 +4988,562 @@ SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;<
 							<height>37px</height>
 							<change>SetItem &quot;Title02d&quot; [Title02d]</change>
 						</TextInput>
+					</Components>
+				</Page>
+				<Page id="map">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<TextArea id="TextArea4">
+							<left>100px</left>
+							<top>796px</top>
+							<width>251px</width>
+							<height>59px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain01a]</variable>
+							<change>SetItem &quot;wain01a&quot; [wain01a]</change>
+						</TextArea>
+						<TextInput id="TextInput113">
+							<left>100px</left>
+							<top>752px</top>
+							<width>251px</width>
+							<height>37px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain01]</variable>
+							<change>SetItem &quot;wain01&quot; [wain01]</change>
+						</TextInput>
+						<Image id="Image94">
+							<left>-2px</left>
+							<top>0px</top>
+							<width>417px</width>
+							<height>737px</height>
+							<source>C:\Users\User\Desktop\Catalogue\Features small.jpg</source>
+						</Image>
+						<Headline id="Headline417">
+							<left>128px</left>
+							<top>120px</top>
+							<width>99px</width>
+							<height>127px</height>
+							<style>color:White;font-size:11pt;font-weight:600;text-align:center</style>
+							<hover>color:yellow</hover>
+							<text>&lt;br&gt;&lt;br&gt;[wain01]&lt;br&gt;&lt;sup&gt;[wain01a]&lt;/sup&gt;</text>
+							<click>ShowObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock07&quot; &quot;none&quot; 0
+HideObject &quot;clock08&quot; &quot;none&quot; 0
+
+SetVar [wain] [wain01]</click>
+						</Headline>
+						<PushButton id="PushButton581">
+							<left>10px</left>
+							<top>696px</top>
+							<width>71px</width>
+							<height>33px</height>
+							<caption>Pause</caption>
+							<click>neoTalkPause
+
+ObjectToBack &quot;PushButton208&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton582">
+							<left>256px</left>
+							<top>696px</top>
+							<width>138px</width>
+							<height>33px</height>
+							<style>color:green;font-weight:800</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[Prayer1main]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<PushButton id="PushButton583">
+							<left>213px</left>
+							<top>696px</top>
+							<width>39px</width>
+							<height>33px</height>
+							<style>color:red;font-size:12pt;font-weight:800</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<PushButton id="PushButton585">
+							<left>83px</left>
+							<top>696px</top>
+							<width>57px</width>
+							<height>33px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[p1t]-1&quot; -1 [p1t]
+
+
+SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton586">
+							<left>143px</left>
+							<top>696px</top>
+							<width>65px</width>
+							<height>33px</height>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[p1t]+1&quot; -1 [p1t]
+
+
+SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;</click>
+						</PushButton>
+						<TextArea id="TextArea185">
+							<left>100px</left>
+							<top>906px</top>
+							<width>251px</width>
+							<height>59px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain02a]</variable>
+							<change>SetItem &quot;wain02a&quot; [wain02a]</change>
+						</TextArea>
+						<TextInput id="TextInput114">
+							<left>100px</left>
+							<top>862px</top>
+							<width>251px</width>
+							<height>37px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain02]</variable>
+							<change>SetItem &quot;wain02&quot; [wain02]</change>
+						</TextInput>
+						<Headline id="Headline414">
+							<left>243px</left>
+							<top>128px</top>
+							<width>99px</width>
+							<height>127px</height>
+							<style>color:White;font-size:11pt;font-weight:600;text-align:center</style>
+							<hover>color:yellow</hover>
+							<text>&lt;br&gt;&lt;br&gt;[wain02]&lt;br&gt;&lt;sup&gt;[wain02a]&lt;/sup&gt;</text>
+							<click>ShowObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock07&quot; &quot;none&quot; 0
+HideObject &quot;clock08&quot; &quot;none&quot; 0
+
+SetVar [wain] [wain02]</click>
+						</Headline>
+						<Headline id="Headline416">
+							<left>304px</left>
+							<top>292px</top>
+							<width>99px</width>
+							<height>127px</height>
+							<style>color:White;font-size:11pt;font-weight:600;text-align:center</style>
+							<hover>color:yellow</hover>
+							<text>&lt;br&gt;&lt;br&gt;[wain03]&lt;br&gt;&lt;sup&gt;[wain03a]&lt;/sup&gt;</text>
+							<click>ShowObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock07&quot; &quot;none&quot; 0
+HideObject &quot;clock08&quot; &quot;none&quot; 0
+
+SetVar [wain] [wain03]</click>
+						</Headline>
+						<Headline id="Headline418">
+							<left>286px</left>
+							<top>480px</top>
+							<width>99px</width>
+							<height>127px</height>
+							<style>color:White;font-size:11pt;font-weight:600;text-align:center</style>
+							<hover>color:yellow</hover>
+							<text>&lt;br&gt;&lt;br&gt;[wain04]&lt;br&gt;&lt;sup&gt;[wain04a]&lt;/sup&gt;</text>
+							<click>ShowObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock07&quot; &quot;none&quot; 0
+HideObject &quot;clock08&quot; &quot;none&quot; 0
+
+SetVar [wain] [wain04]</click>
+						</Headline>
+						<Headline id="Headline419">
+							<left>183px</left>
+							<top>557px</top>
+							<width>99px</width>
+							<height>127px</height>
+							<style>color:White;font-size:11pt;font-weight:600;text-align:center</style>
+							<hover>color:yellow</hover>
+							<text>&lt;br&gt;&lt;br&gt;[wain05]&lt;br&gt;&lt;sup&gt;[wain05a]&lt;/sup&gt;</text>
+							<click>ShowObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock07&quot; &quot;none&quot; 0
+HideObject &quot;clock08&quot; &quot;none&quot; 0
+
+SetVar [wain] [wain05]</click>
+						</Headline>
+						<TextArea id="TextArea186">
+							<left>100px</left>
+							<top>1020px</top>
+							<width>251px</width>
+							<height>59px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain03a]</variable>
+							<change>SetItem &quot;wain03a&quot; [wain03a]</change>
+						</TextArea>
+						<TextInput id="TextInput115">
+							<left>100px</left>
+							<top>976px</top>
+							<width>251px</width>
+							<height>37px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain03]</variable>
+							<change>SetItem &quot;wain03&quot; [wain03]</change>
+						</TextInput>
+						<TextArea id="TextArea187">
+							<left>100px</left>
+							<top>1242px</top>
+							<width>251px</width>
+							<height>59px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain05a]</variable>
+							<change>SetItem &quot;wain05a&quot; [wain05a]</change>
+						</TextArea>
+						<TextInput id="TextInput116">
+							<left>100px</left>
+							<top>1198px</top>
+							<width>251px</width>
+							<height>37px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain05]</variable>
+							<change>SetItem &quot;wain05&quot; [wain05]</change>
+						</TextInput>
+						<TextArea id="TextArea188">
+							<left>100px</left>
+							<top>1127px</top>
+							<width>251px</width>
+							<height>59px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain04a]</variable>
+							<change>SetItem &quot;wain04a&quot; [wain04a]</change>
+						</TextArea>
+						<TextInput id="TextInput117">
+							<left>100px</left>
+							<top>1083px</top>
+							<width>251px</width>
+							<height>37px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain04]</variable>
+							<change>SetItem &quot;wain04&quot; [wain04]</change>
+						</TextInput>
+						<PushButton id="PushButton587">
+							<left>334px</left>
+							<top>12px</top>
+							<width>62px</width>
+							<height>52px</height>
+							<style>font-size:8pt;opacity:0.42</style>
+							<caption>Main &lt;br&gt;Board</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline415">
+							<left>12px</left>
+							<top>756px</top>
+							<width>50px</width>
+							<height>47px</height>
+							<style>color:#FF0000</style>
+							<text>1</text>
+						</Headline>
+						<Headline id="Headline420">
+							<left>10px</left>
+							<top>856px</top>
+							<width>50px</width>
+							<height>47px</height>
+							<style>color:#FF0000</style>
+							<text>2</text>
+						</Headline>
+						<Headline id="Headline421">
+							<left>11px</left>
+							<top>975px</top>
+							<width>50px</width>
+							<height>47px</height>
+							<style>color:#FF0000</style>
+							<text>3</text>
+						</Headline>
+						<Headline id="Headline422">
+							<left>11px</left>
+							<top>1082px</top>
+							<width>50px</width>
+							<height>47px</height>
+							<style>color:#FF0000</style>
+							<text>4</text>
+						</Headline>
+						<Headline id="Headline423">
+							<left>8px</left>
+							<top>1202px</top>
+							<width>50px</width>
+							<height>47px</height>
+							<style>color:#FF0000</style>
+							<text>5</text>
+						</Headline>
+						<TextArea id="TextArea89">
+							<left>100px</left>
+							<top>1366px</top>
+							<width>251px</width>
+							<height>59px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain06a]</variable>
+							<change>SetItem &quot;wain06a&quot; [wain06a]</change>
+						</TextArea>
+						<TextInput id="TextInput118">
+							<left>100px</left>
+							<top>1322px</top>
+							<width>251px</width>
+							<height>37px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain06]</variable>
+							<change>SetItem &quot;wain06&quot; [wain06]</change>
+						</TextInput>
+						<TextArea id="TextArea189">
+							<left>100px</left>
+							<top>1588px</top>
+							<width>251px</width>
+							<height>59px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain08a]</variable>
+							<change>SetItem &quot;wain08a&quot; [wain08a]</change>
+						</TextArea>
+						<TextInput id="TextInput119">
+							<left>100px</left>
+							<top>1544px</top>
+							<width>251px</width>
+							<height>37px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain08]</variable>
+							<change>SetItem &quot;wain08&quot; [wain08]</change>
+						</TextInput>
+						<TextArea id="TextArea190">
+							<left>100px</left>
+							<top>1473px</top>
+							<width>251px</width>
+							<height>59px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain07a]</variable>
+							<change>SetItem &quot;wain07a&quot; [wain07a]</change>
+						</TextArea>
+						<TextInput id="TextInput120">
+							<left>100px</left>
+							<top>1429px</top>
+							<width>251px</width>
+							<height>37px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>[wain07]</variable>
+							<change>SetItem &quot;wain07&quot; [wain07]</change>
+						</TextInput>
+						<Headline id="Headline424">
+							<left>6px</left>
+							<top>1321px</top>
+							<width>50px</width>
+							<height>47px</height>
+							<style>color:#FF0000</style>
+							<text>6</text>
+						</Headline>
+						<Headline id="Headline425">
+							<left>6px</left>
+							<top>1428px</top>
+							<width>50px</width>
+							<height>47px</height>
+							<style>color:#FF0000</style>
+							<text>7</text>
+						</Headline>
+						<Headline id="Headline426">
+							<left>3px</left>
+							<top>1548px</top>
+							<width>50px</width>
+							<height>47px</height>
+							<style>color:#FF0000</style>
+							<text>8</text>
+						</Headline>
+						<Headline id="Headline427">
+							<left>60px</left>
+							<top>521px</top>
+							<width>99px</width>
+							<height>127px</height>
+							<style>color:White;font-size:11pt;font-weight:600;text-align:center</style>
+							<hover>color:yellow</hover>
+							<text>&lt;br&gt;&lt;br&gt;[wain06]&lt;br&gt;&lt;sup&gt;[wain06a]&lt;/sup&gt;</text>
+							<click>ShowObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock07&quot; &quot;none&quot; 0
+HideObject &quot;clock08&quot; &quot;none&quot; 0
+
+SetVar [wain] [wain06]</click>
+						</Headline>
+						<Headline id="Headline428">
+							<left>6px</left>
+							<top>371px</top>
+							<width>99px</width>
+							<height>127px</height>
+							<style>color:White;font-size:11pt;font-weight:600;text-align:center</style>
+							<hover>color:yellow</hover>
+							<text>&lt;br&gt;&lt;br&gt;[wain07]&lt;br&gt;&lt;sup&gt;[wain07a]&lt;/sup&gt;</text>
+							<click>ShowObject &quot;clock07&quot; &quot;none&quot; 0
+HideObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock08&quot; &quot;none&quot; 0
+
+SetVar [wain] [wain07]</click>
+						</Headline>
+						<Headline id="Headline429">
+							<left>18px</left>
+							<top>202px</top>
+							<width>99px</width>
+							<height>127px</height>
+							<style>color:White;font-size:11pt;font-weight:600;text-align:center</style>
+							<hover>color:yellow</hover>
+							<text>&lt;br&gt;&lt;br&gt;[wain08]&lt;br&gt;&lt;sup&gt;[wain08a]&lt;/sup&gt;</text>
+							<click>ShowObject &quot;clock08&quot; &quot;none&quot; 0
+HideObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock07&quot; &quot;none&quot; 0
+
+SetVar [wain] [wain08]</click>
+						</Headline>
+						<Line id="clock01">
+							<left>185px</left>
+							<top>244px</top>
+							<width>25px</width>
+							<height>84px</height>
+							<style>stroke:yellow;stroke-width:6px</style>
+							<x1>206</x1>
+							<y1>324</y1>
+							<x2>189</x2>
+							<y2>248</y2>
+						</Line>
+						<Line id="clock02">
+							<left>232px</left>
+							<top>249px</top>
+							<width>57px</width>
+							<height>67px</height>
+							<style>stroke:yellow;stroke-width:6px</style>
+							<x1>236</x1>
+							<y1>312</y1>
+							<x2>285</x2>
+							<y2>253</y2>
+						</Line>
+						<Line id="clock03">
+							<left>247px</left>
+							<top>356px</top>
+							<width>84px</width>
+							<height>17px</height>
+							<style>stroke:yellow;stroke-width:6px</style>
+							<x1>251</x1>
+							<y1>369</y1>
+							<x2>327</x2>
+							<y2>360</y2>
+						</Line>
+						<Line id="clock04">
+							<left>225px</left>
+							<top>426px</top>
+							<width>96px</width>
+							<height>61px</height>
+							<style>stroke:yellow;stroke-width:6px</style>
+							<x1>229</x1>
+							<y1>430</y1>
+							<x2>317</x2>
+							<y2>483</y2>
+						</Line>
+						<Line id="clock05">
+							<left>198px</left>
+							<top>422px</top>
+							<width>36px</width>
+							<height>131px</height>
+							<style>stroke:yellow;stroke-width:6px</style>
+							<x1>202</x1>
+							<y1>426</y1>
+							<x2>230</x2>
+							<y2>549</y2>
+						</Line>
+						<Line id="clock06">
+							<left>125px</left>
+							<top>425px</top>
+							<width>73px</width>
+							<height>106px</height>
+							<style>stroke:yellow;stroke-width:6px</style>
+							<x1>194</x1>
+							<y1>429</y1>
+							<x2>129</x2>
+							<y2>527</y2>
+						</Line>
+						<Line id="clock07">
+							<left>96px</left>
+							<top>381px</top>
+							<width>86px</width>
+							<height>31px</height>
+							<style>stroke:yellow;stroke-width:6px</style>
+							<x1>178</x1>
+							<y1>385</y1>
+							<x2>100</x2>
+							<y2>408</y2>
+						</Line>
+						<Line id="clock08">
+							<left>111px</left>
+							<top>299px</top>
+							<width>73px</width>
+							<height>56px</height>
+							<style>stroke:yellow;stroke-width:6px</style>
+							<x1>180</x1>
+							<y1>351</y1>
+							<x2>115</x2>
+							<y2>303</y2>
+						</Line>
+						<Headline id="Headline430">
+							<left>160px</left>
+							<top>346px</top>
+							<width>99px</width>
+							<height>82px</height>
+							<style>color:White;font-size:15pt;font-weight:600;text-align:center</style>
+							<hover>color:yellow</hover>
+							<text>&lt;br&gt;&lt;br&gt;[wain]&lt;br&gt;</text>
+							<click>ShowObject &quot;clock01&quot; &quot;none&quot; 0
+HideObject &quot;clock02&quot; &quot;none&quot; 0
+HideObject &quot;clock03&quot; &quot;none&quot; 0
+HideObject &quot;clock04&quot; &quot;none&quot; 0
+HideObject &quot;clock05&quot; &quot;none&quot; 0
+HideObject &quot;clock06&quot; &quot;none&quot; 0
+HideObject &quot;clock07&quot; &quot;none&quot; 0
+HideObject &quot;clock08&quot; &quot;none&quot; 0</click>
+						</Headline>
+						<Container id="Container33">
+							<left>70px</left>
+							<top>15px</top>
+							<width>261px</width>
+							<height>86px</height>
+							<style>background-color:#383838;border-style:solid;border-width:1px</style>
+							<Components>
+								<Headline id="Headline431">
+									<left>5px</left>
+									<top>2px</top>
+									<width>255px</width>
+									<height>39px</height>
+									<style>color:#E0E0E0;font-size:12pt;text-align:center</style>
+									<text>&lt;strong&gt;Development Modle Time&lt;/strong&gt;&lt;br&gt;[wain]</text>
+								</Headline>
+							</Components>
+						</Container>
 					</Components>
 				</Page>
 				<Page id="Random">

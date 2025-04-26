@@ -34,6 +34,8 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton464:hover {font-size:10pt;box-shadow:3px 3px 3px lime}
 #PushButton575 {position:absolute;left:71.0144927536232%;width:20.5314009661836%;top:38.7228260869565%;height:4.6195652173913%;margin:0;color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27}
 #PushButton575:hover {font-size:10pt;box-shadow:3px 3px 3px lime}
+#PushButton584 {position:absolute;left:3.14009661835749%;width:25.3623188405797%;top:8.28804347826087%;height:5.84239130434783%;margin:0;opacity:0.14}
+#PushButton584:hover {opacity:0.6}
 #GOOGLE-A1 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #PushButton173 {position:absolute;left:5.55555555555556%;width:39.8550724637681%;top:60.3260869565217%;height:14.2663043478261%;margin:0;font-size:16pt;box-shadow:3px 3px 3px red}
 #PushButton173:hover {box-shadow:3px 3px 3px lime}
@@ -546,6 +548,66 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton545 {position:absolute;left:34.5410628019324%;width:15.7004830917874%;top:94.5652173913043%;height:4.48369565217391%;margin:0;color:blue}
 #PushButton6 {position:absolute;left:65.7004830917874%;width:20.7729468599034%;top:0.951086956521739%;height:10.1902173913043%;margin:0;font-size:8pt;opacity:0.42}
 #TextInput112 {position:absolute;left:1.93236714975845%;width:93.4782608695652%;top:11.4130434782609%;height:5.02717391304348%;margin:0;}
+#map {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
+#TextArea4 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:108.152173913043%;height:8.01630434782609%;margin:0;font-size:11pt;font-weight:600}
+#TextInput113 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:102.173913043478%;height:5.02717391304348%;margin:0;font-size:11pt;font-weight:600}
+#Image94 {position:absolute;left:-0.483091787439614%;width:100.724637681159%;top:0px;height:100.135869565217%;margin:0;}
+#Headline417 {position:absolute;left:30.9178743961353%;width:23.9130434782609%;top:16.304347826087%;height:17.2554347826087%;margin:0;color:White;font-size:11pt;font-weight:600;text-align:center}
+#Headline417:hover {color:yellow}
+#PushButton581 {position:absolute;left:2.41545893719807%;width:17.1497584541063%;top:94.5652173913043%;height:4.48369565217391%;margin:0;}
+#PushButton582 {position:absolute;left:61.8357487922705%;width:33.3333333333333%;top:94.5652173913043%;height:4.48369565217391%;margin:0;color:green;font-weight:800}
+#PushButton583 {position:absolute;left:51.4492753623188%;width:9.42028985507246%;top:94.5652173913043%;height:4.48369565217391%;margin:0;color:red;font-size:12pt;font-weight:800}
+#PushButton585 {position:absolute;left:20.048309178744%;width:13.768115942029%;top:94.5652173913043%;height:4.48369565217391%;margin:0;color:blue;font-weight:600}
+#PushButton586 {position:absolute;left:34.5410628019324%;width:15.7004830917874%;top:94.5652173913043%;height:4.48369565217391%;margin:0;color:blue}
+#TextArea185 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:123.097826086957%;height:8.01630434782609%;margin:0;font-size:11pt;font-weight:600}
+#TextInput114 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:117.119565217391%;height:5.02717391304348%;margin:0;font-size:11pt;font-weight:600}
+#Headline414 {position:absolute;left:58.695652173913%;width:23.9130434782609%;top:17.3913043478261%;height:17.2554347826087%;margin:0;color:White;font-size:11pt;font-weight:600;text-align:center}
+#Headline414:hover {color:yellow}
+#Headline416 {position:absolute;left:73.4299516908213%;width:23.9130434782609%;top:39.6739130434783%;height:17.2554347826087%;margin:0;color:White;font-size:11pt;font-weight:600;text-align:center}
+#Headline416:hover {color:yellow}
+#Headline418 {position:absolute;left:69.0821256038647%;width:23.9130434782609%;top:65.2173913043478%;height:17.2554347826087%;margin:0;color:White;font-size:11pt;font-weight:600;text-align:center}
+#Headline418:hover {color:yellow}
+#Headline419 {position:absolute;left:44.2028985507246%;width:23.9130434782609%;top:75.679347826087%;height:17.2554347826087%;margin:0;color:White;font-size:11pt;font-weight:600;text-align:center}
+#Headline419:hover {color:yellow}
+#TextArea186 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:138.586956521739%;height:8.01630434782609%;margin:0;font-size:11pt;font-weight:600}
+#TextInput115 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:132.608695652174%;height:5.02717391304348%;margin:0;font-size:11pt;font-weight:600}
+#TextArea187 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:168.75%;height:8.01630434782609%;margin:0;font-size:11pt;font-weight:600}
+#TextInput116 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:162.771739130435%;height:5.02717391304348%;margin:0;font-size:11pt;font-weight:600}
+#TextArea188 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:153.125%;height:8.01630434782609%;margin:0;font-size:11pt;font-weight:600}
+#TextInput117 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:147.146739130435%;height:5.02717391304348%;margin:0;font-size:11pt;font-weight:600}
+#PushButton587 {position:absolute;left:80.6763285024155%;width:14.975845410628%;top:1.6304347826087%;height:7.06521739130435%;margin:0;font-size:8pt;opacity:0.42}
+#Headline415 {position:absolute;left:2.89855072463768%;width:12.0772946859903%;top:102.717391304348%;height:6.38586956521739%;margin:0;color:#FF0000}
+#Headline420 {position:absolute;left:2.41545893719807%;width:12.0772946859903%;top:116.304347826087%;height:6.38586956521739%;margin:0;color:#FF0000}
+#Headline421 {position:absolute;left:2.65700483091787%;width:12.0772946859903%;top:132.472826086957%;height:6.38586956521739%;margin:0;color:#FF0000}
+#Headline422 {position:absolute;left:2.65700483091787%;width:12.0772946859903%;top:147.010869565217%;height:6.38586956521739%;margin:0;color:#FF0000}
+#Headline423 {position:absolute;left:1.93236714975845%;width:12.0772946859903%;top:163.315217391304%;height:6.38586956521739%;margin:0;color:#FF0000}
+#TextArea89 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:185.597826086957%;height:8.01630434782609%;margin:0;font-size:11pt;font-weight:600}
+#TextInput118 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:179.619565217391%;height:5.02717391304348%;margin:0;font-size:11pt;font-weight:600}
+#TextArea189 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:215.760869565217%;height:8.01630434782609%;margin:0;font-size:11pt;font-weight:600}
+#TextInput119 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:209.782608695652%;height:5.02717391304348%;margin:0;font-size:11pt;font-weight:600}
+#TextArea190 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:200.135869565217%;height:8.01630434782609%;margin:0;font-size:11pt;font-weight:600}
+#TextInput120 {position:absolute;left:24.1545893719807%;width:60.6280193236715%;top:194.157608695652%;height:5.02717391304348%;margin:0;font-size:11pt;font-weight:600}
+#Headline424 {position:absolute;left:1.44927536231884%;width:12.0772946859903%;top:179.483695652174%;height:6.38586956521739%;margin:0;color:#FF0000}
+#Headline425 {position:absolute;left:1.44927536231884%;width:12.0772946859903%;top:194.021739130435%;height:6.38586956521739%;margin:0;color:#FF0000}
+#Headline426 {position:absolute;left:0.72463768115942%;width:12.0772946859903%;top:210.326086956522%;height:6.38586956521739%;margin:0;color:#FF0000}
+#Headline427 {position:absolute;left:14.4927536231884%;width:23.9130434782609%;top:70.7880434782609%;height:17.2554347826087%;margin:0;color:White;font-size:11pt;font-weight:600;text-align:center}
+#Headline427:hover {color:yellow}
+#Headline428 {position:absolute;left:1.44927536231884%;width:23.9130434782609%;top:50.4076086956522%;height:17.2554347826087%;margin:0;color:White;font-size:11pt;font-weight:600;text-align:center}
+#Headline428:hover {color:yellow}
+#Headline429 {position:absolute;left:4.34782608695652%;width:23.9130434782609%;top:27.445652173913%;height:17.2554347826087%;margin:0;color:White;font-size:11pt;font-weight:600;text-align:center}
+#Headline429:hover {color:yellow}
+#clock01 {position:absolute;left:44.6859903381643%;width:6.03864734299517%;top:33.1521739130435%;height:11.4130434782609%;margin:0;stroke:yellow;stroke-width:6px}
+#clock02 {position:absolute;left:56.0386473429952%;width:13.768115942029%;top:33.8315217391304%;height:9.10326086956522%;margin:0;stroke:yellow;stroke-width:6px}
+#clock03 {position:absolute;left:59.6618357487923%;width:20.2898550724638%;top:48.3695652173913%;height:2.30978260869565%;margin:0;stroke:yellow;stroke-width:6px}
+#clock04 {position:absolute;left:54.3478260869565%;width:23.1884057971014%;top:57.8804347826087%;height:8.28804347826087%;margin:0;stroke:yellow;stroke-width:6px}
+#clock05 {position:absolute;left:47.8260869565217%;width:8.69565217391304%;top:57.3369565217391%;height:17.7989130434783%;margin:0;stroke:yellow;stroke-width:6px}
+#clock06 {position:absolute;left:30.1932367149758%;width:17.6328502415459%;top:57.7445652173913%;height:14.4021739130435%;margin:0;stroke:yellow;stroke-width:6px}
+#clock07 {position:absolute;left:23.1884057971014%;width:20.7729468599034%;top:51.7663043478261%;height:4.21195652173913%;margin:0;stroke:yellow;stroke-width:6px}
+#clock08 {position:absolute;left:26.8115942028986%;width:17.6328502415459%;top:40.625%;height:7.60869565217391%;margin:0;stroke:yellow;stroke-width:6px}
+#Headline430 {position:absolute;left:38.6473429951691%;width:23.9130434782609%;top:47.0108695652174%;height:11.1413043478261%;margin:0;color:White;font-size:15pt;font-weight:600;text-align:center}
+#Headline430:hover {color:yellow}
+#Container33 {position:absolute;left:16.9082125603865%;width:63.0434782608696%;top:2.03804347826087%;height:11.6847826086957%;margin:0;background-color:#383838;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#Headline431 {position:absolute;left:1.91570881226054%;width:97.7011494252874%;top:2.32558139534884%;height:45.3488372093023%;margin:0;color:#E0E0E0;font-size:12pt;text-align:center}
 #Random {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image92 {position:absolute;left:14.975845410628%;width:42.2705314009662%;top:0.951086956521739%;height:54.6195652173913%;margin:0;}
 #PushButton540 {position:absolute;left:2.41545893719807%;width:13.768115942029%;top:94.7010869565217%;height:4.48369565217391%;margin:0;}
