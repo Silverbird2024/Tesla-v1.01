@@ -535,7 +535,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<height>20px</height>
 							<style>color:red;font-size:14pt;font-weight:600;text-align:center</style>
 							<hover>color:YELLOW</hover>
-							<text>Tv1.20 &lt;em&gt;&lt;sup&gt;28 April 25&lt;/sup&gt;&lt;/em&gt;</text>
+							<text>Tv1.21 &lt;em&gt;&lt;sup&gt;28 April 25&lt;/sup&gt;&lt;/em&gt;</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -5983,6 +5983,22 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;
 							<prevclick>GotoPrevPage</prevclick>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
+						<PushButton id="PushButton487">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
+						</PushButton>
+						<PushButton id="PushButton495">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random02">
@@ -6103,6 +6119,22 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02b] &quot;b&quot; 2 &quot;
 							<prevclick>GotoPrevPage</prevclick>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
+						<PushButton id="PushButton503">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton511">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random03">
@@ -6223,6 +6255,22 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03b] &quot;b&quot; 3 &quot;
 							<prevclick>GotoPrevPage</prevclick>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
+						<PushButton id="PushButton516">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton517">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random04">
@@ -6343,6 +6391,22 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;
 							<prevclick>GotoPrevPage</prevclick>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
+						<PushButton id="PushButton518">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton519">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random05">
@@ -6463,6 +6527,22 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;
 							<prevclick>GotoPrevPage</prevclick>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
+						<PushButton id="PushButton523">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton550">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random06">
@@ -6583,6 +6663,22 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;
 							<prevclick>GotoPrevPage</prevclick>
 							<nextclick>GotoNextPage</nextclick>
 						</Pager>
+						<PushButton id="PushButton558">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton566">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random07">
@@ -6702,6 +6798,22 @@ SetObjectStyle &quot;ranbox04&quot; &quot;font-size&quot; &quot;[r4t]pt&quot;</c
 							<caption>Load from DB</caption>
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07] &quot;a&quot; 7 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random07b] &quot;b&quot; 7 &quot;&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton600">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton601">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
 						</PushButton>
 					</Components>
 				</Page>
@@ -6823,6 +6935,22 @@ SetObjectStyle &quot;ranbox08&quot; &quot;font-size&quot; &quot;[r8t]pt&quot;</c
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08] &quot;a&quot; 8 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random08b] &quot;b&quot; 8 &quot;&quot;</click>
 						</PushButton>
+						<PushButton id="PushButton602">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton603">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random09">
@@ -6942,6 +7070,22 @@ SetObjectStyle &quot;ranbox04&quot; &quot;font-size&quot; &quot;[r4t]pt&quot;</c
 							<caption>Load from DB</caption>
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09] &quot;a&quot; 9 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random09b] &quot;b&quot; 9 &quot;&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton604">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton605">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
 						</PushButton>
 					</Components>
 				</Page>
@@ -7063,6 +7207,22 @@ SetObjectStyle &quot;ranbox10&quot; &quot;font-size&quot; &quot;[r10t]pt&quot;</
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10] &quot;a&quot; 10 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random10b] &quot;b&quot; 10 &quot;&quot;</click>
 						</PushButton>
+						<PushButton id="PushButton606">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton607">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="Random11">
@@ -7182,6 +7342,22 @@ SetObjectStyle &quot;ranbox11&quot; &quot;font-size&quot; &quot;[r11t]pt&quot;</
 							<caption>Load from DB</caption>
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11] &quot;a&quot; 11 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random11b] &quot;b&quot; 11 &quot;&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton608">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton609">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
 						</PushButton>
 					</Components>
 				</Page>
@@ -7311,6 +7487,22 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot
 							<prevclick>GotoPrevPage</prevclick>
 							<nextclick>GotoPrevPage</nextclick>
 						</Pager>
+						<PushButton id="PushButton610">
+							<left>204px</left>
+							<top>683px</top>
+							<width>191px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoNextPage</click>
+						</PushButton>
+						<PushButton id="PushButton611">
+							<left>9px</left>
+							<top>684px</top>
+							<width>194px</width>
+							<height>46px</height>
+							<style>opacity:0.14</style>
+							<click>GotoPrevPage</click>
+						</PushButton>
 					</Components>
 				</Page>
 				<Page id="BookMain">

@@ -2259,6 +2259,8 @@ neoGSheetsLoadCell($App.googleSheet4,"Random01b","b",1,null);
 };
 $scope.Pager9_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager9_nextclick = function() {$scope.GotoNextPage();};
+$scope.PushButton487_click = function() {$scope.GotoPrevPage();};
+$scope.PushButton495_click = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Random02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 11;
@@ -2279,6 +2281,8 @@ neoGSheetsLoadCell($App.googleSheet4,"Random02b","b",2,null);
 };
 $scope.Pager8_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager8_nextclick = function() {$scope.GotoNextPage();};
+$scope.PushButton503_click = function() {$scope.GotoNextPage();};
+$scope.PushButton511_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 12;
@@ -2299,6 +2303,8 @@ neoGSheetsLoadCell($App.googleSheet4,"Random03b","b",3,null);
 };
 $scope.Pager10_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager10_nextclick = function() {$scope.GotoNextPage();};
+$scope.PushButton516_click = function() {$scope.GotoNextPage();};
+$scope.PushButton517_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 13;
@@ -2319,6 +2325,8 @@ neoGSheetsLoadCell($App.googleSheet4,"Random04b","b",4,null);
 };
 $scope.Pager11_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager11_nextclick = function() {$scope.GotoNextPage();};
+$scope.PushButton518_click = function() {$scope.GotoNextPage();};
+$scope.PushButton519_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 14;
@@ -2339,6 +2347,8 @@ neoGSheetsLoadCell($App.googleSheet4,"Random05b","b",5,null);
 };
 $scope.Pager12_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager12_nextclick = function() {$scope.GotoNextPage();};
+$scope.PushButton523_click = function() {$scope.GotoNextPage();};
+$scope.PushButton550_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 15;
@@ -2359,6 +2369,8 @@ neoGSheetsLoadCell($App.googleSheet4,"Random06b","b",6,null);
 };
 $scope.Pager13_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager13_nextclick = function() {$scope.GotoNextPage();};
+$scope.PushButton558_click = function() {$scope.GotoNextPage();};
+$scope.PushButton566_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random07_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 16;
@@ -2379,6 +2391,8 @@ $scope.PushButton506_click = function() {neoGSheetsLoadCell($App.googleSheet4,"R
 
 neoGSheetsLoadCell($App.googleSheet4,"Random07b","b",7,null);
 };
+$scope.PushButton600_click = function() {$scope.GotoNextPage();};
+$scope.PushButton601_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random08_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 17;
@@ -2399,6 +2413,8 @@ $scope.PushButton514_click = function() {neoGSheetsLoadCell($App.googleSheet4,"R
 
 neoGSheetsLoadCell($App.googleSheet4,"Random08b","b",8,null);
 };
+$scope.PushButton602_click = function() {$scope.GotoNextPage();};
+$scope.PushButton603_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random09_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 18;
@@ -2419,6 +2435,8 @@ $scope.PushButton526_click = function() {neoGSheetsLoadCell($App.googleSheet4,"R
 
 neoGSheetsLoadCell($App.googleSheet4,"Random09b","b",9,null);
 };
+$scope.PushButton604_click = function() {$scope.GotoNextPage();};
+$scope.PushButton605_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random10_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 19;
@@ -2439,6 +2457,8 @@ $scope.PushButton553_click = function() {neoGSheetsLoadCell($App.googleSheet4,"R
 
 neoGSheetsLoadCell($App.googleSheet4,"Random10b","b",10,null);
 };
+$scope.PushButton606_click = function() {$scope.GotoNextPage();};
+$scope.PushButton607_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random11_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 20;
@@ -2459,6 +2479,8 @@ $scope.PushButton561_click = function() {neoGSheetsLoadCell($App.googleSheet4,"R
 
 neoGSheetsLoadCell($App.googleSheet4,"Random11b","b",11,null);
 };
+$scope.PushButton608_click = function() {$scope.GotoNextPage();};
+$scope.PushButton609_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("Random12_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 21;
@@ -2479,6 +2501,8 @@ neoGSheetsLoadCell($App.googleSheet4,"Random12b","b",12,null);
 };
 $scope.Pager19_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager19_nextclick = function() {$scope.GotoPrevPage();};
+$scope.PushButton610_click = function() {$scope.GotoNextPage();};
+$scope.PushButton611_click = function() {$scope.GotoPrevPage();};
 });
 NeoApp.controller("BookMain_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 22;
