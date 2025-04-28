@@ -4990,6 +4990,108 @@ SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;<
 						</TextInput>
 					</Components>
 				</Page>
+				<Page id="Milesrecorder">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<pageexit>SetItem &quot;Random01b&quot; [Random01b]</pageexit>
+					<Components>
+						<Image id="Image93">
+							<left>130px</left>
+							<top>13px</top>
+							<width>175px</width>
+							<height>40px</height>
+							<source>TitBlue.jpg</source>
+						</Image>
+						<PushButton id="PushButton571">
+							<left>306px</left>
+							<top>13px</top>
+							<width>100px</width>
+							<height>41px</height>
+							<style>opacity:0.42</style>
+							<caption>Main Board</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton572">
+							<left>8px</left>
+							<top>655px</top>
+							<width>71px</width>
+							<height>33px</height>
+							<caption>Pause</caption>
+							<click>neoTalkPause
+
+ObjectToBack &quot;PushButton208&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton573">
+							<left>254px</left>
+							<top>655px</top>
+							<width>138px</width>
+							<height>33px</height>
+							<style>color:green;font-weight:800</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<PushButton id="PushButton574">
+							<left>211px</left>
+							<top>655px</top>
+							<width>39px</width>
+							<height>33px</height>
+							<style>color:red;font-size:12pt;font-weight:800</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<Pager id="Pager21">
+							<left>98px</left>
+							<top>698px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
+						<PushButton id="PushButton576">
+							<left>83px</left>
+							<top>655px</top>
+							<width>57px</width>
+							<height>33px</height>
+							<style>color:blue;font-weight:600</style>
+							<caption>Text S</caption>
+							<click>Math &quot;[r1t]-1&quot; -1 [r1t]
+
+
+SetObjectStyle &quot;ranbox01&quot; &quot;font-size&quot; &quot;[r1t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton577">
+							<left>143px</left>
+							<top>655px</top>
+							<width>65px</width>
+							<height>33px</height>
+							<style>color:blue</style>
+							<caption>Text L</caption>
+							<click>Math &quot;[r1t]+1&quot; -1 [r1t]
+
+
+SetObjectStyle &quot;ranbox01&quot; &quot;font-size&quot; &quot;[r1t]pt&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton578">
+							<left>10px</left>
+							<top>14px</top>
+							<width>111px</width>
+							<height>37px</height>
+							<caption>Load from DB</caption>
+							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;</click>
+						</PushButton>
+						<Container id="Container32">
+							<left>16px</left>
+							<top>77px</top>
+							<width>373px</width>
+							<height>568px</height>
+							<style>border-width:1px;border-style:solid;background-color:#fff;</style>
+							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vSYts-qj-irPddyFTvamyPshcSGuJ1h5RchqBkkgIKPER458MPMGLEQdzjK6f8KotOU5Q-hfSRDpBtZ/pubhtml&quot;</click>
+						</Container>
+					</Components>
+				</Page>
 				<Page id="map">
 					<style>background-color:#002F3E</style>
 					<enter_effect>fadeIn</enter_effect>
@@ -5881,108 +5983,6 @@ SetObjectStyle &quot;ranbox01&quot; &quot;font-size&quot; &quot;[r1t]pt&quot;</c
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;</click>
 						</PushButton>
-					</Components>
-				</Page>
-				<Page id="Milesrecorder">
-					<style>background-color:#002F3E</style>
-					<enter_effect>fadeIn</enter_effect>
-					<pageexit>SetItem &quot;Random01b&quot; [Random01b]</pageexit>
-					<Components>
-						<Image id="Image93">
-							<left>130px</left>
-							<top>13px</top>
-							<width>175px</width>
-							<height>40px</height>
-							<source>TitBlue.jpg</source>
-						</Image>
-						<PushButton id="PushButton571">
-							<left>306px</left>
-							<top>13px</top>
-							<width>100px</width>
-							<height>41px</height>
-							<style>opacity:0.42</style>
-							<caption>Main Board</caption>
-							<click>GotoPage &quot;Home&quot;</click>
-						</PushButton>
-						<PushButton id="PushButton572">
-							<left>8px</left>
-							<top>655px</top>
-							<width>71px</width>
-							<height>33px</height>
-							<caption>Pause</caption>
-							<click>neoTalkPause
-
-ObjectToBack &quot;PushButton208&quot;</click>
-						</PushButton>
-						<PushButton id="PushButton573">
-							<left>254px</left>
-							<top>655px</top>
-							<width>138px</width>
-							<height>33px</height>
-							<style>color:green;font-weight:800</style>
-							<caption>Read:</caption>
-							<click>neoTalkSpeak &quot;[Random01b]&quot; &quot;uk&quot; 1 .9</click>
-						</PushButton>
-						<PushButton id="PushButton574">
-							<left>211px</left>
-							<top>655px</top>
-							<width>39px</width>
-							<height>33px</height>
-							<style>color:red;font-size:12pt;font-weight:800</style>
-							<caption>X</caption>
-							<click>neoTalkCancel</click>
-						</PushButton>
-						<Pager id="Pager21">
-							<left>98px</left>
-							<top>698px</top>
-							<width>210px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
-						<PushButton id="PushButton576">
-							<left>83px</left>
-							<top>655px</top>
-							<width>57px</width>
-							<height>33px</height>
-							<style>color:blue;font-weight:600</style>
-							<caption>Text S</caption>
-							<click>Math &quot;[r1t]-1&quot; -1 [r1t]
-
-
-SetObjectStyle &quot;ranbox01&quot; &quot;font-size&quot; &quot;[r1t]pt&quot;</click>
-						</PushButton>
-						<PushButton id="PushButton577">
-							<left>143px</left>
-							<top>655px</top>
-							<width>65px</width>
-							<height>33px</height>
-							<style>color:blue</style>
-							<caption>Text L</caption>
-							<click>Math &quot;[r1t]+1&quot; -1 [r1t]
-
-
-SetObjectStyle &quot;ranbox01&quot; &quot;font-size&quot; &quot;[r1t]pt&quot;</click>
-						</PushButton>
-						<PushButton id="PushButton578">
-							<left>10px</left>
-							<top>14px</top>
-							<width>111px</width>
-							<height>37px</height>
-							<caption>Load from DB</caption>
-							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
-neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;</click>
-						</PushButton>
-						<Container id="Container32">
-							<left>16px</left>
-							<top>77px</top>
-							<width>373px</width>
-							<height>568px</height>
-							<style>border-width:1px;border-style:solid;background-color:#fff;</style>
-							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vSYts-qj-irPddyFTvamyPshcSGuJ1h5RchqBkkgIKPER458MPMGLEQdzjK6f8KotOU5Q-hfSRDpBtZ/pubhtml&quot;</click>
-						</Container>
 					</Components>
 				</Page>
 				<Page id="Random02">
