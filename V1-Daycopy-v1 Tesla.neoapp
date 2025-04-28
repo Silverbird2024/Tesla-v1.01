@@ -390,7 +390,7 @@ GetItem &quot;Title26d&quot; [Title26d]</pageenter>
 							<text>&lt;em&gt;Days and Counting: [diff]&lt;/em&gt;&lt;br&gt;&lt;br&gt;</text>
 						</Headline>
 						<PushButton id="PushButton456">
-							<left>62px</left>
+							<left>61px</left>
 							<top>9px</top>
 							<width>105px</width>
 							<height>43px</height>
@@ -400,7 +400,7 @@ GetItem &quot;Title26d&quot; [Title26d]</pageenter>
 							<click>GotoPage &quot;MainBoard&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton458">
-							<left>173px</left>
+							<left>170px</left>
 							<top>9px</top>
 							<width>102px</width>
 							<height>43px</height>
@@ -432,7 +432,7 @@ GotoPage &quot;Dailysheet&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton460">
 							<left>9px</left>
-							<top>10px</top>
+							<top>9px</top>
 							<width>49px</width>
 							<height>42px</height>
 							<style>opacity:0.15</style>
@@ -486,8 +486,8 @@ Else
 EndIf</click>
 						</Container>
 						<PushButton id="PushButton466">
-							<left>294px</left>
-							<top>117px</top>
+							<left>295px</left>
+							<top>125px</top>
 							<width>85px</width>
 							<height>34px</height>
 							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
@@ -519,8 +519,8 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<source>Tesla-Logo.png</source>
 						</Image>
 						<PushButton id="PushButton1">
-							<left>294px</left>
-							<top>159px</top>
+							<left>295px</left>
+							<top>167px</top>
 							<width>85px</width>
 							<height>34px</height>
 							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
@@ -546,8 +546,8 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<text>[NAB.Time]</text>
 						</Headline>
 						<PushButton id="PushButton58">
-							<left>294px</left>
-							<top>201px</top>
+							<left>295px</left>
+							<top>209px</top>
 							<width>85px</width>
 							<height>34px</height>
 							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
@@ -556,10 +556,10 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton468">
-							<left>315px</left>
+							<left>296px</left>
 							<top>684px</top>
 							<width>83px</width>
-							<height>38px</height>
+							<height>34px</height>
 							<style>opacity:0.25</style>
 							<hover>color:red;opacity:0.47</hover>
 							<caption>Random</caption>
@@ -641,8 +641,8 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random41] &quot;a&quot; 42 &quot;
 GotoPage &quot;Random&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton464">
-							<left>294px</left>
-							<top>243px</top>
+							<left>295px</left>
+							<top>251px</top>
 							<width>85px</width>
 							<height>34px</height>
 							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
@@ -651,8 +651,8 @@ GotoPage &quot;Random&quot;</click>
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharing&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton575">
-							<left>294px</left>
-							<top>285px</top>
+							<left>295px</left>
+							<top>293px</top>
 							<width>85px</width>
 							<height>34px</height>
 							<style>color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27</style>
@@ -661,8 +661,8 @@ GotoPage &quot;Random&quot;</click>
 							<click>OpenURL &quot;https://docs.google.com/spreadsheets/d/1yQixLKy9LaRJnrrYnUyBbO8sUEhYKiy48MERr7E4yXI/edit?usp=sharing&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton584">
-							<left>13px</left>
-							<top>61px</top>
+							<left>9px</left>
+							<top>55px</top>
 							<width>105px</width>
 							<height>43px</height>
 							<style>opacity:0.14</style>
@@ -5701,7 +5701,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>10px</left>
 							<top>14px</top>
 							<width>183px</width>
-							<height>307px</height>
+							<height>318px</height>
 							<style>color:red;font-size:9pt;font-weight:600</style>
 							<text>1- [Random01]&lt;br&gt;2- [Random02] &lt;br&gt;3- [Random03] &lt;br&gt;4- [Random04] &lt;br&gt;5- [Random05] &lt;br&gt;6- [Random06] &lt;br&gt;7- [Random07] &lt;br&gt;8- [Random08] &lt;br&gt;9- [Random09] &lt;br&gt;10- [Random10] &lt;br&gt;11- [Random11] &lt;br&gt;12- [Random12] &lt;br&gt;13- [Random13] &lt;br&gt;14- [Random14] &lt;br&gt;15- [Random15] &lt;br&gt;16- [Random16] &lt;br&gt;17- [Random17] &lt;br&gt;18- [Random18] &lt;br&gt;19- [Random19] &lt;br&gt;20- [Random20] &lt;br&gt;21- [Random21]</text>
 						</Headline>
@@ -5715,10 +5715,10 @@ ObjectToBack &quot;PushButton208&quot;</click>
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;</click>
 						</PushButton>
 						<Headline id="Headline404">
-							<left>180px</left>
+							<left>193px</left>
 							<top>14px</top>
-							<width>183px</width>
-							<height>297px</height>
+							<width>203px</width>
+							<height>317px</height>
 							<style>color:red;font-size:9pt;font-weight:600</style>
 							<text>22- [Random22]&lt;br&gt;23- [Random23] &lt;br&gt;24- [Random24] &lt;br&gt;25- [Random25] &lt;br&gt;26- [Random26] &lt;br&gt;27- [Random27] &lt;br&gt;28- [Random28] &lt;br&gt;29- [Random29] &lt;br&gt;30- [Random30] &lt;br&gt;31- [Random31] &lt;br&gt;32- [Random32] &lt;br&gt;33- [Random33] &lt;br&gt;34- [Random34] &lt;br&gt;35- [Random35] &lt;br&gt;36- [Random36] &lt;br&gt;37- [Random37] &lt;br&gt;38- [Random38] &lt;br&gt;39- [Random39] &lt;br&gt;40- [Random40] &lt;br&gt;41- [Random41] &lt;br&gt;42- [Random42]</text>
 						</Headline>
@@ -5747,7 +5747,7 @@ SetObjectStyle &quot;TextArea131&quot; &quot;font-size&quot; &quot;[ta131]pt&quo
 SetObjectStyle &quot;TextArea131&quot; &quot;font-size&quot; &quot;[ta131]pt&quot;</click>
 						</PushButton>
 						<PushButton id="PushButton539">
-							<left>339px</left>
+							<left>343px</left>
 							<top>13px</top>
 							<width>56px</width>
 							<height>123px</height>
@@ -5938,7 +5938,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>305px</width>
-							<height>31px</height>
+							<height>51px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>1- [Random01]</text>
 						</Headline>
@@ -6046,7 +6046,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
 						<Pager id="Pager8">
 							<left>98px</left>
-							<top>691px</top>
+							<top>687px</top>
 							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
@@ -6058,7 +6058,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>51px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>2- [Random02]</text>
 						</Headline>
@@ -6178,7 +6178,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>52px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>3- [Random03]</text>
 						</Headline>
@@ -6298,7 +6298,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>49px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>4- [Random04]</text>
 						</Headline>
@@ -6418,7 +6418,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>53px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>5- [Random05]</text>
 						</Headline>
@@ -6538,7 +6538,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>50px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>6- [Random06]</text>
 						</Headline>
@@ -6658,7 +6658,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>49px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>7- [Random07]</text>
 						</Headline>
@@ -6778,7 +6778,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>49px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>8- [Random08]</text>
 						</Headline>
@@ -6898,7 +6898,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>50px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>9- [Random09]</text>
 						</Headline>
@@ -7018,7 +7018,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>51px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>10- [Random10]</text>
 						</Headline>
@@ -7138,7 +7138,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>51px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>11- [Random11]</text>
 						</Headline>
@@ -7258,7 +7258,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>60px</top>
 							<width>274px</width>
-							<height>31px</height>
+							<height>53px</height>
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>12- [Random12]</text>
 						</Headline>
