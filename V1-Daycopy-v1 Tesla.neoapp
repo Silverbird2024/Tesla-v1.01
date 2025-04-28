@@ -5924,16 +5924,6 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager9">
-							<left>98px</left>
-							<top>686px</top>
-							<width>210px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
 						<Headline id="Headline258">
 							<left>8px</left>
 							<top>60px</top>
@@ -5983,6 +5973,16 @@ SetObjectStyle &quot;ranbox01&quot; &quot;font-size&quot; &quot;[r1t]pt&quot;</c
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01] &quot;a&quot; 1 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random01b] &quot;b&quot; 1 &quot;&quot;</click>
 						</PushButton>
+						<Pager id="Pager9">
+							<left>98px</left>
+							<top>686px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
 					</Components>
 				</Page>
 				<Page id="Random02">
@@ -6044,16 +6044,6 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager8">
-							<left>98px</left>
-							<top>687px</top>
-							<width>210px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
 						<Headline id="Headline260">
 							<left>8px</left>
 							<top>60px</top>
@@ -6103,6 +6093,16 @@ SetObjectStyle &quot;ranbox02&quot; &quot;font-size&quot; &quot;[r2t]pt&quot;</c
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02] &quot;a&quot; 2 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random02b] &quot;b&quot; 2 &quot;&quot;</click>
 						</PushButton>
+						<Pager id="Pager8">
+							<left>98px</left>
+							<top>684px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
 					</Components>
 				</Page>
 				<Page id="Random03">
@@ -6164,16 +6164,6 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager10">
-							<left>99px</left>
-							<top>691px</top>
-							<width>210px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
 						<Headline id="Headline390">
 							<left>8px</left>
 							<top>60px</top>
@@ -6223,6 +6213,16 @@ SetObjectStyle &quot;ranbox03&quot; &quot;font-size&quot; &quot;[r3t]pt&quot;</c
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03] &quot;a&quot; 3 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random03b] &quot;b&quot; 3 &quot;&quot;</click>
 						</PushButton>
+						<Pager id="Pager10">
+							<left>99px</left>
+							<top>685px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
 					</Components>
 				</Page>
 				<Page id="Random04">
@@ -6284,16 +6284,6 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager11">
-							<left>100px</left>
-							<top>691px</top>
-							<width>210px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
 						<Headline id="Headline391">
 							<left>8px</left>
 							<top>60px</top>
@@ -6343,6 +6333,16 @@ SetObjectStyle &quot;ranbox04&quot; &quot;font-size&quot; &quot;[r4t]pt&quot;</c
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04] &quot;a&quot; 4 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random04b] &quot;b&quot; 4 &quot;&quot;</click>
 						</PushButton>
+						<Pager id="Pager11">
+							<left>100px</left>
+							<top>684px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
 					</Components>
 				</Page>
 				<Page id="Random05">
@@ -6404,16 +6404,6 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager12">
-							<left>99px</left>
-							<top>690px</top>
-							<width>210px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
 						<Headline id="Headline392">
 							<left>8px</left>
 							<top>60px</top>
@@ -6463,6 +6453,16 @@ SetObjectStyle &quot;ranbox05&quot; &quot;font-size&quot; &quot;[r5t]pt&quot;</c
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05] &quot;a&quot; 5 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random05b] &quot;b&quot; 5 &quot;&quot;</click>
 						</PushButton>
+						<Pager id="Pager12">
+							<left>99px</left>
+							<top>683px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
 					</Components>
 				</Page>
 				<Page id="Random06">
@@ -6524,16 +6524,6 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager13">
-							<left>100px</left>
-							<top>691px</top>
-							<width>210px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoNextPage</nextclick>
-						</Pager>
 						<Headline id="Headline394">
 							<left>8px</left>
 							<top>60px</top>
@@ -6583,6 +6573,16 @@ SetObjectStyle &quot;ranbox06&quot; &quot;font-size&quot; &quot;[r6t]pt&quot;</c
 							<click>neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06] &quot;a&quot; 6 &quot;&quot;
 neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random06b] &quot;b&quot; 6 &quot;&quot;</click>
 						</PushButton>
+						<Pager id="Pager13">
+							<left>100px</left>
+							<top>684px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
 					</Components>
 				</Page>
 				<Page id="Random07">
@@ -6646,7 +6646,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
 						<Pager id="Pager14">
 							<left>100px</left>
-							<top>690px</top>
+							<top>683px</top>
 							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
@@ -6766,7 +6766,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
 						<Pager id="Pager15">
 							<left>100px</left>
-							<top>690px</top>
+							<top>683px</top>
 							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
@@ -6886,7 +6886,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
 						<Pager id="Pager16">
 							<left>100px</left>
-							<top>690px</top>
+							<top>683px</top>
 							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
@@ -7006,7 +7006,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
 						<Pager id="Pager17">
 							<left>99px</left>
-							<top>690px</top>
+							<top>683px</top>
 							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
@@ -7126,7 +7126,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 						</PushButton>
 						<Pager id="Pager18">
 							<left>100px</left>
-							<top>690px</top>
+							<top>683px</top>
 							<width>210px</width>
 							<height>33px</height>
 							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
@@ -7244,16 +7244,6 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<caption>X</caption>
 							<click>neoTalkCancel</click>
 						</PushButton>
-						<Pager id="Pager19">
-							<left>100px</left>
-							<top>690px</top>
-							<width>210px</width>
-							<height>33px</height>
-							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
-							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
-							<prevclick>GotoPrevPage</prevclick>
-							<nextclick>GotoPrevPage</nextclick>
-						</Pager>
 						<Headline id="Headline411">
 							<left>8px</left>
 							<top>60px</top>
@@ -7311,6 +7301,16 @@ neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Random12b] &quot;b&quot; 12 &quot
 							<style>color:red;font-size:15pt;font-weight:600</style>
 							<text>End for now</text>
 						</Headline>
+						<Pager id="Pager19">
+							<left>100px</left>
+							<top>683px</top>
+							<width>210px</width>
+							<height>33px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoPrevPage</nextclick>
+						</Pager>
 					</Components>
 				</Page>
 				<Page id="BookMain">
