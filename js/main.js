@@ -330,6 +330,7 @@ $scope.PushButton460_click = function() {$scope.GotoPage( "Save" );};
 $scope.Headline388_click = function() {$scope.GotoPage( "Dreamboard" );};
 $scope.PushButton461_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
 $App.p1t = 15;
+$App.p1tz = 15;
 neoGSheetsLoadCell($App.googleSheet,"Prayer1main","a",1,null);
 
 $App.thoughts = localStorage.getItem("Thoughts");
@@ -2082,7 +2083,11 @@ $scope.PushButton6_click = function() {$scope.GotoPage( "Home" );};
 $scope.PushButton612_click = function() {neoTalkPauseSpeech();};
 $scope.PushButton613_click = function() {neoTalkSpeak($App.thoughts, "uk", 1, .9);};
 $scope.PushButton614_click = function() {neoTalkCancelSpeech();};
-$scope.Texarea1000_change = function() {localStorage.setItem("Thoughts",$App.thoughts);};
+$scope.PushButton615_click = function() {$App.p1tz = $scope.Calculate($App.p1tz+"-1",-1);
+$scope.SetObjectStyle("TextArea130","font-size",$App.p1tz+"pt");};
+$scope.PushButton616_click = function() {$App.p1tz = $scope.Calculate($App.p1tz+"+1",-1);
+$scope.SetObjectStyle("TextArea130","font-size",$App.p1tz+"pt");};
+$scope.TextArea130_change = function() {localStorage.setItem("Thoughts",$App.thoughts);};
 });
 NeoApp.controller("Milesrecorder_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 7;
