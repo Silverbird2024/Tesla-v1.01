@@ -2270,7 +2270,7 @@ $scope.PushButton598_click = function() {$scope.GotoPage( "Random12" );};
 $scope.PushButton539_click = function() {$scope.GotoPage( "Home" );};
 $scope.PushButton624_click = function() {$scope.GotoPage( "Random13" );};
 $scope.PushButton626_click = function() {$scope.GotoPage( "Random14" );};
-$scope.PushButton627_click = function() {$scope.GotoPage( "Random14" );};
+$scope.PushButton627_click = function() {$scope.GotoPage( "Random15" );};
 });
 NeoApp.controller("Random01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 10;
