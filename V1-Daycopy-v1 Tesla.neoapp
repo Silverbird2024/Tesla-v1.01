@@ -471,7 +471,7 @@ SetVar [p1t] 15
 
 neoGSheetsLoadCell &quot;[googleSheet]&quot; [Prayer1main] &quot;a&quot; 1 &quot;&quot;
 
-GetItem &quot;Prayer1mainb2&quot; [Prayer1mainb2]
+GetItem &quot;Thoughts&quot; [Thoughts]
 
 GotoPage &quot;Page02&quot;</click>
 						</PushButton>
@@ -537,7 +537,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<height>20px</height>
 							<style>color:red;font-size:14pt;font-weight:600;text-align:center</style>
 							<hover>color:YELLOW</hover>
-							<text>Tv1.22&amp;nbsp;&lt;em&gt;&lt;sup&gt; 12 May 25&lt;/sup&gt;&lt;/em&gt;</text>
+							<text>Tv1.23&lt;em&gt;&lt;sup&gt; 12 May 25&lt;/sup&gt;&lt;/em&gt;</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -4980,9 +4980,7 @@ SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;<
 							<width>71px</width>
 							<height>33px</height>
 							<caption>Pause</caption>
-							<click>neoTalkPause
-
-</click>
+							<click>neoTalkPause</click>
 						</PushButton>
 						<PushButton id="PushButton613">
 							<left>258px</left>
@@ -5007,7 +5005,7 @@ SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;<
 							<top>758px</top>
 							<width>386px</width>
 							<height>559px</height>
-							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
+							<style>color:#383838;font-size:16pt;font-weight:800;opacity:1</style>
 							<variable>Thoughts</variable>
 							<change>SetItem &quot;Thoughts&quot; [Thoughts]</change>
 						</TextArea>

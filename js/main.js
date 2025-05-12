@@ -332,7 +332,7 @@ $scope.PushButton461_click = function() {$App.googleSheet = "https://docs.google
 $App.p1t = 15;
 neoGSheetsLoadCell($App.googleSheet,"Prayer1main","a",1,null);
 
-$App.Prayer1mainb2 = localStorage.getItem("Prayer1mainb2");
+$App.thoughts = localStorage.getItem("Thoughts");
 $scope.GotoPage( "Page02" );};
 $scope.Container30_click = function() {if ($App.pass == "63") {
 $scope.GotoPage( "NeedsAttention" );
