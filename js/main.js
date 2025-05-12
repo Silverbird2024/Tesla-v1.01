@@ -2234,7 +2234,6 @@ $scope.PushButton80_click = function() {$App.ta131 = $scope.Calculate($App.ta131
 $scope.SetObjectStyle("TextArea131","font-size",$App.ta131+"pt");};
 $scope.PushButton580_click = function() {$App.ta131 = $scope.Calculate($App.ta131+"+1",-1);
 $scope.SetObjectStyle("TextArea131","font-size",$App.ta131+"pt");};
-$scope.PushButton539_click = function() {$scope.GotoPage( "Home" );};
 $scope.PushButton588_click = function() {$scope.GotoPage( "Random02" );};
 $scope.PushButton589_click = function() {$scope.GotoPage( "Random01" );};
 $scope.PushButton590_click = function() {$scope.GotoPage( "Random04" );};
@@ -2247,6 +2246,7 @@ $scope.PushButton596_click = function() {$scope.GotoPage( "Random10" );};
 $scope.PushButton597_click = function() {$scope.GotoPage( "Random09" );};
 $scope.PushButton599_click = function() {$scope.GotoPage( "Random11" );};
 $scope.PushButton598_click = function() {$scope.GotoPage( "Random12" );};
+$scope.PushButton539_click = function() {$scope.GotoPage( "Home" );};
 });
 NeoApp.controller("Random01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 10;
