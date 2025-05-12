@@ -471,6 +471,8 @@ SetVar [p1t] 15
 
 neoGSheetsLoadCell &quot;[googleSheet]&quot; [Prayer1main] &quot;a&quot; 1 &quot;&quot;
 
+GetItem &quot;Prayer1mainb2&quot; [Prayer1mainb2]
+
 GotoPage &quot;Page02&quot;</click>
 						</PushButton>
 						<Container id="Container30">
@@ -535,7 +537,7 @@ neoGSheetsLoadCell &quot;[googleSheet]&quot; [thoughts] &quot;a&quot; 9 &quot;&q
 							<height>20px</height>
 							<style>color:red;font-size:14pt;font-weight:600;text-align:center</style>
 							<hover>color:YELLOW</hover>
-							<text>Tv1.21 &lt;em&gt;&lt;sup&gt;28 April 25&lt;/sup&gt;&lt;/em&gt;</text>
+							<text>Tv1.22&amp;nbsp;&lt;em&gt;&lt;sup&gt; 12 May 25&lt;/sup&gt;&lt;/em&gt;</text>
 						</Headline>
 						<Headline id="Headline254">
 							<left>23px</left>
@@ -4884,7 +4886,7 @@ ObjectToBack &quot;PushButton208&quot;</click>
 							<left>8px</left>
 							<top>124px</top>
 							<width>386px</width>
-							<height>567px</height>
+							<height>559px</height>
 							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
 							<variable>Prayer1main</variable>
 							<change>SetItem &quot;Prayer1main&quot; [Prayer1main]</change>
@@ -4931,18 +4933,9 @@ GetItem &quot;Prayer1main3&quot; [Prayer1main3]
 GetItem &quot;Prayer1main4&quot; [Prayer1main4]
 GetItem &quot;Prayer1main5&quot; [Prayer1main5]</click>
 						</PushButton>
-						<TextArea id="TextArea130">
-							<left>10px</left>
-							<top>766px</top>
-							<width>385px</width>
-							<height>537px</height>
-							<style>color:#383838;font-size:11pt;font-weight:600;opacity:0.5</style>
-							<variable>Prayer1mainb</variable>
-							<change>SetItem &quot;Prayer1mainb&quot; [Prayer1mainb]</change>
-						</TextArea>
 						<Headline id="Headline286">
 							<left>13px</left>
-							<top>743px</top>
+							<top>739px</top>
 							<width>253px</width>
 							<height>27px</height>
 							<style>color:red;font-size:12pt;font-weight:600</style>
@@ -4981,13 +4974,43 @@ SetObjectStyle &quot;TextArea94&quot; &quot;font-size&quot; &quot;[p1t]pt&quot;<
 							<caption>Main Board</caption>
 							<click>GotoPage &quot;Home&quot;</click>
 						</PushButton>
-						<TextInput id="TextInput112">
-							<left>8px</left>
-							<top>84px</top>
-							<width>387px</width>
-							<height>37px</height>
-							<change>SetItem &quot;Title02d&quot; [Title02d]</change>
-						</TextInput>
+						<PushButton id="PushButton612">
+							<left>12px</left>
+							<top>1310px</top>
+							<width>71px</width>
+							<height>33px</height>
+							<caption>Pause</caption>
+							<click>neoTalkPause
+
+</click>
+						</PushButton>
+						<PushButton id="PushButton613">
+							<left>258px</left>
+							<top>1310px</top>
+							<width>138px</width>
+							<height>33px</height>
+							<style>color:green;font-weight:800</style>
+							<caption>Read:</caption>
+							<click>neoTalkSpeak &quot;[Thoughts]&quot; &quot;uk&quot; 1 .9</click>
+						</PushButton>
+						<PushButton id="PushButton614">
+							<left>215px</left>
+							<top>1310px</top>
+							<width>39px</width>
+							<height>33px</height>
+							<style>color:red;font-size:12pt;font-weight:800</style>
+							<caption>X</caption>
+							<click>neoTalkCancel</click>
+						</PushButton>
+						<TextArea id="Texarea1000">
+							<left>13px</left>
+							<top>758px</top>
+							<width>386px</width>
+							<height>559px</height>
+							<style>color:#383838;font-size:32pt;font-weight:600;opacity:1</style>
+							<variable>Thoughts</variable>
+							<change>SetItem &quot;Thoughts&quot; [Thoughts]</change>
+						</TextArea>
 					</Components>
 				</Page>
 				<Page id="Milesrecorder">
