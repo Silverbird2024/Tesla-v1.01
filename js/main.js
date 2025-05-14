@@ -638,6 +638,11 @@ $scope.ShowObject("R1","",0);
 $scope.ShowObject("R2","",0);
 $scope.HideObject("R3","",0);
 $scope.HideObject("R4","",0);
+$App.Random01c = localStorage.getItem("Random01c");
+$App.Random02c = localStorage.getItem("Random02c");
+$App.Random03c = localStorage.getItem("Random03c");
+$App.Random04c = localStorage.getItem("Random04c");
+$App.Random05c = localStorage.getItem("Random05c");
 $App.r1t = 15;
 $App.r2t = 15;
 $App.r3t = 15;
@@ -2859,6 +2864,7 @@ NeoApp.controller("Random01_Ctrl", function($scope,$rootScope,$route,$timeout,$f
 $App.NAB.PageNumber = 10;
 $App.NAB.PageID = "Random01";
 $scope.PushButton471_click = function() {localStorage.setItem("Random01b",$App.Random01b);
+localStorage.setItem("Random01c",$App.Random01c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton472_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -2869,8 +2875,13 @@ $scope.PushButton529_click = function() {$App.r1t = $scope.Calculate($App.r1t+"-
 $scope.SetObjectStyle("ranbox01","font-size",$App.r1t+"pt");};
 $scope.PushButton530_click = function() {$App.r1t = $scope.Calculate($App.r1t+"+1",-1);
 $scope.SetObjectStyle("ranbox01","font-size",$App.r1t+"pt");};
-$scope.PushButton532_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random01b","b",1,null);
+$scope.PushButton532_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random01","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01b","b",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01c","e",1,null);
 };
+$scope.TextArea201_change = function() {localStorage.setItem("Random01c",$App.Random01c);};
 });
 NeoApp.controller("Random02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 11;
@@ -2889,7 +2900,10 @@ $scope.SetObjectStyle("ranbox02","font-size",$App.r2t+"pt");};
 $scope.PushButton531_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random02","a",2,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random02b","b",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02c","e",2,null);
 };
+$scope.TextArea202_change = function() {localStorage.setItem("Random02c",$App.Random02c);};
 });
 NeoApp.controller("Random03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 12;
@@ -2908,12 +2922,16 @@ $scope.SetObjectStyle("ranbox03","font-size",$App.r3t+"pt");};
 $scope.PushButton535_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random03","a",3,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random03b","b",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03c","e",3,null);
 };
+$scope.TextArea203_change = function() {localStorage.setItem("Random03c",$App.Random03c);};
 });
 NeoApp.controller("Random04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 13;
 $App.NAB.PageID = "Random04";
 $scope.PushButton479_click = function() {localStorage.setItem("Random04b",$App.Random04b);
+localStorage.setItem("Random04c",$App.Random04c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton480_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -2927,12 +2945,16 @@ $scope.SetObjectStyle("ranbox04","font-size",$App.r4t+"pt");};
 $scope.PushButton538_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random04","a",4,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random04b","b",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04c","e",4,null);
 };
+$scope.TextArea204_change = function() {localStorage.setItem("Random04c",$App.Random04c);};
 });
 NeoApp.controller("Random05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 14;
 $App.NAB.PageID = "Random05";
 $scope.PushButton483_click = function() {localStorage.setItem("Random05b",$App.Random05b);
+localStorage.setItem("Random05c",$App.Random05c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton484_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -2946,11 +2968,10 @@ $scope.SetObjectStyle("ranbox05","font-size",$App.r5t+"pt");};
 $scope.PushButton490_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random05","a",5,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random05b","b",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05c","e",5,null);
 };
-$scope.Pager12_prevclick = function() {$scope.GotoPrevPage();};
-$scope.Pager12_nextclick = function() {$scope.GotoNextPage();};
-$scope.PushButton523_click = function() {$scope.GotoNextPage();};
-$scope.PushButton550_click = function() {$scope.GotoPrevPage();};
+$scope.TextArea205_change = function() {localStorage.setItem("Random05c",$App.Random05c);};
 });
 NeoApp.controller("Random06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 15;
