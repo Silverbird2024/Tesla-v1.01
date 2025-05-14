@@ -7,7 +7,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton456 {position:absolute;left:14.7342995169082%;width:25.3623188405797%;top:1.22282608695652%;height:5.84239130434783%;margin:0;opacity:0.14}
 #PushButton456:hover {opacity:0.6}
 #PushButton458 {position:absolute;left:41.0628019323671%;width:24.6376811594203%;top:1.22282608695652%;height:5.84239130434783%;margin:0;opacity:0.17}
-#PushButton458:hover {color:white;text-shadow:2px 2px 5px white;opacity:0.9}
+#PushButton458:hover {color:white;text-shadow:2px 2px 5px lime;opacity:0.9}
 #PushButton459 {position:absolute;left:5.55555555555556%;width:39.8550724637681%;top:60.3260869565217%;height:14.2663043478261%;margin:0;font-size:16pt;box-shadow:3px 3px 3px red}
 #PushButton459:hover {box-shadow:3px 3px 3px lime}
 #PushButton460 {position:absolute;left:2.17391304347826%;width:11.8357487922705%;top:1.22282608695652%;height:5.70652173913043%;margin:0;opacity:0.15}
@@ -29,7 +29,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton58 {position:absolute;left:71.256038647343%;width:20.5314009661836%;top:28.3967391304348%;height:4.6195652173913%;margin:0;color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27}
 #PushButton58:hover {font-size:10pt;box-shadow:3px 3px 3px lime}
 #PushButton468 {position:absolute;left:71.4975845410628%;width:20.048309178744%;top:92.9347826086957%;height:4.6195652173913%;margin:0;opacity:0.25}
-#PushButton468:hover {color:lime;opacity:0.47}
+#PushButton468:hover {color:#FF0000;text-shadow:2px 2px 5px lime;opacity:0.47}
 #PushButton464 {position:absolute;left:71.256038647343%;width:20.5314009661836%;top:34.1032608695652%;height:4.6195652173913%;margin:0;color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27}
 #PushButton464:hover {font-size:10pt;box-shadow:3px 3px 3px lime}
 #PushButton575 {position:absolute;left:71.256038647343%;width:20.5314009661836%;top:39.8097826086957%;height:4.6195652173913%;margin:0;color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27}
@@ -629,7 +629,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #R1 {position:absolute;left:3.38164251207729%;width:44.6859903381643%;top:2.17391304347826%;height:51.3586956521739%;margin:0;color:#00FF00;font-size:8pt;font-weight:600}
 #R2 {position:absolute;left:47.3429951690821%;width:51.4492753623188%;top:1.90217391304348%;height:51.6304347826087%;margin:0;color:lime;font-size:8pt;font-weight:600}
 #PushButton540 {position:absolute;left:10.1449275362319%;width:13.768115942029%;top:93.3423913043478%;height:4.48369565217391%;margin:0;}
-#TextArea131 {position:absolute;left:2.17391304347826%;width:95.6521739130435%;top:72.0108695652174%;height:20.3804347826087%;margin:0;color:#383838;font-size:10pt;font-weight:600;opacity:1}
+#TextArea131 {position:absolute;left:2.17391304347826%;width:95.6521739130435%;top:75.1358695652174%;height:17.2554347826087%;margin:0;color:#383838;font-size:10pt;font-weight:600;opacity:1}
 #PushButton541 {position:absolute;left:59.4202898550725%;width:28.743961352657%;top:93.3423913043478%;height:4.48369565217391%;margin:0;color:green;font-weight:800}
 #PushButton542 {position:absolute;left:24.3961352657005%;width:9.42028985507246%;top:93.3423913043478%;height:4.48369565217391%;margin:0;color:red;font-size:10pt;font-weight:800}
 #PushButton546 {position:absolute;left:-32.1256038647343%;width:26.8115942028986%;top:1.22282608695652%;height:5.02717391304348%;margin:0;}
@@ -670,6 +670,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton651 {position:absolute;left:78.2608695652174%;width:17.1497584541063%;top:51.3586956521739%;height:4.6195652173913%;margin:0;color:RED}
 #PushButton539 {position:absolute;left:82.8502415458937%;width:13.5265700483092%;top:1.76630434782609%;height:16.7119565217391%;margin:0;opacity:0.42}
 #Headline403 {position:absolute;left:85.2657004830918%;width:4.34782608695652%;top:47.2826086956522%;height:3.39673913043478%;margin:0;color:#0000FF;font-size:14pt}
+#PushButton523 {position:absolute;left:37.43961352657%;width:57.9710144927536%;top:69.7010869565217%;height:4.48369565217391%;margin:0;}
 #Random01 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image81 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton471 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:2.03804347826087%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -738,15 +739,16 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Random06 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image85 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton491 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
-#PushButton492 {position:absolute;left:2.41545893719807%;width:17.1497584541063%;top:88.0434782608696%;height:4.48369565217391%;margin:0;}
-#ranbox06 {position:absolute;left:2.41545893719807%;width:92.9951690821256%;top:15.2173913043478%;height:72.4184782608696%;margin:0;color:#383838;opacity:1}
-#PushButton493 {position:absolute;left:61.8357487922705%;width:33.3333333333333%;top:88.0434782608696%;height:4.48369565217391%;margin:0;color:green;font-weight:800}
-#PushButton494 {position:absolute;left:51.4492753623188%;width:9.42028985507246%;top:88.0434782608696%;height:4.48369565217391%;margin:0;color:red;font-size:12pt;font-weight:800}
+#PushButton492 {position:absolute;left:2.41545893719807%;width:17.1497584541063%;top:88.3152173913043%;height:4.48369565217391%;margin:0;}
+#ranbox06 {position:absolute;left:2.41545893719807%;width:92.9951690821256%;top:15.4891304347826%;height:72.4184782608696%;margin:0;color:#383838;opacity:1}
+#PushButton493 {position:absolute;left:61.8357487922705%;width:33.3333333333333%;top:88.3152173913043%;height:4.48369565217391%;margin:0;color:green;font-weight:800}
+#PushButton494 {position:absolute;left:51.4492753623188%;width:9.42028985507246%;top:88.3152173913043%;height:4.48369565217391%;margin:0;color:red;font-size:12pt;font-weight:800}
 #Headline394 {position:absolute;left:1.93236714975845%;width:66.1835748792271%;top:8.15217391304348%;height:6.79347826086957%;margin:0;color:red;font-size:15pt;font-weight:600}
-#PushButton496 {position:absolute;left:20.5314009661836%;width:13.768115942029%;top:88.0434782608696%;height:4.48369565217391%;margin:0;color:blue;font-weight:600}
-#PushButton497 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:88.0434782608696%;height:4.48369565217391%;margin:0;color:blue}
+#PushButton496 {position:absolute;left:20.5314009661836%;width:13.768115942029%;top:88.3152173913043%;height:4.48369565217391%;margin:0;color:blue;font-weight:600}
+#PushButton497 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:88.3152173913043%;height:4.48369565217391%;margin:0;color:blue}
 #Headline395 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton498 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea206 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random07 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image86 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton499 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -759,6 +761,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton505 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline397 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton506 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea207 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random08 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image87 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton507 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.6304347826087%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -771,6 +774,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton513 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline399 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton514 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea208 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random09 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image88 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton515 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.6304347826087%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -783,6 +787,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton525 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline406 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton526 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea209 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random10 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image89 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton543 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -795,6 +800,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton552 {position:absolute;left:34.7826086956522%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline408 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton553 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea210 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random11 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image90 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton554 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -807,6 +813,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton560 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline410 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton561 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea211 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random12 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image91 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton562 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -819,6 +826,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton568 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline412 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton569 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea212 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.4130434782609%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random13 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image96 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton617 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -831,6 +839,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton622 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline433 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton623 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea213 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random14 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image97 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton628 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -843,6 +852,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton633 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline435 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton634 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea214 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random15 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image98 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton636 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -855,6 +865,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton641 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline437 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton642 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea215 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random16 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image99 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton644 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -867,6 +878,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton649 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline439 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton650 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea216 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random17 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image100 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton652 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -879,6 +891,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton657 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline441 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton658 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea217 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random18 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image101 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton660 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -891,6 +904,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton665 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline443 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton666 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea218 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random19 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image102 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton668 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.76630434782609%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -903,6 +917,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton673 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline445 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton674 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea219 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random20 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image103 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton681 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.6304347826087%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -915,6 +930,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton686 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline447 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton687 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea220 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random21 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image104 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton487 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.6304347826087%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -927,6 +943,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton517 {position:absolute;left:35.024154589372%;width:15.7004830917874%;top:87.9076086956522%;height:4.48369565217391%;margin:0;color:blue}
 #Headline449 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton518 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
+#TextArea221 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #Random22 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image105 {position:absolute;left:31.4009661835749%;width:42.2705314009662%;top:1.76630434782609%;height:5.43478260869565%;margin:0;}
 #PushButton519 {position:absolute;left:73.9130434782609%;width:24.1545893719807%;top:1.6304347826087%;height:5.57065217391304%;margin:0;opacity:0.42}
@@ -940,6 +957,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline451 {position:absolute;left:68.1159420289855%;width:26.0869565217391%;top:8.96739130434783%;height:2.58152173913043%;margin:0;color:red;font-size:11pt;font-weight:600;text-align:right}
 #PushButton603 {position:absolute;left:2.41545893719807%;width:26.8115942028986%;top:1.90217391304348%;height:5.02717391304348%;margin:0;}
 #Headline452 {position:absolute;left:15.2173913043478%;width:66.1835748792271%;top:94.8369565217391%;height:3.66847826086957%;margin:0;color:red;font-size:15pt;font-weight:600}
+#TextArea222 {position:absolute;left:2.17391304347826%;width:92.9951690821256%;top:11.2771739130435%;height:3.94021739130435%;margin:0;color:#383838;font-size:12pt;font-weight:800;opacity:1}
 #BookMain {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image51 {position:absolute;left:5.31400966183575%;width:52.8985507246377%;top:2.30978260869565%;height:10.4619565217391%;margin:0;}
 #Headline310 {position:absolute;left:5.31400966183575%;width:53.6231884057971%;top:4.89130434782609%;height:5.29891304347826%;margin:0;color:#FFFF00;font-size:24pt;font-style:italic;font-weight:600;text-align:center;text-shadow:2px 2px 5px blue}

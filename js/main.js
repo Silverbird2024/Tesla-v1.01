@@ -643,6 +643,21 @@ $App.Random02c = localStorage.getItem("Random02c");
 $App.Random03c = localStorage.getItem("Random03c");
 $App.Random04c = localStorage.getItem("Random04c");
 $App.Random05c = localStorage.getItem("Random05c");
+$App.Random06c = localStorage.getItem("Random06c");
+$App.Random07c = localStorage.getItem("Random07c");
+$App.Random08c = localStorage.getItem("Random08c");
+$App.Random09c = localStorage.getItem("Random09c");
+$App.Random10c = localStorage.getItem("Random10c");
+$App.Random11c = localStorage.getItem("Random11c");
+$App.Random12c = localStorage.getItem("Random12c");
+$App.Random13c = localStorage.getItem("Random13c");
+$App.Random14c = localStorage.getItem("Random14c");
+$App.Random15c = localStorage.getItem("Random15c");
+$App.Random16c = localStorage.getItem("Random16c");
+$App.Random17c = localStorage.getItem("Random17c");
+$App.Random18c = localStorage.getItem("Random18c");
+$App.Random19c = localStorage.getItem("Random19c");
+$App.Random20c = localStorage.getItem("Random20c");
 $App.r1t = 15;
 $App.r2t = 15;
 $App.r3t = 15;
@@ -2859,11 +2874,1099 @@ $App.Random97b = localStorage.getItem("Random97b");
 $App.Random98b = localStorage.getItem("Random98b");
 $App.Random99b = localStorage.getItem("Random99b");
 $App.Random100b = localStorage.getItem("Random100b");};
+$scope.PushButton523_click = function() {$App.Loaddb = "Load Pass 1";
+neoGSheetsLoadCell($App.googleSheet4,"Random01","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01b","b",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01c","e",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02","a",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02b","b",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02c","e",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03","a",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03b","b",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03c","e",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04","a",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04b","b",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04c","e",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05","a",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05b","b",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05c","e",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06","a",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06b","b",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06c","e",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07","a",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07b","b",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07c","e",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08","a",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08b","b",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08c","e",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09","a",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09b","b",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09c","e",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10","a",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10b","b",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10c","e",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11","a",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11b","b",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11c","e",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12","a",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12b","b",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12c","e",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13","a",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13b","b",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13c","e",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14","a",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14b","b",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14c","e",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15","a",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15b","b",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15c","e",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16","a",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16b","b",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16c","e",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","a",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17b","b",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","e",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18","a",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18b","b",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18c","e",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19","a",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19b","b",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19c","e",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20","a",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20b","b",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20c","e",20,null);
+
+localStorage.setItem("Random01",$App.Random01);
+localStorage.setItem("Random01b",$App.Random01b);
+localStorage.setItem("Random01c",$App.Random01c);
+localStorage.setItem("Random02",$App.Random02);
+localStorage.setItem("Random02b",$App.Random02b);
+localStorage.setItem("Random02c",$App.Random02c);
+localStorage.setItem("Random03",$App.Random03);
+localStorage.setItem("Random03b",$App.Random03b);
+localStorage.setItem("Random03c",$App.Random03c);
+localStorage.setItem("Random04",$App.Random04);
+localStorage.setItem("Random04b",$App.Random04b);
+localStorage.setItem("Random04c",$App.Random04c);
+localStorage.setItem("Random05",$App.Random05);
+localStorage.setItem("Random05b",$App.Random05b);
+localStorage.setItem("Random05c",$App.Random05c);
+localStorage.setItem("Random06",$App.Random06);
+localStorage.setItem("Random06b",$App.Random06b);
+localStorage.setItem("Random06c",$App.Random06c);
+localStorage.setItem("Random07",$App.Random07);
+localStorage.setItem("Random07b",$App.Random07b);
+localStorage.setItem("Random07c",$App.Random07c);
+localStorage.setItem("Random08",$App.Random08);
+localStorage.setItem("Random08b",$App.Random08b);
+localStorage.setItem("Random08c",$App.Random08c);
+localStorage.setItem("Random09",$App.Random09);
+localStorage.setItem("Random09b",$App.Random09b);
+localStorage.setItem("Random09c",$App.Random09c);
+localStorage.setItem("Random10",$App.Random10);
+localStorage.setItem("Random10b",$App.Random10b);
+localStorage.setItem("Random10c",$App.Random10c);
+localStorage.setItem("Random11",$App.Random11);
+localStorage.setItem("Random11b",$App.Random11b);
+localStorage.setItem("Random11c",$App.Random11c);
+localStorage.setItem("Random12",$App.Random12);
+localStorage.setItem("Random12b",$App.Random12b);
+localStorage.setItem("Random12c",$App.Random12c);
+localStorage.setItem("Random13",$App.Random13);
+localStorage.setItem("Random13b",$App.Random13b);
+localStorage.setItem("Random13c",$App.Random13c);
+localStorage.setItem("Random14",$App.Random14);
+localStorage.setItem("Random14b",$App.Random14b);
+localStorage.setItem("Random14c",$App.Random14c);
+localStorage.setItem("Random15",$App.Random15);
+localStorage.setItem("Random15b",$App.Random15b);
+localStorage.setItem("Random15c",$App.Random15c);
+localStorage.setItem("Random16",$App.Random16);
+localStorage.setItem("Random16b",$App.Random16b);
+localStorage.setItem("Random16c",$App.Random16c);
+localStorage.setItem("Random17",$App.Random17);
+localStorage.setItem("Random17b",$App.Random17b);
+localStorage.setItem("Random17c",$App.Random17c);
+localStorage.setItem("Random18",$App.Random18);
+localStorage.setItem("Random18b",$App.Random18b);
+localStorage.setItem("Random18c",$App.Random18c);
+localStorage.setItem("Random19",$App.Random19);
+localStorage.setItem("Random19b",$App.Random19b);
+localStorage.setItem("Random19c",$App.Random19c);
+localStorage.setItem("Random20",$App.Random20);
+localStorage.setItem("Random20b",$App.Random20b);
+localStorage.setItem("Random20c",$App.Random20c);
+$App.Loaddb = "Load Pass 2";
+neoGSheetsLoadCell($App.googleSheet4,"Random01","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01b","b",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01c","e",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02","a",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02b","b",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02c","e",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03","a",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03b","b",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03c","e",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04","a",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04b","b",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04c","e",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05","a",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05b","b",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05c","e",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06","a",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06b","b",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06c","e",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07","a",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07b","b",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07c","e",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08","a",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08b","b",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08c","e",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09","a",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09b","b",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09c","e",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10","a",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10b","b",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10c","e",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11","a",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11b","b",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11c","e",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12","a",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12b","b",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12c","e",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13","a",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13b","b",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13c","e",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14","a",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14b","b",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14c","e",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15","a",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15b","b",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15c","e",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16","a",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16b","b",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16c","e",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","a",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17b","b",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","e",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18","a",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18b","b",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18c","e",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19","a",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19b","b",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19c","e",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20","a",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20b","b",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20c","e",20,null);
+
+localStorage.setItem("Random01",$App.Random01);
+localStorage.setItem("Random01b",$App.Random01b);
+localStorage.setItem("Random01c",$App.Random01c);
+localStorage.setItem("Random02",$App.Random02);
+localStorage.setItem("Random02b",$App.Random02b);
+localStorage.setItem("Random02c",$App.Random02c);
+localStorage.setItem("Random03",$App.Random03);
+localStorage.setItem("Random03b",$App.Random03b);
+localStorage.setItem("Random03c",$App.Random03c);
+localStorage.setItem("Random04",$App.Random04);
+localStorage.setItem("Random04b",$App.Random04b);
+localStorage.setItem("Random04c",$App.Random04c);
+localStorage.setItem("Random05",$App.Random05);
+localStorage.setItem("Random05b",$App.Random05b);
+localStorage.setItem("Random05c",$App.Random05c);
+localStorage.setItem("Random06",$App.Random06);
+localStorage.setItem("Random06b",$App.Random06b);
+localStorage.setItem("Random06c",$App.Random06c);
+localStorage.setItem("Random07",$App.Random07);
+localStorage.setItem("Random07b",$App.Random07b);
+localStorage.setItem("Random07c",$App.Random07c);
+localStorage.setItem("Random08",$App.Random08);
+localStorage.setItem("Random08b",$App.Random08b);
+localStorage.setItem("Random08c",$App.Random08c);
+localStorage.setItem("Random09",$App.Random09);
+localStorage.setItem("Random09b",$App.Random09b);
+localStorage.setItem("Random09c",$App.Random09c);
+localStorage.setItem("Random10",$App.Random10);
+localStorage.setItem("Random10b",$App.Random10b);
+localStorage.setItem("Random10c",$App.Random10c);
+localStorage.setItem("Random11",$App.Random11);
+localStorage.setItem("Random11b",$App.Random11b);
+localStorage.setItem("Random11c",$App.Random11c);
+localStorage.setItem("Random12",$App.Random12);
+localStorage.setItem("Random12b",$App.Random12b);
+localStorage.setItem("Random12c",$App.Random12c);
+localStorage.setItem("Random13",$App.Random13);
+localStorage.setItem("Random13b",$App.Random13b);
+localStorage.setItem("Random13c",$App.Random13c);
+localStorage.setItem("Random14",$App.Random14);
+localStorage.setItem("Random14b",$App.Random14b);
+localStorage.setItem("Random14c",$App.Random14c);
+localStorage.setItem("Random15",$App.Random15);
+localStorage.setItem("Random15b",$App.Random15b);
+localStorage.setItem("Random15c",$App.Random15c);
+localStorage.setItem("Random16",$App.Random16);
+localStorage.setItem("Random16b",$App.Random16b);
+localStorage.setItem("Random16c",$App.Random16c);
+localStorage.setItem("Random17",$App.Random17);
+localStorage.setItem("Random17b",$App.Random17b);
+localStorage.setItem("Random17c",$App.Random17c);
+localStorage.setItem("Random18",$App.Random18);
+localStorage.setItem("Random18b",$App.Random18b);
+localStorage.setItem("Random18c",$App.Random18c);
+localStorage.setItem("Random19",$App.Random19);
+localStorage.setItem("Random19b",$App.Random19b);
+localStorage.setItem("Random19c",$App.Random19c);
+localStorage.setItem("Random20",$App.Random20);
+localStorage.setItem("Random20b",$App.Random20b);
+localStorage.setItem("Random20c",$App.Random20c);
+$App.Loaddb = "Load Pass 3";
+neoGSheetsLoadCell($App.googleSheet4,"Random01","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01b","b",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01c","e",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02","a",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02b","b",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02c","e",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03","a",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03b","b",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03c","e",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04","a",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04b","b",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04c","e",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05","a",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05b","b",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05c","e",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06","a",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06b","b",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06c","e",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07","a",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07b","b",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07c","e",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08","a",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08b","b",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08c","e",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09","a",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09b","b",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09c","e",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10","a",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10b","b",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10c","e",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11","a",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11b","b",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11c","e",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12","a",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12b","b",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12c","e",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13","a",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13b","b",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13c","e",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14","a",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14b","b",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14c","e",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15","a",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15b","b",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15c","e",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16","a",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16b","b",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16c","e",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","a",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17b","b",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","e",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18","a",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18b","b",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18c","e",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19","a",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19b","b",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19c","e",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20","a",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20b","b",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20c","e",20,null);
+
+localStorage.setItem("Random01",$App.Random01);
+localStorage.setItem("Random01b",$App.Random01b);
+localStorage.setItem("Random01c",$App.Random01c);
+localStorage.setItem("Random02",$App.Random02);
+localStorage.setItem("Random02b",$App.Random02b);
+localStorage.setItem("Random02c",$App.Random02c);
+localStorage.setItem("Random03",$App.Random03);
+localStorage.setItem("Random03b",$App.Random03b);
+localStorage.setItem("Random03c",$App.Random03c);
+localStorage.setItem("Random04",$App.Random04);
+localStorage.setItem("Random04b",$App.Random04b);
+localStorage.setItem("Random04c",$App.Random04c);
+localStorage.setItem("Random05",$App.Random05);
+localStorage.setItem("Random05b",$App.Random05b);
+localStorage.setItem("Random05c",$App.Random05c);
+localStorage.setItem("Random06",$App.Random06);
+localStorage.setItem("Random06b",$App.Random06b);
+localStorage.setItem("Random06c",$App.Random06c);
+localStorage.setItem("Random07",$App.Random07);
+localStorage.setItem("Random07b",$App.Random07b);
+localStorage.setItem("Random07c",$App.Random07c);
+localStorage.setItem("Random08",$App.Random08);
+localStorage.setItem("Random08b",$App.Random08b);
+localStorage.setItem("Random08c",$App.Random08c);
+localStorage.setItem("Random09",$App.Random09);
+localStorage.setItem("Random09b",$App.Random09b);
+localStorage.setItem("Random09c",$App.Random09c);
+localStorage.setItem("Random10",$App.Random10);
+localStorage.setItem("Random10b",$App.Random10b);
+localStorage.setItem("Random10c",$App.Random10c);
+localStorage.setItem("Random11",$App.Random11);
+localStorage.setItem("Random11b",$App.Random11b);
+localStorage.setItem("Random11c",$App.Random11c);
+localStorage.setItem("Random12",$App.Random12);
+localStorage.setItem("Random12b",$App.Random12b);
+localStorage.setItem("Random12c",$App.Random12c);
+localStorage.setItem("Random13",$App.Random13);
+localStorage.setItem("Random13b",$App.Random13b);
+localStorage.setItem("Random13c",$App.Random13c);
+localStorage.setItem("Random14",$App.Random14);
+localStorage.setItem("Random14b",$App.Random14b);
+localStorage.setItem("Random14c",$App.Random14c);
+localStorage.setItem("Random15",$App.Random15);
+localStorage.setItem("Random15b",$App.Random15b);
+localStorage.setItem("Random15c",$App.Random15c);
+localStorage.setItem("Random16",$App.Random16);
+localStorage.setItem("Random16b",$App.Random16b);
+localStorage.setItem("Random16c",$App.Random16c);
+localStorage.setItem("Random17",$App.Random17);
+localStorage.setItem("Random17b",$App.Random17b);
+localStorage.setItem("Random17c",$App.Random17c);
+localStorage.setItem("Random18",$App.Random18);
+localStorage.setItem("Random18b",$App.Random18b);
+localStorage.setItem("Random18c",$App.Random18c);
+localStorage.setItem("Random19",$App.Random19);
+localStorage.setItem("Random19b",$App.Random19b);
+localStorage.setItem("Random19c",$App.Random19c);
+localStorage.setItem("Random20",$App.Random20);
+localStorage.setItem("Random20b",$App.Random20b);
+localStorage.setItem("Random20c",$App.Random20c);
+$App.Loaddb = "Load Pass 4";
+neoGSheetsLoadCell($App.googleSheet4,"Random01","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01b","b",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01c","e",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02","a",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02b","b",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02c","e",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03","a",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03b","b",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03c","e",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04","a",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04b","b",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04c","e",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05","a",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05b","b",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05c","e",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06","a",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06b","b",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06c","e",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07","a",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07b","b",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07c","e",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08","a",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08b","b",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08c","e",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09","a",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09b","b",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09c","e",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10","a",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10b","b",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10c","e",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11","a",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11b","b",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11c","e",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12","a",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12b","b",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12c","e",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13","a",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13b","b",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13c","e",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14","a",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14b","b",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14c","e",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15","a",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15b","b",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15c","e",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16","a",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16b","b",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16c","e",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","a",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17b","b",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","e",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18","a",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18b","b",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18c","e",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19","a",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19b","b",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19c","e",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20","a",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20b","b",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20c","e",20,null);
+
+localStorage.setItem("Random01",$App.Random01);
+localStorage.setItem("Random01b",$App.Random01b);
+localStorage.setItem("Random01c",$App.Random01c);
+localStorage.setItem("Random02",$App.Random02);
+localStorage.setItem("Random02b",$App.Random02b);
+localStorage.setItem("Random02c",$App.Random02c);
+localStorage.setItem("Random03",$App.Random03);
+localStorage.setItem("Random03b",$App.Random03b);
+localStorage.setItem("Random03c",$App.Random03c);
+localStorage.setItem("Random04",$App.Random04);
+localStorage.setItem("Random04b",$App.Random04b);
+localStorage.setItem("Random04c",$App.Random04c);
+localStorage.setItem("Random05",$App.Random05);
+localStorage.setItem("Random05b",$App.Random05b);
+localStorage.setItem("Random05c",$App.Random05c);
+localStorage.setItem("Random06",$App.Random06);
+localStorage.setItem("Random06b",$App.Random06b);
+localStorage.setItem("Random06c",$App.Random06c);
+localStorage.setItem("Random07",$App.Random07);
+localStorage.setItem("Random07b",$App.Random07b);
+localStorage.setItem("Random07c",$App.Random07c);
+localStorage.setItem("Random08",$App.Random08);
+localStorage.setItem("Random08b",$App.Random08b);
+localStorage.setItem("Random08c",$App.Random08c);
+localStorage.setItem("Random09",$App.Random09);
+localStorage.setItem("Random09b",$App.Random09b);
+localStorage.setItem("Random09c",$App.Random09c);
+localStorage.setItem("Random10",$App.Random10);
+localStorage.setItem("Random10b",$App.Random10b);
+localStorage.setItem("Random10c",$App.Random10c);
+localStorage.setItem("Random11",$App.Random11);
+localStorage.setItem("Random11b",$App.Random11b);
+localStorage.setItem("Random11c",$App.Random11c);
+localStorage.setItem("Random12",$App.Random12);
+localStorage.setItem("Random12b",$App.Random12b);
+localStorage.setItem("Random12c",$App.Random12c);
+localStorage.setItem("Random13",$App.Random13);
+localStorage.setItem("Random13b",$App.Random13b);
+localStorage.setItem("Random13c",$App.Random13c);
+localStorage.setItem("Random14",$App.Random14);
+localStorage.setItem("Random14b",$App.Random14b);
+localStorage.setItem("Random14c",$App.Random14c);
+localStorage.setItem("Random15",$App.Random15);
+localStorage.setItem("Random15b",$App.Random15b);
+localStorage.setItem("Random15c",$App.Random15c);
+localStorage.setItem("Random16",$App.Random16);
+localStorage.setItem("Random16b",$App.Random16b);
+localStorage.setItem("Random16c",$App.Random16c);
+localStorage.setItem("Random17",$App.Random17);
+localStorage.setItem("Random17b",$App.Random17b);
+localStorage.setItem("Random17c",$App.Random17c);
+localStorage.setItem("Random18",$App.Random18);
+localStorage.setItem("Random18b",$App.Random18b);
+localStorage.setItem("Random18c",$App.Random18c);
+localStorage.setItem("Random19",$App.Random19);
+localStorage.setItem("Random19b",$App.Random19b);
+localStorage.setItem("Random19c",$App.Random19c);
+localStorage.setItem("Random20",$App.Random20);
+localStorage.setItem("Random20b",$App.Random20b);
+localStorage.setItem("Random20c",$App.Random20c);
+$App.Loaddb = "Load Pass 5";
+neoGSheetsLoadCell($App.googleSheet4,"Random01","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01b","b",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01c","e",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02","a",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02b","b",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02c","e",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03","a",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03b","b",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03c","e",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04","a",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04b","b",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04c","e",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05","a",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05b","b",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05c","e",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06","a",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06b","b",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06c","e",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07","a",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07b","b",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07c","e",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08","a",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08b","b",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08c","e",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09","a",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09b","b",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09c","e",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10","a",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10b","b",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10c","e",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11","a",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11b","b",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11c","e",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12","a",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12b","b",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12c","e",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13","a",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13b","b",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13c","e",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14","a",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14b","b",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14c","e",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15","a",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15b","b",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15c","e",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16","a",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16b","b",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16c","e",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","a",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17b","b",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","e",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18","a",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18b","b",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18c","e",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19","a",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19b","b",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19c","e",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20","a",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20b","b",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20c","e",20,null);
+
+localStorage.setItem("Random01",$App.Random01);
+localStorage.setItem("Random01b",$App.Random01b);
+localStorage.setItem("Random01c",$App.Random01c);
+localStorage.setItem("Random02",$App.Random02);
+localStorage.setItem("Random02b",$App.Random02b);
+localStorage.setItem("Random02c",$App.Random02c);
+localStorage.setItem("Random03",$App.Random03);
+localStorage.setItem("Random03b",$App.Random03b);
+localStorage.setItem("Random03c",$App.Random03c);
+localStorage.setItem("Random04",$App.Random04);
+localStorage.setItem("Random04b",$App.Random04b);
+localStorage.setItem("Random04c",$App.Random04c);
+localStorage.setItem("Random05",$App.Random05);
+localStorage.setItem("Random05b",$App.Random05b);
+localStorage.setItem("Random05c",$App.Random05c);
+localStorage.setItem("Random06",$App.Random06);
+localStorage.setItem("Random06b",$App.Random06b);
+localStorage.setItem("Random06c",$App.Random06c);
+localStorage.setItem("Random07",$App.Random07);
+localStorage.setItem("Random07b",$App.Random07b);
+localStorage.setItem("Random07c",$App.Random07c);
+localStorage.setItem("Random08",$App.Random08);
+localStorage.setItem("Random08b",$App.Random08b);
+localStorage.setItem("Random08c",$App.Random08c);
+localStorage.setItem("Random09",$App.Random09);
+localStorage.setItem("Random09b",$App.Random09b);
+localStorage.setItem("Random09c",$App.Random09c);
+localStorage.setItem("Random10",$App.Random10);
+localStorage.setItem("Random10b",$App.Random10b);
+localStorage.setItem("Random10c",$App.Random10c);
+localStorage.setItem("Random11",$App.Random11);
+localStorage.setItem("Random11b",$App.Random11b);
+localStorage.setItem("Random11c",$App.Random11c);
+localStorage.setItem("Random12",$App.Random12);
+localStorage.setItem("Random12b",$App.Random12b);
+localStorage.setItem("Random12c",$App.Random12c);
+localStorage.setItem("Random13",$App.Random13);
+localStorage.setItem("Random13b",$App.Random13b);
+localStorage.setItem("Random13c",$App.Random13c);
+localStorage.setItem("Random14",$App.Random14);
+localStorage.setItem("Random14b",$App.Random14b);
+localStorage.setItem("Random14c",$App.Random14c);
+localStorage.setItem("Random15",$App.Random15);
+localStorage.setItem("Random15b",$App.Random15b);
+localStorage.setItem("Random15c",$App.Random15c);
+localStorage.setItem("Random16",$App.Random16);
+localStorage.setItem("Random16b",$App.Random16b);
+localStorage.setItem("Random16c",$App.Random16c);
+localStorage.setItem("Random17",$App.Random17);
+localStorage.setItem("Random17b",$App.Random17b);
+localStorage.setItem("Random17c",$App.Random17c);
+localStorage.setItem("Random18",$App.Random18);
+localStorage.setItem("Random18b",$App.Random18b);
+localStorage.setItem("Random18c",$App.Random18c);
+localStorage.setItem("Random19",$App.Random19);
+localStorage.setItem("Random19b",$App.Random19b);
+localStorage.setItem("Random19c",$App.Random19c);
+localStorage.setItem("Random20",$App.Random20);
+localStorage.setItem("Random20b",$App.Random20b);
+localStorage.setItem("Random20c",$App.Random20c);
+$App.Loaddb = "Loaded";
+neoGSheetsLoadCell($App.googleSheet4,"Random01","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01b","b",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random01c","e",1,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02","a",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02b","b",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random02c","e",2,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03","a",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03b","b",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random03c","e",3,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04","a",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04b","b",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random04c","e",4,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05","a",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05b","b",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random05c","e",5,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06","a",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06b","b",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06c","e",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07","a",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07b","b",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07c","e",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08","a",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08b","b",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08c","e",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09","a",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09b","b",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09c","e",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10","a",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10b","b",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10c","e",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11","a",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11b","b",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11c","e",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12","a",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12b","b",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12c","e",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13","a",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13b","b",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13c","e",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14","a",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14b","b",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14c","e",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15","a",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15b","b",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15c","e",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16","a",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16b","b",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16c","e",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","a",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17b","b",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17","e",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18","a",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18b","b",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18c","e",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19","a",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19b","b",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19c","e",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20","a",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20b","b",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20c","e",20,null);
+
+localStorage.setItem("Random01",$App.Random01);
+localStorage.setItem("Random01b",$App.Random01b);
+localStorage.setItem("Random01c",$App.Random01c);
+localStorage.setItem("Random02",$App.Random02);
+localStorage.setItem("Random02b",$App.Random02b);
+localStorage.setItem("Random02c",$App.Random02c);
+localStorage.setItem("Random03",$App.Random03);
+localStorage.setItem("Random03b",$App.Random03b);
+localStorage.setItem("Random03c",$App.Random03c);
+localStorage.setItem("Random04",$App.Random04);
+localStorage.setItem("Random04b",$App.Random04b);
+localStorage.setItem("Random04c",$App.Random04c);
+localStorage.setItem("Random05",$App.Random05);
+localStorage.setItem("Random05b",$App.Random05b);
+localStorage.setItem("Random05c",$App.Random05c);
+localStorage.setItem("Random06",$App.Random06);
+localStorage.setItem("Random06b",$App.Random06b);
+localStorage.setItem("Random06c",$App.Random06c);
+localStorage.setItem("Random07",$App.Random07);
+localStorage.setItem("Random07b",$App.Random07b);
+localStorage.setItem("Random07c",$App.Random07c);
+localStorage.setItem("Random08",$App.Random08);
+localStorage.setItem("Random08b",$App.Random08b);
+localStorage.setItem("Random08c",$App.Random08c);
+localStorage.setItem("Random09",$App.Random09);
+localStorage.setItem("Random09b",$App.Random09b);
+localStorage.setItem("Random09c",$App.Random09c);
+localStorage.setItem("Random10",$App.Random10);
+localStorage.setItem("Random10b",$App.Random10b);
+localStorage.setItem("Random10c",$App.Random10c);
+localStorage.setItem("Random11",$App.Random11);
+localStorage.setItem("Random11b",$App.Random11b);
+localStorage.setItem("Random11c",$App.Random11c);
+localStorage.setItem("Random12",$App.Random12);
+localStorage.setItem("Random12b",$App.Random12b);
+localStorage.setItem("Random12c",$App.Random12c);
+localStorage.setItem("Random13",$App.Random13);
+localStorage.setItem("Random13b",$App.Random13b);
+localStorage.setItem("Random13c",$App.Random13c);
+localStorage.setItem("Random14",$App.Random14);
+localStorage.setItem("Random14b",$App.Random14b);
+localStorage.setItem("Random14c",$App.Random14c);
+localStorage.setItem("Random15",$App.Random15);
+localStorage.setItem("Random15b",$App.Random15b);
+localStorage.setItem("Random15c",$App.Random15c);
+localStorage.setItem("Random16",$App.Random16);
+localStorage.setItem("Random16b",$App.Random16b);
+localStorage.setItem("Random16c",$App.Random16c);
+localStorage.setItem("Random17",$App.Random17);
+localStorage.setItem("Random17b",$App.Random17b);
+localStorage.setItem("Random17c",$App.Random17c);
+localStorage.setItem("Random18",$App.Random18);
+localStorage.setItem("Random18b",$App.Random18b);
+localStorage.setItem("Random18c",$App.Random18c);
+localStorage.setItem("Random19",$App.Random19);
+localStorage.setItem("Random19b",$App.Random19b);
+localStorage.setItem("Random19c",$App.Random19c);
+localStorage.setItem("Random20",$App.Random20);
+localStorage.setItem("Random20b",$App.Random20b);
+localStorage.setItem("Random20c",$App.Random20c);
+$App.Loaddb = "Complete";};
 });
 NeoApp.controller("Random01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 10;
 $App.NAB.PageID = "Random01";
-$scope.PushButton471_click = function() {localStorage.setItem("Random01b",$App.Random01b);
+$scope.PushButton471_click = function() {localStorage.setItem("Random01",$App.Random01);
+localStorage.setItem("Random01b",$App.Random01b);
 localStorage.setItem("Random01c",$App.Random01c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton472_click = function() {neoTalkPauseSpeech();
@@ -2953,7 +4056,8 @@ $scope.TextArea204_change = function() {localStorage.setItem("Random04c",$App.Ra
 NeoApp.controller("Random05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 14;
 $App.NAB.PageID = "Random05";
-$scope.PushButton483_click = function() {localStorage.setItem("Random05b",$App.Random05b);
+$scope.PushButton483_click = function() {localStorage.setItem("Random05",$App.Random05);
+localStorage.setItem("Random05b",$App.Random05b);
 localStorage.setItem("Random05c",$App.Random05c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton484_click = function() {neoTalkPauseSpeech();
@@ -2976,7 +4080,9 @@ $scope.TextArea205_change = function() {localStorage.setItem("Random05c",$App.Ra
 NeoApp.controller("Random06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 15;
 $App.NAB.PageID = "Random06";
-$scope.PushButton491_click = function() {localStorage.setItem("Random06b",$App.Random06b);
+$scope.PushButton491_click = function() {localStorage.setItem("Random06",$App.Random06);
+localStorage.setItem("Random06b",$App.Random06b);
+localStorage.setItem("Random06c",$App.Random06c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton492_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -2990,12 +4096,17 @@ $scope.SetObjectStyle("ranbox06","font-size",$App.r6t+"pt");};
 $scope.PushButton498_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random06","a",6,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random06b","b",6,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random06c","e",6,null);
 };
+$scope.TextArea206_change = function() {localStorage.setItem("Random06c",$App.Random06c);};
 });
 NeoApp.controller("Random07_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 16;
 $App.NAB.PageID = "Random07";
-$scope.PushButton499_click = function() {localStorage.setItem("Random07b",$App.Random07b);
+$scope.PushButton499_click = function() {localStorage.setItem("Random07",$App.Random07);
+localStorage.setItem("Random07b",$App.Random07b);
+localStorage.setItem("Random07c",$App.Random07c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton500_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3009,12 +4120,17 @@ $scope.SetObjectStyle("ranbox04","font-size",$App.r4t+"pt");};
 $scope.PushButton506_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random07","a",7,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random07b","b",7,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random07c","e",7,null);
 };
+$scope.TextArea207_change = function() {localStorage.setItem("Random07c",$App.Random07c);};
 });
 NeoApp.controller("Random08_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 17;
 $App.NAB.PageID = "Random08";
-$scope.PushButton507_click = function() {localStorage.setItem("Random08b",$App.Random08b);
+$scope.PushButton507_click = function() {localStorage.setItem("Random08",$App.Random08);
+localStorage.setItem("Random08b",$App.Random08b);
+localStorage.setItem("Random08c",$App.Random08c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton508_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3028,12 +4144,17 @@ $scope.SetObjectStyle("ranbox08","font-size",$App.r8t+"pt");};
 $scope.PushButton514_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random08","a",8,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random08b","b",8,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random08c","e",8,null);
 };
+$scope.TextArea208_change = function() {localStorage.setItem("Random08c",$App.Random08c);};
 });
 NeoApp.controller("Random09_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 18;
 $App.NAB.PageID = "Random09";
-$scope.PushButton515_click = function() {localStorage.setItem("Random09b",$App.Random09b);
+$scope.PushButton515_click = function() {localStorage.setItem("Random09",$App.Random09);
+localStorage.setItem("Random09b",$App.Random09b);
+localStorage.setItem("Random09c",$App.Random09c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton520_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3047,12 +4168,17 @@ $scope.SetObjectStyle("ranbox04","font-size",$App.r4t+"pt");};
 $scope.PushButton526_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random09","a",9,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random09b","b",9,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random09c","e",9,null);
 };
+$scope.TextArea209_change = function() {localStorage.setItem("Random09c",$App.Random09c);};
 });
 NeoApp.controller("Random10_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 19;
 $App.NAB.PageID = "Random10";
-$scope.PushButton543_click = function() {localStorage.setItem("Random10b",$App.Random10b);
+$scope.PushButton543_click = function() {localStorage.setItem("Random10",$App.Random10);
+localStorage.setItem("Random10b",$App.Random10b);
+localStorage.setItem("Random10c",$App.Random10c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton547_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3066,12 +4192,17 @@ $scope.SetObjectStyle("ranbox10","font-size",$App.r10t+"pt");};
 $scope.PushButton553_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random10","a",10,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random10b","b",10,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random10c","e",10,null);
 };
+$scope.TextArea210_change = function() {localStorage.setItem("Random10c",$App.Random19c);};
 });
 NeoApp.controller("Random11_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 20;
 $App.NAB.PageID = "Random11";
-$scope.PushButton554_click = function() {localStorage.setItem("Random12b",$App.Random12b);
+$scope.PushButton554_click = function() {localStorage.setItem("Random11",$App.Random11);
+localStorage.setItem("Random11b",$App.Random11b);
+localStorage.setItem("Random11c",$App.Random11c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton555_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3085,12 +4216,17 @@ $scope.SetObjectStyle("ranbox11","font-size",$App.r11t+"pt");};
 $scope.PushButton561_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random11","a",11,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random11b","b",11,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random11c","e",11,null);
 };
+$scope.TextArea211_change = function() {localStorage.setItem("Random11c",$App.Random11c);};
 });
 NeoApp.controller("Random12_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 21;
 $App.NAB.PageID = "Random12";
-$scope.PushButton562_click = function() {localStorage.setItem("Random12b",$App.Random12b);
+$scope.PushButton562_click = function() {localStorage.setItem("Random12",$App.Random12);
+localStorage.setItem("Random12b",$App.Random12b);
+localStorage.setItem("Random12c",$App.Random12c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton563_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3104,12 +4240,17 @@ $scope.SetObjectStyle("ranbox12","font-size",$App.r12t+"pt");};
 $scope.PushButton569_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random12","a",12,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random12b","b",12,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random12c","e",12,null);
 };
+$scope.TextArea212_change = function() {localStorage.setItem("Random12c",$App.Random12c);};
 });
 NeoApp.controller("Random13_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 22;
 $App.NAB.PageID = "Random13";
-$scope.PushButton617_click = function() {localStorage.setItem("Random13b",$App.Random13b);
+$scope.PushButton617_click = function() {localStorage.setItem("Random13",$App.Random13);
+localStorage.setItem("Random13b",$App.Random13b);
+localStorage.setItem("Random13c",$App.Random13c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton618_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3123,12 +4264,17 @@ $scope.SetObjectStyle("ranbox13","font-size",$App.r13t+"pt");};
 $scope.PushButton623_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random13","a",13,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random13b","b",13,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random13c","e",13,null);
 };
+$scope.TextArea213_change = function() {localStorage.setItem("Random13c",$App.Random13c);};
 });
 NeoApp.controller("Random14_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 23;
 $App.NAB.PageID = "Random14";
-$scope.PushButton628_click = function() {localStorage.setItem("Random14b",$App.Random14b);
+$scope.PushButton628_click = function() {localStorage.setItem("Random14",$App.Random14);
+localStorage.setItem("Random14b",$App.Random14b);
+localStorage.setItem("Random14c",$App.Random14c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton629_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3142,12 +4288,17 @@ $scope.SetObjectStyle("ranbox14","font-size",$App.r14t+"pt");};
 $scope.PushButton634_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random14","a",14,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random14b","b",14,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random14c","e",14,null);
 };
+$scope.TextArea214_change = function() {localStorage.setItem("Random14c",$App.Random14c);};
 });
 NeoApp.controller("Random15_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 24;
 $App.NAB.PageID = "Random15";
-$scope.PushButton636_click = function() {localStorage.setItem("Random15b",$App.Random15b);
+$scope.PushButton636_click = function() {localStorage.setItem("Random15",$App.Random15);
+localStorage.setItem("Random15b",$App.Random15b);
+localStorage.setItem("Random15c",$App.Random15c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton637_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3161,12 +4312,17 @@ $scope.SetObjectStyle("ranbox15","font-size",$App.r15t+"pt");};
 $scope.PushButton642_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random15","a",15,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random15b","b",15,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random15c","e",15,null);
 };
+$scope.TextArea215_change = function() {localStorage.setItem("Random15c",$App.Random15c);};
 });
 NeoApp.controller("Random16_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 25;
 $App.NAB.PageID = "Random16";
-$scope.PushButton644_click = function() {localStorage.setItem("Random16b",$App.Random16b);
+$scope.PushButton644_click = function() {localStorage.setItem("Random16",$App.Random16);
+localStorage.setItem("Random16b",$App.Random16b);
+localStorage.setItem("Random16c",$App.Random16c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton645_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3180,12 +4336,17 @@ $scope.SetObjectStyle("ranbox16","font-size",$App.r16t+"pt");};
 $scope.PushButton650_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random16","a",16,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random16b","b",16,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random16c","e",16,null);
 };
+$scope.TextArea216_change = function() {localStorage.setItem("Random16c",$App.Random16c);};
 });
 NeoApp.controller("Random17_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 26;
 $App.NAB.PageID = "Random17";
-$scope.PushButton652_click = function() {localStorage.setItem("Random17b",$App.Random17b);
+$scope.PushButton652_click = function() {localStorage.setItem("Random17",$App.Random17);
+localStorage.setItem("Random17b",$App.Random17b);
+localStorage.setItem("Random17c",$App.Random17c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton653_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3199,16 +4360,21 @@ $scope.SetObjectStyle("ranbox17","font-size",$App.r17t+"pt");};
 $scope.PushButton658_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random17","a",17,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random17b","b",17,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random17c","e",17,null);
 };
+$scope.TextArea217_change = function() {localStorage.setItem("Random17c",$App.Random17c);};
 });
 NeoApp.controller("Random18_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 27;
 $App.NAB.PageID = "Random18";
-$scope.PushButton660_click = function() {$scope.GotoPage( "Home" );};
+$scope.PushButton660_click = function() {localStorage.setItem("Random18",$App.Random18);
+localStorage.setItem("Random18b",$App.Random18b);
+localStorage.setItem("Random18c",$App.Random18c);
+$scope.GotoPage( "Home" );};
 $scope.PushButton661_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
-$scope.TextArea196_change = function() {localStorage.setItem("Random18b",$App.Random18b);
-localStorage.setItem("Random18b",$App.Random18b);};
+$scope.TextArea196_change = function() {localStorage.setItem("Random18b",$App.Random18b);};
 $scope.PushButton662_click = function() {neoTalkSpeak($App.Random18b, "uk", 1, .9);};
 $scope.PushButton663_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton664_click = function() {$App.r18t = $scope.Calculate($App.r18t+"-1",-1);
@@ -3218,12 +4384,17 @@ $scope.SetObjectStyle("ranbox18","font-size",$App.r18t+"pt");};
 $scope.PushButton666_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random18","a",18,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random18b","b",18,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random18c","e",18,null);
 };
+$scope.TextArea218_change = function() {localStorage.setItem("Random05c",$App.Random05c);};
 });
 NeoApp.controller("Random19_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 28;
 $App.NAB.PageID = "Random19";
-$scope.PushButton668_click = function() {localStorage.setItem("Random19b",$App.Random19b);
+$scope.PushButton668_click = function() {localStorage.setItem("Random19",$App.Random19);
+localStorage.setItem("Random19b",$App.Random19b);
+localStorage.setItem("Random19c",$App.Random19c);
 $scope.GotoPage( "Home" );};
 $scope.PushButton669_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3237,12 +4408,17 @@ $scope.SetObjectStyle("ranbox19","font-size",$App.r19t+"pt");};
 $scope.PushButton674_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random19","a",19,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random19b","b",19,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random19c","e",19,null);
 };
+$scope.TextArea219_change = function() {localStorage.setItem("Random19c",$App.Random19c);};
 });
 NeoApp.controller("Random20_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 29;
 $App.NAB.PageID = "Random20";
 $scope.PushButton681_click = function() {localStorage.setItem("Random20b",$App.Random20b);
+localStorage.setItem("Random20c",$App.Random20c);
+localStorage.setItem("Random20",$App.Random20);
 $scope.GotoPage( "Home" );};
 $scope.PushButton682_click = function() {neoTalkPauseSpeech();
 $scope.ObjectToBack("PushButton208");};
@@ -3256,7 +4432,10 @@ $scope.SetObjectStyle("ranbox20","font-size",$App.r20t+"pt");};
 $scope.PushButton687_click = function() {neoGSheetsLoadCell($App.googleSheet4,"Random20","a",20,null);
 
 neoGSheetsLoadCell($App.googleSheet4,"Random20b","b",20,null);
+
+neoGSheetsLoadCell($App.googleSheet4,"Random20c","e",20,null);
 };
+$scope.TextArea220_change = function() {localStorage.setItem("Random20c",$App.Random20c);};
 });
 NeoApp.controller("Random21_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 30;
@@ -3276,6 +4455,7 @@ $scope.PushButton518_click = function() {neoGSheetsLoadCell($App.googleSheet4,"R
 
 neoGSheetsLoadCell($App.googleSheet4,"Random21b","b",21,null);
 };
+$scope.TextArea221_change = function() {localStorage.setItem("Random05c",$App.Random05c);};
 });
 NeoApp.controller("Random22_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 31;
@@ -3295,6 +4475,7 @@ $scope.PushButton603_click = function() {neoGSheetsLoadCell($App.googleSheet4,"R
 
 neoGSheetsLoadCell($App.googleSheet4,"Random22b","b",22,null);
 };
+$scope.TextArea222_change = function() {localStorage.setItem("Random22c",$App.Random22c);};
 });
 NeoApp.controller("BookMain_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 32;
