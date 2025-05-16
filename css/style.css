@@ -48,6 +48,23 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline476 {position:absolute;left:14.0096618357488%;width:69.8067632850242%;top:85.1902173913043%;height:2.85326086956522%;margin:0;color:white;font-size:8pt;font-weight:600}
 #Image282 {position:absolute;left:4.83091787439614%;width:8.93719806763285%;top:93.4782608695652%;height:4.48369565217391%;margin:0;}
 #Headline632 {position:absolute;left:14.7342995169082%;width:21.9806763285024%;top:94.9728260869565%;height:2.85326086956522%;margin:0;color:white;font-size:8pt;font-weight:600}
+#Headline5 {position:absolute;left:3.38164251207729%;width:12.8019323671498%;top:21.3315217391304%;height:5.02717391304348%;margin:0;}
+#Headline5:hover {color:white}
+#Headline6 {position:absolute;left:16.6666666666667%;width:12.8019323671498%;top:21.3315217391304%;height:5.02717391304348%;margin:0;}
+#Headline6:hover {color:white}
+#Debtclock {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
+#Image1 {position:absolute;left:3.38164251207729%;width:91.7874396135266%;top:0.951086956521739%;height:98.7771739130435%;margin:0;}
+#Headline2 {position:absolute;left:4.10628019323671%;width:63.5265700483092%;top:2.85326086956522%;height:4.34782608695652%;margin:0;color:white;font-size:17pt}
+#PushButton7 {position:absolute;left:68.8405797101449%;width:25.1207729468599%;top:2.03804347826087%;height:4.6195652173913%;margin:0;opacity:0.42}
+#Headline3 {position:absolute;left:51.4492753623188%;width:41.0628019323671%;top:13.4510869565217%;height:7.60869565217391%;margin:0;color:red;font-size:24pt;font-weight:800;text-align:center;text-shadow:1px 1px 1px lime;opacity:1}
+#Headline4 {position:absolute;left:2.65700483091787%;width:48.3091787439614%;top:14.1304347826087%;height:5.16304347826087%;margin:0;color:silver;font-size:17pt;font-weight:800;text-align:center}
+#PushButton4 {position:absolute;left:68.8405797101449%;width:25.1207729468599%;top:7.8804347826087%;height:4.6195652173913%;margin:0;opacity:0.42}
+#DC {position:absolute;left:2.17391304347826%;width:93.4782608695652%;top:21.195652173913%;height:75.2717391304348%;margin:0;color:#383838;font-size:10pt;font-weight:600;opacity:1}
+#Debtclockinput {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
+#Image2 {position:absolute;left:4.10628019323671%;width:91.0628019323671%;top:0.951086956521739%;height:98.7771739130435%;margin:0;}
+#Headline1 {position:absolute;left:4.10628019323671%;width:63.5265700483092%;top:2.85326086956522%;height:4.34782608695652%;margin:0;color:white;font-size:17pt}
+#PushButton2 {position:absolute;left:68.8405797101449%;width:25.1207729468599%;top:2.03804347826087%;height:4.6195652173913%;margin:0;opacity:0.42}
+#PushButton3 {position:absolute;left:68.8405797101449%;width:25.1207729468599%;top:7.8804347826087%;height:4.6195652173913%;margin:0;opacity:0.42}
 #Permanace {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Image43 {position:absolute;left:3.38164251207729%;width:91.7874396135266%;top:0.951086956521739%;height:98.7771739130435%;margin:0;}
 #Headline255 {position:absolute;left:4.58937198067633%;width:90.0966183574879%;top:6.52173913043478%;height:61.5489130434783%;margin:0;color:white;font-size:11pt}
