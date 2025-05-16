@@ -975,6 +975,12 @@ $scope.SetObjectStyle("TextArea130","font-size",$App.p1tz+"pt");};
 $scope.PushButton616_click = function() {$App.p1tz = $scope.Calculate($App.p1tz+"+1",-1);
 $scope.SetObjectStyle("TextArea130","font-size",$App.p1tz+"pt");};
 $scope.TextArea130_change = function() {localStorage.setItem("Thoughts",$App.Thoughts);};
+$scope.Image3_click = function() {$scope.GotoPage( $App.goto01 );};
+$scope.Image4_click = function() {$scope.GotoPage( $App.goto02 );};
+$scope.Image5_click = function() {$scope.GotoPage( $App.goto03 );};
+$scope.Image6_click = function() {$scope.GotoPage( $App.goto04 );};
+$scope.Image7_click = function() {$scope.GotoPage( $App.goto05 );};
+$scope.Image8_click = function() {$scope.GotoPage( $App.goto06 );};
 });
 NeoApp.controller("Milesrecorder_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 7;
