@@ -1227,6 +1227,7 @@ $scope.PushButton220_click = function() {neoTalkCancelSpeech();};
 $scope.TextArea95_change = function() {localStorage.setItem("ad16",$App.ad16);};
 $scope.PushButton221_click = function() {$scope.GotoPrevPage();};
 $scope.PushButton222_click = function() {$scope.GotoNextPage();};
+$scope.Container4_click = function() {window.open("https://1drv.ms/x/c/469a0daef3bc98bf/ESQ5ilIOzjdFszXaWLAxY1MBr-JnoV6usiTfTWIyciUEjQ?e=1MHFQy", "_blank");};
 });
 NeoApp.controller("Debtclock_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 20;
