@@ -912,8 +912,6 @@ $scope.PushButton277_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton278_click = function() {neoTalkSpeak($App.feb25week1a, "uk", 1, .9);};
 $scope.DS1S_change = function() {localStorage.setItem("DS01",$App.ds01);};
 $scope.TextArea85_change = function() {localStorage.setItem("DS02","DS02");};
-$scope.TextArea86_change = function() {localStorage.setItem("DS03","DS03");};
-$scope.TextArea18_change = function() {localStorage.setItem("Thisweek",$App.Thisweek);};
 $scope.DS1Strew_click = function() {$App.r11ts = $scope.Calculate($App.r11ts+"-1",-1);
 $scope.SetObjectStyle("DS1S","font-size",$App.r11ts+"pt");};
 $scope.PushButton570_click = function() {$App.r11ts = $scope.Calculate($App.r11ts+"+1",-1);
@@ -928,6 +926,7 @@ $scope.PushButton196_click = function() {$scope.MoveObject("Container1","","30pt
 $scope.PushButton197_click = function() {$scope.MoveObject("Container1","","474pt");};
 $scope.Container2_click = function() {$scope.HideObject("Container1","",0);};
 $scope.Container3_click = function() {$scope.ShowObject("Container1","",0);};
+$scope.TextArea18_change = function() {localStorage.setItem("Thisweek",$App.Thisweek);};
 });
 NeoApp.controller("adh00_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 3;
