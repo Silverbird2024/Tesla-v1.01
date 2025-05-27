@@ -753,13 +753,79 @@ $scope.PushButton458_click = function() {window.document.location.reload();
 $App.Reloaded = $App.NAB.DateLong+"--"+$App.NAB.Time;
 localStorage.setItem("Reloaded",$App.Reloaded);
 $App.Reloaded = localStorage.getItem("Reloaded");};
-$scope.PushButton459_click = function() {$App.ds01 = localStorage.getItem("DS01");
+$scope.PushButton459_click = function() {$scope.GotoPage( "Dailysheet" );
+$App.ds01 = localStorage.getItem("DS01");
 $App.ds02 = localStorage.getItem("DS02");
 $App.ds03 = localStorage.getItem("DS03");
 $App.ds04 = localStorage.getItem("DS04");
+$App.ds05 = localStorage.getItem("DS05");
+$App.ds06 = localStorage.getItem("DS06");
+$App.DS06d = localStorage.getItem("DS06d");
+$App.End01 = localStorage.getItem("End01");
+$App.DS07d = localStorage.getItem("DS07d");
+$App.End02 = localStorage.getItem("End02");
+$App.DS08d = localStorage.getItem("DS08d");
+$App.End03 = localStorage.getItem("End03");
+$App.start01 = $App.DS06d;
+$App.start02 = $App.DS07d;
+$App.start03 = $App.DS08d;
+$App.End01 = $App.NAB.DateShort;
+$App.End01 = dtDateDiff( $App.NAB.DateShort+" ", $App.start01, "mm/dd/yyyy" );
 $App.r11ts = 15;
 $App.r41ts = 10;
-$scope.GotoPage( "Dailysheet" );};
+$scope.GotoPage( "Dailysheet" );
+$App.start01 = $App.DS06d;
+$App.End01 = $App.NAB.DateShort;
+$App.End01 = dtDateDiff( $App.NAB.DateShort+" ", $App.start01, "mm/dd/yyyy" );
+if ($App.End01 == 0) {
+$App.End01 = "Due Today";
+} else {
+};
+if ($App.DS06d < $App.NAB.DateShort+"0") {
+$App.OverDue01 = "LATE";
+} else {
+$App.OverDue01 = "Safe";
+};
+localStorage.setItem("DS06d",$App.DS06d);
+$App.start02 = $App.DS07d;
+$App.End02 = $App.NAB.DateShort;
+$App.End02 = dtDateDiff( $App.NAB.DateShort+" ", $App.start02, "mm/dd/yyyy" );
+if ($App.End02 == 0) {
+$App.End02 = "Due Today";
+} else {
+};
+if ($App.DS07d < $App.NAB.DateShort+"0") {
+$App.OverDue02 = "LATE";
+} else {
+$App.OverDue02 = "Safe";
+};
+localStorage.setItem("DS07d",$App.DS07d);
+$App.start03 = $App.DS08d;
+$App.End03 = $App.NAB.DateShort;
+$App.End03 = dtDateDiff( $App.NAB.DateShort+" ", $App.start03, "mm/dd/yyyy" );
+if ($App.End03 == 0) {
+$App.End03 = "Due Today";
+} else {
+};
+if ($App.DS08d < $App.NAB.DateShort+"0") {
+$App.OverDue03 = "LATE";
+} else {
+$App.OverDue03 = "Safe";
+};
+localStorage.setItem("DS08d",$App.DS08d);
+$App.start04 = $App.DS09d;
+$App.end04 = $App.NAB.DateShort;
+$App.end04 = dtDateDiff( $App.NAB.DateShort+" ", $App.start04, "mm/dd/yyyy" );
+if ($App.end04 == 0) {
+$App.end04 = "Due Today";
+} else {
+};
+if ($App.DS09d < $App.NAB.DateShort+"0") {
+$App.OverDue04 = "LATE";
+} else {
+$App.OverDue04 = "Safe";
+};
+localStorage.setItem("DS09d",$App.DS09d);};
 $scope.PushButton460_click = function() {$scope.GotoPage( "Save" );};
 $scope.PushButton461_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
 $App.p1t = 15;
@@ -911,7 +977,7 @@ $App.NAB.PageID = "Dailysheet";
 $scope.PushButton277_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton278_click = function() {neoTalkSpeak($App.feb25week1a, "uk", 1, .9);};
 $scope.DS1S_change = function() {localStorage.setItem("DS01",$App.ds01);};
-$scope.TextArea85_change = function() {localStorage.setItem("DS02","DS02");};
+$scope.TextArea85_change = function() {localStorage.setItem("DS02",$App.ds02);};
 $scope.DS1Strew_click = function() {$App.r11ts = $scope.Calculate($App.r11ts+"-1",-1);
 $scope.SetObjectStyle("DS1S","font-size",$App.r11ts+"pt");};
 $scope.PushButton570_click = function() {$App.r11ts = $scope.Calculate($App.r11ts+"+1",-1);
@@ -927,6 +993,64 @@ $scope.PushButton197_click = function() {$scope.MoveObject("Container1","","474p
 $scope.Container2_click = function() {$scope.HideObject("Container1","",0);};
 $scope.Container3_click = function() {$scope.ShowObject("Container1","",0);};
 $scope.TextArea18_change = function() {localStorage.setItem("Thisweek",$App.Thisweek);};
+$scope.TextArea86_change = function() {localStorage.setItem("DS05",$App.ds05);};
+$scope.Headline130_click = function() {$scope.GotoPage( "Home" );};
+$scope.TextArea96_change = function() {localStorage.setItem("DS06",$App.ds06);};
+$scope.TextArea97_change = function() {$App.start01 = $App.DS06d;
+$App.End01 = $App.NAB.DateShort;
+$App.End01 = dtDateDiff( $App.NAB.DateShort+" ", $App.start01, "mm/dd/yyyy" );
+if ($App.End01 == 0) {
+$App.End01 = "Due Today";
+} else {
+};
+if ($App.DS06d < $App.NAB.DateShort+"0") {
+$App.OverDue01 = "LATE";
+} else {
+$App.OverDue01 = "Safe";
+};
+localStorage.setItem("DS06d",$App.DS06d);};
+$scope.TextArea98_change = function() {localStorage.setItem("DS06",$App.ds06);};
+$scope.TextArea99_change = function() {$App.start02 = $App.DS07d;
+$App.End02 = $App.NAB.DateShort;
+$App.End02 = dtDateDiff( $App.NAB.DateShort+" ", $App.start02, "mm/dd/yyyy" );
+if ($App.End02 == 0) {
+$App.End02 = "Due Today";
+} else {
+};
+if ($App.DS07d < $App.NAB.DateShort+"0") {
+$App.OverDue02 = "LATE";
+} else {
+$App.OverDue02 = "Safe";
+};
+localStorage.setItem("DS07d",$App.DS07d);};
+$scope.TextArea100_change = function() {localStorage.setItem("DS06",$App.ds06);};
+$scope.TextArea101_change = function() {$App.start03 = $App.DS08d;
+$App.End03 = $App.NAB.DateShort;
+$App.End03 = dtDateDiff( $App.NAB.DateShort+" ", $App.start03, "mm/dd/yyyy" );
+if ($App.End03 == 0) {
+$App.End03 = "Due Today";
+} else {
+};
+if ($App.DS08d < $App.NAB.DateShort+"0") {
+$App.OverDue03 = "LATE";
+} else {
+$App.OverDue03 = "Safe";
+};
+localStorage.setItem("DS08d",$App.DS08d);};
+$scope.TextArea102_change = function() {localStorage.setItem("DS08",$App.ds08);};
+$scope.TextArea104_change = function() {$App.start04 = $App.DS09d;
+$App.end04 = $App.NAB.DateShort;
+$App.end04 = dtDateDiff( $App.NAB.DateShort+" ", $App.start04, "mm/dd/yyyy" );
+if ($App.end04 == 0) {
+$App.end04 = "Due Today";
+} else {
+};
+if ($App.DS09d < $App.NAB.DateShort+"0") {
+$App.OverDue04 = "LATE";
+} else {
+$App.OverDue04 = "Safe";
+};
+localStorage.setItem("DS09d",$App.DS09d);};
 });
 NeoApp.controller("adh00_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 3;
