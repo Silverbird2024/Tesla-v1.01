@@ -893,8 +893,10 @@ $App.End06 = "Due Today";
 };
 if ($App.DS06d < $App.NAB.DateShort+"0") {
 $App.OverDue06 = "LATE";
+$scope.SetObjectStyle("PushButton228","background-color","Red");
 } else {
 $App.OverDue06 = "Safe";
+$scope.SetObjectStyle("PushButton228","background-color","Lime");
 };
 localStorage.setItem("DS11d",$App.DS11d);
 $App.start07 = $App.DS12d;
