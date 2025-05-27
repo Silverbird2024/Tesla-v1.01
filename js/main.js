@@ -766,9 +766,12 @@ $App.DS07d = localStorage.getItem("DS07d");
 $App.End02 = localStorage.getItem("End02");
 $App.DS08d = localStorage.getItem("DS08d");
 $App.End03 = localStorage.getItem("End03");
+$App.DS0d9 = localStorage.getItem("DS09d");
+$App.End04 = localStorage.getItem("End04");
 $App.start01 = $App.DS06d;
 $App.start02 = $App.DS07d;
 $App.start03 = $App.DS08d;
+$App.start04 = $App.DS09d;
 $App.End01 = $App.NAB.DateShort;
 $App.End01 = dtDateDiff( $App.NAB.DateShort+" ", $App.start01, "mm/dd/yyyy" );
 $App.r11ts = 15;
@@ -814,10 +817,10 @@ $App.OverDue03 = "Safe";
 };
 localStorage.setItem("DS08d",$App.DS08d);
 $App.start04 = $App.DS09d;
-$App.end04 = $App.NAB.DateShort;
-$App.end04 = dtDateDiff( $App.NAB.DateShort+" ", $App.start04, "mm/dd/yyyy" );
-if ($App.end04 == 0) {
-$App.end04 = "Due Today";
+$App.End04 = $App.NAB.DateShort;
+$App.End04 = dtDateDiff( $App.NAB.DateShort+" ", $App.start04, "mm/dd/yyyy" );
+if ($App.End04 == 0) {
+$App.End04 = "Due Today";
 } else {
 };
 if ($App.DS09d < $App.NAB.DateShort+"0") {
@@ -1009,7 +1012,7 @@ $App.OverDue01 = "LATE";
 $App.OverDue01 = "Safe";
 };
 localStorage.setItem("DS06d",$App.DS06d);};
-$scope.TextArea98_change = function() {localStorage.setItem("DS06",$App.ds06);};
+$scope.TextArea98_change = function() {localStorage.setItem("DS07",$App.ds07);};
 $scope.TextArea99_change = function() {$App.start02 = $App.DS07d;
 $App.End02 = $App.NAB.DateShort;
 $App.End02 = dtDateDiff( $App.NAB.DateShort+" ", $App.start02, "mm/dd/yyyy" );
@@ -1023,7 +1026,7 @@ $App.OverDue02 = "LATE";
 $App.OverDue02 = "Safe";
 };
 localStorage.setItem("DS07d",$App.DS07d);};
-$scope.TextArea100_change = function() {localStorage.setItem("DS06",$App.ds06);};
+$scope.TextArea100_change = function() {localStorage.setItem("DS08",$App.ds08);};
 $scope.TextArea101_change = function() {$App.start03 = $App.DS08d;
 $App.End03 = $App.NAB.DateShort;
 $App.End03 = dtDateDiff( $App.NAB.DateShort+" ", $App.start03, "mm/dd/yyyy" );
@@ -1037,12 +1040,12 @@ $App.OverDue03 = "LATE";
 $App.OverDue03 = "Safe";
 };
 localStorage.setItem("DS08d",$App.DS08d);};
-$scope.TextArea102_change = function() {localStorage.setItem("DS08",$App.ds08);};
+$scope.TextArea102_change = function() {localStorage.setItem("DS09",$App.ds09);};
 $scope.TextArea104_change = function() {$App.start04 = $App.DS09d;
-$App.end04 = $App.NAB.DateShort;
-$App.end04 = dtDateDiff( $App.NAB.DateShort+" ", $App.start04, "mm/dd/yyyy" );
-if ($App.end04 == 0) {
-$App.end04 = "Due Today";
+$App.End04 = $App.NAB.DateShort;
+$App.End04 = dtDateDiff( $App.NAB.DateShort+" ", $App.start04, "mm/dd/yyyy" );
+if ($App.End04 == 0) {
+$App.End04 = "Due Today";
 } else {
 };
 if ($App.DS09d < $App.NAB.DateShort+"0") {
