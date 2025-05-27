@@ -891,7 +891,7 @@ if ($App.End06 == 0) {
 $App.End06 = "Due Today";
 } else {
 };
-if ($App.DS06d < $App.NAB.DateShort+"0") {
+if ($App.DS11d < $App.NAB.DateShort+"0") {
 $App.OverDue06 = "LATE";
 $scope.SetObjectStyle("PushButton228","background-color","Red");
 } else {
@@ -1122,7 +1122,7 @@ if ($App.End06 == 0) {
 $App.End06 = "Due Today";
 } else {
 };
-if ($App.DS06d < $App.NAB.DateShort+"0") {
+if ($App.DS11d < $App.NAB.DateShort+"0") {
 $App.OverDue06 = "LATE";
 $scope.SetObjectStyle("PushButton228","background-color","Red");
 } else {
@@ -1226,6 +1226,21 @@ $App.OverDue02 = "Safe";
 $scope.SetObjectStyle("PushButton224","background-color","Lime");
 };
 localStorage.setItem("DS07d",$App.DS07d);};
+$scope.PushButton231_click = function() {$App.start06 = $App.DS11d;
+$App.End06 = $App.NAB.DateShort;
+$App.End06 = dtDateDiff( $App.NAB.DateShort+" ", $App.start06, "mm/dd/yyyy" );
+if ($App.End06 == 0) {
+$App.End06 = "Due Today";
+} else {
+};
+if ($App.DS06d < $App.NAB.DateShort+"0") {
+$App.OverDue06 = "LATE";
+$scope.SetObjectStyle("PushButton228","background-color","Red");
+} else {
+$App.OverDue06 = "Safe";
+$scope.SetObjectStyle("PushButton228","background-color","Lime");
+};
+localStorage.setItem("DS11d",$App.DS11d);};
 });
 NeoApp.controller("adh00_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 3;
