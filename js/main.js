@@ -803,10 +803,19 @@ if ($App.End01 == 0) {
 $App.End01 = "Due Today";
 } else {
 };
+$App.start01 = $App.DS06d;
+$App.End01 = $App.NAB.DateShort;
+$App.End01 = dtDateDiff( $App.NAB.DateShort+" ", $App.start01, "mm/dd/yyyy" );
+if ($App.End01 == 0) {
+$App.End01 = "Due Today";
+} else {
+};
 if ($App.DS06d < $App.NAB.DateShort+"0") {
 $App.OverDue01 = "LATE";
+$scope.SetObjectStyle("PushButton223","background-color","Red");
 } else {
 $App.OverDue01 = "Safe";
+$scope.SetObjectStyle("PushButton223","background-color","Lime");
 };
 localStorage.setItem("DS06d",$App.DS06d);
 $App.start02 = $App.DS07d;
@@ -818,8 +827,10 @@ $App.End02 = "Due Today";
 };
 if ($App.DS07d < $App.NAB.DateShort+"0") {
 $App.OverDue02 = "LATE";
+$scope.SetObjectStyle("PushButton224","background-color","Red");
 } else {
 $App.OverDue02 = "Safe";
+$scope.SetObjectStyle("PushButton224","background-color","Lime");
 };
 localStorage.setItem("DS07d",$App.DS07d);
 $App.start03 = $App.DS08d;
@@ -831,10 +842,18 @@ $App.End03 = "Due Today";
 };
 if ($App.DS08d < $App.NAB.DateShort+"0") {
 $App.OverDue03 = "LATE";
+$scope.SetObjectStyle("PushButton225","background-color","Red");
 } else {
 $App.OverDue03 = "Safe";
+$scope.SetObjectStyle("PushButton225","background-color","Lime");
 };
 localStorage.setItem("DS08d",$App.DS08d);
+if ($App.DS09d < $App.NAB.DateShort+"0") {
+$App.OverDue04 = "LATE";
+} else {
+$App.OverDue04 = "Safe";
+};
+localStorage.setItem("DS09d",$App.DS09d);
 $App.start04 = $App.DS09d;
 $App.End04 = $App.NAB.DateShort;
 $App.End04 = dtDateDiff( $App.NAB.DateShort+" ", $App.start04, "mm/dd/yyyy" );
@@ -844,8 +863,10 @@ $App.End04 = "Due Today";
 };
 if ($App.DS09d < $App.NAB.DateShort+"0") {
 $App.OverDue04 = "LATE";
+$scope.SetObjectStyle("PushButton226","background-color","Red");
 } else {
 $App.OverDue04 = "Safe";
+$scope.SetObjectStyle("PushButton226","background-color","Lime");
 };
 localStorage.setItem("DS09d",$App.DS09d);
 $App.start05 = $App.DS10d;
@@ -857,8 +878,10 @@ $App.End05 = "Due Today";
 };
 if ($App.DS10d < $App.NAB.DateShort+"0") {
 $App.OverDue05 = "LATE";
+$scope.SetObjectStyle("PushButton227","background-color","Red");
 } else {
 $App.OverDue05 = "Safe";
+$scope.SetObjectStyle("PushButton227","background-color","Lime");
 };
 localStorage.setItem("DS10d",$App.DS10d);
 $App.start06 = $App.DS11d;
@@ -883,10 +906,27 @@ $App.End07 = "Due Today";
 };
 if ($App.DS12d < $App.NAB.DateShort+"0") {
 $App.OverDue07 = "LATE";
+$scope.SetObjectStyle("PushButton229","background-color","Red");
 } else {
 $App.OverDue07 = "Safe";
+$scope.SetObjectStyle("PushButton229","background-color","Lime");
 };
-localStorage.setItem("DS12d",$App.DS12d);};
+localStorage.setItem("DS12d",$App.DS12d);
+$App.start08 = $App.DS13d;
+$App.End08 = $App.NAB.DateShort;
+$App.End08 = dtDateDiff( $App.NAB.DateShort+" ", $App.start08, "mm/dd/yyyy" );
+if ($App.End08 == 0) {
+$App.End08 = "Due Today";
+} else {
+};
+if ($App.DS13d < $App.NAB.DateShort+"0") {
+$App.OverDue08 = "LATE";
+$scope.SetObjectStyle("PushButton230","background-color","Red");
+} else {
+$App.OverDue08 = "Safe";
+$scope.SetObjectStyle("PushButton230","background-color","Lime");
+};
+localStorage.setItem("DS13d",$App.DS13d);};
 $scope.PushButton460_click = function() {$scope.GotoPage( "Save" );};
 $scope.PushButton461_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
 $App.p1t = 15;
@@ -1066,8 +1106,10 @@ $App.End05 = "Due Today";
 };
 if ($App.DS10d < $App.NAB.DateShort+"0") {
 $App.OverDue05 = "LATE";
+$scope.SetObjectStyle("PushButton227","background-color","Red");
 } else {
 $App.OverDue05 = "Safe";
+$scope.SetObjectStyle("PushButton227","background-color","Lime");
 };
 localStorage.setItem("DS10d",$App.DS10d);};
 $scope.TextArea107_change = function() {localStorage.setItem("DS08",$App.ds08);};
@@ -1080,8 +1122,10 @@ $App.End06 = "Due Today";
 };
 if ($App.DS06d < $App.NAB.DateShort+"0") {
 $App.OverDue06 = "LATE";
+$scope.SetObjectStyle("PushButton228","background-color","Red");
 } else {
 $App.OverDue06 = "Safe";
+$scope.SetObjectStyle("PushButton228","background-color","Lime");
 };
 localStorage.setItem("DS11d",$App.DS11d);};
 $scope.TextArea109_change = function() {localStorage.setItem("DS11",$App.ds11);};
@@ -1094,8 +1138,10 @@ $App.End03 = "Due Today";
 };
 if ($App.DS08d < $App.NAB.DateShort+"0") {
 $App.OverDue03 = "LATE";
+$scope.SetObjectStyle("PushButton225","background-color","Red");
 } else {
 $App.OverDue03 = "Safe";
+$scope.SetObjectStyle("PushButton225","background-color","Lime");
 };
 localStorage.setItem("DS08d",$App.DS08d);};
 $scope.TextArea111_change = function() {localStorage.setItem("DS09",$App.ds09);};
@@ -1108,8 +1154,10 @@ $App.End04 = "Due Today";
 };
 if ($App.DS09d < $App.NAB.DateShort+"0") {
 $App.OverDue04 = "LATE";
+$scope.SetObjectStyle("PushButton226","background-color","Red");
 } else {
 $App.OverDue04 = "Safe";
+$scope.SetObjectStyle("PushButton226","background-color","Lime");
 };
 localStorage.setItem("DS09d",$App.DS09d);};
 $scope.TextArea96_change = function() {localStorage.setItem("DS10",$App.ds10);};
@@ -1122,8 +1170,10 @@ $App.End07 = "Due Today";
 };
 if ($App.DS12d < $App.NAB.DateShort+"0") {
 $App.OverDue07 = "LATE";
+$scope.SetObjectStyle("PushButton229","background-color","Red");
 } else {
 $App.OverDue07 = "Safe";
+$scope.SetObjectStyle("PushButton229","background-color","Lime");
 };
 localStorage.setItem("DS12d",$App.DS12d);};
 $scope.TextArea98_change = function() {localStorage.setItem("DS12",$App.ds12);};
@@ -1137,8 +1187,10 @@ $App.End08 = "Due Today";
 };
 if ($App.DS13d < $App.NAB.DateShort+"0") {
 $App.OverDue08 = "LATE";
+$scope.SetObjectStyle("PushButton230","background-color","Red");
 } else {
 $App.OverDue08 = "Safe";
+$scope.SetObjectStyle("PushButton230","background-color","Lime");
 };
 localStorage.setItem("DS13d",$App.DS13d);};
 $scope.TextArea101_change = function() {localStorage.setItem("DS07",$App.ds07);};
@@ -1151,8 +1203,10 @@ $App.End01 = "Due Today";
 };
 if ($App.DS06d < $App.NAB.DateShort+"0") {
 $App.OverDue01 = "LATE";
+$scope.SetObjectStyle("PushButton223","background-color","Red");
 } else {
 $App.OverDue01 = "Safe";
+$scope.SetObjectStyle("PushButton223","background-color","Lime");
 };
 localStorage.setItem("DS06d",$App.DS06d);};
 $scope.TextArea104_change = function() {$App.start02 = $App.DS07d;
@@ -1164,8 +1218,10 @@ $App.End02 = "Due Today";
 };
 if ($App.DS07d < $App.NAB.DateShort+"0") {
 $App.OverDue02 = "LATE";
+$scope.SetObjectStyle("PushButton224","background-color","Red");
 } else {
 $App.OverDue02 = "Safe";
+$scope.SetObjectStyle("PushButton224","background-color","Lime");
 };
 localStorage.setItem("DS07d",$App.DS07d);};
 });
