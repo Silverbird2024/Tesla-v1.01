@@ -760,18 +760,37 @@ $App.ds03 = localStorage.getItem("DS03");
 $App.ds04 = localStorage.getItem("DS04");
 $App.ds05 = localStorage.getItem("DS05");
 $App.ds06 = localStorage.getItem("DS06");
+$App.ds07 = localStorage.getItem("DS07");
+$App.ds08 = localStorage.getItem("DS08");
+$App.ds09 = localStorage.getItem("DS09");
+$App.ds10 = localStorage.getItem("DS10");
+$App.ds11 = localStorage.getItem("DS11");
+$App.ds12 = localStorage.getItem("DS12");
+$App.ds13 = localStorage.getItem("DS13");
 $App.DS06d = localStorage.getItem("DS06d");
 $App.End01 = localStorage.getItem("End01");
 $App.DS07d = localStorage.getItem("DS07d");
 $App.End02 = localStorage.getItem("End02");
 $App.DS08d = localStorage.getItem("DS08d");
 $App.End03 = localStorage.getItem("End03");
-$App.DS0d9 = localStorage.getItem("DS09d");
+$App.DS09d = localStorage.getItem("DS09d");
 $App.End04 = localStorage.getItem("End04");
+$App.DS10d = localStorage.getItem("DS10d");
+$App.End05 = localStorage.getItem("End05");
+$App.DS11d = localStorage.getItem("DS11d");
+$App.End06 = localStorage.getItem("End06");
+$App.DS12d = localStorage.getItem("DS12d");
+$App.End07 = localStorage.getItem("Endo7");
+$App.DS13d = localStorage.getItem("DS13d");
+$App.End08 = localStorage.getItem("End08");
 $App.start01 = $App.DS06d;
 $App.start02 = $App.DS07d;
 $App.start03 = $App.DS08d;
 $App.start04 = $App.DS09d;
+$App.start05 = $App.DS10d;
+$App.start06 = $App.DS11d;
+$App.start07 = $App.DS12d;
+$App.start08 = $App.DS13d;
 $App.End01 = $App.NAB.DateShort;
 $App.End01 = dtDateDiff( $App.NAB.DateShort+" ", $App.start01, "mm/dd/yyyy" );
 $App.r11ts = 15;
@@ -828,7 +847,46 @@ $App.OverDue04 = "LATE";
 } else {
 $App.OverDue04 = "Safe";
 };
-localStorage.setItem("DS09d",$App.DS09d);};
+localStorage.setItem("DS09d",$App.DS09d);
+$App.start05 = $App.DS10d;
+$App.End05 = $App.NAB.DateShort;
+$App.End05 = dtDateDiff( $App.NAB.DateShort+" ", $App.start05, "mm/dd/yyyy" );
+if ($App.End05 == 0) {
+$App.End05 = "Due Today";
+} else {
+};
+if ($App.DS10d < $App.NAB.DateShort+"0") {
+$App.OverDue05 = "LATE";
+} else {
+$App.OverDue05 = "Safe";
+};
+localStorage.setItem("DS10d",$App.DS10d);
+$App.start06 = $App.DS11d;
+$App.End06 = $App.NAB.DateShort;
+$App.End06 = dtDateDiff( $App.NAB.DateShort+" ", $App.start06, "mm/dd/yyyy" );
+if ($App.End06 == 0) {
+$App.End06 = "Due Today";
+} else {
+};
+if ($App.DS06d < $App.NAB.DateShort+"0") {
+$App.OverDue06 = "LATE";
+} else {
+$App.OverDue06 = "Safe";
+};
+localStorage.setItem("DS11d",$App.DS11d);
+$App.start07 = $App.DS12d;
+$App.End07 = $App.NAB.DateShort;
+$App.End07 = dtDateDiff( $App.NAB.DateShort+" ", $App.start07, "mm/dd/yyyy" );
+if ($App.End07 == 0) {
+$App.End07 = "Due Today";
+} else {
+};
+if ($App.DS12d < $App.NAB.DateShort+"0") {
+$App.OverDue07 = "LATE";
+} else {
+$App.OverDue07 = "Safe";
+};
+localStorage.setItem("DS12d",$App.DS12d);};
 $scope.PushButton460_click = function() {$scope.GotoPage( "Save" );};
 $scope.PushButton461_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
 $App.p1t = 15;
@@ -993,41 +1051,41 @@ $scope.PushButton462_click = function() {$App.r41ts = $scope.Calculate($App.r41t
 $scope.SetObjectStyle("DS4S","font-size",$App.r41ts+"pt");};
 $scope.PushButton196_click = function() {$scope.MoveObject("Container1","","30pt");};
 $scope.PushButton197_click = function() {$scope.MoveObject("Container1","","474pt");};
+$scope.TextArea105_change = function() {localStorage.setItem("DS05",$App.ds05);};
 $scope.Container2_click = function() {$scope.HideObject("Container1","",0);};
 $scope.Container3_click = function() {$scope.ShowObject("Container1","",0);};
 $scope.TextArea18_change = function() {localStorage.setItem("Thisweek",$App.Thisweek);};
-$scope.TextArea86_change = function() {localStorage.setItem("DS05",$App.ds05);};
 $scope.Headline130_click = function() {$scope.GotoPage( "Home" );};
-$scope.TextArea96_change = function() {localStorage.setItem("DS06",$App.ds06);};
-$scope.TextArea97_change = function() {$App.start01 = $App.DS06d;
-$App.End01 = $App.NAB.DateShort;
-$App.End01 = dtDateDiff( $App.NAB.DateShort+" ", $App.start01, "mm/dd/yyyy" );
-if ($App.End01 == 0) {
-$App.End01 = "Due Today";
+$scope.TextArea86_change = function() {localStorage.setItem("DS06",$App.ds06);};
+$scope.TextArea106_change = function() {$App.start05 = $App.DS10d;
+$App.End05 = $App.NAB.DateShort;
+$App.End05 = dtDateDiff( $App.NAB.DateShort+" ", $App.start05, "mm/dd/yyyy" );
+if ($App.End05 == 0) {
+$App.End05 = "Due Today";
+} else {
+};
+if ($App.DS10d < $App.NAB.DateShort+"0") {
+$App.OverDue05 = "LATE";
+} else {
+$App.OverDue05 = "Safe";
+};
+localStorage.setItem("DS10d",$App.DS10d);};
+$scope.TextArea107_change = function() {localStorage.setItem("DS08",$App.ds08);};
+$scope.TextArea108_change = function() {$App.start06 = $App.DS11d;
+$App.End06 = $App.NAB.DateShort;
+$App.End06 = dtDateDiff( $App.NAB.DateShort+" ", $App.start06, "mm/dd/yyyy" );
+if ($App.End06 == 0) {
+$App.End06 = "Due Today";
 } else {
 };
 if ($App.DS06d < $App.NAB.DateShort+"0") {
-$App.OverDue01 = "LATE";
+$App.OverDue06 = "LATE";
 } else {
-$App.OverDue01 = "Safe";
+$App.OverDue06 = "Safe";
 };
-localStorage.setItem("DS06d",$App.DS06d);};
-$scope.TextArea98_change = function() {localStorage.setItem("DS07",$App.ds07);};
-$scope.TextArea99_change = function() {$App.start02 = $App.DS07d;
-$App.End02 = $App.NAB.DateShort;
-$App.End02 = dtDateDiff( $App.NAB.DateShort+" ", $App.start02, "mm/dd/yyyy" );
-if ($App.End02 == 0) {
-$App.End02 = "Due Today";
-} else {
-};
-if ($App.DS07d < $App.NAB.DateShort+"0") {
-$App.OverDue02 = "LATE";
-} else {
-$App.OverDue02 = "Safe";
-};
-localStorage.setItem("DS07d",$App.DS07d);};
-$scope.TextArea100_change = function() {localStorage.setItem("DS08",$App.ds08);};
-$scope.TextArea101_change = function() {$App.start03 = $App.DS08d;
+localStorage.setItem("DS11d",$App.DS11d);};
+$scope.TextArea109_change = function() {localStorage.setItem("DS11",$App.ds11);};
+$scope.TextArea110_change = function() {$App.start03 = $App.DS08d;
 $App.End03 = $App.NAB.DateShort;
 $App.End03 = dtDateDiff( $App.NAB.DateShort+" ", $App.start03, "mm/dd/yyyy" );
 if ($App.End03 == 0) {
@@ -1040,8 +1098,8 @@ $App.OverDue03 = "LATE";
 $App.OverDue03 = "Safe";
 };
 localStorage.setItem("DS08d",$App.DS08d);};
-$scope.TextArea102_change = function() {localStorage.setItem("DS09",$App.ds09);};
-$scope.TextArea104_change = function() {$App.start04 = $App.DS09d;
+$scope.TextArea111_change = function() {localStorage.setItem("DS09",$App.ds09);};
+$scope.TextArea112_change = function() {$App.start04 = $App.DS09d;
 $App.End04 = $App.NAB.DateShort;
 $App.End04 = dtDateDiff( $App.NAB.DateShort+" ", $App.start04, "mm/dd/yyyy" );
 if ($App.End04 == 0) {
@@ -1054,6 +1112,62 @@ $App.OverDue04 = "LATE";
 $App.OverDue04 = "Safe";
 };
 localStorage.setItem("DS09d",$App.DS09d);};
+$scope.TextArea96_change = function() {localStorage.setItem("DS10",$App.ds10);};
+$scope.TextArea97_change = function() {$App.start07 = $App.DS12d;
+$App.End07 = $App.NAB.DateShort;
+$App.End07 = dtDateDiff( $App.NAB.DateShort+" ", $App.start07, "mm/dd/yyyy" );
+if ($App.End07 == 0) {
+$App.End07 = "Due Today";
+} else {
+};
+if ($App.DS12d < $App.NAB.DateShort+"0") {
+$App.OverDue07 = "LATE";
+} else {
+$App.OverDue07 = "Safe";
+};
+localStorage.setItem("DS12d",$App.DS12d);};
+$scope.TextArea98_change = function() {localStorage.setItem("DS12",$App.ds12);};
+$scope.TextArea99_change = function() {localStorage.setItem("DS13",$App.ds13);};
+$scope.TextArea100_change = function() {$App.start08 = $App.DS13d;
+$App.End08 = $App.NAB.DateShort;
+$App.End08 = dtDateDiff( $App.NAB.DateShort+" ", $App.start08, "mm/dd/yyyy" );
+if ($App.End08 == 0) {
+$App.End08 = "Due Today";
+} else {
+};
+if ($App.DS13d < $App.NAB.DateShort+"0") {
+$App.OverDue08 = "LATE";
+} else {
+$App.OverDue08 = "Safe";
+};
+localStorage.setItem("DS13d",$App.DS13d);};
+$scope.TextArea101_change = function() {localStorage.setItem("DS07",$App.ds07);};
+$scope.TextArea102_change = function() {$App.start01 = $App.DS06d;
+$App.End01 = $App.NAB.DateShort;
+$App.End01 = dtDateDiff( $App.NAB.DateShort+" ", $App.start01, "mm/dd/yyyy" );
+if ($App.End01 == 0) {
+$App.End01 = "Due Today";
+} else {
+};
+if ($App.DS06d < $App.NAB.DateShort+"0") {
+$App.OverDue01 = "LATE";
+} else {
+$App.OverDue01 = "Safe";
+};
+localStorage.setItem("DS06d",$App.DS06d);};
+$scope.TextArea104_change = function() {$App.start02 = $App.DS07d;
+$App.End02 = $App.NAB.DateShort;
+$App.End02 = dtDateDiff( $App.NAB.DateShort+" ", $App.start02, "mm/dd/yyyy" );
+if ($App.End02 == 0) {
+$App.End02 = "Due Today";
+} else {
+};
+if ($App.DS07d < $App.NAB.DateShort+"0") {
+$App.OverDue02 = "LATE";
+} else {
+$App.OverDue02 = "Safe";
+};
+localStorage.setItem("DS07d",$App.DS07d);};
 });
 NeoApp.controller("adh00_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 3;
