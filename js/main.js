@@ -749,10 +749,6 @@ NeoApp.controller("Home_Ctrl", function($scope,$rootScope,$route,$timeout,$filte
 $App.NAB.PageNumber = 1;
 $App.NAB.PageID = "Home";
 $scope.PushButton456_click = function() {$scope.GotoPage( "MainBoard" );};
-$scope.PushButton458_click = function() {window.document.location.reload();
-$App.Reloaded = $App.NAB.DateLong+"--"+$App.NAB.Time;
-localStorage.setItem("Reloaded",$App.Reloaded);
-$App.Reloaded = localStorage.getItem("Reloaded");};
 $scope.PushButton459_click = function() {$scope.GotoPage( "Dailysheet" );
 $App.ds01 = localStorage.getItem("DS01");
 $App.ds02 = localStorage.getItem("DS02");
@@ -930,13 +926,6 @@ $scope.SetObjectStyle("PushButton230","background-color","Lime");
 };
 localStorage.setItem("DS13d",$App.DS13d);};
 $scope.PushButton460_click = function() {$scope.GotoPage( "Save" );};
-$scope.PushButton461_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
-$App.p1t = 15;
-$App.p1tz = 15;
-neoGSheetsLoadCell($App.googleSheet,"Prayer1main","a",1,null);
-
-$App.Thoughts = localStorage.getItem("Thoughts");
-$scope.GotoPage( "Page02" );};
 $scope.PushButton466_click = function() {$App.googleSheet2 = "https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?usp=sharingadd #gid=X";
 neoGSheetsLoadCell($App.googleSheet,"Prayer1main","a",1,null);
 
@@ -954,12 +943,11 @@ neoGSheetsLoadCell($App.googleSheet,"feb25week1acp","a",7,null);
 
 neoGSheetsLoadCell($App.googleSheet,"feb25week1acph","a",8,null);
 
-neoGSheetsLoadCell($App.googleSheet,"Thoughts","a",9,null);
+neoGSheetsLoadCell($App.googleSheet,"thoughts","a",9,null);
 };
 $scope.PushButton1_click = function() {window.open("https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?gid=0&range=A1", "_blank");};
 $scope.PushButton58_click = function() {window.open("https://docs.google.com/spreadsheets/d/1tFxfBTW6Uj_-e6pTtBpBDNvrOlFQx7yWiOYxdxFA9pA/edit?", "_blank");};
 $scope.PushButton464_click = function() {window.open("https://docs.google.com/spreadsheets/d/1lXLoLWrxYaoSRLpICBRa6GmlA10GDkWaZ6RVwayZ83Y/edit?usp=sharing", "_blank");};
-$scope.PushButton575_click = function() {window.open("https://docs.google.com/spreadsheets/d/1yQixLKy9LaRJnrrYnUyBbO8sUEhYKiy48MERr7E4yXI/edit?usp=sharing", "_blank");};
 $scope.PushButton584_click = function() {$App.wain01 = localStorage.getItem("wain01");
 $App.wain01a = localStorage.getItem("wain01a");
 $App.wain02 = localStorage.getItem("wain02");
@@ -1073,6 +1061,18 @@ $App.ad14b = localStorage.getItem("ad14b");
 $App.ad15b = localStorage.getItem("ad15b");
 $App.ad16b = localStorage.getItem("ad16b");
 $scope.GotoPage( "adh00" );};
+$scope.PushButton458_click = function() {window.document.location.reload();
+$App.Reloaded = $App.NAB.DateLong+"--"+$App.NAB.Time;
+localStorage.setItem("Reloaded",$App.Reloaded);
+$App.Reloaded = localStorage.getItem("Reloaded");};
+$scope.PushButton575_click = function() {window.open("https://docs.google.com/spreadsheets/d/1yQixLKy9LaRJnrrYnUyBbO8sUEhYKiy48MERr7E4yXI/edit?usp=sharing", "_blank");};
+$scope.PushButton461_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
+$App.p1t = 15;
+$App.p1tz = 15;
+neoGSheetsLoadCell($App.googleSheet,"Prayer1main","a",1,null);
+
+$App.thoughts = localStorage.getItem("Thoughts");
+$scope.GotoPage( "Page02" );};
 });
 NeoApp.controller("Dailysheet_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
@@ -2039,13 +2039,13 @@ $scope.PushButton545_click = function() {$App.p1t = $scope.Calculate($App.p1t+"+
 $scope.SetObjectStyle("TextArea94","font-size",$App.p1t+"pt");};
 $scope.PushButton6_click = function() {$scope.GotoPage( "Home" );};
 $scope.PushButton612_click = function() {neoTalkPauseSpeech();};
-$scope.PushButton613_click = function() {neoTalkSpeak($App.Thoughts, "uk", 1, .9);};
+$scope.PushButton613_click = function() {neoTalkSpeak($App.thoughts, "uk", 1, .9);};
 $scope.PushButton614_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton615_click = function() {$App.p1tz = $scope.Calculate($App.p1tz+"-1",-1);
 $scope.SetObjectStyle("TextArea130","font-size",$App.p1tz+"pt");};
 $scope.PushButton616_click = function() {$App.p1tz = $scope.Calculate($App.p1tz+"+1",-1);
 $scope.SetObjectStyle("TextArea130","font-size",$App.p1tz+"pt");};
-$scope.TextArea130_change = function() {localStorage.setItem("Thoughts",$App.Thoughts);};
+$scope.TextArea130_change = function() {localStorage.setItem("Thoughts",$App.thoughts);};
 $scope.Image3_click = function() {$scope.GotoPage( $App.goto01 );};
 $scope.Image4_click = function() {$scope.GotoPage( $App.goto02 );};
 $scope.Image5_click = function() {$scope.GotoPage( $App.goto03 );};

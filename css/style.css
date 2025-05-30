@@ -7,15 +7,11 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline387 {position:absolute;left:1.20772946859903%;width:70.5314009661836%;top:12.6358695652174%;height:8.01630434782609%;margin:0;color:#A8A8A8;font-size:18pt;font-weight:600;line-height:110%;text-align:center}
 #PushButton456 {position:absolute;left:15.4589371980676%;width:25.3623188405797%;top:1.22282608695652%;height:5.84239130434783%;margin:0;opacity:0.14}
 #PushButton456:hover {opacity:0.6}
-#PushButton458 {position:absolute;left:42.0289855072464%;width:24.6376811594203%;top:1.22282608695652%;height:5.84239130434783%;margin:0;opacity:0.17}
-#PushButton458:hover {color:white;text-shadow:2px 2px 5px lime;opacity:0.9}
 #PushButton459 {position:absolute;left:4.58937198067633%;width:39.8550724637681%;top:41.9836956521739%;height:9.64673913043478%;margin:0;font-size:16pt;box-shadow:3px 3px 3px red}
 #PushButton459:hover {box-shadow:3px 3px 3px lime}
 #PushButton460 {position:absolute;left:2.17391304347826%;width:11.8357487922705%;top:1.22282608695652%;height:5.70652173913043%;margin:0;opacity:0.15}
 #PushButton460:hover {opacity:0.6}
 #Headline389 {position:absolute;left:2.65700483091787%;width:48.3091787439614%;top:8.01630434782609%;height:5.16304347826087%;margin:0;color:silver;font-size:17pt;font-weight:800;text-align:center}
-#PushButton461 {position:absolute;left:47.1014492753623%;width:44.9275362318841%;top:41.9836956521739%;height:9.64673913043478%;margin:0;font-size:16pt;box-shadow:3px 3px 3px red}
-#PushButton461:hover {box-shadow:3px 3px 3px lime;opacity:0.45}
 #PushButton466 {position:absolute;left:71.256038647343%;width:20.5314009661836%;top:13.5869565217391%;height:4.6195652173913%;margin:0;color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27}
 #PushButton466:hover {font-size:10pt;box-shadow:3px 3px 3px lime}
 #PushButton1 {position:absolute;left:71.256038647343%;width:20.5314009661836%;top:19.2934782608696%;height:4.6195652173913%;margin:0;color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27}
@@ -27,8 +23,6 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton58:hover {font-size:10pt;box-shadow:3px 3px 3px lime}
 #PushButton464 {position:absolute;left:71.256038647343%;width:20.5314009661836%;top:30.7065217391304%;height:4.6195652173913%;margin:0;color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27}
 #PushButton464:hover {font-size:10pt;box-shadow:3px 3px 3px lime}
-#PushButton575 {position:absolute;left:71.256038647343%;width:20.5314009661836%;top:36.4130434782609%;height:4.6195652173913%;margin:0;color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27}
-#PushButton575:hover {font-size:10pt;box-shadow:3px 3px 3px lime}
 #PushButton584 {position:absolute;left:67.8743961352657%;width:25.3623188405797%;top:1.22282608695652%;height:5.84239130434783%;margin:0;opacity:0.14}
 #PushButton584:hover {opacity:0.6}
 #Headline5 {position:absolute;left:3.38164251207729%;width:12.8019323671498%;top:17.9347826086957%;height:5.02717391304348%;margin:0;}
@@ -65,6 +59,15 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton8:hover {color:#FF0000;text-shadow:2px 2px 5px lime;opacity:0.47}
 #PushButton105 {position:absolute;left:82.8502415458937%;width:9.17874396135266%;top:92.6630434782609%;height:4.6195652173913%;margin:0;opacity:0.25}
 #PushButton105:hover {color:#FF0000;text-shadow:2px 2px 5px lime;opacity:0.47}
+#PushButton231 {position:absolute;left:0.966183574879227%;width:97.3429951690821%;top:0.407608695652174%;height:98.9130434782609%;margin:0;opacity:0.08}
+#PushButton458 {position:absolute;left:42.0289855072464%;width:24.6376811594203%;top:1.22282608695652%;height:5.84239130434783%;margin:0;color:lime;opacity:0.17}
+#PushButton458:hover {color:white;text-shadow:2px 2px 5px lime;opacity:0.9}
+#PushButton575 {position:absolute;left:71.256038647343%;width:20.5314009661836%;top:36.0054347826087%;height:4.6195652173913%;margin:0;color:red;font-size:8pt;box-shadow:3px 3px 3px red;opacity:0.27}
+#PushButton575:hover {color:lime;font-size:10pt;box-shadow:3px 3px 3px lime}
+#PushButton461 {position:absolute;left:51.207729468599%;width:44.9275362318841%;top:42.1195652173913%;height:9.64673913043478%;margin:0;font-size:16pt;box-shadow:3px 3px 3px red}
+#PushButton461:hover {color:lime;box-shadow:3px 3px 3px lime;opacity:0.45}
+#Headline137 {position:absolute;left:5.31400966183575%;width:88.8888888888889%;top:57.4728260869565%;height:32.0652173913043%;margin:0;color:lime;text-align:center}
+#Headline145 {position:absolute;left:12.3188405797101%;width:37.1980676328502%;top:33.0163043478261%;height:8.28804347826087%;margin:0;color:silver;font-size:14pt;text-align:center}
 #Dailysheet {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #Headline243 {position:absolute;left:109.420289855072%;width:67.3913043478261%;top:0.407608695652174%;height:6.92934782608696%;margin:0;color:#A8A8A8;font-family:Arial,Helvetica,sans-serif;font-size:12pt;font-weight:800;text-align:center}
 #Headline240 {position:absolute;left:16.6666666666667%;width:44.6859903381643%;top:3.53260869565217%;height:2.71739130434783%;margin:0;color:white;font-size:11pt;font-weight:11;text-align:right}
