@@ -1073,6 +1073,10 @@ neoGSheetsLoadCell($App.googleSheet,"Prayer1main","a",1,null);
 
 $App.thoughts = localStorage.getItem("Thoughts");
 $scope.GotoPage( "Page02" );};
+$scope.PushButton232_click = function() {$scope.HideObject("PushButton232","fadeOut",43);
+$scope.HideObject("PushButton231","",0);
+$scope.HideObject("Headline137","",0);
+$scope.HideObject("Headline147","",0);};
 });
 NeoApp.controller("Dailysheet_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
