@@ -2172,7 +2172,6 @@ $scope.GotoPage( "Workday05" );};
 NeoApp.controller("Workday01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 6;
 $App.NAB.PageID = "Workday01";
-$scope.Headline321_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
 $scope.Headline322_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionary");
 $scope.GotoPage( "Dictionary" );};
 $scope.TextArea143_change = function() {localStorage.setItem("WD01",$App.WD01);};
@@ -2181,7 +2180,6 @@ $scope.Headline338_click = function() {$scope.GotoPage( "Home" );};
 NeoApp.controller("Workday02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 7;
 $App.NAB.PageID = "Workday02";
-$scope.Headline328_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
 $scope.Headline329_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionary");
 $scope.GotoPage( "Dictionary" );};
 $scope.TextArea144_change = function() {localStorage.setItem("WD02",$App.WD02);};
@@ -2191,7 +2189,6 @@ NeoApp.controller("Workday03_Ctrl", function($scope,$rootScope,$route,$timeout,$
 $App.NAB.PageNumber = 8;
 $App.NAB.PageID = "Workday03";
 $scope.Headline334_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
-$scope.Headline335_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
 $scope.Headline336_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionary");
 $scope.GotoPage( "Dictionary" );};
 $scope.TextArea145_change = function() {localStorage.setItem("WD03",$App.WD03);};
@@ -2200,7 +2197,6 @@ $scope.Headline337_click = function() {$scope.GotoPage( "Home" );};
 NeoApp.controller("Workday04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 9;
 $App.NAB.PageID = "Workday04";
-$scope.Headline343_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
 $scope.Headline344_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionary");
 $scope.GotoPage( "Dictionary" );};
 $scope.TextArea146_change = function() {localStorage.setItem("WD04",$App.WD04);};
@@ -2209,7 +2205,6 @@ $scope.Headline345_click = function() {$scope.GotoPage( "Home" );};
 NeoApp.controller("Workday05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 10;
 $App.NAB.PageID = "Workday05";
-$scope.Headline350_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
 $scope.Headline351_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionary");
 $scope.GotoPage( "Dictionary" );};
 $scope.TextArea147_change = function() {localStorage.setItem("WD05",$App.WD05);};
@@ -2218,7 +2213,6 @@ $scope.Headline352_click = function() {$scope.GotoPage( "Home" );};
 NeoApp.controller("Workday06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 11;
 $App.NAB.PageID = "Workday06";
-$scope.Headline357_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
 $scope.Headline358_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionary");
 $scope.GotoPage( "Dictionary" );};
 $scope.TextArea148_change = function() {localStorage.setItem("WD06",$App.WD06);};
@@ -2227,7 +2221,6 @@ $scope.Headline359_click = function() {$scope.GotoPage( "Home" );};
 NeoApp.controller("Workday07_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 12;
 $App.NAB.PageID = "Workday07";
-$scope.Headline364_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
 $scope.Headline365_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionary");
 $scope.GotoPage( "Dictionary" );};
 $scope.TextArea149_change = function() {localStorage.setItem("WD07",$App.WD07);};
@@ -2236,7 +2229,6 @@ $scope.Headline366_click = function() {$scope.GotoPage( "Home" );};
 NeoApp.controller("Workday08_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 13;
 $App.NAB.PageID = "Workday08";
-$scope.Headline371_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
 $scope.Headline372_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionary");
 $scope.GotoPage( "Dictionary" );};
 $scope.TextArea150_change = function() {localStorage.setItem("WD08",$App.WD08);};
@@ -2245,7 +2237,6 @@ $scope.Headline373_click = function() {$scope.GotoPage( "Home" );};
 NeoApp.controller("Workdaytyperecordandnotes_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 14;
 $App.NAB.PageID = "Workdaytyperecordandnotes";
-$scope.Headline379_click = function() {$scope.GotoPage( "WorkDoNotEnjoy01" );};
 $scope.Headline380_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionary");
 $scope.GotoPage( "Dictionary" );};
 $scope.TextArea151_change = function() {localStorage.setItem("Workdaytyperecordandnotes",$App.Workdaytyperecordandnotes);};

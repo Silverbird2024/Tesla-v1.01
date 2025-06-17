@@ -304,11 +304,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline377 {position:absolute;left:18px;top:112px;width:371px;height:39px;margin:0;color:#B2D0DC;font-size:13pt;font-style:italic}
 #Line40 {position:absolute;left:-1043px;top:-10px;width:338px;height:2px;margin:0;stroke:lime;stroke-width:1px}
 #Headline378 {position:absolute;left:20px;top:172px;width:375px;height:25px;margin:0;color:#FFFFFF;font-size:14pt;font-weight:600}
-#Headline379 {position:absolute;left:20px;top:194px;width:375px;height:46px;margin:0;color:#FFFFFF;font-size:14pt;font-weight:400}
 #Headline380 {position:absolute;left:217px;top:134px;width:155px;height:23px;margin:0;color:#C0C0C0;font-size:11pt}
 #Headline380:hover {color:lime;font-size:11pt}
 #Line41 {position:absolute;left:-1043px;top:-10px;width:338px;height:2px;margin:0;stroke:lime;stroke-width:1px}
-#TextArea151 {position:absolute;left:21px;top:256px;width:366px;height:595px;margin:0;}
+#TextArea151 {position:absolute;left:21px;top:202px;width:366px;height:1223px;margin:0;}
 #Headline381 {position:absolute;left:333px;top:10px;width:59px;height:41px;margin:0;color:#C0C0C0;font-size:15pt}
 #Headline381:hover {color:lime}
 #ADHDhelper {position:relative;width:100%;height:100%;overflow:auto;;background-color:#383838}
