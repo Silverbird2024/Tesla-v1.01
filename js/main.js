@@ -1429,6 +1429,7 @@ $App.June25healthdiary = localStorage.getItem("June25healthdiary");
 $App.June25Pohdiary = localStorage.getItem("June25Pohdiary");
 $App.June25Generaldiary = localStorage.getItem("June25Generaldiary");
 $App.June25ADHDdiary = localStorage.getItem("June25ADHDdiary");
+$App.June25Workdiary = localStorage.getItem("June25Workdiary");
 $App.ds01 = localStorage.getItem("DS01");
 $App.ds02 = localStorage.getItem("DS02");
 $App.ds03 = localStorage.getItem("DS03");
@@ -2420,138 +2421,8 @@ $scope.Container2_click = function() {$scope.HideObject("Container1","",0);};
 $scope.Container3_click = function() {$scope.ShowObject("Container1","",0);};
 $scope.TextArea18_change = function() {localStorage.setItem("Thisweek",$App.Thisweek);};
 $scope.Headline130_click = function() {$scope.GotoPage( "Home" );};
-$scope.TextArea86_change = function() {localStorage.setItem("DS06",$App.ds06);};
-$scope.TextArea106_change = function() {$App.start05 = $App.DS10d;
-$App.End05 = $App.NAB.DateShort;
-$App.End05 = dtDateDiff( $App.NAB.DateShort+" ", $App.start05, "mm/dd/yyyy" );
-if ($App.End05 == 0) {
-$App.End05 = "Due Today";
-} else {
-};
-if ($App.DS10d < $App.NAB.DateShort+"0") {
-$App.OverDue05 = "LATE";
-$scope.SetObjectStyle("PushButton227","background-color","Red");
-} else {
-$App.OverDue05 = "Safe";
-$scope.SetObjectStyle("PushButton227","background-color","Lime");
-};
-localStorage.setItem("DS10d",$App.DS10d);};
-$scope.TextArea107_change = function() {localStorage.setItem("DS08",$App.ds08);};
-$scope.TextArea108_change = function() {$App.start06 = $App.DS11d;
-$App.End06 = $App.NAB.DateShort;
-$App.End06 = dtDateDiff( $App.NAB.DateShort+" ", $App.start06, "mm/dd/yyyy" );
-if ($App.End06 == 0) {
-$App.End06 = "Due Today";
-} else {
-};
-if ($App.DS11d < $App.NAB.DateShort+"0") {
-$App.OverDue06 = "LATE";
-$scope.SetObjectStyle("PushButton228","background-color","Red");
-} else {
-$App.OverDue06 = "Safe";
-$scope.SetObjectStyle("PushButton228","background-color","Lime");
-};
-localStorage.setItem("DS11d",$App.DS11d);};
-$scope.TextArea109_change = function() {localStorage.setItem("DS11",$App.ds11);};
-$scope.TextArea110_change = function() {$App.start03 = $App.DS08d;
-$App.End03 = $App.NAB.DateShort;
-$App.End03 = dtDateDiff( $App.NAB.DateShort+" ", $App.start03, "mm/dd/yyyy" );
-if ($App.End03 == 0) {
-$App.End03 = "Due Today";
-} else {
-};
-if ($App.DS08d < $App.NAB.DateShort+"0") {
-$App.OverDue03 = "LATE";
-$scope.SetObjectStyle("PushButton225","background-color","Red");
-} else {
-$App.OverDue03 = "Safe";
-$scope.SetObjectStyle("PushButton225","background-color","Lime");
-};
-localStorage.setItem("DS08d",$App.DS08d);};
-$scope.TextArea111_change = function() {localStorage.setItem("DS09",$App.ds09);};
-$scope.TextArea112_change = function() {$App.start04 = $App.DS09d;
-$App.End04 = $App.NAB.DateShort;
-$App.End04 = dtDateDiff( $App.NAB.DateShort+" ", $App.start04, "mm/dd/yyyy" );
-if ($App.End04 == 0) {
-$App.End04 = "Due Today";
-} else {
-};
-if ($App.DS09d < $App.NAB.DateShort+"0") {
-$App.OverDue04 = "LATE";
-$scope.SetObjectStyle("PushButton226","background-color","Red");
-} else {
-$App.OverDue04 = "Safe";
-$scope.SetObjectStyle("PushButton226","background-color","Lime");
-};
-localStorage.setItem("DS09d",$App.DS09d);};
-$scope.TextArea96_change = function() {localStorage.setItem("DS10",$App.ds10);};
-$scope.TextArea97_change = function() {$App.start07 = $App.DS12d;
-$App.End07 = $App.NAB.DateShort;
-$App.End07 = dtDateDiff( $App.NAB.DateShort+" ", $App.start07, "mm/dd/yyyy" );
-if ($App.End07 == 0) {
-$App.End07 = "Due Today";
-} else {
-};
-if ($App.DS12d < $App.NAB.DateShort+"0") {
-$App.OverDue07 = "LATE";
-$scope.SetObjectStyle("PushButton229","background-color","Red");
-} else {
-$App.OverDue07 = "Safe";
-$scope.SetObjectStyle("PushButton229","background-color","Lime");
-};
-localStorage.setItem("DS12d",$App.DS12d);};
-$scope.TextArea98_change = function() {localStorage.setItem("DS12",$App.ds12);};
-$scope.TextArea99_change = function() {localStorage.setItem("DS13",$App.ds13);};
-$scope.TextArea100_change = function() {$App.start08 = $App.DS13d;
-$App.End08 = $App.NAB.DateShort;
-$App.End08 = dtDateDiff( $App.NAB.DateShort+" ", $App.start08, "mm/dd/yyyy" );
-if ($App.End08 == 0) {
-$App.End08 = "Due Today";
-} else {
-};
-if ($App.DS13d < $App.NAB.DateShort+"0") {
-$App.OverDue08 = "LATE";
-$scope.SetObjectStyle("PushButton230","background-color","Red");
-} else {
-$App.OverDue08 = "Safe";
-$scope.SetObjectStyle("PushButton230","background-color","Lime");
-};
-localStorage.setItem("DS13d",$App.DS13d);};
-$scope.TextArea101_change = function() {localStorage.setItem("DS07",$App.ds07);};
-$scope.TextArea102_change = function() {$App.start01 = $App.DS06d;
-$App.End01 = $App.NAB.DateShort;
-$App.End01 = dtDateDiff( $App.NAB.DateShort+" ", $App.start01, "mm/dd/yyyy" );
-if ($App.End01 == 0) {
-$App.End01 = "Due Today";
-} else {
-};
-if ($App.DS06d < $App.NAB.DateShort+"0") {
-$App.OverDue01 = "LATE";
-$scope.SetObjectStyle("PushButton223","background-color","Red");
-} else {
-$App.OverDue01 = "Safe";
-$scope.SetObjectStyle("PushButton223","background-color","Lime");
-};
-localStorage.setItem("DS06d",$App.DS06d);};
-$scope.TextArea104_change = function() {$App.start02 = $App.DS07d;
-$App.End02 = $App.NAB.DateShort;
-$App.End02 = dtDateDiff( $App.NAB.DateShort+" ", $App.start02, "mm/dd/yyyy" );
-if ($App.End02 == 0) {
-$App.End02 = "Due Today";
-} else {
-};
-if ($App.DS07d < $App.NAB.DateShort+"0") {
-$App.OverDue02 = "LATE";
-$scope.SetObjectStyle("PushButton224","background-color","Red");
-} else {
-$App.OverDue02 = "Safe";
-$scope.SetObjectStyle("PushButton224","background-color","Lime");
-};
-localStorage.setItem("DS07d",$App.DS07d);};
 $scope.TextArea155_change = function() {localStorage.setItem("June25Generaldiary",$App.June25Generaldiary);};
-$scope.PushButton196_click = function() {$App.June25healthdiary = localStorage.getItem("June25healthdiary");
-$App.June25Pohdiary = localStorage.getItem("June25Pohdiary");
-$App.June25Generaldiary = localStorage.getItem("June25Generaldiary");};
+$scope.TextArea156_change = function() {localStorage.setItem("June25Workdiary",$App.June25Workdiary);};
 });
 NeoApp.controller("adh00_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 30;
