@@ -2118,6 +2118,7 @@ $App.NAB.PageNumber = 5;
 $App.NAB.PageID = "CentralAdmin";
 $scope.PushButton196_click = function() {$scope.GotoPage( "Home" );};
 $scope.TextArea100_change = function() {localStorage.setItem("centraladmin",$App.centraladmin);};
+$scope.Headline643_click = function() {$scope.GotoPage( "Permanace" );};
 });
 NeoApp.controller("Disciplin_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 6;
@@ -3286,7 +3287,8 @@ $scope.PushButton172_click = function() {neoTalkSpeak($App.Permanence3, "uk", 1,
 $scope.PushButton174_click = function() {neoTalkCancelSpeech();};
 $scope.PushButton273_click = function() {neoTalkSpeak($App.Permanence2, "uk", 1, .9);};
 $scope.PushButton455_click = function() {neoTalkCancelSpeech();};
-$scope.PushButton463_click = function() {$scope.GotoPage( "Home" );};
+$scope.PushButton225_click = function() {$scope.GotoPage( "Home" );};
+$scope.PushButton227_click = function() {$scope.GotoPage( "CentralAdmin" );};
 });
 NeoApp.controller("Page02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 80;
