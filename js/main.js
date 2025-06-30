@@ -2126,13 +2126,13 @@ $scope.Pager9_nextclick = function() {$scope.GotoNextPage();};
 NeoApp.controller("RetireMentPlanMain_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 4;
 $App.NAB.PageID = "RetireMentPlanMain";
-$scope.PushButton229_click = function() {$scope.GotoPage( "Home" );};
 $scope.Headline688_click = function() {$scope.GotoPage( "RetireMentPlanMainEdit" );};
 $scope.Headline704_click = function() {$scope.GotoPage( "RetireMentPlanMainEdit" );};
 $scope.Headline691_click = function() {$scope.GotoPage( "RetireMentPlanMainEdit" );};
 $scope.Headline693_click = function() {$scope.GotoPage( "RetireMentPlanMainEdit" );};
 $scope.Headline695_click = function() {$scope.GotoPage( "RetireMentPlanMainEdit" );};
 $scope.Headline707_click = function() {$scope.GotoPage( "RetireMentPlanMainEdit" );};
+$scope.PushButton229_click = function() {$scope.GotoPage( "Home" );};
 $scope.PushButton243_click = function() {$scope.GotoPage( "Calc01" );};
 $scope.PushButton262_click = function() {$scope.GotoPage( "Calc02" );};
 $scope.PushButton263_click = function() {$scope.GotoPage( "Calc03" );};
