@@ -1671,7 +1671,11 @@ $App.s4rdd = localStorage.getItem("s4rdd");
 $App.s14notes = localStorage.getItem("s14notes");
 $scope.GotoPage( "KnowThyselfMoney" );};
 $scope.Headline6_click = function() {$scope.GotoPage( "Permanace" );};
-$scope.PushButton468_click = function() {$scope.GotoPage( "Random" );};
+$scope.PushButton468_click = function() {$scope.ShowObject("R1","",0);
+$scope.ShowObject("R2","",0);
+$scope.HideObject("R3","",0);
+$scope.HideObject("R4","",0);
+$scope.GotoPage( "Random" );};
 $scope.PushButton8_click = function() {$App.r1t = 15;
 $App.r2t = 15;
 $App.r3t = 15;
@@ -1781,6 +1785,7 @@ $scope.Headline374_click = function() {$scope.GotoPage( "WorkDayType001" );};
 $scope.Headline383_click = function() {$App.Workdaytyperecordandnotes = localStorage.getItem("Workdaytyperecordandnotes");
 $scope.GotoPage( "Workdaytyperecordandnotes" );};
 $scope.Headline634_click = function() {$scope.GotoPage( "Mindmap" );};
+$scope.Headline668_click = function() {$scope.GotoPage( "Page02" );};
 });
 NeoApp.controller("Home2_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
@@ -2133,6 +2138,54 @@ $App.filter013 = localStorage.getItem("filter013");
 $App.filter014 = localStorage.getItem("filter014");
 $App.filter015 = localStorage.getItem("filter015");
 $App.filter016 = localStorage.getItem("filter016");
+$App.Disfilter01 = localStorage.getItem("Disfilter01");
+if ($App.Disfilter01 == "off") {
+$scope.DisableObject("filter01",true);
+} else {
+$scope.DisableObject("filter01",false);
+};
+$App.Disfilter02 = localStorage.getItem("Disfilter02");
+if ($App.Disfilter02 == "off") {
+$scope.DisableObject("filter02",true);
+} else {
+$scope.DisableObject("filter02",false);
+};
+$App.Disfilter03 = localStorage.getItem("Disfilter03");
+if ($App.Disfilter03 == "off") {
+$scope.DisableObject("filter03",true);
+} else {
+$scope.DisableObject("filter03",false);
+};
+$App.Disfilter04 = localStorage.getItem("Disfilter04");
+if ($App.Disfilter04 == "off") {
+$scope.DisableObject("filter04",true);
+} else {
+$scope.DisableObject("filter04",false);
+};
+$App.Disfilter05 = localStorage.getItem("Disfilter05");
+if ($App.Disfilter05 == "off") {
+$scope.DisableObject("filter05",true);
+} else {
+$scope.DisableObject("filter05",false);
+};
+$App.Disfilter06 = localStorage.getItem("Disfilter06");
+if ($App.Disfilter06 == "off") {
+$scope.DisableObject("filter06",true);
+} else {
+$scope.DisableObject("filter06",false);
+};
+$App.Disfilter07 = localStorage.getItem("Disfilter07");
+if ($App.Disfilter07 == "off") {
+$scope.DisableObject("filter07",true);
+} else {
+$scope.DisableObject("filter07",false);
+};
+$App.Disfilter08 = localStorage.getItem("Disfilter08");
+if ($App.Disfilter08 == "off") {
+$scope.DisableObject("filter08",true);
+} else {
+$scope.DisableObject("filter08",false);
+};
 $scope.GotoPage( "Filter" );};
 $scope.Headline386_click = function() {$App.ff = localStorage.getItem("ff");
 $scope.GotoPage( "FF" );};
@@ -2167,17 +2220,54 @@ $scope.TextArea102_change = function() {localStorage.setItem("themeans",$App.the
 NeoApp.controller("Filter_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 10;
 $App.NAB.PageID = "Filter";
+$scope.Headline646_click = function() {$scope.DisableObject("filter02",true);
+$App.Disfilter02 = "off";
+localStorage.setItem("Disfilter02",$App.Disfilter02);};
+$scope.Headline669_click = function() {$scope.DisableObject("filter02",false);
+$App.Disfilter02 = "on";
+localStorage.setItem("Disfilter02",$App.Disfilter02);};
+$scope.Headline683_click = function() {$scope.DisableObject("filter08",true);
+$App.Disfilter08 = "off";
+localStorage.setItem("Disfilter08",$App.Disfilter08);};
+$scope.Headline686_click = function() {$scope.DisableObject("filter08",false);
+$App.Disfilter08 = "on";
+localStorage.setItem("Disfilter08",$App.Disfilter08);};
+$scope.Headline654_click = function() {$scope.DisableObject("filter07",true);
+$App.Disfilter07 = "off";
+localStorage.setItem("Disfilter07",$App.Disfilter07);};
+$scope.Headline682_click = function() {$scope.DisableObject("filter07",false);
+$App.Disfilter07 = "on";
+localStorage.setItem("Disfilter07",$App.Disfilter07);};
+$scope.Headline653_click = function() {$scope.DisableObject("filter06",true);
+$App.Disfilter06 = "off";
+localStorage.setItem("Disfilter06",$App.Disfilter06);};
+$scope.Headline680_click = function() {$scope.DisableObject("filter06",false);
+$App.Disfilter06 = "on";
+localStorage.setItem("Disfilter06",$App.Disfilter06);};
+$scope.Headline650_click = function() {$scope.DisableObject("filter04",false);
+$App.Disfilter04 = "on";
+localStorage.setItem("Disfilter04",$App.Disfilter04);};
+$scope.Headline675_click = function() {$scope.DisableObject("filter04",true);
+$App.Disfilter04 = "off";
+localStorage.setItem("Disfilter04",$App.Disfilter04);};
+$scope.Headline652_click = function() {$scope.DisableObject("filter05",true);
+$App.Disfilter05 = "off";
+localStorage.setItem("Disfilter05",$App.Disfilter05);};
+$scope.Headline677_click = function() {$scope.DisableObject("filter05",false);
+$App.Disfilter05 = "on";
+localStorage.setItem("Disfilter05",$App.Disfilter05);};
+$scope.Headline647_click = function() {$scope.DisableObject("filter03",true);
+$App.Disfilter03 = "off";
+localStorage.setItem("Disfilter03",$App.Disfilter03);};
+$scope.Headline674_click = function() {$scope.DisableObject("filter03",false);
+$App.Disfilter03 = "on";
+localStorage.setItem("Disfilter03",$App.Disfilter03);};
+$scope.filter01gtrr_click = function() {$scope.DisableObject("filter01",true);
+$App.Disfilter01 = "off";
+localStorage.setItem("Disfilter01",$App.Disfilter01);};
 $scope.PushButton228_click = function() {$scope.GotoPage( "Home" );};
 $scope.TextArea104_change = function() {localStorage.setItem("filter",$App.filter);};
-$scope.TextArea112_change = function() {localStorage.setItem("filter001",$App.filter001);};
-$scope.TextArea157_change = function() {localStorage.setItem("filter002",$App.filter002);};
-$scope.TextArea158_change = function() {localStorage.setItem("filter003",$App.filter003);};
 $scope.TextArea159_change = function() {localStorage.setItem("filter004",$App.filter004);};
-$scope.TextArea160_change = function() {localStorage.setItem("filter004",$App.filter004);};
-$scope.TextArea161_change = function() {localStorage.setItem("filter005",$App.filter005);};
-$scope.TextArea162_change = function() {localStorage.setItem("filter006",$App.filter006);};
-$scope.TextArea163_change = function() {localStorage.setItem("filter007",$App.filter007);};
-$scope.TextArea165_change = function() {localStorage.setItem("filter008",$App.filter008);};
 $scope.TextArea166_change = function() {localStorage.setItem("filter009",$App.filter009);};
 $scope.TextArea167_change = function() {localStorage.setItem("filter010",$App.filter010);};
 $scope.TextArea168_change = function() {localStorage.setItem("filter011",$App.filter011);};
@@ -2187,6 +2277,17 @@ $scope.TextArea171_change = function() {localStorage.setItem("filter013",$App.fi
 $scope.TextArea172_change = function() {localStorage.setItem("filter014",$App.filter014);};
 $scope.TextArea173_change = function() {localStorage.setItem("filter015",$App.filter015);};
 $scope.TextArea174_change = function() {localStorage.setItem("filter016",$App.filter016);};
+$scope.Headline670_click = function() {$scope.DisableObject("filter01",false);
+$App.Disfilter01 = "on";
+localStorage.setItem("Disfilter01",$App.Disfilter01);};
+$scope.filter01_change = function() {localStorage.setItem("filter001",$App.filter001);};
+$scope.filter02_change = function() {localStorage.setItem("filter002",$App.filter002);};
+$scope.filter03_change = function() {localStorage.setItem("filter003",$App.filter003);};
+$scope.filter04_change = function() {localStorage.setItem("filter004",$App.filter004);};
+$scope.filter05_change = function() {localStorage.setItem("filter005",$App.filter005);};
+$scope.filter06_change = function() {localStorage.setItem("filter006",$App.filter006);};
+$scope.filter07_change = function() {localStorage.setItem("filter007",$App.filter007);};
+$scope.filter08_change = function() {localStorage.setItem("filter008",$App.filter008);};
 });
 NeoApp.controller("Health_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 11;
@@ -6244,8 +6345,6 @@ $scope.TextArea142_change = function() {localStorage.setItem("AZDictionary",$App
 $scope.PushButton234_click = function() {localStorage.setItem("Random22b",$App.Random22b);
 localStorage.setItem("AZDictionaryJIC",$App.AZDictionaryJIC);
 $scope.GotoPage( "Home" );};
-$scope.PushButton229_click = function() {$App.AZDictionary = localStorage.getItem("AZDictionaryJIC");
-localStorage.setItem("AZDictionary",$App.AZDictionary);};
 });
 NeoApp.controller("NewDialog_Ctrl", function($scope,$rootScope,$modalInstance,$filter,$window) {
  $scope.CloseDialog = function() {
