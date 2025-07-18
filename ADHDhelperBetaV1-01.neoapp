@@ -1,0 +1,3910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+	<AppTitle>Untitled Application</AppTitle>
+	<AppShortName>MyApp</AppShortName>
+	<Author>Author name</Author>
+	<Version>1.0</Version>
+	<DesignDeviceName>Apple iPhone 6 Plus</DesignDeviceName>
+	<Variables>[A000aa],[A000bb],[A000cc],[A000dd],[A001a],[A001b],[A001c],[A001d],[A001e],[A001f],[A002a],[A002b],[A002c],[A002d],[A002e],[A002f],[adhd],[adhd1],[ADHD2do],[adpc],[age],[agem],[chest],[Container],[DictionaryNotes],[DS1Notes],[DSNotes],[eepc],[email],[FamousNotes],[Forname],[go],[googleSheet4],[h2001],[h2002],[h2003],[h2004],[h2005],[HealthDiary],[HealthDiary2do],[HealthNotes],[hpc],[kneck],[KnowTHealth01],[KnowTHealth01a],[KnowTNotes],[KnowTNotes2],[KnowTNotes4],[KnowTNotesA],[KnowTNotesQ],[KnowTNotesQ1],[KnowTNotesQ10],[KnowTNotesQ11],[KnowTNotesQ12],[KnowTNotesQ13],[KnowTNotesQ14],[KnowTNotesQ15],[KnowTNotesQ16],[KnowTNotesQ17],[KnowTNotesQ18],[KnowTNotesQ19],[KnowTNotesQ2],[KnowTNotesQ20],[KnowTNotesQ3],[KnowTNotesQ4],[KnowTNotesQ5],[KnowTNotesQ6],[KnowTNotesQ7],[KnowTNotesQ8],[KnowTNotesQ9],[KnowTNotesQg],[KnowTNotesT],[KnowTPrecence01],[KnowTPrecence01a],[Larm],[Notes],[NotesD1],[NotesVH1],[NotesVH2],[OrderTidy],[OrderTidy2],[OrderTidy3],[OT2do],[Phone],[Pmcp],[Pmcp1],[Pmcp2],[Pmfp],[Pmfp1],[Pmfp2],[Pmgp],[Pmgp1],[Pmgp2],[Pmhfp],[Pmhfp1],[Pmhp],[Pmhp1],[Pmhp2],[Pmwp],[Pmwp1],[Pmwp2],[Ppom],[Ppom1],[Ppom10],[Ppom11],[Ppom12],[Ppom13],[Ppom14],[Ppom15],[Ppom16],[Ppom17],[Ppom18],[Ppom19],[Ppom2],[Ppom20],[Ppom3],[Ppom4],[Ppom5],[Ppom6],[Ppom7],[Ppom8],[Ppom9],[PrayerNotes],[Project001],[Project001a],[Project001b],[Project001t],[Project002],[Project002a],[Project002b],[Project002t],[question],[Question001],[Question002],[Rarm],[Reloaded],[since],[start],[Surname],[waist],[wayswithwords],[weight],[WorkNotes],[WorkNotes1],[WorkNotes2],[wpc]</Variables>
+	<VariablesScanned>True</VariablesScanned>
+	<PageWidth>414</PageWidth>
+	<PageHeight>736</PageHeight>
+	<AutoSizeWidth>False</AutoSizeWidth>
+	<AutoSizeHeight>True</AutoSizeHeight>
+	<HideScrollbars>False</HideScrollbars>
+	<ResponsiveSize>True</ResponsiveSize>
+	<PublishPlatform>WebApp</PublishPlatform>
+	<EmptyBuildFolder>False</EmptyBuildFolder>
+	<ArchiveTarget>C:\Users\User\Desktop\Catalogue\ADHDhelperBetaV1-01-Web</ArchiveTarget>
+	<AppIcon>C:\Users\User\Documents\VisualNeoWeb\Libraries\img\default-icon.png</AppIcon>
+	<LanguageCode>en</LanguageCode>
+	<DisplayMode>standalone</DisplayMode>
+	<ServiceWorker>Offline page</ServiceWorker>
+	<ThemeColor>#000000</ThemeColor>
+	<PwaScope>/</PwaScope>
+	<MobileOSTypes>[AndroidOS,iOS,WindowsPhoneOS]</MobileOSTypes>
+	<WindowState>normal</WindowState>
+	<TitleBar>True</TitleBar>
+	<Sizeable>True</Sizeable>
+	<MaximizeBtn>False</MaximizeBtn>
+	<MinimizeBtn>True</MinimizeBtn>
+	<SystemMenu>True</SystemMenu>
+	<ContextMenu>False</ContextMenu>
+	<AlwaysOnTop>False</AlwaysOnTop>
+	<ShowInTaskbar>True</ShowInTaskbar>
+	<SingleInstance>False</SingleInstance>
+	<OrientationLimit>OL_PORTRAITONLY</OrientationLimit>
+	<ChromeKioskMode>False</ChromeKioskMode>
+	<Components>
+		<FunctionList name="Subroutines"/>
+		<LibraryList name="Libraries"/>
+		<PageList name="Main">
+			<Components>
+				<Page id="Home">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<pageenter>GetItem &quot;go&quot; [go]
+GetItem &quot;HealthDiary2do&quot; [HealthDiary2do]
+GetItem &quot;ADHD2do&quot; [ADHD2do]
+GetItem &quot;OT2do&quot; [OT2do]
+
+If [go] == &quot;go&quot;
+SetVar [start] &quot;09/07/2025&quot;
+
+DateDifference &quot;[start]&quot; &quot;[NAB.DayNum]/[NAB.MonthNum]/[NAB.Year]&quot; &quot;dd/mm/yyyy&quot; [since]
+
+
+Else
+
+EndIf
+
+GetItem &quot;hpc&quot; [hpc]
+GetItem &quot;wpc&quot; [wpc]
+GetItem &quot;adpc&quot; [adpc]
+GetItem &quot;eepc&quot; [eepc]
+
+GetItem &quot;wf1&quot; [wf1]
+GetItem &quot;wf2&quot; [wf2]
+GetItem &quot;wf3&quot; [wf3]
+
+
+GetItem &quot;Tot&quot; [Tot]</pageenter>
+					<Components>
+						<Line id="Line2">
+							<left>155px</left>
+							<top>460px</top>
+							<width>23px</width>
+							<height>15px</height>
+							<style>stroke:white;stroke-width:1px</style>
+							<x1>156</x1>
+							<y1>461</y1>
+							<x2>177</x2>
+							<y2>474</y2>
+						</Line>
+						<Headline id="Headline1">
+							<left>41px</left>
+							<top>53px</top>
+							<width>244px</width>
+							<height>49px</height>
+							<style>color:#A0522D;font-family:Times New Roman,Times,serif;font-style:italic;font-weight:600</style>
+							<hover>color:white</hover>
+							<text>betaV1-19&amp;nbsp;&lt;sub&gt;&lt;sup&gt;&amp;nbsp;&amp;nbsp; 18/7/25&lt;/sup&gt;&lt;/sub&gt;</text>
+							<click>GotoPage &quot;Version&quot;
+
+GetItem &quot;NotesVH1&quot; [NotesVH1]
+GetItem &quot;NotesVH2&quot; [NotesVH2]</click>
+						</Headline>
+						<PushButton id="PushButton459">
+							<left>18px</left>
+							<top>282px</top>
+							<width>165px</width>
+							<height>71px</height>
+							<style>font-size:16pt;box-shadow:3px 3px 3px red</style>
+							<hover>box-shadow:3px 3px 3px lime</hover>
+							<caption>Daily Sheet</caption>
+							<click>GetItem &quot;DSNotes&quot; [DSNotes]
+GetItem &quot;DS1Notes&quot; [DS1Notes]
+GotoPage &quot;DailySheet&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton458">
+							<left>286px</left>
+							<top>11px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:white;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Update now&lt;br&gt;</caption>
+							<click>ReloadApp
+SetVar [Reloaded] &quot;[NAB.DateLong]--[NAB.Time]&quot;
+
+SetItem &quot;Reloaded&quot; [Reloaded]
+GetItem &quot;Reloaded&quot; [Reloaded]</click>
+						</PushButton>
+						<PushButton id="PushButton461">
+							<left>189px</left>
+							<top>282px</top>
+							<width>186px</width>
+							<height>71px</height>
+							<style>font-size:16pt;box-shadow:3px 3px 3px red</style>
+							<hover>color:lime;box-shadow:3px 3px 3px lime;opacity:0.45</hover>
+							<caption>Daily Prayer</caption>
+							<click>GetItem &quot;PrayerNotes&quot; [PrayerNotes]
+
+
+GotoPage &quot;Prayer&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton3">
+							<left>17px</left>
+							<top>190px</top>
+							<width>114px</width>
+							<height>43px</height>
+							<style>font-size:14pt;box-shadow:3px 3px 3px red;opacity:0.57</style>
+							<hover>box-shadow:3px 3px 3px lime</hover>
+							<caption>Famous</caption>
+							<click>GetItem &quot;FamousNotes&quot; [FamousNotes]
+
+GotoPage &quot;Famous&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton5">
+							<left>247px</left>
+							<top>417px</top>
+							<width>107px</width>
+							<height>43px</height>
+							<style>color:#707070;font-size:12pt;opacity:0.36</style>
+							<hover>color:red</hover>
+							<caption>Work</caption>
+							<click>GetItem &quot;WorkNotes&quot; [WorkNotes]
+GetItem &quot;WorkNotes1&quot; [WorkNotes1]
+GetItem &quot;WorkNotes2&quot; [WorkNotes2]
+GotoPage &quot;Work&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton7">
+							<left>45px</left>
+							<top>418px</top>
+							<width>114px</width>
+							<height>43px</height>
+							<style>color:#707070;font-size:12pt;opacity:0.36</style>
+							<hover>color:red</hover>
+							<caption>Health</caption>
+							<click>GetItem &quot;HealthNotes&quot; [HealthNotes]
+GetItem &quot;age&quot; [age]
+GetItem &quot;agem&quot; [agem]
+GetItem &quot;kneck&quot; [kneck]
+GetItem &quot;chest&quot; [chest]
+GetItem &quot;Rarm&quot; [Rarm]
+GetItem &quot;Larm&quot; [Larm]
+GetItem &quot;waist&quot; [waist]
+GetItem &quot;weight&quot; [weight]
+GetItem &quot;HealthDiary&quot; [HealthDiary]
+
+GotoPage &quot;Health&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton9">
+							<left>134px</left>
+							<top>190px</top>
+							<width>114px</width>
+							<height>43px</height>
+							<style>font-size:11pt;line-height:90%;box-shadow:3px 3px 3px red;opacity:0.57</style>
+							<hover>box-shadow:3px 3px 3px lime</hover>
+							<caption>Know &lt;br&gt;Thyself</caption>
+							<click>GetItem &quot;KnowTNotes&quot; [KnowTNotes]
+GetItem &quot;KnowTNotes2&quot; [KnowTNotes2]
+GetItem &quot;KnowTNotes4&quot; [KnowTNotes4]
+GetItem &quot;KnowTNotesA&quot; [KnowTNotesA]
+GetItem &quot;KnowTNotesQ&quot; [KnowTNotesQ]
+GetItem &quot;KnowTNotesQg&quot; [KnowTNotesQg]
+GetItem &quot;KnowTNotesT&quot; [KnowTNotesT]
+GetItem &quot;KnowTNotesQ1&quot; [KnowTNotesQ1]
+GetItem &quot;KnowTNotesQ2&quot; [KnowTNotesQ2]
+GetItem &quot;KnowTNotesQ3&quot; [KnowTNotesQ3]
+GetItem &quot;KnowTNotesQ4&quot; [KnowTNotesQ4]
+GetItem &quot;KnowTNotesQ5&quot; [KnowTNotesQ5]
+GetItem &quot;KnowTNotesQ6&quot; [KnowTNotesQ6]
+GetItem &quot;KnowTNotesQ7&quot; [KnowTNotesQ7]
+GetItem &quot;KnowTNotesQ8&quot; [KnowTNotesQ8]
+GetItem &quot;KnowTNotesQ9&quot; [KnowTNotesQ9]
+GetItem &quot;KnowTNotesQ10&quot; [KnowTNotesQ10]
+GetItem &quot;KnowTNotesQ11&quot; [KnowTNotesQ11]
+GetItem &quot;KnowTNotesQ12&quot; [KnowTNotesQ12]
+GetItem &quot;KnowTNotesQ13&quot; [KnowTNotesQ13]
+GetItem &quot;KnowTNotesQ14&quot; [KnowTNotesQ14]
+GetItem &quot;KnowTNotesQ15&quot; [KnowTNotesQ15]
+GetItem &quot;KnowTNotesQ16&quot; [KnowTNotesQ16]
+GetItem &quot;KnowTNotesQ17&quot; [KnowTNotesQ17]
+GetItem &quot;KnowTNotesQ18&quot; [KnowTNotesQ18]
+GetItem &quot;KnowTNotesQ19&quot; [KnowTNotesQ19]
+GetItem &quot;KnowTNotesQ20&quot; [KnowTNotesQ20]
+GetItem &quot;KnowTPrecence01&quot; [KnowTPrecence01]
+GetItem &quot;KnowTPrecence01a&quot; [KnowTPrecence01a]
+GetItem &quot;KnowTHealth01&quot; [KnowTHealth01]
+GetItem &quot;KnowTHealth01a&quot; [KnowTHealth01a]
+
+
+GotoPage &quot;KnowThyself&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton12">
+							<left>290px</left>
+							<top>360px</top>
+							<width>85px</width>
+							<height>43px</height>
+							<style>font-size:14pt;box-shadow:3px 3px 3px red;opacity:0.57</style>
+							<hover>box-shadow:3px 3px 3px lime</hover>
+							<caption>Diary</caption>
+							<click>GetItem &quot;Notes&quot; [Notes]
+GetItem &quot;Notes1&quot; [Notes1]
+GotoPage &quot;Diary&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton23">
+							<left>251px</left>
+							<top>190px</top>
+							<width>120px</width>
+							<height>43px</height>
+							<style>font-size:11pt;line-height:90%;box-shadow:3px 3px 3px red;opacity:0.57</style>
+							<hover>box-shadow:3px 3px 3px lime</hover>
+							<caption>ADHD helper &lt;br&gt;Dictionary</caption>
+							<click>GetItem &quot;DictionaryNotes&quot; [DictionaryNotes]
+GetItem &quot;DictionaryNotes1&quot; [DictionaryNotes1]
+GotoPage &quot;Dictionary&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton38">
+							<left>98px</left>
+							<top>238px</top>
+							<width>204px</width>
+							<height>38px</height>
+							<style>font-size:14pt;box-shadow:3px 3px 3px red;opacity:0.57</style>
+							<hover>box-shadow:3px 3px 3px lime</hover>
+							<caption>Data Templates</caption>
+							<click>GetItem &quot;Forname&quot; [Forname]
+GetItem &quot;Surname&quot; [Surname]
+GetItem &quot;Phone&quot; [Phone]
+GetItem &quot;email&quot; [email]
+GotoPage &quot;Templates1&quot;
+
+
+GetItem &quot;Container&quot; [Container]
+ObjectToFront &quot;[Container]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton39">
+							<left>133px</left>
+							<top>538px</top>
+							<width>149px</width>
+							<height>43px</height>
+							<style>color:#707070;font-size:12pt;opacity:0.36</style>
+							<hover>color:red</hover>
+							<caption>ADHD helper</caption>
+							<click>GetItem &quot;adhd&quot; [adhd]
+GetItem &quot;adhd1&quot; [adhd1]
+
+GotoPage &quot;ADHDhelper&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton40">
+							<left>46px</left>
+							<top>616px</top>
+							<width>136px</width>
+							<height>38px</height>
+							<style>color:black;font-size:9pt;opacity:0.33</style>
+							<hover>color:#FF0000;box-shadow:3px 3px 3px lime</hover>
+							<caption>Every Thing Else</caption>
+							<click>GetItem &quot;OrderTidy2&quot; [OrderTidy2]
+GetItem &quot;OrderTidy&quot; [OrderTidy]
+GetItem &quot;OrderTidy3&quot; [OrderTidy3]
+
+GetItem &quot;Project001&quot; [Project001]
+GetItem &quot;Project001a&quot; [Project001a]
+GetItem &quot;Project001b&quot; [Project001b]
+GetItem &quot;Project002&quot; [Project002]
+GetItem &quot;Project002a&quot; [Project002a]
+GetItem &quot;Project002b&quot; [Project002b]
+
+
+
+GetItem &quot;Project001t&quot; [Project001t]
+
+
+GetItem &quot;Project002t&quot; [Project002t]
+
+GotoPage &quot;OrderTidy&quot;</click>
+						</PushButton>
+						<Headline id="Headline131">
+							<left>60px</left>
+							<top>462px</top>
+							<width>85px</width>
+							<height>24px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:600;text-align:center</style>
+							<hover>color:red</hover>
+							<text>[hpc] %</text>
+						</Headline>
+						<Headline id="Headline132">
+							<left>264px</left>
+							<top>464px</top>
+							<width>87px</width>
+							<height>24px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:600;text-align:center</style>
+							<hover>color:red</hover>
+							<text>[wpc] %</text>
+						</Headline>
+						<Headline id="Headline133">
+							<left>158px</left>
+							<top>582px</top>
+							<width>99px</width>
+							<height>24px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:600;text-align:center</style>
+							<hover>color:red</hover>
+							<text>[adpc] %</text>
+						</Headline>
+						<Headline id="Headline134">
+							<left>193px</left>
+							<top>632px</top>
+							<width>97px</width>
+							<height>24px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:600</style>
+							<text>[eepc] %</text>
+						</Headline>
+						<Headline id="Headline140">
+							<left>278px</left>
+							<top>53px</top>
+							<width>123px</width>
+							<height>71px</height>
+							<hover>color:white;line-height:80%</hover>
+							<text>&lt;sup&gt;&lt;sub&gt;Status&lt;/sub&gt;&lt;/sup&gt;&lt;br&gt;[go]&lt;sup&gt;&lt;sub&gt;days [since]&lt;/sub&gt;&lt;/sup&gt;</text>
+						</Headline>
+						<Ellipse id="Ellipse1">
+							<left>171px</left>
+							<top>459px</top>
+							<width>77px</width>
+							<height>58px</height>
+							<style>fill:silver;opacity:0.43;stroke:black;stroke-width:1px</style>
+							<click>GetItem &quot;NotesD1&quot; [NotesD1]
+GotoPage &quot;Day1&quot;</click>
+						</Ellipse>
+						<Headline id="Headline139">
+							<left>190px</left>
+							<top>468px</top>
+							<width>41px</width>
+							<height>24px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:600</style>
+							<hover>color:red</hover>
+							<text>Plan</text>
+							<click>GetItem &quot;NotesD1&quot; [NotesD1]
+GotoPage &quot;Day1&quot;</click>
+						</Headline>
+						<Line id="Line3">
+							<left>240px</left>
+							<top>459px</top>
+							<width>21px</width>
+							<height>16px</height>
+							<style>stroke:white;stroke-width:1px</style>
+							<x1>260</x1>
+							<y1>460</y1>
+							<x2>241</x2>
+							<y2>474</y2>
+						</Line>
+						<Line id="Line4">
+							<left>208px</left>
+							<top>516px</top>
+							<width>2px</width>
+							<height>23px</height>
+							<style>stroke:white;stroke-width:1px</style>
+							<x1>208</x1>
+							<y1>516</y1>
+							<x2>208</x2>
+							<y2>539</y2>
+						</Line>
+						<Headline id="Headline142">
+							<left>22px</left>
+							<top>417px</top>
+							<width>17px</width>
+							<height>25px</height>
+							<style>color:white;font-size:16pt</style>
+							<hover>color:lime</hover>
+							<text>+</text>
+							<click>Math &quot;[hpc]+1&quot; -1 [hpc]
+SetItem &quot;hpc&quot; [hpc]
+
+Math &quot;[hpc]+[wpc]+[adpc]+[eepc]&quot; -1 [Tot]
+SetItem &quot;Tot&quot; [Tot]</click>
+						</Headline>
+						<PushButton id="hide1">
+							<left>8px</left>
+							<top>13px</top>
+							<width>30px</width>
+							<height>33px</height>
+							<style>opacity:0.05</style>
+							<hover>opacity:0.25</hover>
+							<caption>R</caption>
+							<click>SetVar [hpc] &quot;26&quot;
+SetVar [wpc] &quot;24&quot;
+SetVar [adpc] &quot;25&quot;
+SetVar [eepc] &quot;25&quot;
+
+HideObject &quot;hide1&quot; &quot;&quot; 0</click>
+						</PushButton>
+						<Headline id="Headline143">
+							<left>23px</left>
+							<top>440px</top>
+							<width>17px</width>
+							<height>25px</height>
+							<style>color:white;font-size:19pt</style>
+							<hover>color:lime</hover>
+							<text>-</text>
+							<click>Math &quot;[hpc]-1&quot; -1 [hpc]
+SetItem &quot;hpc&quot; [hpc]
+
+Math &quot;[hpc]+[wpc]+[adpc]+[eepc]&quot; -1 [Tot]
+SetItem &quot;Tot&quot; [Tot]</click>
+						</Headline>
+						<Headline id="Headline144">
+							<left>288px</left>
+							<top>535px</top>
+							<width>17px</width>
+							<height>25px</height>
+							<style>color:white;font-size:16pt</style>
+							<hover>color:lime</hover>
+							<text>+</text>
+							<click>Math &quot;[adpc]+1&quot; -1 [adpc]
+SetItem &quot;adpc&quot; [adpc]
+
+Math &quot;[hpc]+[wpc]+[adpc]+[eepc]&quot; -1 [Tot]
+SetItem &quot;Tot&quot; [Tot]</click>
+						</Headline>
+						<Headline id="Headline145">
+							<left>289px</left>
+							<top>558px</top>
+							<width>17px</width>
+							<height>25px</height>
+							<style>color:white;font-size:19pt</style>
+							<hover>color:lime</hover>
+							<text>-</text>
+							<click>Math &quot;[adpc]-1&quot; -1 [adpc]
+SetItem &quot;adpc&quot; [adpc]
+
+Math &quot;[hpc]+[wpc]+[adpc]+[eepc]&quot; -1 [Tot]
+SetItem &quot;Tot&quot; [Tot]</click>
+						</Headline>
+						<Headline id="Headline146">
+							<left>18px</left>
+							<top>609px</top>
+							<width>17px</width>
+							<height>25px</height>
+							<style>color:white;font-size:16pt</style>
+							<hover>color:lime</hover>
+							<text>+</text>
+							<click>Math &quot;[eepc]+1&quot; -1 [eepc]
+SetItem &quot;eepc&quot; [eepc]
+
+Math &quot;[hpc]+[wpc]+[adpc]+[eepc]&quot; -1 [Tot]
+SetItem &quot;Tot&quot; [Tot]</click>
+						</Headline>
+						<Headline id="Headline147">
+							<left>19px</left>
+							<top>632px</top>
+							<width>17px</width>
+							<height>25px</height>
+							<style>color:white;font-size:19pt</style>
+							<hover>color:lime</hover>
+							<text>-</text>
+							<click>Math &quot;[eepc]-1&quot; -1 [eepc]
+SetItem &quot;eepc&quot; [eepc]
+
+Math &quot;[hpc]+[wpc]+[adpc]+[eepc]&quot; -1 [Tot]
+SetItem &quot;Tot&quot; [Tot]</click>
+						</Headline>
+						<Headline id="Headline148">
+							<left>360px</left>
+							<top>413px</top>
+							<width>17px</width>
+							<height>25px</height>
+							<style>color:white;font-size:16pt</style>
+							<hover>color:lime</hover>
+							<text>+</text>
+							<click>Math &quot;[wpc]+1&quot; -1 [wpc]
+SetItem &quot;wpc&quot; [wpc]
+
+Math &quot;[hpc]+[wpc]+[adpc]+[eepc]&quot; -1 [Tot]
+SetItem &quot;Tot&quot; [Tot]</click>
+						</Headline>
+						<Headline id="Headline149">
+							<left>361px</left>
+							<top>436px</top>
+							<width>17px</width>
+							<height>25px</height>
+							<style>color:white;font-size:19pt</style>
+							<hover>color:lime</hover>
+							<text>-</text>
+							<click>Math &quot;[wpc]-1&quot; -1 [wpc]
+SetItem &quot;wpc&quot; [wpc]
+
+Math &quot;[hpc]+[wpc]+[adpc]+[eepc]&quot; -1 [Tot]
+SetItem &quot;Tot&quot; [Tot]</click>
+						</Headline>
+						<PushButton id="PushButton46">
+							<left>44px</left>
+							<top>13px</top>
+							<width>34px</width>
+							<height>35px</height>
+							<style>opacity:0.2</style>
+							<hover>opacity:0.47</hover>
+							<caption>S</caption>
+							<click>GotoPage &quot;Settings&quot;</click>
+						</PushButton>
+						<Headline id="Headline154">
+							<left>305px</left>
+							<top>653px</top>
+							<width>77px</width>
+							<height>24px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:600</style>
+							<hover>color:red</hover>
+							<text>quiz&lt;sub&gt;&lt;sup&gt; beta&lt;/sup&gt;&lt;/sub&gt;</text>
+							<click>SetVar [googleSheet4] &quot;https://https://docs.google.com/spreadsheets/d/1FyGfS7LOaCiF_zge4-AxKja0I_ZYz4mdAu2YHjlupOg/edit?usp=sharingadd #gid=X&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Question001] &quot;a&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A001a] &quot;b&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A001b] &quot;c&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A001c] &quot;d&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A001d] &quot;e&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A001e] &quot;f&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A001f] &quot;g&quot; 1 &quot;&quot;
+
+
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [Question002] &quot;a&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A002a] &quot;b&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A002b] &quot;c&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A002c] &quot;d&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A002d] &quot;e&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A002e] &quot;f&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet4]&quot; [A002f] &quot;g&quot; 2 &quot;&quot;
+
+
+
+
+
+GotoPage &quot;myquiz&quot;</click>
+						</Headline>
+						<Headline id="Headline165">
+							<left>304px</left>
+							<top>626px</top>
+							<width>85px</width>
+							<height>24px</height>
+							<style>color:#E0E0E0;font-size:13pt;font-weight:600</style>
+							<hover>color:red</hover>
+							<text>ways&lt;sub&gt;&lt;sup&gt;&amp;nbsp;with words&lt;/sup&gt;&lt;/sub&gt;</text>
+							<click>GetItem &quot;wayswithwords&quot; [wayswithwords]
+
+
+GotoPage &quot;ways&quot;</click>
+						</Headline>
+						<Headline id="Headline169">
+							<left>19px</left>
+							<top>88px</top>
+							<width>256px</width>
+							<height>37px</height>
+							<style>color:#FFFFFF;font-size:18pt</style>
+							<text>Day 1:&lt;sub&gt;&lt;sup&gt;Since [since] days&lt;/sup&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<Headline id="Headline175">
+							<left>21px</left>
+							<top>238px</top>
+							<width>77px</width>
+							<height>39px</height>
+							<style>color:White;font-size:17pt</style>
+							<text>&lt;em&gt;&lt;strong&gt;My&lt;sub&gt;&lt;sup&gt; Philosophy&lt;/sup&gt;&lt;/sub&gt;&lt;/strong&gt;&lt;/em&gt;</text>
+							<click>GetItem &quot;Pmhp&quot; [Pmhp]
+GetItem &quot;Pmcp&quot; [Pmcp]
+GetItem &quot;Pmwp&quot; [Pmwp]
+GetItem &quot;Pmfp&quot; [Pmfp]
+GetItem &quot;Pmhfp&quot; [Pmhfp]
+GetItem &quot;Pmgp&quot; [Pmgp]
+
+GetItem &quot;Pmhp1&quot; [Pmhp1]
+GetItem &quot;Pmcp1&quot; [Pmcp1]
+GetItem &quot;Pmwp1&quot; [Pmwp1]
+GetItem &quot;Pmfp1&quot; [Pmfp1]
+GetItem &quot;Pmhfp1&quot; [Pmhfp1]
+GetItem &quot;Pmgp1&quot; [Pmgp1]
+
+GetItem &quot;Pmhp2&quot; [Pmhp2]
+GetItem &quot;Pmcp2&quot; [Pmcp2]
+GetItem &quot;Pmwp2&quot; [Pmwp2]
+GetItem &quot;Pmfp2&quot; [Pmfp2]
+GetItem &quot;Pmgp2&quot; [Pmgp2]
+
+
+GotoPage &quot;MyPhilosophy&quot;</click>
+						</Headline>
+						<Headline id="Headline184">
+							<left>22px</left>
+							<top>689px</top>
+							<width>77px</width>
+							<height>24px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:600</style>
+							<hover>color:red</hover>
+							<text>v&lt;sub&gt;&lt;sup&gt;list&lt;/sup&gt;&lt;/sub&gt;</text>
+							<click>GetItem &quot;PrayerNotes&quot; [PrayerNotes]
+GetItem &quot;Notes&quot; [Notes]
+GetItem &quot;HealthNotes&quot; [HealthNotes]
+GetItem &quot;age&quot; [age]
+GetItem &quot;agem&quot; [agem]
+GetItem &quot;kneck&quot; [kneck]
+GetItem &quot;chest&quot; [chest]
+GetItem &quot;Rarm&quot; [Rarm]
+GetItem &quot;Larm&quot; [Larm]
+GetItem &quot;waist&quot; [waist]
+GetItem &quot;weight&quot; [weight]
+GetItem &quot;HealthDiary&quot; [HealthDiary]
+GetItem &quot;DSNotes&quot; [DSNotes]
+GetItem &quot;DS1Notes&quot; [DS1Notes]
+GetItem &quot;OrderTidy2&quot; [OrderTidy2]
+GetItem &quot;OrderTidy&quot; [OrderTidy]
+GetItem &quot;OrderTidy3&quot; [OrderTidy3]
+GetItem &quot;Project001&quot; [Project001]
+GetItem &quot;Project001a&quot; [Project001a]
+GetItem &quot;Project001b&quot; [Project001b]
+GetItem &quot;Project002&quot; [Project002]
+GetItem &quot;Project002a&quot; [Project002a]
+GetItem &quot;Project002b&quot; [Project002b]
+GetItem &quot;Project001t&quot; [Project001t]
+GetItem &quot;Project002t&quot; [Project002t]
+GetItem &quot;FamousNotes&quot; [FamousNotes]
+GetItem &quot;KnowTNotes&quot; [KnowTNotes]
+GetItem &quot;KnowTNotes2&quot; [KnowTNotes2]
+GetItem &quot;KnowTNotes4&quot; [KnowTNotes4]
+GetItem &quot;KnowTNotesA&quot; [KnowTNotesA]
+GetItem &quot;KnowTNotesQ&quot; [KnowTNotesQ]
+GetItem &quot;KnowTNotesQg&quot; [KnowTNotesQg]
+GetItem &quot;KnowTNotesT&quot; [KnowTNotesT]
+GetItem &quot;KnowTNotesQ1&quot; [KnowTNotesQ1]
+GetItem &quot;KnowTNotesQ2&quot; [KnowTNotesQ2]
+GetItem &quot;KnowTNotesQ3&quot; [KnowTNotesQ3]
+GetItem &quot;KnowTNotesQ4&quot; [KnowTNotesQ4]
+GetItem &quot;KnowTNotesQ5&quot; [KnowTNotesQ5]
+GetItem &quot;KnowTNotesQ6&quot; [KnowTNotesQ6]
+GetItem &quot;KnowTNotesQ7&quot; [KnowTNotesQ7]
+GetItem &quot;KnowTNotesQ8&quot; [KnowTNotesQ8]
+GetItem &quot;KnowTNotesQ9&quot; [KnowTNotesQ9]
+GetItem &quot;KnowTNotesQ10&quot; [KnowTNotesQ10]
+GetItem &quot;KnowTNotesQ11&quot; [KnowTNotesQ11]
+GetItem &quot;KnowTNotesQ12&quot; [KnowTNotesQ12]
+GetItem &quot;KnowTNotesQ13&quot; [KnowTNotesQ13]
+GetItem &quot;KnowTNotesQ14&quot; [KnowTNotesQ14]
+GetItem &quot;KnowTNotesQ15&quot; [KnowTNotesQ15]
+GetItem &quot;KnowTNotesQ16&quot; [KnowTNotesQ16]
+GetItem &quot;KnowTNotesQ17&quot; [KnowTNotesQ17]
+GetItem &quot;KnowTNotesQ18&quot; [KnowTNotesQ18]
+GetItem &quot;KnowTNotesQ19&quot; [KnowTNotesQ19]
+GetItem &quot;KnowTNotesQ20&quot; [KnowTNotesQ20]
+GetItem &quot;KnowTPrecence01&quot; [KnowTPrecence01]
+GetItem &quot;KnowTPrecence01a&quot; [KnowTPrecence01a]
+GetItem &quot;KnowTHealth01&quot; [KnowTHealth01]
+GetItem &quot;KnowTHealth01a&quot; [KnowTHealth01a]
+GetItem &quot;hpc&quot; [hpc]
+GetItem &quot;wpc&quot; [wpc]
+GetItem &quot;adpc&quot; [adpc]
+GetItem &quot;eepc&quot; [eepc]
+GetItem &quot;go&quot; [go]
+GetItem &quot;HealthDiary2do&quot; [HealthDiary2do]
+GetItem &quot;ADHD2do&quot; [ADHD2do]
+GetItem &quot;OT2do&quot; [OT2do]
+GetItem &quot;wayswithwords&quot; [wayswithwords]
+
+
+GotoPage &quot;variables&quot;</click>
+						</Headline>
+						<Headline id="Headline188">
+							<left>311px</left>
+							<top>244px</top>
+							<width>77px</width>
+							<height>34px</height>
+							<style>color:White;font-size:17pt</style>
+							<text>&lt;em&gt;&lt;strong&gt;F&lt;sub&gt;&lt;sup&gt;&amp;nbsp;POM&lt;/sup&gt;&lt;/sub&gt;&lt;/strong&gt;&lt;/em&gt;</text>
+							<click>GetItem &quot;Fpom&quot; [Ppom]
+GetItem &quot;Fpom1&quot; [Ppom1]
+GetItem &quot;Fpom2&quot; [Ppom2]
+GetItem &quot;Fpom3&quot; [Ppom3]
+GetItem &quot;Fpom4&quot; [Ppom4]
+GetItem &quot;Fpom5&quot; [Ppom5]
+GetItem &quot;Fpom6&quot; [Ppom6]
+GetItem &quot;Fpom7&quot; [Ppom7]
+GetItem &quot;Fpom8&quot; [Ppom8]
+GetItem &quot;Fpom9&quot; [Ppom9]
+GetItem &quot;Fpom10&quot; [Ppom10]
+GetItem &quot;Fpom11&quot; [Ppom11]
+GetItem &quot;Fpom12&quot; [Ppom12]
+GetItem &quot;Fpom13&quot; [Ppom13]
+GetItem &quot;Fpom14&quot; [Ppom14]
+GetItem &quot;Fpom15&quot; [Ppom15]
+GetItem &quot;Fpom16&quot; [Ppom16]
+GetItem &quot;Fpom17&quot; [Ppom17]
+GetItem &quot;Fpom18&quot; [Ppom18]
+GetItem &quot;Fpom19&quot; [Ppom19]
+GetItem &quot;Fpom20&quot; [Ppom20]
+
+GetItem &quot;h2001&quot; [h2001]
+GetItem &quot;h2002&quot; [h2002]
+GetItem &quot;h2003&quot; [h2003]
+GetItem &quot;h2004&quot; [h2004]
+GetItem &quot;h2005&quot; [h2005]
+
+GetItem &quot;h2001d&quot; [h2001d]
+
+
+GotoPage &quot;FPOM&quot;</click>
+						</Headline>
+						<Headline id="Headline193">
+							<left>79px</left>
+							<top>687px</top>
+							<width>63px</width>
+							<height>34px</height>
+							<style>color:White;font-size:17pt</style>
+							<text>&lt;em&gt;&lt;strong&gt;Wf&lt;sub&gt;&lt;sup&gt;ooting&lt;/sup&gt;&lt;/sub&gt;&lt;/strong&gt;&lt;/em&gt;</text>
+							<click>GetItem &quot;Fpom&quot; [Ppom]
+GetItem &quot;Fpom1&quot; [Ppom1]
+GetItem &quot;Fpom2&quot; [Ppom2]
+GetItem &quot;Fpom3&quot; [Ppom3]
+GetItem &quot;Fpom4&quot; [Ppom4]
+GetItem &quot;Fpom5&quot; [Ppom5]
+GetItem &quot;Fpom6&quot; [Ppom6]
+GetItem &quot;Fpom7&quot; [Ppom7]
+GetItem &quot;Fpom8&quot; [Ppom8]
+GetItem &quot;Fpom9&quot; [Ppom9]
+GetItem &quot;Fpom10&quot; [Ppom10]
+GetItem &quot;Fpom11&quot; [Ppom11]
+GetItem &quot;Fpom12&quot; [Ppom12]
+GetItem &quot;Fpom13&quot; [Ppom13]
+GetItem &quot;Fpom14&quot; [Ppom14]
+GetItem &quot;Fpom15&quot; [Ppom15]
+GetItem &quot;Fpom16&quot; [Ppom16]
+GetItem &quot;Fpom17&quot; [Ppom17]
+GetItem &quot;Fpom18&quot; [Ppom18]
+GetItem &quot;Fpom19&quot; [Ppom19]
+GetItem &quot;Fpom20&quot; [Ppom20]
+
+GetItem &quot;h2001&quot; [h2001]
+GetItem &quot;h2002&quot; [h2002]
+GetItem &quot;h2003&quot; [h2003]
+GetItem &quot;h2004&quot; [h2004]
+GetItem &quot;h2005&quot; [h2005]
+
+GetItem &quot;h2001d&quot; [h2001d]
+
+
+GotoPage &quot;Wf&quot;</click>
+						</Headline>
+						<Headline id="Headline195">
+							<left>152px</left>
+							<top>692px</top>
+							<width>196px</width>
+							<height>26px</height>
+							<style>color:red;font-size:14pt</style>
+							<text>&lt;strong&gt;&lt;em&gt;[wf3]&lt;/em&gt;&lt;/strong&gt;</text>
+						</Headline>
+						<Headline id="Headline196">
+							<left>183px</left>
+							<top>484px</top>
+							<width>63px</width>
+							<height>25px</height>
+							<style>color:white;font-size:16pt</style>
+							<hover>color:lime</hover>
+							<text>[Tot]%</text>
+							<click>Math &quot;[hpc]+[wpc]+[adpc]+[eepc]&quot; -1 [Tot]
+SetItem &quot;Tot&quot; [Tot]</click>
+						</Headline>
+						<Headline id="Headline197">
+							<left>19px</left>
+							<top>535px</top>
+							<width>77px</width>
+							<height>24px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:600</style>
+							<hover>color:red</hover>
+							<text>&lt;em&gt;T&lt;sub&gt;&lt;sup&gt;line&lt;/sup&gt;&lt;/sub&gt;&lt;/em&gt;</text>
+							<click>GotoPage &quot;Timeline&quot;</click>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="myquiz">
+					<style>background-color:#383838</style>
+					<Components>
+						<Headline id="Headline155">
+							<left>21px</left>
+							<top>451px</top>
+							<width>358px</width>
+							<height>268px</height>
+							<style>color:white;font-size:8pt</style>
+							<text>[Question001]&lt;br&gt;[A001a]&lt;br&gt;[A001b]&lt;br&gt;[A001c]&lt;br&gt;[A001d]&lt;br&gt;[A001e]&lt;br&gt;[A001f]&lt;br&gt;&lt;br&gt;[Question002]&lt;br&gt;[A002a]&lt;br&gt;[A002b]&lt;br&gt;[A002c]&lt;br&gt;[A002d]&lt;br&gt;[A002e]&lt;br&gt;[A002f]&lt;br&gt;&lt;br&gt;</text>
+						</Headline>
+						<PushButton id="PushButton52">
+							<left>26px</left>
+							<top>17px</top>
+							<width>55px</width>
+							<height>36px</height>
+							<caption>q1</caption>
+							<click>SetVar [question] [question001]
+SetVar [A000aa] [A001a]
+SetVar [A000bb] [A001b]
+SetVar [A000cc] [A001c]
+SetVar [A000dd] [A001d]</click>
+						</PushButton>
+						<Headline id="Headline157">
+							<left>29px</left>
+							<top>87px</top>
+							<width>318px</width>
+							<height>223px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>Question: [question]&lt;br&gt;&lt;sub&gt;is it 1: [A000aa]&lt;br&gt;is it 2: [A000bb]&lt;br&gt;is it 3: [A000cc]&lt;br&gt;is it 4: [A000dd]&lt;br&gt;&lt;/sub&gt;&lt;br&gt;</text>
+						</Headline>
+						<PushButton id="PushButton53">
+							<left>84px</left>
+							<top>17px</top>
+							<width>55px</width>
+							<height>36px</height>
+							<caption>q2</caption>
+							<click>SetVar [question] [question002]
+SetVar [A000aa] [A002a]
+SetVar [A000bb] [A002b]
+SetVar [A000cc] [A002c]
+SetVar [A000dd] [A002d]</click>
+						</PushButton>
+						<PushButton id="PushButton54">
+							<left>350px</left>
+							<top>95px</top>
+							<width>33px</width>
+							<height>26px</height>
+							<style>font-size:8pt;line-height:90%</style>
+							<caption>1</caption>
+						</PushButton>
+						<PushButton id="PushButton55">
+							<left>350px</left>
+							<top>127px</top>
+							<width>33px</width>
+							<height>26px</height>
+							<style>font-size:8pt;line-height:90%</style>
+							<caption>2</caption>
+						</PushButton>
+						<PushButton id="PushButton56">
+							<left>350px</left>
+							<top>158px</top>
+							<width>33px</width>
+							<height>26px</height>
+							<style>font-size:8pt;line-height:90%</style>
+							<caption>3</caption>
+						</PushButton>
+						<PushButton id="PushButton57">
+							<left>350px</left>
+							<top>190px</top>
+							<width>33px</width>
+							<height>26px</height>
+							<style>font-size:8pt;line-height:90%</style>
+							<caption>4</caption>
+						</PushButton>
+						<PushButton id="PushButton60">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline182">
+							<left>141px</left>
+							<top>289px</top>
+							<width>254px</width>
+							<height>290px</height>
+							<style>color:silver;font-size:10pt</style>
+							<text>&lt;strong&gt;Variables&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;HPC:&lt;/strong&gt; [hpc]&lt;br&gt;&lt;strong&gt;WPC:&lt;/strong&gt; [wpc]&lt;br&gt;&lt;strong&gt;ADPC:&lt;/strong&gt; [adpc]&lt;br&gt;&lt;strong&gt;EEPC:&lt;/strong&gt; [eepc]&lt;br&gt;&lt;strong&gt;QUESTION:&lt;/strong&gt; [Question]&lt;br&gt;&lt;strong&gt;A000aa:&lt;/strong&gt; [A000aa]&lt;br&gt;&lt;strong&gt;A000bb:&lt;/strong&gt; [A000bb]&lt;br&gt;&lt;strong&gt;A000cc:&lt;/strong&gt; [A000cc]&lt;br&gt;&lt;strong&gt;A000cc:&lt;/strong&gt; [A000cc]</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="FPOM">
+					<style>background-color:#383838</style>
+					<Components>
+						<Headline id="Headline187">
+							<left>28px</left>
+							<top>129px</top>
+							<width>316px</width>
+							<height>29px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>FPOM</text>
+						</Headline>
+						<PushButton id="PushButton68">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline186">
+							<left>24px</left>
+							<top>26px</top>
+							<width>242px</width>
+							<height>42px</height>
+							<style>color:white;font-size:22pt</style>
+							<text>FPOM &lt;sub&gt;&lt;em&gt;&lt;sup&gt;ongoing Build&lt;/sup&gt;&lt;/em&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<NumericInput id="NumericInput1">
+							<left>187px</left>
+							<top>546px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<variable>Ppom1d</variable>
+							<change>SetItem &quot;Fpom1&quot; [Ppom1]</change>
+						</NumericInput>
+						<TextArea id="TextArea92">
+							<left>26px</left>
+							<top>152px</top>
+							<width>355px</width>
+							<height>383px</height>
+							<style>color:red;font-size:9pt</style>
+							<variable>Ppom</variable>
+							<change>SetItem &quot;Fpom&quot; [Ppom]</change>
+						</TextArea>
+						<NumericInput id="NumericInput2">
+							<left>187px</left>
+							<top>585px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<change>SetItem &quot;Fpom2&quot; [Ppom2]</change>
+						</NumericInput>
+						<NumericInput id="NumericInput3">
+							<left>187px</left>
+							<top>624px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<change>SetItem &quot;Fpom3&quot; [Ppom3]</change>
+						</NumericInput>
+						<NumericInput id="NumericInput4">
+							<left>187px</left>
+							<top>663px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<change>SetItem &quot;Fpom4&quot; [Ppom4]</change>
+						</NumericInput>
+						<NumericInput id="NumericInput5">
+							<left>187px</left>
+							<top>701px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<change>SetItem &quot;Fpom5&quot; [Ppom5]</change>
+						</NumericInput>
+						<NumericInput id="NumericInput6">
+							<left>187px</left>
+							<top>740px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<change>SetItem &quot;Fpom6&quot; [Ppom6]</change>
+						</NumericInput>
+						<NumericInput id="NumericInput7">
+							<left>187px</left>
+							<top>779px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<change>SetItem &quot;Fpom7&quot; [Ppom7]</change>
+						</NumericInput>
+						<NumericInput id="NumericInput8">
+							<left>187px</left>
+							<top>818px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<change>SetItem &quot;Fpom8&quot; [Ppom8]</change>
+						</NumericInput>
+						<NumericInput id="NumericInput9">
+							<left>187px</left>
+							<top>857px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<change>SetItem &quot;Fpom9&quot; [Ppom9]</change>
+						</NumericInput>
+						<NumericInput id="NumericInput10">
+							<left>187px</left>
+							<top>895px</top>
+							<width>110px</width>
+							<height>34px</height>
+							<change>SetItem &quot;Fpom10&quot; [Ppom10]</change>
+						</NumericInput>
+						<Headline id="Headline194">
+							<left>23px</left>
+							<top>69px</top>
+							<width>364px</width>
+							<height>54px</height>
+							<style>color:white;font-size:9pt</style>
+							<hover>color:white;font-size:9pt</hover>
+							<text>&lt;em&gt;[Pmfp1]&lt;/em&gt;</text>
+						</Headline>
+						<TextInput id="TextInput1">
+							<left>16px</left>
+							<top>547px</top>
+							<width>161px</width>
+							<height>34px</height>
+							<style>color:black</style>
+							<variable>h2001d</variable>
+							<change>SetItem &quot;h2001d&quot; [h2001d]</change>
+						</TextInput>
+						<PushButton id="PushButton62">
+							<left>315px</left>
+							<top>551px</top>
+							<width>42px</width>
+							<height>25px</height>
+							<click>GetItem &quot;h2001d&quot; [h2001d]</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="variables">
+					<Components>
+						<Headline id="Headline183">
+							<left>14px</left>
+							<top>176px</top>
+							<width>377px</width>
+							<height>4916px</height>
+							<style>color:black;font-size:8pt;letter-spacing:1px;line-height:95%;background-color:white</style>
+							<text>&lt;p&gt;&lt;strong&gt;Variables&lt;br&gt;Prayer&lt;br&gt;&lt;/strong&gt;Prayer Notes:[PrayerNotes]&lt;br&gt;&lt;br&gt;&lt;strong&gt;Daily sheets&lt;/strong&gt;&lt;br&gt;DSNotes [DSNotes]&lt;br&gt;DS1Notes [DS1Notes]&lt;br&gt;&lt;br&gt;&lt;strong&gt;Health:&lt;/strong&gt;&lt;br&gt;HealthNotes: [HealthNotes]age: [age]&lt;br&gt;agem: [agem]&lt;br&gt;kneck:[kneck]&lt;br&gt;chest: [chest]&lt;br&gt;Rarm: [Rarm]&lt;br&gt;Larm: [Larm]&lt;br&gt;waist: [waist]&lt;br&gt;weight: [weight]&lt;br&gt;HealthDiary: [HealthDiary]&lt;br&gt;&lt;br&gt;&lt;strong&gt;Everything Else:&lt;br&gt;&lt;/strong&gt;OrderTidy2: [OrderTidy2]&lt;br&gt;OrderTidy: [OrderTidy]&lt;br&gt;OrderTidy3: [OrderTidy3]&lt;br&gt;Project001: [Project001]&lt;br&gt;Project001a: [Project001a]&lt;br&gt;Project001b: [Project001b]&lt;br&gt;Project002: [Project002]&lt;br&gt;Project002a: [Project002a]&lt;br&gt;Project002b: [Project002b]&lt;br&gt;Project001t: [Project001t]&lt;br&gt;Project002t: [Project002t]&lt;br&gt;&lt;br&gt;&lt;strong&gt;Know Thyself&lt;/strong&gt;&lt;br&gt;KnowTNotes: [KnowTNotes]&lt;br&gt;KnowTNotes2: [KnowTNotes2]&lt;br&gt;KnowTNotes4: [KnowTNotes4]&lt;br&gt;KnowTNotesA: [KnowTNotesA]&lt;br&gt;KnowTNotesQ: [KnowTNotesQ]&lt;br&gt;KnowTNotesQg: [KnowTNotesQg]&lt;br&gt;KnowTNotesT: [KnowTNotesT]&lt;br&gt;KnowTNotesQ1: [KnowTNotesQ1]&lt;br&gt;KnowTNotesQ2: [KnowTNotesQ2]&lt;br&gt;KnowTNotesQ3: [KnowTNotesQ3]&lt;br&gt;KnowTNotesQ4: [KnowTNotesQ4]&lt;br&gt;KnowTNotesQ5: [KnowTNotesQ5]&lt;br&gt;KnowTNotesQ6: [KnowTNotesQ6]&lt;br&gt;KnowTNotesQ7: [KnowTNotesQ7]&lt;br&gt;KnowTNotesQ8: [KnowTNotesQ8]&lt;br&gt;KnowTNotesQ9: [KnowTNotesQ9]&lt;br&gt;KnowTNotesQ10: [KnowTNotesQ10]&lt;br&gt;KnowTNotesQ11: [KnowTNotesQ11]&lt;br&gt;KnowTNotesQ12: [KnowTNotesQ12]&lt;br&gt;KnowTNotesQ13: [KnowTNotesQ13]&lt;br&gt;KnowTNotesQ14: [KnowTNotesQ14]&lt;br&gt;KnowTNotesQ15: [KnowTNotesQ15]&lt;br&gt;KnowTNotesQ16: [KnowTNotesQ16]&lt;br&gt;KnowTNotesQ17: [KnowTNotesQ17]&lt;br&gt;KnowTNotesQ18: [KnowTNotesQ18]&lt;br&gt;KnowTNotesQ19: [KnowTNotesQ19]&lt;br&gt;KnowTNotesQ20: [KnowTNotesQ20]&lt;br&gt;KnowTPrecence01: [KnowTPrecence01]&lt;br&gt;KnowTPrecence01a: [KnowTPrecence01a]&lt;br&gt;KnowTHealth01: [KnowTHealth01]&lt;br&gt;KnowTHealth01a: [KnowTHealth01a]&lt;br&gt;&lt;br&gt;&lt;strong&gt;Main Home Page load&lt;br&gt;&lt;/strong&gt;hpc: [hpc]&lt;br&gt;wpc: [wpc]&lt;br&gt;adpc: [adpc]&lt;br&gt;eepc: [eepc]&lt;br&gt;go: [go]&lt;br&gt;HealthDiary2do: [HealthDiary2do]&lt;br&gt;ADHD2do: [ADHD2do]&lt;br&gt;OT2do: [OT2do]&lt;br&gt;wayswithwords: [wayswithwords]&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</text>
+						</Headline>
+						<Headline id="Headline185">
+							<left>22px</left>
+							<top>53px</top>
+							<width>379px</width>
+							<height>125px</height>
+							<text>Ongoing lots of work but probly best to focus on important bac ups?</text>
+						</Headline>
+						<PushButton id="PushButton61">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline189">
+							<left>419px</left>
+							<top>5px</top>
+							<width>318px</width>
+							<height>4915px</height>
+							<style>color:black;font-size:8pt;letter-spacing:1px;line-height:95%;background-color:white</style>
+							<text>&lt;p&gt;&lt;strong&gt;Variables&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;Diary&lt;/strong&gt;&lt;br&gt;Diary&lt;br&gt;Notes: [Notes]&lt;br&gt;Notes1: [Notes1]&lt;br&gt;&lt;br&gt;&lt;strong&gt;Famous&lt;/strong&gt;&lt;br&gt;FamousNotes: [FamousNotes]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;Know Thyself&lt;/strong&gt;&lt;br&gt;KnowTNotes: [KnowTNotes]&lt;br&gt;KnowTNotes2: [KnowTNotes2]&lt;br&gt;KnowTNotes4: [KnowTNotes4]&lt;br&gt;KnowTNotesA: [KnowTNotesA]&lt;br&gt;KnowTNotesQ: [KnowTNotesQ]&lt;br&gt;KnowTNotesQg: [KnowTNotesQg]&lt;br&gt;KnowTNotesT: [KnowTNotesT]&lt;br&gt;KnowTNotesQ1: [KnowTNotesQ1]&lt;br&gt;KnowTNotesQ2: [KnowTNotesQ2]&lt;br&gt;KnowTNotesQ3: [KnowTNotesQ3]&lt;br&gt;KnowTNotesQ4: [KnowTNotesQ4]&lt;br&gt;KnowTNotesQ5: [KnowTNotesQ5]&lt;br&gt;KnowTNotesQ6: [KnowTNotesQ6]&lt;br&gt;KnowTNotesQ7: [KnowTNotesQ7]&lt;br&gt;KnowTNotesQ8: [KnowTNotesQ8]&lt;br&gt;KnowTNotesQ9: [KnowTNotesQ9]&lt;br&gt;KnowTNotesQ10: [KnowTNotesQ10]&lt;br&gt;KnowTNotesQ11: [KnowTNotesQ11]&lt;br&gt;KnowTNotesQ12: [KnowTNotesQ12]&lt;br&gt;KnowTNotesQ13: [KnowTNotesQ13]&lt;br&gt;KnowTNotesQ14: [KnowTNotesQ14]&lt;br&gt;KnowTNotesQ15: [KnowTNotesQ15]&lt;br&gt;KnowTNotesQ16: [KnowTNotesQ16]&lt;br&gt;KnowTNotesQ17: [KnowTNotesQ17]&lt;br&gt;KnowTNotesQ18: [KnowTNotesQ18]&lt;br&gt;KnowTNotesQ19: [KnowTNotesQ19]&lt;br&gt;KnowTNotesQ20: [KnowTNotesQ20]&lt;br&gt;KnowTPrecence01: [KnowTPrecence01]&lt;br&gt;KnowTPrecence01a: [KnowTPrecence01a]&lt;br&gt;KnowTHealth01: [KnowTHealth01]&lt;br&gt;KnowTHealth01a: [KnowTHealth01a]&lt;br&gt;&lt;br&gt;&lt;strong&gt;Main Home Page load&lt;br&gt;&lt;/strong&gt;hpc: [hpc]&lt;br&gt;wpc: [wpc]&lt;br&gt;adpc: [adpc]&lt;br&gt;eepc: [eepc]&lt;br&gt;go: [go]&lt;br&gt;HealthDiary2do: [HealthDiary2do]&lt;br&gt;ADHD2do: [ADHD2do]&lt;br&gt;OT2do: [OT2do]&lt;br&gt;wayswithwords: [wayswithwords]&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Templates1">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Container id="Container2">
+							<left>115px</left>
+							<top>519px</top>
+							<width>185px</width>
+							<height>138px</height>
+							<style>background-color:#383838;border-style:solid;border-width:1px</style>
+							<Components>
+								<PushButton id="PushButton35">
+									<left>7px</left>
+									<top>33px</top>
+									<width>172px</width>
+									<height>90px</height>
+									<style>background-color:silver</style>
+								</PushButton>
+								<Headline id="Headline125">
+									<left>14px</left>
+									<top>50px</top>
+									<width>157px</width>
+									<height>25px</height>
+									<style>color:white;font-size:11pt;text-align:center</style>
+									<text>[Forname] [Surname]</text>
+								</Headline>
+								<Headline id="Headline126">
+									<left>11px</left>
+									<top>74px</top>
+									<width>157px</width>
+									<height>38px</height>
+									<style>color:white;font-size:11pt;text-align:center</style>
+									<text>[email] &lt;br&gt;[Phone]</text>
+								</Headline>
+								<Headline id="Headline127">
+									<left>12px</left>
+									<top>12px</top>
+									<width>163px</width>
+									<height>25px</height>
+									<style>color:#FFFFFF;font-size:13pt</style>
+									<text>White on Silver</text>
+								</Headline>
+							</Components>
+						</Container>
+						<PushButton id="PushButton31">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline108">
+							<left>16px</left>
+							<top>19px</top>
+							<width>259px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Templates:</text>
+						</Headline>
+						<TextArea id="TextArea42">
+							<left>17px</left>
+							<top>246px</top>
+							<width>169px</width>
+							<height>41px</height>
+							<variable>Forname</variable>
+							<change>SetItem &quot;Forname&quot; [Forname]</change>
+						</TextArea>
+						<TextArea id="TextArea43">
+							<left>191px</left>
+							<top>245px</top>
+							<width>208px</width>
+							<height>41px</height>
+							<variable>Surname</variable>
+							<change>SetItem &quot;Surname&quot; [Surname]</change>
+						</TextArea>
+						<TextArea id="TextArea44">
+							<left>16px</left>
+							<top>309px</top>
+							<width>169px</width>
+							<height>41px</height>
+							<variable>Phone</variable>
+							<change>SetItem &quot;Phone&quot; [Phone]</change>
+						</TextArea>
+						<TextArea id="TextArea45">
+							<left>190px</left>
+							<top>309px</top>
+							<width>208px</width>
+							<height>41px</height>
+							<variable>email</variable>
+							<change>SetItem &quot;email&quot; [email]</change>
+						</TextArea>
+						<Headline id="Headline110">
+							<left>20px</left>
+							<top>216px</top>
+							<width>163px</width>
+							<height>25px</height>
+							<style>color:#FFFFFF;font-size:13pt</style>
+							<text>Forname:</text>
+						</Headline>
+						<Headline id="Headline113">
+							<left>195px</left>
+							<top>217px</top>
+							<width>163px</width>
+							<height>25px</height>
+							<style>color:#FFFFFF;font-size:13pt</style>
+							<text>Surname:</text>
+						</Headline>
+						<Headline id="Headline114">
+							<left>17px</left>
+							<top>286px</top>
+							<width>163px</width>
+							<height>25px</height>
+							<style>color:#FFFFFF;font-size:13pt</style>
+							<text>Phone:</text>
+						</Headline>
+						<Headline id="Headline115">
+							<left>192px</left>
+							<top>287px</top>
+							<width>163px</width>
+							<height>25px</height>
+							<style>color:#FFFFFF;font-size:13pt</style>
+							<text>email:</text>
+						</Headline>
+						<PushButton id="PushButton32">
+							<left>28px</left>
+							<top>378px</top>
+							<width>172px</width>
+							<height>90px</height>
+						</PushButton>
+						<Headline id="Headline116">
+							<left>35px</left>
+							<top>395px</top>
+							<width>157px</width>
+							<height>25px</height>
+							<style>color:silver;font-size:11pt;text-align:center</style>
+							<text>[Forname] [Surname]</text>
+						</Headline>
+						<Headline id="Headline117">
+							<left>32px</left>
+							<top>419px</top>
+							<width>157px</width>
+							<height>38px</height>
+							<style>color:silver;font-size:11pt;text-align:center</style>
+							<text>[email] &lt;br&gt;[Phone]</text>
+						</Headline>
+						<PushButton id="PushButton33">
+							<left>213px</left>
+							<top>378px</top>
+							<width>172px</width>
+							<height>90px</height>
+							<style>background-color:silver</style>
+						</PushButton>
+						<Headline id="Headline118">
+							<left>220px</left>
+							<top>395px</top>
+							<width>157px</width>
+							<height>25px</height>
+							<style>color:white;font-size:11pt;text-align:center</style>
+							<text>[Forname] [Surname]</text>
+						</Headline>
+						<Headline id="Headline119">
+							<left>217px</left>
+							<top>419px</top>
+							<width>157px</width>
+							<height>38px</height>
+							<style>color:white;font-size:11pt;text-align:center</style>
+							<text>[email] &lt;br&gt;[Phone]</text>
+						</Headline>
+						<Headline id="Headline120">
+							<left>32px</left>
+							<top>355px</top>
+							<width>163px</width>
+							<height>25px</height>
+							<style>color:#FFFFFF;font-size:13pt</style>
+							<text>Silver on White</text>
+						</Headline>
+						<Headline id="Headline121">
+							<left>218px</left>
+							<top>357px</top>
+							<width>163px</width>
+							<height>25px</height>
+							<style>color:#FFFFFF;font-size:13pt</style>
+							<text>White on Silver</text>
+						</Headline>
+						<Container id="Container1">
+							<left>115px</left>
+							<top>519px</top>
+							<width>185px</width>
+							<height>138px</height>
+							<style>background-color:#383838;border-style:solid;border-width:1px</style>
+							<Components>
+								<PushButton id="PushButton34">
+									<left>6px</left>
+									<top>33px</top>
+									<width>172px</width>
+									<height>90px</height>
+								</PushButton>
+								<Headline id="Headline122">
+									<left>13px</left>
+									<top>50px</top>
+									<width>157px</width>
+									<height>25px</height>
+									<style>color:silver;font-size:11pt;text-align:center</style>
+									<text>[Forname] [Surname]</text>
+								</Headline>
+								<Headline id="Headline123">
+									<left>10px</left>
+									<top>74px</top>
+									<width>157px</width>
+									<height>38px</height>
+									<style>color:silver;font-size:11pt;text-align:center</style>
+									<text>[email] &lt;br&gt;[Phone]</text>
+								</Headline>
+								<Headline id="Headline124">
+									<left>10px</left>
+									<top>10px</top>
+									<width>163px</width>
+									<height>25px</height>
+									<style>color:#FFFFFF;font-size:13pt</style>
+									<text>Silver on White</text>
+								</Headline>
+							</Components>
+						</Container>
+						<PushButton id="PushButton36">
+							<left>20px</left>
+							<top>355px</top>
+							<width>185px</width>
+							<height>125px</height>
+							<style>opacity:0</style>
+							<click>ObjectToFront &quot;Container1&quot;
+
+SetVar [Container] &quot;Container1&quot;
+
+SetItem &quot;Container&quot; [Container]</click>
+						</PushButton>
+						<PushButton id="PushButton37">
+							<left>208px</left>
+							<top>355px</top>
+							<width>185px</width>
+							<height>125px</height>
+							<style>opacity:0</style>
+							<click>ObjectToFront &quot;Container2&quot;
+
+SetVar [Container] &quot;Container2&quot;
+
+SetItem &quot;Container&quot; [Container]</click>
+						</PushButton>
+						<Headline id="Headline128">
+							<left>128px</left>
+							<top>665px</top>
+							<width>163px</width>
+							<height>25px</height>
+							<style>color:#FFFFFF;font-size:13pt</style>
+							<text>[Container]</text>
+						</Headline>
+						<Headline id="Headline129">
+							<left>26px</left>
+							<top>97px</top>
+							<width>338px</width>
+							<height>86px</height>
+							<style>color:#FFFFFF;font-size:25pt</style>
+							<text>Introduces the concept of templates</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Version">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton22">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline78">
+							<left>169px</left>
+							<top>71px</top>
+							<width>211px</width>
+							<height>27px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Notes:</text>
+						</Headline>
+						<TextArea id="TextArea34">
+							<left>168px</left>
+							<top>93px</top>
+							<width>211px</width>
+							<height>762px</height>
+							<variable>NotesVH2</variable>
+							<change>SetItem &quot;NotesVH2&quot; [NotesVH2]</change>
+						</TextArea>
+						<Headline id="Headline79">
+							<left>21px</left>
+							<top>21px</top>
+							<width>255px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Version:</text>
+						</Headline>
+						<Headline id="Headline80">
+							<left>15px</left>
+							<top>69px</top>
+							<width>141px</width>
+							<height>27px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Version History:</text>
+						</Headline>
+						<TextArea id="TextArea35">
+							<left>14px</left>
+							<top>94px</top>
+							<width>144px</width>
+							<height>762px</height>
+							<variable>NotesVH1</variable>
+							<change>SetItem &quot;NotesVH1&quot; [NotesVH1]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="Timeline">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<TextArea id="TextArea99">
+							<left>0px</left>
+							<top>740px</top>
+							<width>413px</width>
+							<height>762px</height>
+							<variable>Tme</variable>
+							<change>SetItem &quot;Time&quot; [Time]</change>
+						</TextArea>
+						<Image id="Image2">
+							<left>0px</left>
+							<top>0px</top>
+							<width>413px</width>
+							<height>737px</height>
+							<source>C:\Users\User\Desktop\Catalogue\ADHDhelperBetaV1-01-Web\ADHDhelperBetaV1-01-Web\img\adhd.jpg</source>
+						</Image>
+						<PushButton id="PushButton64">
+							<left>288px</left>
+							<top>26px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Wf">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton63">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline190">
+							<left>171px</left>
+							<top>112px</top>
+							<width>211px</width>
+							<height>27px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Notes:</text>
+						</Headline>
+						<TextArea id="TextArea95">
+							<left>168px</left>
+							<top>136px</top>
+							<width>211px</width>
+							<height>719px</height>
+							<variable>wf2</variable>
+							<change>SetItem &quot;wf2&quot; [wf2]</change>
+						</TextArea>
+						<Headline id="Headline191">
+							<left>21px</left>
+							<top>21px</top>
+							<width>255px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>War Footing:</text>
+						</Headline>
+						<Headline id="Headline192">
+							<left>15px</left>
+							<top>69px</top>
+							<width>141px</width>
+							<height>27px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>War Footing:</text>
+						</Headline>
+						<TextArea id="TextArea96">
+							<left>14px</left>
+							<top>94px</top>
+							<width>144px</width>
+							<height>762px</height>
+							<variable>wf1</variable>
+							<change>SetItem &quot;wf1&quot; [wf1]</change>
+						</TextArea>
+						<TextArea id="TextArea97">
+							<left>167px</left>
+							<top>76px</top>
+							<width>211px</width>
+							<height>34px</height>
+							<variable>wf3</variable>
+							<change>SetItem &quot;wf3&quot; [wf3]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="Settings">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton47">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<TextArea id="TextArea66">
+							<left>168px</left>
+							<top>244px</top>
+							<width>211px</width>
+							<height>611px</height>
+							<variable>NotesVH2</variable>
+							<change>SetItem &quot;NotesVH2&quot; [NotesVH2]</change>
+						</TextArea>
+						<Headline id="Headline152">
+							<left>21px</left>
+							<top>21px</top>
+							<width>255px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Settings:</text>
+						</Headline>
+						<TextArea id="TextArea67">
+							<left>14px</left>
+							<top>243px</top>
+							<width>144px</width>
+							<height>613px</height>
+							<variable>NotesVH1</variable>
+							<change>SetItem &quot;NotesVH1&quot; [NotesVH1]</change>
+						</TextArea>
+						<Headline id="Headline151">
+							<left>23px</left>
+							<top>67px</top>
+							<width>166px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:8pt</style>
+							<text>Settings:&lt;em&gt;Project001 title&lt;/em&gt;</text>
+						</Headline>
+						<TextArea id="TextArea68">
+							<left>20px</left>
+							<top>83px</top>
+							<width>314px</width>
+							<height>32px</height>
+							<variable>Project001t</variable>
+						</TextArea>
+						<PushButton id="PushButton48">
+							<left>338px</left>
+							<top>83px</top>
+							<width>53px</width>
+							<height>31px</height>
+							<caption>Save</caption>
+							<click>SetItem &quot;Project001t&quot; [Project001t]
+GetItem &quot;Project001t&quot; [Project001t]
+GotoPage &quot;OrderTidy&quot;</click>
+						</PushButton>
+						<TextArea id="TextArea72">
+							<left>20px</left>
+							<top>133px</top>
+							<width>314px</width>
+							<height>32px</height>
+							<variable>Project002t</variable>
+						</TextArea>
+						<PushButton id="PushButton50">
+							<left>338px</left>
+							<top>133px</top>
+							<width>53px</width>
+							<height>31px</height>
+							<caption>Save</caption>
+							<click>SetItem &quot;Project002t&quot; [Project002t]
+GetItem &quot;Project002t&quot; [Project002t]
+GotoPage &quot;OrderTidy&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Diary">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton11">
+							<left>300px</left>
+							<top>21px</top>
+							<width>82px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline16">
+							<left>13px</left>
+							<top>21px</top>
+							<width>286px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Diary:&lt;sub&gt;&lt;sup&gt;Today: [NAB.DateFull]&lt;/sup&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<TextArea id="TextArea7">
+							<left>31px</left>
+							<top>73px</top>
+							<width>337px</width>
+							<height>619px</height>
+							<variable>Notes</variable>
+							<change>SetItem &quot;Notes&quot; [Notes]</change>
+						</TextArea>
+						<TextArea id="TextArea93">
+							<left>30px</left>
+							<top>730px</top>
+							<width>337px</width>
+							<height>3684px</height>
+							<variable>Notes1</variable>
+							<change>SetItem &quot;Notes1&quot; [Notes1]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="MyPhilosophy">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton59">
+							<left>300px</left>
+							<top>21px</top>
+							<width>82px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline170">
+							<left>13px</left>
+							<top>21px</top>
+							<width>260px</width>
+							<height>58px</height>
+							<style>color:#FFFFFF;line-height:70%</style>
+							<text>My &lt;em&gt;Philosophy&lt;/em&gt;: &lt;sub&gt;&lt;sup&gt;Today: [NAB.DateFull]&lt;/sup&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<TextArea id="TextArea80">
+							<left>31px</left>
+							<top>110px</top>
+							<width>235px</width>
+							<height>141px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmfp</variable>
+							<change>SetItem &quot;Pmfp&quot; [Pmfp]</change>
+						</TextArea>
+						<Headline id="Headline171">
+							<left>15px</left>
+							<top>82px</top>
+							<width>356px</width>
+							<height>35px</height>
+							<style>color:#FFFFFF;font-size:17pt</style>
+							<text>My &lt;em&gt;Philosophy&lt;/em&gt; :&lt;sub&gt;My Fianancial Philosophy&lt;/sub&gt;</text>
+						</Headline>
+						<Headline id="Headline172">
+							<left>14px</left>
+							<top>431px</top>
+							<width>356px</width>
+							<height>35px</height>
+							<style>color:#FFFFFF;font-size:17pt</style>
+							<text>My &lt;em&gt;Philosophy&lt;/em&gt; :&lt;sub&gt;My&amp;nbsp;Health Philosophy&lt;/sub&gt;</text>
+						</Headline>
+						<TextArea id="TextArea81">
+							<left>30px</left>
+							<top>459px</top>
+							<width>232px</width>
+							<height>141px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmhp</variable>
+							<change>SetItem &quot;Pmhp&quot; [Pmhp]</change>
+						</TextArea>
+						<Headline id="Headline173">
+							<left>14px</left>
+							<top>254px</top>
+							<width>356px</width>
+							<height>35px</height>
+							<style>color:#FFFFFF;font-size:17pt</style>
+							<text>My &lt;em&gt;Philosophy&lt;/em&gt; :&lt;sub&gt;My Work Philosophy&lt;/sub&gt;</text>
+						</Headline>
+						<TextArea id="TextArea82">
+							<left>30px</left>
+							<top>282px</top>
+							<width>235px</width>
+							<height>141px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmwp</variable>
+							<change>SetItem &quot;Pmwp&quot; [Pmwp]</change>
+						</TextArea>
+						<Headline id="Headline174">
+							<left>12px</left>
+							<top>605px</top>
+							<width>356px</width>
+							<height>35px</height>
+							<style>color:#FFFFFF;font-size:17pt</style>
+							<text>My &lt;em&gt;Philosophy&lt;/em&gt; :&lt;sub&gt;My&amp;nbsp;Calling Philosophy&lt;/sub&gt;</text>
+						</Headline>
+						<TextArea id="TextArea83">
+							<left>28px</left>
+							<top>633px</top>
+							<width>232px</width>
+							<height>141px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmcp</variable>
+							<change>SetItem &quot;Pmcp&quot; [Pmcp]</change>
+						</TextArea>
+						<TextArea id="TextArea84">
+							<left>271px</left>
+							<top>109px</top>
+							<width>123px</width>
+							<height>91px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmfp1</variable>
+							<change>SetItem &quot;Pmfp1&quot; [Pmfp1]</change>
+						</TextArea>
+						<TextArea id="TextArea85">
+							<left>270px</left>
+							<top>282px</top>
+							<width>123px</width>
+							<height>91px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmwp1</variable>
+							<change>SetItem &quot;Pmwp1&quot; [Pmwp1]</change>
+						</TextArea>
+						<TextArea id="TextArea86">
+							<left>267px</left>
+							<top>458px</top>
+							<width>123px</width>
+							<height>91px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmhp1</variable>
+							<change>SetItem &quot;Pmhp1&quot; [Pmhp1]</change>
+						</TextArea>
+						<TextArea id="TextArea87">
+							<left>265px</left>
+							<top>634px</top>
+							<width>123px</width>
+							<height>91px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmcp1</variable>
+							<change>SetItem &quot;Pmcp1&quot; [Pmcp1]</change>
+						</TextArea>
+						<Headline id="Headline176">
+							<left>13px</left>
+							<top>775px</top>
+							<width>356px</width>
+							<height>35px</height>
+							<style>color:#FFFFFF;font-size:17pt</style>
+							<text>My &lt;em&gt;Philosophy&lt;/em&gt; :&lt;sub&gt;My&amp;nbsp;Home famiy&amp;nbsp;Philosophy&lt;/sub&gt;</text>
+						</Headline>
+						<TextArea id="TextArea88">
+							<left>29px</left>
+							<top>803px</top>
+							<width>232px</width>
+							<height>141px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmhfp</variable>
+							<change>SetItem &quot;Pmhfp&quot; [Pmhfp]</change>
+						</TextArea>
+						<TextArea id="TextArea89">
+							<left>266px</left>
+							<top>804px</top>
+							<width>123px</width>
+							<height>91px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmhfp1</variable>
+							<change>SetItem &quot;Pmhfp1&quot; [Pmhfp1]</change>
+						</TextArea>
+						<Headline id="Headline177">
+							<left>12px</left>
+							<top>951px</top>
+							<width>356px</width>
+							<height>35px</height>
+							<style>color:#FFFFFF;font-size:17pt</style>
+							<text>My &lt;em&gt;Philosophy&lt;/em&gt; :&lt;sub&gt;general Philosophy&lt;/sub&gt;</text>
+						</Headline>
+						<TextArea id="TextArea90">
+							<left>28px</left>
+							<top>979px</top>
+							<width>361px</width>
+							<height>713px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmgp</variable>
+							<change>SetItem &quot;Pmgp&quot; [Pmgp]</change>
+						</TextArea>
+						<TextArea id="TextArea91">
+							<left>26px</left>
+							<top>1698px</top>
+							<width>360px</width>
+							<height>91px</height>
+							<style>font-size:9pt</style>
+							<variable>Pmgp1</variable>
+							<change>SetItem &quot;Pmgp1&quot; [Pmgp1]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="Day1">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton42">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline138">
+							<left>20px</left>
+							<top>67px</top>
+							<width>363px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Day 1:Since [since] &lt;sub&gt;days&lt;/sub&gt;</text>
+						</Headline>
+						<TextArea id="TextArea49">
+							<left>32px</left>
+							<top>115px</top>
+							<width>337px</width>
+							<height>762px</height>
+							<variable>NotesD1</variable>
+							<change>SetItem &quot;NotesD1&quot; [NotesD1]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="ADHDhelper">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline181">
+							<left>20px</left>
+							<top>161px</top>
+							<width>233px</width>
+							<height>32px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>ADHD: General</text>
+						</Headline>
+						<Headline id="Headline161">
+							<left>263px</left>
+							<top>84px</top>
+							<width>114px</width>
+							<height>32px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>ADHD: 2do</text>
+						</Headline>
+						<PushButton id="PushButton41">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline130">
+							<left>19px</left>
+							<top>19px</top>
+							<width>251px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>ADHD helper:</text>
+						</Headline>
+						<TextArea id="TextArea46">
+							<left>18px</left>
+							<top>183px</top>
+							<width>239px</width>
+							<height>691px</height>
+							<variable>adhd</variable>
+							<change>SetItem &quot;adhd&quot; [adhd]</change>
+						</TextArea>
+						<TextArea id="TextArea50">
+							<left>261px</left>
+							<top>523px</top>
+							<width>120px</width>
+							<height>348px</height>
+							<style>font-size:8pt</style>
+							<variable>adhd1</variable>
+							<change>SetItem &quot;adhd1&quot; [adhd1]</change>
+						</TextArea>
+						<TextArea id="TextArea76">
+							<left>262px</left>
+							<top>108px</top>
+							<width>119px</width>
+							<height>410px</height>
+							<variable>ADHD2do</variable>
+							<change>SetItem &quot;ADHD2do&quot; [ADHD2do]</change>
+						</TextArea>
+						<Headline id="Headline180">
+							<left>21px</left>
+							<top>65px</top>
+							<width>234px</width>
+							<height>144px</height>
+							<style>color:silver;font-size:9pt</style>
+							<hover>color:white;font-size:9pt</hover>
+							<text>&lt;em&gt;[Pmcp1]&lt;/em&gt;</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="OrderTidy">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline168">
+							<left>262px</left>
+							<top>527px</top>
+							<width>120px</width>
+							<height>32px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>Order/Tidy:</text>
+						</Headline>
+						<Headline id="Headline167">
+							<left>262px</left>
+							<top>323px</top>
+							<width>120px</width>
+							<height>32px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>Order/Tidy:</text>
+						</Headline>
+						<Headline id="Headline166">
+							<left>16px</left>
+							<top>115px</top>
+							<width>120px</width>
+							<height>32px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>Order/Tidy:</text>
+						</Headline>
+						<Headline id="Headline141">
+							<left>15px</left>
+							<top>51px</top>
+							<width>245px</width>
+							<height>28px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>#everything else/OrderTidy:</text>
+						</Headline>
+						<PushButton id="PushButton43">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<TextArea id="TextArea60">
+							<left>17px</left>
+							<top>136px</top>
+							<width>239px</width>
+							<height>848px</height>
+							<variable>OrderTidy</variable>
+							<change>SetItem &quot;OrderTidy&quot; [OrderTidy]</change>
+						</TextArea>
+						<TextArea id="TextArea61">
+							<left>260px</left>
+							<top>551px</top>
+							<width>128px</width>
+							<height>433px</height>
+							<style>font-size:8pt</style>
+							<variable>OrderTidy3</variable>
+							<change>SetItem &quot;OrderTidy3&quot; [OrderTidy3]</change>
+						</TextArea>
+						<TextArea id="TextArea62">
+							<left>260px</left>
+							<top>345px</top>
+							<width>129px</width>
+							<height>178px</height>
+							<style>font-size:8pt</style>
+							<variable>OrderTidy2</variable>
+							<change>SetItem &quot;OrderTidy2&quot; [OrderTidy2]</change>
+						</TextArea>
+						<PushButton id="PushButton45">
+							<left>18px</left>
+							<top>78px</top>
+							<width>188px</width>
+							<height>34px</height>
+							<style>font-size:8pt</style>
+							<caption>[Project001t]</caption>
+							<click>SetItem &quot;Project001&quot; [Project001]
+SetItem &quot;Project001a&quot; [Project001a]
+SetItem &quot;Project001t&quot; [Project001t]
+SetItem &quot;Project001b&quot; [Project001b]
+
+GotoPage &quot;Project001&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton51">
+							<left>207px</left>
+							<top>78px</top>
+							<width>184px</width>
+							<height>34px</height>
+							<style>font-size:8pt</style>
+							<caption>[Project002t]</caption>
+							<click>GotoPage &quot;Project002&quot;</click>
+						</PushButton>
+						<TextArea id="TextArea78">
+							<left>260px</left>
+							<top>136px</top>
+							<width>129px</width>
+							<height>183px</height>
+							<style>font-size:8pt</style>
+							<variable>OT2do</variable>
+							<change>SetItem &quot;OT2do&quot; [OT2do]</change>
+						</TextArea>
+						<Headline id="Headline163">
+							<left>263px</left>
+							<top>116px</top>
+							<width>120px</width>
+							<height>32px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>Order/Tidy: 2do</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Project001">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton44">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline150">
+							<left>18px</left>
+							<top>59px</top>
+							<width>245px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>[Project001t]:</text>
+						</Headline>
+						<TextArea id="TextArea63">
+							<left>21px</left>
+							<top>83px</top>
+							<width>239px</width>
+							<height>1408px</height>
+							<variable>Project001</variable>
+							<change>SetItem &quot;Project001&quot; [Project001]</change>
+						</TextArea>
+						<TextArea id="TextArea64">
+							<left>264px</left>
+							<top>306px</top>
+							<width>121px</width>
+							<height>1186px</height>
+							<style>font-size:8pt</style>
+							<variable>Project001b</variable>
+							<change>SetItem &quot;Project001b&quot; [Project001b]</change>
+						</TextArea>
+						<TextArea id="TextArea65">
+							<left>264px</left>
+							<top>82px</top>
+							<width>121px</width>
+							<height>220px</height>
+							<style>font-size:8pt</style>
+							<variable>Project001a</variable>
+							<change>SetItem &quot;Project001a&quot; [Project001a]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="Project002">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton49">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline153">
+							<left>18px</left>
+							<top>59px</top>
+							<width>245px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>[Project002t]:</text>
+						</Headline>
+						<TextArea id="TextArea69">
+							<left>21px</left>
+							<top>83px</top>
+							<width>239px</width>
+							<height>1408px</height>
+							<variable>Project002</variable>
+							<change>SetItem &quot;Project002&quot; [Project002]</change>
+						</TextArea>
+						<TextArea id="TextArea70">
+							<left>264px</left>
+							<top>306px</top>
+							<width>121px</width>
+							<height>1186px</height>
+							<style>font-size:8pt</style>
+							<variable>Project002b</variable>
+							<change>SetItem &quot;Project002b&quot; [Project002b]</change>
+						</TextArea>
+						<TextArea id="TextArea71">
+							<left>264px</left>
+							<top>82px</top>
+							<width>121px</width>
+							<height>220px</height>
+							<style>font-size:8pt</style>
+							<variable>Project002a</variable>
+							<change>SetItem &quot;Project002a&quot; [Project002a]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="DailySheet">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline162">
+							<left>250px</left>
+							<top>491px</top>
+							<width>134px</width>
+							<height>32px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>Order/Tidy: 2do</text>
+						</Headline>
+						<Headline id="Headline77">
+							<left>249px</left>
+							<top>684px</top>
+							<width>140px</width>
+							<height>33px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Components:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<PushButton id="PushButton2">
+							<left>278px</left>
+							<top>10px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>color:#A0522D;opacity:0.17</style>
+							<hover>color:#D0EA2B;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline3">
+							<left>20px</left>
+							<top>47px</top>
+							<width>241px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Daily Sheet</text>
+						</Headline>
+						<TextArea id="TextArea2">
+							<left>24px</left>
+							<top>127px</top>
+							<width>219px</width>
+							<height>762px</height>
+							<variable>DSNotes</variable>
+							<change>SetItem &quot;DSNotes&quot; [DSNotes]</change>
+						</TextArea>
+						<Headline id="Headline2">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1</text>
+						</Headline>
+						<TextArea id="TextArea33">
+							<left>247px</left>
+							<top>710px</top>
+							<width>145px</width>
+							<height>200px</height>
+							<variable>DS1Notes</variable>
+							<change>SetItem &quot;DS1Notes&quot; [DS1Notes]</change>
+						</TextArea>
+						<Headline id="Headline15">
+							<left>27px</left>
+							<top>99px</top>
+							<width>191px</width>
+							<height>33px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Notes:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea74">
+							<left>247px</left>
+							<top>128px</top>
+							<width>146px</width>
+							<height>163px</height>
+							<variable>HealthDiary2do</variable>
+							<change>SetItem &quot;HealthDiary2do&quot; [HealthDiary2do]</change>
+						</TextArea>
+						<Headline id="Headline159">
+							<left>248px</left>
+							<top>102px</top>
+							<width>114px</width>
+							<height>32px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>Health: 2do</text>
+						</Headline>
+						<Headline id="Headline160">
+							<left>249px</left>
+							<top>300px</top>
+							<width>114px</width>
+							<height>32px</height>
+							<style>color:white;font-size:13pt</style>
+							<text>ADHD: 2do</text>
+						</Headline>
+						<TextArea id="TextArea75">
+							<left>248px</left>
+							<top>326px</top>
+							<width>146px</width>
+							<height>163px</height>
+							<variable>ADHD2do</variable>
+							<change>SetItem &quot;ADHD2do&quot; [ADHD2do]</change>
+						</TextArea>
+						<TextArea id="TextArea77">
+							<left>249px</left>
+							<top>517px</top>
+							<width>146px</width>
+							<height>163px</height>
+							<variable>OT2do</variable>
+							<change>SetItem &quot;OT2do&quot; [OT2do]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="Prayer">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton1">
+							<left>278px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline6">
+							<left>20px</left>
+							<top>67px</top>
+							<width>351px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Prayer:</text>
+						</Headline>
+						<TextArea id="TextArea1">
+							<left>34px</left>
+							<top>112px</top>
+							<width>346px</width>
+							<height>762px</height>
+							<variable>PrayerNotes</variable>
+							<change>SetItem &quot;PrayerNotes&quot; [PrayerNotes]</change>
+						</TextArea>
+						<Headline id="Headline5">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Dictionary">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton24">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline81">
+							<left>20px</left>
+							<top>67px</top>
+							<width>351px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Dictionary:</text>
+						</Headline>
+						<TextArea id="TextArea36">
+							<left>23px</left>
+							<top>112px</top>
+							<width>354px</width>
+							<height>894px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>DictionaryNotes</variable>
+							<change>SetItem &quot;DictionaryNotes&quot; [DictionaryNotes]</change>
+						</TextArea>
+						<Headline id="Headline82">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1</text>
+						</Headline>
+						<TextArea id="TextArea94">
+							<left>424px</left>
+							<top>6px</top>
+							<width>354px</width>
+							<height>1002px</height>
+							<style>font-size:11pt;font-weight:600</style>
+							<variable>DictionaryNotes1</variable>
+							<change>SetItem &quot;DictionaryNotes1&quot; [DictionaryNotes1]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="Famous">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton4">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline8">
+							<left>20px</left>
+							<top>67px</top>
+							<width>351px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Famous:</text>
+						</Headline>
+						<TextArea id="TextArea3">
+							<left>17px</left>
+							<top>107px</top>
+							<width>364px</width>
+							<height>762px</height>
+							<style>font-size:10pt;font-weight:600</style>
+							<variable>FamousNotes</variable>
+							<change>SetItem &quot;FamousNotes&quot; [FamousNotes]</change>
+						</TextArea>
+						<Headline id="Headline7">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="ways">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton58">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline156">
+							<left>20px</left>
+							<top>67px</top>
+							<width>351px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Ways with words:</text>
+						</Headline>
+						<TextArea id="TextArea79">
+							<left>24px</left>
+							<top>115px</top>
+							<width>356px</width>
+							<height>762px</height>
+							<variable>wayswithwords</variable>
+							<change>SetItem &quot;wayswithwords&quot; [wayswithwords]</change>
+						</TextArea>
+						<Headline id="Headline164">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Work">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton6">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline9">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1-01</text>
+						</Headline>
+						<Headline id="Headline10">
+							<left>20px</left>
+							<top>50px</top>
+							<width>244px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Work:</text>
+						</Headline>
+						<TextArea id="TextArea4">
+							<left>29px</left>
+							<top>163px</top>
+							<width>357px</width>
+							<height>204px</height>
+							<style>color:#707070;font-size:12pt;font-weight:600;background-color:#E0E0E0</style>
+							<variable>WorkNotes</variable>
+							<change>SetItem &quot;WorkNotes&quot; [WorkNotes]</change>
+						</TextArea>
+						<Headline id="Headline135">
+							<left>26px</left>
+							<top>138px</top>
+							<width>298px</width>
+							<height>30px</height>
+							<style>color:#E0E0E0;font-size:13pt</style>
+							<text>Decision Disciplin:</text>
+						</Headline>
+						<TextArea id="TextArea47">
+							<left>29px</left>
+							<top>394px</top>
+							<width>233px</width>
+							<height>491px</height>
+							<style>color:#707070;font-size:11pt;font-weight:600;background-color:#E0E0E0</style>
+							<variable>WorkNotes1</variable>
+							<change>SetItem &quot;WorkNotes1&quot; [WorkNotes1]</change>
+						</TextArea>
+						<TextArea id="TextArea48">
+							<left>266px</left>
+							<top>394px</top>
+							<width>119px</width>
+							<height>491px</height>
+							<style>color:#0000FF;font-size:9pt;font-weight:600;background-color:#E0E0E0</style>
+							<variable>WorkNotes2</variable>
+							<change>SetItem &quot;WorkNotes2&quot; [WorkNotes2]</change>
+						</TextArea>
+						<Headline id="Headline136">
+							<left>31px</left>
+							<top>367px</top>
+							<width>227px</width>
+							<height>27px</height>
+							<style>color:#E0E0E0;font-size:13pt</style>
+							<text>To Do: &lt;sub&gt;[NAB.DateLong]&lt;/sub&gt;</text>
+						</Headline>
+						<Headline id="Headline137">
+							<left>265px</left>
+							<top>369px</top>
+							<width>121px</width>
+							<height>27px</height>
+							<style>color:#E0E0E0;font-size:13pt</style>
+							<text>Forward Plan:</text>
+						</Headline>
+						<Headline id="Headline179">
+							<left>24px</left>
+							<top>90px</top>
+							<width>364px</width>
+							<height>54px</height>
+							<style>color:silver;font-size:9pt</style>
+							<hover>color:white;font-size:9pt</hover>
+							<text>&lt;em&gt;[Pmwp1]&lt;/em&gt;</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Health">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton8">
+							<left>263px</left>
+							<top>20px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline11">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1-01</text>
+						</Headline>
+						<Headline id="Headline12">
+							<left>22px</left>
+							<top>42px</top>
+							<width>182px</width>
+							<height>49px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Health:Numbers&lt;br&gt;and Diary</text>
+						</Headline>
+						<TextArea id="TextArea5">
+							<left>10px</left>
+							<top>466px</top>
+							<width>192px</width>
+							<height>751px</height>
+							<variable>HealthNotes</variable>
+							<change>SetItem &quot;HealthNotes&quot; [HealthNotes]</change>
+						</TextArea>
+						<Image id="Image1">
+							<left>219px</left>
+							<top>67px</top>
+							<width>145px</width>
+							<height>245px</height>
+							<style>opacity:0.5</style>
+							<source>C:\Users\User\Desktop\Catalogue\ADHDGame\Tesla25\img\Outline.bmp</source>
+						</Image>
+						<Headline id="Headline101">
+							<left>15px</left>
+							<top>198px</top>
+							<width>187px</width>
+							<height>99px</height>
+							<style>color:white;font-size:9pt;font-weight:600</style>
+							<text>Age - Y: [age]M [agem]&lt;br&gt;Kneck: (a)&amp;nbsp;- [kneck] cm&lt;br&gt;Chest: (b) - [chest] cm&lt;br&gt;Upper arm&amp;nbsp;R: (c) [Rarm] cm&lt;br&gt;Upper arm L: (d) [Larm] cm&lt;br&gt;Waist: (e) [waist] cm&lt;br&gt;Weight: [weight] Kg&lt;br&gt;&lt;br&gt;</text>
+						</Headline>
+						<Headline id="Headline102">
+							<left>290px</left>
+							<top>99px</top>
+							<width>15px</width>
+							<height>19px</height>
+							<style>color:Yellow;font-size:8pt;font-weight:600</style>
+							<text>A</text>
+						</Headline>
+						<Headline id="Headline103">
+							<left>290px</left>
+							<top>119px</top>
+							<width>15px</width>
+							<height>19px</height>
+							<style>color:Yellow;font-size:8pt;font-weight:600</style>
+							<text>B</text>
+						</Headline>
+						<Headline id="Headline104">
+							<left>258px</left>
+							<top>132px</top>
+							<width>15px</width>
+							<height>19px</height>
+							<style>color:Yellow;font-size:8pt;font-weight:600</style>
+							<text>C</text>
+						</Headline>
+						<Headline id="Headline105">
+							<left>328px</left>
+							<top>132px</top>
+							<width>15px</width>
+							<height>19px</height>
+							<style>color:Yellow;font-size:8pt;font-weight:600</style>
+							<text>D</text>
+						</Headline>
+						<Headline id="Headline106">
+							<left>291px</left>
+							<top>174px</top>
+							<width>15px</width>
+							<height>19px</height>
+							<style>color:Yellow;font-size:8pt;font-weight:600</style>
+							<text>E</text>
+						</Headline>
+						<Headline id="Headline107">
+							<left>280px</left>
+							<top>273px</top>
+							<width>40px</width>
+							<height>19px</height>
+							<style>color:Yellow;font-size:8pt;font-weight:600</style>
+							<text>Weight:&lt;br&gt;&lt;br&gt;</text>
+						</Headline>
+						<Headline id="Headline109">
+							<left>14px</left>
+							<top>437px</top>
+							<width>182px</width>
+							<height>36px</height>
+							<style>color:#FFFFFF;font-size:18pt</style>
+							<text>Health: Notes</text>
+						</Headline>
+						<Headline id="Headline111">
+							<left>422px</left>
+							<top>11px</top>
+							<width>147px</width>
+							<height>313px</height>
+							<style>color:White;font-size:16pt</style>
+							<text>Age: Y&lt;br&gt;&lt;br&gt;Age: M&lt;br&gt;&lt;br&gt;Kneck: cm&lt;br&gt;&lt;br&gt;Chest: cm&lt;br&gt;&lt;br&gt;Upper arm R: cm&lt;br&gt;&lt;br&gt;Upper arm L: cm&lt;br&gt;&lt;br&gt;Waist: cm&lt;br&gt;&lt;br&gt;Weight: Kg&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</text>
+						</Headline>
+						<Headline id="Headline112">
+							<left>12px</left>
+							<top>292px</top>
+							<width>182px</width>
+							<height>32px</height>
+							<style>color:white;font-size:18pt</style>
+							<text>Health: 2do</text>
+						</Headline>
+						<TextArea id="TextArea51">
+							<left>570px</left>
+							<top>276px</top>
+							<width>112px</width>
+							<height>28px</height>
+							<style>color:black;font-size:11pt;font-weight:600</style>
+							<variable>weight</variable>
+							<change>SetItem &quot;weight&quot; [weight]</change>
+						</TextArea>
+						<TextArea id="TextArea52">
+							<left>570px</left>
+							<top>238px</top>
+							<width>112px</width>
+							<height>28px</height>
+							<style>color:black;font-size:11pt;font-weight:600</style>
+							<variable>waist</variable>
+							<change>SetItem &quot;waist&quot; [waist]</change>
+						</TextArea>
+						<TextArea id="TextArea53">
+							<left>570px</left>
+							<top>199px</top>
+							<width>112px</width>
+							<height>28px</height>
+							<style>color:black;font-size:11pt;font-weight:600</style>
+							<variable>Larm</variable>
+							<change>SetItem &quot;Larm&quot; [Larm]</change>
+						</TextArea>
+						<TextArea id="TextArea54">
+							<left>570px</left>
+							<top>160px</top>
+							<width>112px</width>
+							<height>28px</height>
+							<style>color:black;font-size:11pt;font-weight:600</style>
+							<variable>Rarm</variable>
+							<change>SetItem &quot;Rarm&quot; [Rarm]</change>
+						</TextArea>
+						<TextArea id="TextArea55">
+							<left>570px</left>
+							<top>120px</top>
+							<width>112px</width>
+							<height>28px</height>
+							<style>color:black;font-size:11pt;font-weight:600</style>
+							<variable>chest</variable>
+							<change>SetItem &quot;chest&quot; [chest]</change>
+						</TextArea>
+						<TextArea id="TextArea56">
+							<left>570px</left>
+							<top>84px</top>
+							<width>112px</width>
+							<height>28px</height>
+							<style>color:black;font-size:11pt;font-weight:600</style>
+							<variable>kneck</variable>
+							<change>SetItem &quot;kneck&quot; [kneck]</change>
+						</TextArea>
+						<TextArea id="TextArea57">
+							<left>570px</left>
+							<top>44px</top>
+							<width>112px</width>
+							<height>28px</height>
+							<style>color:black;font-size:11pt;font-weight:600</style>
+							<variable>agem</variable>
+							<change>SetItem &quot;agem&quot; [agem]</change>
+						</TextArea>
+						<TextArea id="TextArea58">
+							<left>570px</left>
+							<top>8px</top>
+							<width>112px</width>
+							<height>28px</height>
+							<style>color:black;font-size:11pt;font-weight:600</style>
+							<variable>age</variable>
+							<change>SetItem &quot;age&quot; [age]</change>
+						</TextArea>
+						<TextArea id="TextArea59">
+							<left>207px</left>
+							<top>466px</top>
+							<width>155px</width>
+							<height>810px</height>
+							<variable>HealthDiary</variable>
+							<change>SetItem &quot;HealthDiary&quot; [HealthDiary]</change>
+						</TextArea>
+						<Line id="Line1">
+							<left>-1043px</left>
+							<top>-10px</top>
+							<width>3px</width>
+							<height>217px</height>
+							<style>stroke:black;stroke-width:1px</style>
+							<x1>-1041</x1>
+							<y1>-9</y1>
+							<x2>-1042</x2>
+							<y2>206</y2>
+						</Line>
+						<TextArea id="TextArea73">
+							<left>12px</left>
+							<top>320px</top>
+							<width>353px</width>
+							<height>111px</height>
+							<variable>HealthDiary2do</variable>
+							<change>SetItem &quot;HealthDiary2do&quot; [HealthDiary2do]</change>
+						</TextArea>
+						<Headline id="Headline158">
+							<left>204px</left>
+							<top>438px</top>
+							<width>157px</width>
+							<height>32px</height>
+							<style>color:white;font-size:18pt</style>
+							<text>Health: Diary</text>
+						</Headline>
+						<Headline id="Headline178">
+							<left>24px</left>
+							<top>90px</top>
+							<width>185px</width>
+							<height>97px</height>
+							<style>color:silver;font-size:10pt</style>
+							<hover>color:white;font-size:9pt</hover>
+							<text>&lt;em&gt;[Pmhp1]&lt;/em&gt;</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="KnowThyself">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton10">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline13">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1-01</text>
+						</Headline>
+						<Headline id="Headline14">
+							<left>17px</left>
+							<top>39px</top>
+							<width>244px</width>
+							<height>47px</height>
+							<style>color:#FFFFFF</style>
+							<text>Know Thyself:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea6">
+							<left>30px</left>
+							<top>193px</top>
+							<width>349px</width>
+							<height>1220px</height>
+							<variable>KnowTNotes</variable>
+							<change>SetItem &quot;KnowTNotes&quot; [KnowTNotes]</change>
+						</TextArea>
+						<PushButton id="PushButton13">
+							<left>183px</left>
+							<top>81px</top>
+							<width>196px</width>
+							<height>109px</height>
+							<style>background-color:#E0E0E0</style>
+						</PushButton>
+						<Headline id="Headline4">
+							<left>255px</left>
+							<top>140px</top>
+							<width>45px</width>
+							<height>40px</height>
+							<style>color:#707070</style>
+							<text>65</text>
+						</Headline>
+						<Headline id="Headline17">
+							<left>332px</left>
+							<top>86px</top>
+							<width>45px</width>
+							<height>47px</height>
+							<style>color:#707070</style>
+							<text>75</text>
+						</Headline>
+						<Headline id="Headline18">
+							<left>45px</left>
+							<top>89px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>Q</text>
+							<click>GotoPage &quot;qkt&quot;</click>
+						</Headline>
+						<Headline id="Headline19">
+							<left>127px</left>
+							<top>143px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>T</text>
+							<click>GotoPage &quot;temkt&quot;</click>
+						</Headline>
+						<Headline id="Headline20">
+							<left>107px</left>
+							<top>103px</top>
+							<width>63px</width>
+							<height>24px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:11pt</style>
+							<text>analyse</text>
+							<click>GotoPage &quot;ankt&quot;</click>
+						</Headline>
+						<Headline id="Headline21">
+							<left>65px</left>
+							<top>137px</top>
+							<width>46px</width>
+							<height>39px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:18pt</style>
+							<text>a4</text>
+							<click>GotoPage &quot;a4nt&quot;</click>
+						</Headline>
+						<TextArea id="TextArea41">
+							<left>419px</left>
+							<top>2px</top>
+							<width>349px</width>
+							<height>1477px</height>
+							<variable>KnowTNotes2</variable>
+							<change>SetItem &quot;KnowTNotes2&quot; [KnowTNotes2]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="qkt">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline59">
+							<left>248px</left>
+							<top>681px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 3-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<PushButton id="PushButton14">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline22">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1-01</text>
+						</Headline>
+						<TextArea id="TextArea8">
+							<left>13px</left>
+							<top>220px</top>
+							<width>223px</width>
+							<height>1808px</height>
+							<variable>KnowTNotesQ</variable>
+							<change>SetItem &quot;KnowTNotesQ&quot; [KnowTNotesQ]</change>
+						</TextArea>
+						<PushButton id="PushButton15">
+							<left>183px</left>
+							<top>81px</top>
+							<width>196px</width>
+							<height>109px</height>
+							<style>background-color:#E0E0E0</style>
+						</PushButton>
+						<Headline id="Headline24">
+							<left>255px</left>
+							<top>140px</top>
+							<width>45px</width>
+							<height>40px</height>
+							<style>color:#707070</style>
+							<text>65</text>
+						</Headline>
+						<Headline id="Headline25">
+							<left>332px</left>
+							<top>86px</top>
+							<width>45px</width>
+							<height>47px</height>
+							<style>color:#707070</style>
+							<text>75</text>
+						</Headline>
+						<Headline id="Headline23">
+							<left>16px</left>
+							<top>43px</top>
+							<width>264px</width>
+							<height>39px</height>
+							<style>color:#FFFFFF;font-size:19pt</style>
+							<text>Know Thyself:Quiz</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline26">
+							<left>45px</left>
+							<top>89px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>Q</text>
+							<click>GotoPage &quot;qkt&quot;</click>
+						</Headline>
+						<Headline id="Headline27">
+							<left>107px</left>
+							<top>103px</top>
+							<width>63px</width>
+							<height>24px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:11pt</style>
+							<text>analyse</text>
+							<click>GotoPage &quot;ankt&quot;</click>
+						</Headline>
+						<Headline id="Headline28">
+							<left>65px</left>
+							<top>137px</top>
+							<width>46px</width>
+							<height>39px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:18pt</style>
+							<text>a4</text>
+							<click>GotoPage &quot;a4nt&quot;</click>
+						</Headline>
+						<Headline id="Headline50">
+							<left>127px</left>
+							<top>143px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>T</text>
+							<click>GotoPage &quot;temkt&quot;</click>
+						</Headline>
+						<TextArea id="TextArea12">
+							<left>241px</left>
+							<top>220px</top>
+							<width>153px</width>
+							<height>175px</height>
+							<style>font-style:9</style>
+							<variable>KnowTNotesQg</variable>
+							<change>SetItem &quot;KnowTNotesQg&quot; [KnowTNotesQg]</change>
+						</TextArea>
+						<Headline id="Headline54">
+							<left>21px</left>
+							<top>197px</top>
+							<width>175px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Notes:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline55">
+							<left>241px</left>
+							<top>196px</top>
+							<width>151px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Question Groups:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea13">
+							<left>243px</left>
+							<top>548px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ1</variable>
+							<change>SetItem &quot;KnowTNotesQ1&quot; [KnowTNotesQ1]</change>
+						</TextArea>
+						<Headline id="Headline56">
+							<left>245px</left>
+							<top>508px</top>
+							<width>157px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Top 20 Questions:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline57">
+							<left>248px</left>
+							<top>531px</top>
+							<width>147px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 1-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline58">
+							<left>248px</left>
+							<top>607px</top>
+							<width>147px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 2-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea14">
+							<left>243px</left>
+							<top>623px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ2</variable>
+							<change>SetItem &quot;KnowTNotesQ2&quot; [KnowTNotesQ2]</change>
+						</TextArea>
+						<TextArea id="TextArea15">
+							<left>243px</left>
+							<top>697px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ3</variable>
+							<change>SetItem &quot;KnowTNotesQ3&quot; [KnowTNotesQ3]</change>
+						</TextArea>
+						<Headline id="Headline60">
+							<left>248px</left>
+							<top>754px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 4-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea16">
+							<left>243px</left>
+							<top>770px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ4</variable>
+							<change>SetItem &quot;KnowTNotesQ4&quot; [KnowTNotesQ4]</change>
+						</TextArea>
+						<TextArea id="TextArea17">
+							<left>243px</left>
+							<top>843px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ5</variable>
+							<change>SetItem &quot;KnowTNotesQ5&quot; [KnowTNotesQ5]</change>
+						</TextArea>
+						<Headline id="Headline61">
+							<left>248px</left>
+							<top>827px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 5-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea18">
+							<left>243px</left>
+							<top>920px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ6</variable>
+							<change>SetItem &quot;KnowTNotesQ6&quot; [KnowTNotesQ6]</change>
+						</TextArea>
+						<Headline id="Headline62">
+							<left>248px</left>
+							<top>904px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 6-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline63">
+							<left>249px</left>
+							<top>1132px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 9-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea19">
+							<left>244px</left>
+							<top>999px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ7</variable>
+							<change>SetItem &quot;KnowTNotesQ7&quot; [KnowTNotesQ7]</change>
+						</TextArea>
+						<Headline id="Headline64">
+							<left>249px</left>
+							<top>982px</top>
+							<width>147px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 7-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline65">
+							<left>249px</left>
+							<top>1058px</top>
+							<width>147px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 8-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea20">
+							<left>244px</left>
+							<top>1074px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ8</variable>
+							<change>SetItem &quot;KnowTNotesQ8&quot; [KnowTNotesQ8]</change>
+						</TextArea>
+						<TextArea id="TextArea21">
+							<left>244px</left>
+							<top>1148px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ9</variable>
+							<change>SetItem &quot;KnowTNotesQ9&quot; [KnowTNotesQ9]</change>
+						</TextArea>
+						<Headline id="Headline66">
+							<left>249px</left>
+							<top>1205px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 10-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea22">
+							<left>244px</left>
+							<top>1221px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ10</variable>
+							<change>SetItem &quot;KnowTNotesQ10&quot; [KnowTNotesQ10]</change>
+						</TextArea>
+						<TextArea id="TextArea23">
+							<left>244px</left>
+							<top>1294px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ11</variable>
+							<change>SetItem &quot;KnowTNotesQ11&quot; [KnowTNotesQ11]</change>
+						</TextArea>
+						<Headline id="Headline67">
+							<left>249px</left>
+							<top>1278px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 11-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea24">
+							<left>244px</left>
+							<top>1371px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ12</variable>
+							<change>SetItem &quot;KnowTNotesQ12&quot; [KnowTNotesQ12]</change>
+						</TextArea>
+						<Headline id="Headline68">
+							<left>249px</left>
+							<top>1355px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 12-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline69">
+							<left>249px</left>
+							<top>1580px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 15-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea25">
+							<left>244px</left>
+							<top>1447px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ13</variable>
+							<change>SetItem &quot;KnowTNotesQ13&quot; [KnowTNotesQ13]</change>
+						</TextArea>
+						<Headline id="Headline70">
+							<left>249px</left>
+							<top>1430px</top>
+							<width>147px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 13-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline71">
+							<left>249px</left>
+							<top>1506px</top>
+							<width>147px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 14-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea26">
+							<left>244px</left>
+							<top>1522px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ14</variable>
+							<change>SetItem &quot;KnowTNotesQ14&quot; [KnowTNotesQ14]</change>
+						</TextArea>
+						<TextArea id="TextArea27">
+							<left>244px</left>
+							<top>1596px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ15</variable>
+							<change>SetItem &quot;KnowTNotesQ15&quot; [KnowTNotesQ15]</change>
+						</TextArea>
+						<Headline id="Headline72">
+							<left>249px</left>
+							<top>1653px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 16-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea28">
+							<left>244px</left>
+							<top>1669px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ16</variable>
+							<change>SetItem &quot;KnowTNotesQ16&quot; [KnowTNotesQ16]</change>
+						</TextArea>
+						<TextArea id="TextArea29">
+							<left>244px</left>
+							<top>1742px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ17</variable>
+							<change>SetItem &quot;KnowTNotesQ17&quot; [KnowTNotesQ17]</change>
+						</TextArea>
+						<Headline id="Headline73">
+							<left>249px</left>
+							<top>1726px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 17-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea30">
+							<left>243px</left>
+							<top>1819px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ18</variable>
+							<change>SetItem &quot;KnowTNotesQ18&quot; [KnowTNotesQ18]</change>
+						</TextArea>
+						<Headline id="Headline74">
+							<left>249px</left>
+							<top>1803px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 18-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea31">
+							<left>244px</left>
+							<top>1896px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ19</variable>
+							<change>SetItem &quot;KnowTNotesQ19&quot; [KnowTNotesQ19]</change>
+						</TextArea>
+						<Headline id="Headline75">
+							<left>249px</left>
+							<top>1880px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 19-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea32">
+							<left>243px</left>
+							<top>1973px</top>
+							<width>153px</width>
+							<height>54px</height>
+							<style>font-style:11</style>
+							<variable>KnowTNotesQ20</variable>
+							<change>SetItem &quot;KnowTNotesQ20&quot; [KnowTNotesQ20]</change>
+						</TextArea>
+						<Headline id="Headline76">
+							<left>249px</left>
+							<top>1957px</top>
+							<width>147px</width>
+							<height>17px</height>
+							<style>color:#FFFFFF;font-size:12pt</style>
+							<text>Question 20-20:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<PushButton id="PushButton25">
+							<left>241px</left>
+							<top>399px</top>
+							<width>154px</width>
+							<height>37px</height>
+							<caption>PRESENCE</caption>
+							<click>GotoPage &quot;KnowPresence01&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton28">
+							<left>241px</left>
+							<top>439px</top>
+							<width>154px</width>
+							<height>37px</height>
+							<caption>Health</caption>
+							<click>GotoPage &quot;KnowHealth01&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="KnowPresence01">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton26">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline84">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1-01</text>
+						</Headline>
+						<TextArea id="TextArea37">
+							<left>13px</left>
+							<top>217px</top>
+							<width>368px</width>
+							<height>1811px</height>
+							<variable>KnowTPrecence01</variable>
+							<change>SetItem &quot;KnowTPrecence01&quot; [KnowTPrecence01]</change>
+						</TextArea>
+						<PushButton id="PushButton27">
+							<left>183px</left>
+							<top>81px</top>
+							<width>196px</width>
+							<height>109px</height>
+							<style>background-color:#E0E0E0</style>
+						</PushButton>
+						<Headline id="Headline85">
+							<left>255px</left>
+							<top>140px</top>
+							<width>45px</width>
+							<height>40px</height>
+							<style>color:#707070</style>
+							<text>65</text>
+						</Headline>
+						<Headline id="Headline86">
+							<left>332px</left>
+							<top>86px</top>
+							<width>45px</width>
+							<height>47px</height>
+							<style>color:#707070</style>
+							<text>75</text>
+						</Headline>
+						<Headline id="Headline87">
+							<left>16px</left>
+							<top>43px</top>
+							<width>260px</width>
+							<height>39px</height>
+							<style>color:#FFFFFF;font-size:19pt</style>
+							<text>Know Thyself:Presence</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline88">
+							<left>45px</left>
+							<top>89px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>Q</text>
+							<click>GotoPage &quot;qkt&quot;</click>
+						</Headline>
+						<Headline id="Headline89">
+							<left>107px</left>
+							<top>103px</top>
+							<width>63px</width>
+							<height>24px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:11pt</style>
+							<text>analyse</text>
+							<click>GotoPage &quot;ankt&quot;</click>
+						</Headline>
+						<Headline id="Headline90">
+							<left>65px</left>
+							<top>137px</top>
+							<width>46px</width>
+							<height>39px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:18pt</style>
+							<text>a4</text>
+							<click>GotoPage &quot;a4nt&quot;</click>
+						</Headline>
+						<Headline id="Headline91">
+							<left>127px</left>
+							<top>143px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>T</text>
+							<click>GotoPage &quot;temkt&quot;</click>
+						</Headline>
+						<Headline id="Headline92">
+							<left>21px</left>
+							<top>197px</top>
+							<width>175px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Notes:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea38">
+							<left>421px</left>
+							<top>5px</top>
+							<width>294px</width>
+							<height>1807px</height>
+							<variable>KnowTPrecence01a</variable>
+							<change>SetItem &quot;KnowTPrecence01a&quot; [KnowTPrecence01a]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="KnowHealth01">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton29">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline83">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1-01</text>
+						</Headline>
+						<TextArea id="TextArea39">
+							<left>13px</left>
+							<top>223px</top>
+							<width>369px</width>
+							<height>1805px</height>
+							<variable>KnowTHealth01</variable>
+							<change>SetItem &quot;KnowTHealth01&quot; [KnowTHealth01]</change>
+						</TextArea>
+						<PushButton id="PushButton30">
+							<left>183px</left>
+							<top>81px</top>
+							<width>196px</width>
+							<height>109px</height>
+							<style>background-color:#E0E0E0</style>
+						</PushButton>
+						<Headline id="Headline93">
+							<left>255px</left>
+							<top>140px</top>
+							<width>45px</width>
+							<height>40px</height>
+							<style>color:#707070</style>
+							<text>65</text>
+						</Headline>
+						<Headline id="Headline94">
+							<left>332px</left>
+							<top>86px</top>
+							<width>45px</width>
+							<height>47px</height>
+							<style>color:#707070</style>
+							<text>75</text>
+						</Headline>
+						<Headline id="Headline95">
+							<left>16px</left>
+							<top>43px</top>
+							<width>260px</width>
+							<height>39px</height>
+							<style>color:#FFFFFF;font-size:19pt</style>
+							<text>Know Thyself:Health</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline96">
+							<left>45px</left>
+							<top>89px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>Q</text>
+							<click>GotoPage &quot;qkt&quot;</click>
+						</Headline>
+						<Headline id="Headline97">
+							<left>107px</left>
+							<top>103px</top>
+							<width>63px</width>
+							<height>24px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:11pt</style>
+							<text>analyse</text>
+							<click>GotoPage &quot;ankt&quot;</click>
+						</Headline>
+						<Headline id="Headline98">
+							<left>65px</left>
+							<top>137px</top>
+							<width>46px</width>
+							<height>39px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:18pt</style>
+							<text>a4</text>
+							<click>GotoPage &quot;a4nt&quot;</click>
+						</Headline>
+						<Headline id="Headline99">
+							<left>127px</left>
+							<top>143px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>T</text>
+							<click>GotoPage &quot;temkt&quot;</click>
+						</Headline>
+						<Headline id="Headline100">
+							<left>21px</left>
+							<top>197px</top>
+							<width>175px</width>
+							<height>23px</height>
+							<style>color:#FFFFFF;font-size:14pt</style>
+							<text>Notes:</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea40">
+							<left>422px</left>
+							<top>5px</top>
+							<width>294px</width>
+							<height>1807px</height>
+							<variable>KnowTHealth01a</variable>
+							<change>SetItem &quot;KnowTHealth01a&quot; [KnowTHealth01a]</change>
+						</TextArea>
+					</Components>
+				</Page>
+				<Page id="ankt">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton16">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline30">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1</text>
+						</Headline>
+						<TextArea id="TextArea9">
+							<left>30px</left>
+							<top>193px</top>
+							<width>349px</width>
+							<height>684px</height>
+							<variable>KnowTNotesA</variable>
+							<change>SetItem &quot;KnowTNotesA&quot; [KnowTNotesA]</change>
+						</TextArea>
+						<PushButton id="PushButton17">
+							<left>183px</left>
+							<top>81px</top>
+							<width>196px</width>
+							<height>109px</height>
+							<style>background-color:#E0E0E0</style>
+						</PushButton>
+						<Headline id="Headline32">
+							<left>255px</left>
+							<top>140px</top>
+							<width>45px</width>
+							<height>40px</height>
+							<style>color:#707070</style>
+							<text>65</text>
+						</Headline>
+						<Headline id="Headline33">
+							<left>332px</left>
+							<top>86px</top>
+							<width>45px</width>
+							<height>47px</height>
+							<style>color:#707070</style>
+							<text>75</text>
+						</Headline>
+						<Headline id="Headline31">
+							<left>17px</left>
+							<top>42px</top>
+							<width>264px</width>
+							<height>39px</height>
+							<style>color:#FFFFFF;font-size:19pt</style>
+							<text>Know Thyself:analyse</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline29">
+							<left>45px</left>
+							<top>89px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>Q</text>
+							<click>GotoPage &quot;qkt&quot;</click>
+						</Headline>
+						<Headline id="Headline34">
+							<left>107px</left>
+							<top>103px</top>
+							<width>63px</width>
+							<height>24px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:11pt</style>
+							<text>analyse</text>
+							<click>GotoPage &quot;ankt&quot;</click>
+						</Headline>
+						<Headline id="Headline35">
+							<left>65px</left>
+							<top>137px</top>
+							<width>46px</width>
+							<height>39px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:18pt</style>
+							<text>a4</text>
+							<click>GotoPage &quot;a4nt&quot;</click>
+						</Headline>
+						<Headline id="Headline51">
+							<left>127px</left>
+							<top>143px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>T</text>
+							<click>GotoPage &quot;temkt&quot;</click>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="a4nt">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton18">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<TextArea id="TextArea10">
+							<left>30px</left>
+							<top>193px</top>
+							<width>349px</width>
+							<height>684px</height>
+							<variable>KnowTNotes4</variable>
+							<change>SetItem &quot;KnowTNotes4&quot; [KnowTNotes4]</change>
+						</TextArea>
+						<PushButton id="PushButton19">
+							<left>183px</left>
+							<top>81px</top>
+							<width>196px</width>
+							<height>109px</height>
+							<style>background-color:#E0E0E0</style>
+						</PushButton>
+						<Headline id="Headline40">
+							<left>255px</left>
+							<top>140px</top>
+							<width>45px</width>
+							<height>40px</height>
+							<style>color:#707070</style>
+							<text>65</text>
+						</Headline>
+						<Headline id="Headline41">
+							<left>332px</left>
+							<top>86px</top>
+							<width>45px</width>
+							<height>47px</height>
+							<style>color:#707070</style>
+							<text>75</text>
+						</Headline>
+						<Headline id="Headline39">
+							<left>17px</left>
+							<top>42px</top>
+							<width>264px</width>
+							<height>39px</height>
+							<style>color:#FFFFFF;font-size:19pt</style>
+							<text>Know Thyself: A4</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<Headline id="Headline36">
+							<left>45px</left>
+							<top>89px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>Q</text>
+							<click>GotoPage &quot;qkt&quot;</click>
+						</Headline>
+						<Headline id="Headline37">
+							<left>107px</left>
+							<top>103px</top>
+							<width>63px</width>
+							<height>24px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:11pt</style>
+							<text>analyse</text>
+							<click>GotoPage &quot;ankt&quot;</click>
+						</Headline>
+						<Headline id="Headline42">
+							<left>65px</left>
+							<top>137px</top>
+							<width>46px</width>
+							<height>39px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:18pt</style>
+							<text>a4</text>
+							<click>GotoPage &quot;a4nt&quot;</click>
+						</Headline>
+						<Headline id="Headline52">
+							<left>127px</left>
+							<top>143px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>T</text>
+							<click>GotoPage &quot;temkt&quot;</click>
+						</Headline>
+						<Headline id="Headline38">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="temkt">
+					<style>background-color:#002F3E</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<PushButton id="PushButton20">
+							<left>280px</left>
+							<top>21px</top>
+							<width>102px</width>
+							<height>43px</height>
+							<style>opacity:0.17</style>
+							<hover>color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9</hover>
+							<caption>Home&lt;br&gt;</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline47">
+							<left>17px</left>
+							<top>42px</top>
+							<width>264px</width>
+							<height>39px</height>
+							<style>color:#FFFFFF;font-size:19pt</style>
+							<text>Know Thyself:Template</text>
+							<click>GotoPage &quot;KnowThyself&quot;</click>
+						</Headline>
+						<TextArea id="TextArea11">
+							<left>30px</left>
+							<top>193px</top>
+							<width>349px</width>
+							<height>684px</height>
+							<variable>KnowTNotesT</variable>
+							<change>SetItem &quot;KnowTNotesT&quot; [KnowTNotesT]</change>
+						</TextArea>
+						<PushButton id="PushButton21">
+							<left>183px</left>
+							<top>81px</top>
+							<width>196px</width>
+							<height>109px</height>
+							<style>background-color:#E0E0E0</style>
+						</PushButton>
+						<Headline id="Headline48">
+							<left>255px</left>
+							<top>140px</top>
+							<width>45px</width>
+							<height>40px</height>
+							<style>color:#707070</style>
+							<text>65</text>
+						</Headline>
+						<Headline id="Headline49">
+							<left>332px</left>
+							<top>86px</top>
+							<width>45px</width>
+							<height>47px</height>
+							<style>color:#707070</style>
+							<text>75</text>
+						</Headline>
+						<Headline id="Headline43">
+							<left>45px</left>
+							<top>89px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>Q</text>
+							<click>GotoPage &quot;qkt&quot;</click>
+						</Headline>
+						<Headline id="Headline44">
+							<left>107px</left>
+							<top>103px</top>
+							<width>63px</width>
+							<height>24px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:11pt</style>
+							<text>analyse</text>
+							<click>GotoPage &quot;ankt&quot;</click>
+						</Headline>
+						<Headline id="Headline45">
+							<left>65px</left>
+							<top>137px</top>
+							<width>46px</width>
+							<height>39px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif;font-size:18pt</style>
+							<text>a4</text>
+							<click>GotoPage &quot;a4nt&quot;</click>
+						</Headline>
+						<Headline id="Headline53">
+							<left>127px</left>
+							<top>143px</top>
+							<width>38px</width>
+							<height>48px</height>
+							<style>color:#707070;font-family:Arial,Helvetica,sans-serif</style>
+							<text>T</text>
+							<click>GotoPage &quot;temkt&quot;</click>
+						</Headline>
+						<Headline id="Headline46">
+							<left>19px</left>
+							<top>17px</top>
+							<width>151px</width>
+							<height>33px</height>
+							<style>color:#A0522D;font-size:19pt;font-weight:600</style>
+							<text>betaV1</text>
+						</Headline>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+		<PageList name="Master">
+			<Components>
+				<Page id="MasterPage"/>
+			</Components>
+		</PageList>
+		<PageList name="Dialog">
+			<Components>
+				<Page id="NewDialog">
+					<Components>
+						<DialogContainer id="DialogContainer1">
+							<left>0px</left>
+							<top>0px</top>
+							<width>414px</width>
+							<height>736px</height>
+							<close_button>False</close_button>
+							<kind>custom</kind>
+						</DialogContainer>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+	</Components>
+</Application>

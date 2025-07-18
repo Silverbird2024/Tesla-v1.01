@@ -78,6 +78,8 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline195 {position:absolute;left:152px;width:196px;top:94.0217391304348%;height:3.53260869565217%;margin:0;color:red;font-size:14pt}
 #Headline196 {position:absolute;left:183px;width:63px;top:65.7608695652174%;height:3.39673913043478%;margin:0;color:white;font-size:16pt}
 #Headline196:hover {color:lime}
+#Headline197 {position:absolute;left:19px;width:77px;top:72.6902173913043%;height:3.26086956521739%;margin:0;color:#E0E0E0;font-size:14pt;font-weight:600}
+#Headline197:hover {color:red}
 #myquiz {position:relative;width:100%;height:100%;overflow:auto;;background-color:#383838}
 #Headline155 {position:absolute;left:21px;width:358px;top:61.2771739130435%;height:36.4130434782609%;margin:0;color:white;font-size:8pt}
 #PushButton52 {position:absolute;left:26px;width:55px;top:2.30978260869565%;height:4.89130434782609%;margin:0;}
@@ -158,6 +160,11 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline79 {position:absolute;left:21px;width:255px;top:2.85326086956522%;height:6.38586956521739%;margin:0;color:#FFFFFF}
 #Headline80 {position:absolute;left:15px;width:141px;top:9.375%;height:3.66847826086957%;margin:0;color:#FFFFFF;font-size:14pt}
 #TextArea35 {position:absolute;left:14px;width:144px;top:12.7717391304348%;height:103.532608695652%;margin:0;}
+#Timeline {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
+#TextArea99 {position:absolute;left:0px;width:413px;top:100.54347826087%;height:103.532608695652%;margin:0;}
+#Image2 {position:absolute;left:0px;width:413px;top:0px;height:100.135869565217%;margin:0;}
+#PushButton64 {position:absolute;left:288px;width:102px;top:3.53260869565217%;height:5.84239130434783%;margin:0;opacity:0.17}
+#PushButton64:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
 #Wf {position:relative;width:100%;height:100%;overflow:auto;;background-color:#002F3E}
 #PushButton63 {position:absolute;left:280px;width:102px;top:2.85326086956522%;height:5.84239130434783%;margin:0;opacity:0.17}
 #PushButton63:hover {color:#A0522D;text-shadow:2px 2px 5px lime;opacity:0.9}
